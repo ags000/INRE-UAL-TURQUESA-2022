@@ -3,10 +3,14 @@ title Supuesto 1: Horarios
 :PDI:
 :PAS:
 :Estudiante:
-PDI - (Proponer cambio de horario)
-PDI - (Dar de alta estudiante vista PDI)
+Estudiante - (Consultar horarios)
+PDI -- (Proponer cambio de horario)
+PDI -- (Dar de alta estudiante vista PDI)
+(Dar de alta estudiante vista PDI) --|> (Dar de alta estudiante)  
+(Buscar listas de clase) .> (Dar de alta estudiante vista PDI) : extend
 PAS -- (Dar de alta estudiante) 
 (Dar de alta estudiante) .> (Verificar datos estudiantes) : include
-PAS - (Modificar horario) 
-Estudiante - ("Consultar horarios")
+PAS -- (Modificar horario) 
+PDI --|> Estudiante
+PAS --|> Estudiante
 @enduml
