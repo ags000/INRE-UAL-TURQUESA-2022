@@ -3,7 +3,7 @@
 ## Integrantes del equipo
 
 ### Adrián Galdeano Salinas
-#### ()
+#### (agaldeano5@gmail.com)
 
 ### Cristina García Agüero
 #### (cga350@inlimine.ual.es)
