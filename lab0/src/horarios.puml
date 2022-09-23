@@ -3,11 +3,10 @@ title Supuesto 1: Horarios
 :PDI:
 :PAS:
 :Estudiante:
-PDI -> ("Proponer cambio de horario" )
-"Proponer cambio de horario" 
-PDI -> (UC2)
-"Dar de alta estudiante (vista PDI)" 
-"Dar de alta estudiante" 
-PAS -> (UC4)
-"Modificar horario" 
+PDI - (Proponer cambio de horario)
+PDI - (Dar de alta estudiante vista PDI)
+PAS -- (Dar de alta estudiante) 
+(Dar de alta estudiante) .> (Verificar datos estudiantes) : include
+PAS - (Modificar horario) 
+Estudiante - ("Consultar horarios")
 @enduml
