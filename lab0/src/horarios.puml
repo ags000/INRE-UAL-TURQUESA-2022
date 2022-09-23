@@ -1,0 +1,18 @@
+@startuml horarios
+title Supuesto 1: Horarios
+
+:PDI:
+:PAS:
+:Estudiante:
+
+PDI -> (UC1)
+"Proponer cambio de horario" as UC1
+PDI -> (UC2)
+"Dar de alta estudiante (vista PDI)" as UC2
+PAS -> (UC3)
+"Dar de alta estudiante" as UC3
+PAS -> (UC4)
+"Modificar horario" as UC4
+
+
+@enduml
