@@ -1,15 +1,15 @@
 @startuml compañiaHotelera
 title Supuesto 3: Compañia Hotelera
 
+actor Cliente #LightBlue
 actor Comun #LightBlue
-actor Comun2 #LightBlue
 actor Comercial #LightBlue
 actor Administrador #LightBlue
 
 /'Herencias'/
-Comun2 -up-|> Comun
-Administrador -up-|> Comun2
-Comercial -up-|> Comun2
+Comun -up-|> Cliente
+Administrador -up-|> Comun
+Comercial -up-|> Comun
 
 /'Casos de uso'/
 "Consultar disponibilidades" as (CD)
@@ -22,6 +22,8 @@ Comercial -up-|> Comun2
 "Realizar ofertas" as (RO)
 "Gestionar peticiones nuevas" as (GPN)
 "Gestionar nuevas reservas" as (GNR)
+"Mostrar calendario" as (MC)
+"Consultar" as (C)  
 
 usecase ROV as "Realizar ofertas vista comercial
 --
@@ -29,17 +31,18 @@ extension points
 Bloquear reserva temporalmente"
 
 /'Relaciones casos de uso'/
-Comun -right- (VO)
-Comun -left- (CD)
-(CD) .-down-> (BE) : <<include>>
-(VO) .-down-> (MC) : <<include>>
-Comun2 - (CR)
-(CR) .> (RP) : <<include>>
+Cliente -left- (VO)
+Cliente -right- (CD)
+(CD) .-down-> (MC) : <<include>>
+Comun - (CR)
 Administrador -down- (RO)
 Administrador -down- (GPN)
 Comercial -down- (GNR)
 Comercial -down- (ROV)
-(ROV) .> (RP) : <<include>>
+(ROV) .-up-> (RP) : <<include>>
 (BRT) .> (ROV) : <<extend>>
 (ROV) -|> (RO)
+(CD) -|> (C)
+(CR) -|> (C)
+(C) .-> (BE) : <<include>>
 @enduml

@@ -1,7 +1,7 @@
 @startuml sistemaDeCompras
 title Supuesto 2: Sistema de Compras
+
 actor Comun #LightBlue
-actor Comun2 #LightBlue
 actor Comprador #LightBlue
 actor Vendedor #LightBlue
 actor Proveedor #LightBlue
@@ -27,7 +27,6 @@ Consultar historico de ventas"
 "Eliminar oferta" as (EO)
 "Avisar" as (A)
 
-
 usecase ANP as "Avisar nuevos productos
 --
 extension points
@@ -36,38 +35,35 @@ Incorporar oferta"
 "Incorporar oferta" as (IO)
 "Enviar notificacion" as (EN)
 "Eliminar producto" as (EP)
-"Consultar precios vista administrador" as (CPVA)
 "Buscar productos" as (BP)
 
 /'Herencias actores'/
-Comun2 -up-|> Comun
 Administrador -up-|> Comun
-Comprador -up-|> Comun2
-Vendedor -up-|> Comun2
-Proveedor -up-|> Comun2
+Comprador -up-|> Comun
+Vendedor -up-|> Comun
+Proveedor -up-|> Comun
 
 /'Relaciones casos de uso'/
-
 Comun -up- (CO)
-Comun2 -left- (CP)
+Comun -left- (CP)
 Comprador -down- (RV)
 Vendedor -down- (RV)
 Comprador -left- (AProd)
 Comprador - (CProd)
 Comprador -down- (FC)
-Proveedor - (AFO)
+Proveedor -left- (AFO)
 Proveedor - (ANP)
 Administrador - (EP)
-Administrador - (CPVA)
-(RV) .-down-> (AP) : <<include>>
-(CHV) .-down--> (RV) : <<extend>>
-(AProd) .-down-> (VD) : <<include>>
-(CProd) .-down-> (MPB) : <<include>>
+(RV) .-left-> (AP) : <<include>>
+(CHV) .-left-> (RV) : <<extend>>
+(AProd) .-down-> (MPB) : <<include>>
+(CProd) .-down-> (VD) : <<include>>
 (AFO) .-down-> (EO) : <<include>>
 (A) .-down-> (EN) : <<include>>
 (IO) .-down-> (ANP) : <<extend>>
-(CPVA) .-down-> (BP) : <<include>>
-(AFO) -|> (A)
+(AFO) -down-|> (A)
 (ANP) -|> (A)
+(CP) .-> (BP) : <<include>>
+(CProd) -|> (BP)
 
 @enduml
