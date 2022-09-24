@@ -1,16 +1,36 @@
 @startuml horarios
 title Supuesto 1: Horarios
-:PDI:
-:PAS:
-:Estudiante:
-Estudiante - (Consultar horarios)
-PDI -- (Proponer cambio de horario)
-PDI -- (Dar de alta estudiante vista PDI)
-(Dar de alta estudiante vista PDI) --|> (Dar de alta estudiante)  
-(Buscar listas de clase) .> (Dar de alta estudiante vista PDI) : extend
-PAS -- (Dar de alta estudiante) 
-(Dar de alta estudiante) .> (Verificar datos estudiantes) : include
-PAS -- (Modificar horario) 
-PDI --|> Estudiante
-PAS --|> Estudiante
+actor PDI #LightBlue
+actor PAS #LightBlue
+actor Estudiante as E #LightBlue
+
+/'1º Definir casos de uso. 2º Herencias. 3º Relaciones de casos de uso'/
+
+
+/'DEFINICIONES DE CASOS DE USO'/
+"Consultar horarios" as (CH)
+"Proponer cambio de horario" as (PCH)
+"Dar de alta estudiante" as (DAE)
+"Buscar listas de clase" as (BLC)
+"Verificar datos estudiantes" as (VDE)
+"Modificar horario" as (MH)
+
+usecase DAEV as "Dar de alta estudiante vista PDI
+--
+extension points
+Buscar listas de clase"
+
+/'HERENCIAS ENTRE ACTORES'/
+PDI -up-|> E
+PAS -up-|> E
+
+/'RELACIONES CASOS DE USO'/
+E - (CH)
+PDI -- (PCH)
+PDI -- (DAEV)
+(DAEV) --|> (DAE)  
+(BLC) .--> (DAEV) : <<extend>>
+PAS -- (DAE) 
+(DAE) .> (VDE) : <<include>>
+PAS -- (MH) 
 @enduml
