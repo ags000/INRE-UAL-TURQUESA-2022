@@ -1,0 +1,9 @@
+Contrato = numContrato + datosSucursal + datosCliente + {caracteristicasInmueble} + caracteristicasContrato + (observaciones)
+DatosSucursal = codigoSucusal + situacion + datosEmpleado
+Situacion = calle + ciudad + C.P. + telefono + fax + otros
+DatosEmpleado = nombre + apellidos
+DatosCliente = nombre + apellidos + direccion + (telefono)
+CarateristicasContrato = [compra|venta] + comisionSucursal + [comprador|vendedor] + [contrato|tarjeta|talon]
+CaracteristicasInmueble = tipoInmueble + (numHabitaciones) + (dotacionesDeportivas) + m2 + precio
+tipoInmueble = [piso|bungalog|chalet|parcela|terrenoRustico]
+DotacionesDeportivas = {[pistaTenis|squash|polideportiva|paddle|piscina]}
