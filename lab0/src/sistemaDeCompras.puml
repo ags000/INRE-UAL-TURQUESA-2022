@@ -43,7 +43,7 @@ Comprador -up-|> Comun
 Vendedor -up-|> Comun
 Proveedor -up-|> Comun
 
-/'Relaciones de los casos de uso'/
+/'Relaciones casos de uso'/
 Comun -up- (CO)
 Comun -left- (CP)
 Comprador -down- (RV)
