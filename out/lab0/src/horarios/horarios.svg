@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="522px" preserveAspectRatio="none" style="width:808px;height:522px;background:#FFFFFF;" version="1.1" viewBox="0 0 808 522" width="808px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="27.6094" id="_title" style="stroke:none;stroke-width:1.0;" width="157" x="318.826" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="147" x="323.826" y="24.5332">Supuesto 1: Horarios</text><!--MD5=[a2832ad60df5520720a9858f61ea6d39]
+entity PDI--><g id="elem_PDI"><ellipse cx="373.5" cy="191.6094" fill="#ADD8E6" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M373.5,199.6094 L373.5,226.6094 M360.5,207.6094 L386.5,207.6094 M373.5,226.6094 L360.5,241.6094 M373.5,226.6094 L386.5,241.6094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="22" x="362.5" y="257.6426">PDI</text></g><!--MD5=[fa2d2e0c4b22d86b46e39d4cb03bb372]
+entity PAS--><g id="elem_PAS"><ellipse cx="212.5" cy="191.6094" fill="#ADD8E6" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M212.5,199.6094 L212.5,226.6094 M199.5,207.6094 L225.5,207.6094 M212.5,226.6094 L199.5,241.6094 M212.5,226.6094 L225.5,241.6094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="27" x="199" y="257.6426">PAS</text></g><!--MD5=[68f82070d0aec4ff4b64d9b1102926da]
+entity E--><g id="elem_E"><ellipse cx="280.5" cy="52.6094" fill="#ADD8E6" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M280.5,60.6094 L280.5,87.6094 M267.5,68.6094 L293.5,68.6094 M280.5,87.6094 L267.5,102.6094 M280.5,87.6094 L293.5,102.6094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="247" y="118.6426">Estudiante</text></g><g id="elem_CH"><ellipse cx="430.597" cy="83.2288" fill="#F1F1F1" rx="81.097" ry="18.6194" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="371.5843" y="87.1075">Consultar horarios</text></g><g id="elem_PCH"><ellipse cx="373.2512" cy="365.4596" fill="#F1F1F1" rx="107.2512" ry="23.8502" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="177" x="284.7512" y="369.1881">Proponer cambio de horario</text></g><g id="elem_DAE"><ellipse cx="232.3297" cy="493.1753" fill="#F1F1F1" rx="90.8297" ry="20.5659" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="140" x="162.3297" y="496.9038">Dar de alta estudiante</text></g><g id="elem_BLC"><ellipse cx="659.535" cy="82.9164" fill="#F1F1F1" rx="89.535" ry="20.307" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="137" x="591.035" y="86.6449">Buscar listas de clase</text></g><g id="elem_VDE"><ellipse cx="518.6901" cy="493.1474" fill="#F1F1F1" rx="103.1901" ry="23.038" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="168" x="434.6901" y="496.8759">Verificar datos estudiantes</text></g><g id="elem_MH"><ellipse cx="82.7363" cy="365.8566" fill="#F1F1F1" rx="76.7363" ry="17.7473" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="27.2006" y="370.2648">Modificar horario</text></g><g id="elem_DAEV"><ellipse cx="659.576" cy="365.4912" fill="#F1F1F1" rx="143.076" ry="43.3818" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="199" x="560.5317" y="351.3102">Dar de alta estudiante vista PDI</text><line style="stroke:#181818;stroke-width:1.0;" x1="522.267" x2="796.8851" y1="354.3864" y2="354.3864"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="609.0317" y="372.9196">extension points</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="137" x="591.5317" y="390.5289">Buscar listas de clase</text></g><!--MD5=[255b94ddcdaaa111d97dc7d9ab0eeb5e]
+reverse link E to PDI--><g id="link_E_PDI"><path d="M317.65,138.8394 C332.51,160.7194 348.69,184.5594 359.79,200.9094 " fill="none" id="E-backto-PDI" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="311.85,142.7494,306.41,122.2694,323.43,134.8894,311.85,142.7494" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d7e164b816f36a87d2b815614308dc6b]
+reverse link E to PAS--><g id="link_E_PAS"><path d="M252.57,140.3794 C243.46,158.7294 233.75,178.2994 226.17,193.5694 " fill="none" id="E-backto-PAS" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="246.4,137.0694,261.56,122.2694,258.94,143.2994,246.4,137.0694" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[dbd1e1357110e56e8e39c3a82c851b1f]
+link E to CH--><g id="link_E_CH"><path d="M314.19,83.1094 C325.85,83.1094 337.51,83.1094 349.17,83.1094 " fill="none" id="E-CH" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[9d2a88889f4974f296457b5be382b5dd]
+link PDI to PCH--><g id="link_PDI_PCH"><path d="M373.5,261.3994 C373.5,286.9394 373.5,319.6794 373.5,341.3594 " fill="none" id="PDI-PCH" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[729a7025cb8f3212552cf312bf5c28e1]
+link PDI to DAEV--><g id="link_PDI_DAEV"><path d="M387.29,229.9294 C422.55,247.3794 517.98,294.5894 585.87,328.1794 " fill="none" id="PDI-DAEV" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[47b9313c7c9be6d610bd85e959e0bc2f]
+link DAEV to DAE--><g id="link_DAEV_DAE"><path d="M558.31,396.3494 C480.53,419.2094 374.96,450.2394 305.34,470.6994 " fill="none" id="DAEV-to-DAE" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="306.99,477.5094,285.83,476.4294,303.05,464.0794,306.99,477.5094" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[0402ff996652b94e52dfd30a15b6470d]
+link BLC to DAEV--><g id="link_BLC_DAEV"><path d="M659.5,103.8294 C659.5,147.6794 659.5,254.2894 659.5,316.7794 " fill="none" id="BLC-to-DAEV" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="659.5,321.9494,663.5,312.9494,659.5,316.9494,655.5,312.9494,659.5,321.9494" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="53" x="660.5" y="227.6045">«extend»</text></g><!--MD5=[4abc38699a761a5c8928ddff837ef358]
+link PAS to DAE--><g id="link_PAS_DAE"><path d="M215.34,261.3694 C219.67,319.5294 227.74,428.1294 231.04,472.4794 " fill="none" id="PAS-DAE" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[3502150ab1a1d797da3c6cfc1e7d847e]
+link DAE to VDE--><g id="link_DAE_VDE"><path d="M323.78,493.1094 C351.25,493.1094 381.66,493.1094 410.13,493.1094 " fill="none" id="DAE-to-VDE" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="415.42,493.1094,406.42,489.1094,410.42,493.1094,406.42,497.1094,415.42,493.1094" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55" x="342" y="486.6045">«include»</text></g><!--MD5=[12f5e501743c999c5f6c8a0fdfafae4d]
+link PAS to MH--><g id="link_PAS_MH"><path d="M198.83,237.9894 C174.32,264.6694 123.07,320.4494 97.58,348.1994 " fill="none" id="PAS-MH" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[0fbd6ad2f199ba064fdb27e2f157b8ce]
+@startuml horarios
+title Supuesto 1: Horarios
+actor PDI #LightBlue
+actor PAS #LightBlue
+actor Estudiante as E #LightBlue
+
+/'1º Definir casos de uso. 2º Herencias. 3º Relaciones de casos de uso'/
+
+
+/'DEFINICIONES DE CASOS DE USO'/
+"Consultar horarios" as (CH)
+"Proponer cambio de horario" as (PCH)
+"Dar de alta estudiante" as (DAE)
+"Buscar listas de clase" as (BLC)
+"Verificar datos estudiantes" as (VDE)
+"Modificar horario" as (MH)
+
+usecase DAEV as "Dar de alta estudiante vista PDI
+- -
+extension points
+Buscar listas de clase"
+
+/'HERENCIAS ENTRE ACTORES'/
+PDI -up-|> E
+PAS -up-|> E
+
+/'RELACIONES CASOS DE USO'/
+E - (CH)
+PDI - - (PCH)
+PDI - - (DAEV)
+(DAEV) - -|> (DAE)  
+(BLC) .- -> (DAEV) : <<extend>>
+PAS - - (DAE) 
+(DAE) .> (VDE) : <<include>>
+PAS - - (MH) 
+@enduml
+
+@startuml horarios
+title Supuesto 1: Horarios
+actor PDI #LightBlue
+actor PAS #LightBlue
+actor Estudiante as E #LightBlue
+
+
+
+"Consultar horarios" as (CH)
+"Proponer cambio de horario" as (PCH)
+"Dar de alta estudiante" as (DAE)
+"Buscar listas de clase" as (BLC)
+"Verificar datos estudiantes" as (VDE)
+"Modificar horario" as (MH)
+
+usecase DAEV as "Dar de alta estudiante vista PDI
+- -
+extension points
+Buscar listas de clase"
+
+PDI -up-|> E
+PAS -up-|> E
+
+E - (CH)
+PDI - - (PCH)
+PDI - - (DAEV)
+(DAEV) - -|> (DAE)  
+(BLC) .- -> (DAEV) : <<extend>>
+PAS - - (DAE) 
+(DAE) .> (VDE) : <<include>>
+PAS - - (MH) 
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: es
+Country: ES
+--></g></svg>

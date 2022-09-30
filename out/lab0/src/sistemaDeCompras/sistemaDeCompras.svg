@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="653px" preserveAspectRatio="none" style="width:1881px;height:653px;background:#FFFFFF;" version="1.1" viewBox="0 0 1881 653" width="1881px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="27.6094" id="_title" style="stroke:none;stroke-width:1.0;" width="240" x="813.9319" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="230" x="818.9319" y="24.5332">Supuesto 2: Sistema de Compras</text><!--MD5=[a46c3c6e38a726f7d5de49445d1f48e8]
+entity Comun--><g id="elem_Comun"><ellipse cx="930" cy="150.1094" fill="#ADD8E6" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M930,158.1094 L930,185.1094 M917,166.1094 L943,166.1094 M930,185.1094 L917,200.1094 M930,185.1094 L943,200.1094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="45" x="907.5" y="216.1426">Comun</text></g><!--MD5=[4e73d3d21f99b8c64cc90bc67774afb7]
+entity Comprador--><g id="elem_Comprador"><ellipse cx="930" cy="310.6094" fill="#ADD8E6" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M930,318.6094 L930,345.6094 M917,326.6094 L943,326.6094 M930,345.6094 L917,360.6094 M930,345.6094 L943,360.6094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="71" x="894.5" y="376.6426">Comprador</text></g><!--MD5=[b518afe29adc4be238f77772235dec2a]
+entity Vendedor--><g id="elem_Vendedor"><ellipse cx="761" cy="310.6094" fill="#ADD8E6" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M761,318.6094 L761,345.6094 M748,326.6094 L774,326.6094 M761,345.6094 L748,360.6094 M761,345.6094 L774,360.6094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62" x="730" y="376.6426">Vendedor</text></g><!--MD5=[37c1e849c7fac2ab8f071c364d67cfa5]
+entity Proveedor--><g id="elem_Proveedor"><ellipse cx="325" cy="310.6094" fill="#ADD8E6" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M325,318.6094 L325,345.6094 M312,326.6094 L338,326.6094 M325,345.6094 L312,360.6094 M325,345.6094 L338,360.6094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="292" y="376.6426">Proveedor</text></g><!--MD5=[2e903384ba6a94be9c906ea46910cc3f]
+entity Administrador--><g id="elem_Administrador"><ellipse cx="1044" cy="310.6094" fill="#ADD8E6" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M1044,318.6094 L1044,345.6094 M1031,326.6094 L1057,326.6094 M1044,345.6094 L1031,360.6094 M1044,345.6094 L1057,360.6094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="1000.5" y="376.6426">Administrador</text></g><g id="elem_CO"><ellipse cx="929.896" cy="62.5886" fill="#F1F1F1" rx="77.896" ry="17.9792" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="873.4355" y="66.856">Consultar ofertas</text></g><g id="elem_CP"><ellipse cx="1084.1819" cy="180.7458" fill="#F1F1F1" rx="78.6819" ry="18.1364" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111" x="1027.0947" y="184.9177">Consultar precios</text></g><g id="elem_RV"><ellipse cx="673.9066" cy="487.3738" fill="#F1F1F1" rx="127.9066" ry="41.7645" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="90" x="618.3187" y="466.7691">Realizar venta</text><line style="stroke:#181818;stroke-width:1.0;" x1="558.8105" x2="789.0027" y1="469.8453" y2="469.8453"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="612.3187" y="488.3785">extension points</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="184" x="571.3187" y="505.9879">Consultar historico de ventas</text></g><g id="elem_CHV"><ellipse cx="1001.934" cy="487.5962" fill="#F1F1F1" rx="110.434" ry="24.4868" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="184" x="909.934" y="491.3247">Consultar historico de ventas</text></g><g id="elem_AP"><ellipse cx="381.9259" cy="487.3946" fill="#F1F1F1" rx="71.9259" ry="16.7852" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93" x="332.4259" y="491.9112">Acordar precio</text></g><g id="elem_AProd"><ellipse cx="1204.0075" cy="341.3109" fill="#F1F1F1" rx="81.5075" ry="18.7015" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="1144.6675" y="345.1398">Agregar productos</text></g><g id="elem_CProd"><ellipse cx="1598.1926" cy="341.1479" fill="#F1F1F1" rx="85.6926" ry="19.5385" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="128" x="1534.1926" y="344.8764">Consultar productos</text></g><g id="elem_FC"><ellipse cx="1223.9763" cy="487.7046" fill="#F1F1F1" rx="75.9763" ry="17.5953" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="1169.0467" y="492.2051">Finalizar compra</text></g><g id="elem_VD"><ellipse cx="1627.1965" cy="619.3487" fill="#F1F1F1" rx="91.6965" ry="20.7393" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="142" x="1556.1965" y="623.0772">Verificar disponibilidad</text></g><g id="elem_MPB"><ellipse cx="1369.8511" cy="619.0796" fill="#F1F1F1" rx="130.3511" ry="28.4702" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="227" x="1256.3511" y="622.8081">Marcar productos como bloqueados</text></g><g id="elem_AFO"><ellipse cx="217.9202" cy="180.3934" fill="#F1F1F1" rx="81.9202" ry="18.784" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119" x="158.2512" y="184.1722">Avisar fin de oferta</text></g><g id="elem_EO"><ellipse cx="77.2113" cy="487.7516" fill="#F1F1F1" rx="71.2113" ry="16.6423" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="28.7113" y="492.2682">Eliminar oferta</text></g><g id="elem_A"><ellipse cx="218.0624" cy="341.0611" fill="#F1F1F1" rx="39.0624" ry="15.4517" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="39" x="198.5624" y="344.7896">Avisar</text></g><g id="elem_ANP"><ellipse cx="507.8479" cy="340.9254" fill="#F1F1F1" rx="114.3479" ry="43.316" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="156" x="430.7965" y="326.6046">Avisar nuevos productos</text><line style="stroke:#181818;stroke-width:1.0;" x1="398.4201" x2="617.2758" y1="329.6808" y2="329.6808"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="457.7965" y="348.214">extension points</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="455.7965" y="365.8233">Incorporar oferta</text></g><g id="elem_IO"><ellipse cx="508.2363" cy="62.8566" fill="#F1F1F1" rx="76.7363" ry="17.7473" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="452.7006" y="67.2648">Incorporar oferta</text></g><g id="elem_EN"><ellipse cx="217.7827" cy="619.0659" fill="#F1F1F1" rx="80.2827" ry="18.4565" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="115" x="159.4192" y="623.0435">Enviar notificacion</text></g><g id="elem_EP"><ellipse cx="1398.7877" cy="341.1669" fill="#F1F1F1" rx="78.2877" ry="18.0575" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="1342.0149" y="345.3867">Eliminar producto</text></g><g id="elem_BP"><ellipse cx="1797.1819" cy="341.2458" fill="#F1F1F1" rx="78.6819" ry="18.1364" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111" x="1740.0947" y="345.4177">Buscar productos</text></g><!--MD5=[1e53ee9c3cd944dfc08ead5f6de0fd73]
+reverse link Comun to Administrador--><g id="link_Comun_Administrador"><path d="M964.3,229.2994 C981,252.5094 1000.8,280.0494 1016.49,301.8594 " fill="none" id="Comun-backto-Administrador" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="958.52,233.2494,952.52,212.9194,969.88,225.0694,958.52,233.2494" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[605814bd4a95c96121233c870b6ba655]
+reverse link Comun to Comprador--><g id="link_Comun_Comprador"><path d="M930,240.1494 C930,260.8394 930,283.5494 930,302.0894 " fill="none" id="Comun-backto-Comprador" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="923,239.9794,930,219.9794,937,239.9794,923,239.9794" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[5748dfd7084bca627595f3f07bc17cef]
+reverse link Comun to Vendedor--><g id="link_Comun_Vendedor"><path d="M892.2,217.0594 C862.03,245.3594 820.26,284.5294 792.02,311.0194 " fill="none" id="Comun-backto-Vendedor" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="887.83,211.5594,907.21,202.9894,897.41,221.7694,887.83,211.5594" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[1509ce745a118b32073f717ce2eb58ba]
+reverse link Comun to Proveedor--><g id="link_Comun_Proveedor"><path d="M887.39,183.5494 C791.41,189.3794 552.87,212.0494 376,297.6094 C369.88,300.5694 363.87,304.4294 358.25,308.5994 " fill="none" id="Comun-backto-Proveedor" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="887.02,176.5594,907.38,182.4594,887.79,190.5394,887.02,176.5594" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[61b5ecd3c8784b5544a1279dc379bb34]
+link CO to Comun--><g id="link_CO_Comun"><path d="M930,80.7294 C930,96.6094 930,120.8094 930,141.2994 " fill="none" id="CO-Comun" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[53fa0ea92cb65cb2183fc8fa540d5544]
+link CP to Comun--><g id="link_CP_Comun"><path d="M1005.44,180.6094 C987.82,180.6094 970.19,180.6094 952.56,180.6094 " fill="none" id="CP-Comun" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[379b834517551027364f1cb206339a28]
+link Comprador to RV--><g id="link_Comprador_RV"><path d="M894.4,362.1994 C853.81,385.1194 786.65,423.0194 737.12,450.9794 " fill="none" id="Comprador-RV" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[a0f466cb297d58446fcddad1129a1328]
+link Vendedor to RV--><g id="link_Vendedor_RV"><path d="M737.91,380.4494 C725.68,400.7694 710.66,425.7194 698.26,446.3194 " fill="none" id="Vendedor-RV" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[4d71e72d1640b47badd65be6ce4d70c0]
+link AProd to Comprador--><g id="link_AProd_Comprador"><path d="M1186.23,323.0394 C1164.95,302.8194 1127.18,271.2394 1087.5,258.6094 C1050.65,246.8794 1035.62,242.4294 1000.5,258.6094 C980.82,267.6794 964.6,285.2494 952.69,301.8494 " fill="none" id="AProd-Comprador" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[c95388df852a19fc525635e099348857]
+link Comprador to CProd--><g id="link_Comprador_CProd"><path d="M952.69,301.8494 C964.6,285.2494 980.82,267.6794 1000.5,258.6094 C1096.77,214.2494 1376.24,227.2694 1477.5,258.6094 C1517.46,270.9794 1555.97,301.6794 1578.3,321.9394 " fill="none" id="Comprador-CProd" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[5cd15f2af8c0c4065ebadc8528bf1ae1]
+link Comprador to FC--><g id="link_Comprador_FC"><path d="M965.51,372.7994 C971.17,377.0394 977.11,381.1194 983,384.6094 C1043.87,420.6494 1064.91,417.9094 1130,445.6094 C1150.15,454.1794 1172.64,463.9794 1190.56,471.8494 " fill="none" id="Comprador-FC" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[dfc90795f6ba7f4d396701c7363c819e]
+link AFO to Proveedor--><g id="link_AFO_Proveedor"><path d="M230.07,199.4794 C246.74,224.1794 277.23,269.3494 299.17,301.8494 " fill="none" id="AFO-Proveedor" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[32458a2ab4f16da4ae9b7b3133bdf721]
+link Proveedor to ANP--><g id="link_Proveedor_ANP"><path d="M358.24,341.1094 C369.94,341.1094 381.64,341.1094 393.34,341.1094 " fill="none" id="Proveedor-ANP" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[c0435c4fa554b7f984a6994bfa9b56e4]
+link Administrador to EP--><g id="link_Administrador_EP"><path d="M1070.19,301.7494 C1083.64,285.1294 1101.6,267.5694 1122.5,258.6094 C1189.08,230.0594 1216.6,236.2194 1285.5,258.6094 C1324.65,271.3394 1361.58,303.2094 1382.15,323.4094 " fill="none" id="Administrador-EP" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e9d3dfa63cf94bbca437ea01add48b59]
+reverse link AP to RV--><g id="link_AP_RV"><path d="M459.43,487.6094 C485.94,487.6094 516.35,487.6094 545.78,487.6094 " fill="none" id="AP-backto-RV" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="454.18,487.6094,463.18,491.6094,459.18,487.6094,463.18,483.6094,454.18,487.6094" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55" x="472.5" y="481.1045">«include»</text></g><!--MD5=[61e5142b40e298194ad8d40d8a020892]
+reverse link RV to CHV--><g id="link_RV_CHV"><path d="M807.42,487.6094 C835.32,487.6094 864.45,487.6094 891.42,487.6094 " fill="none" id="RV-backto-CHV" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="802.22,487.6094,811.22,491.6094,807.22,487.6094,811.22,483.6094,802.22,487.6094" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="53" x="820.25" y="481.1045">«extend»</text></g><!--MD5=[16d0ac0225e4ec82a436289d229b21a0]
+link AProd to MPB--><g id="link_AProd_MPB"><path d="M1229.2,358.9894 C1254.84,377.4094 1293.97,409.1794 1317,445.6094 C1344.76,489.5294 1358.8,548.9394 1365.24,585.3394 " fill="none" id="AProd-to-MPB" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1366.14,590.5394,1368.5388,580.9871,1365.2833,585.6133,1360.6571,582.3578,1366.14,590.5394" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55" x="1354" y="493.1045">«include»</text></g><!--MD5=[61697c301946c4d61723189de5693d08]
+link CProd to VD--><g id="link_CProd_VD"><path d="M1599.95,360.6494 C1605.03,408.9994 1618.69,538.9994 1624.42,593.5194 " fill="none" id="CProd-to-VD" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1624.95,598.5494,1628.0027,589.1856,1624.4355,593.5759,1620.0451,590.0087,1624.95,598.5494" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55" x="1618" y="493.1045">«include»</text></g><!--MD5=[eebfb719eecf8ddf128a18a20f7fc464]
+link AFO to EO--><g id="link_AFO_EO"><path d="M193.34,198.9594 C166.54,219.2894 124.78,255.5994 104,297.6094 C76.27,353.6794 74.75,429.7894 75.87,465.9294 " fill="none" id="AFO-to-EO" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="76.05,470.9594,79.7132,461.8171,75.8644,465.9628,71.7187,462.114,76.05,470.9594" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55" x="105" y="346.6045">«include»</text></g><!--MD5=[a2f38821ab4644ed9ca9d2a9cec7f9c5]
+link A to EN--><g id="link_A_EN"><path d="M218,356.9494 C218,402.5094 218,540.5794 218,595.3594 " fill="none" id="A-to-EN" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="218,600.3994,222,591.3994,218,595.3994,214,591.3994,218,600.3994" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55" x="219" y="493.1045">«include»</text></g><!--MD5=[e3a2a285245008d37632ae282c27c7b0]
+link IO to ANP--><g id="link_IO_ANP"><path d="M508,80.4894 C508,121.8294 508,229.3494 508,292.2994 " fill="none" id="IO-to-ANP" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="508,297.4994,512,288.4994,508,292.4994,504,288.4994,508,297.4994" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="53" x="509" y="186.1045">«extend»</text></g><!--MD5=[5e4574d3169b7f168adec89395fc14da]
+link AFO to A--><g id="link_AFO_A"><path d="M218,199.7894 C218,225.4294 218,272.7194 218,305.2594 " fill="none" id="AFO-to-A" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="225,305.4094,218,325.4094,211,305.4094,225,305.4094" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[53f6d7cab9df83daf017c698cd91c025]
+link ANP to A--><g id="link_ANP_A"><path d="M453.64,302.6394 C426.2,285.5394 391.56,267.3294 357.5,258.6094 C329.08,251.3294 318.27,246.6094 291.5,258.6094 C268.53,268.9094 249.79,290.3394 236.98,308.7694 " fill="none" id="ANP-to-A" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="242.86,312.5694,226.22,325.6794,231.05,305.0494,242.86,312.5694" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[5347cc3889e8e00171fbc3f8d1849d5b]
+link CP to BP--><g id="link_CP_BP"><path d="M1152.81,189.2794 C1268.14,203.2894 1506.88,237.2794 1701,297.6094 C1721.68,304.0394 1743.85,313.6594 1761.66,322.1194 " fill="none" id="CP-to-BP" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1766.57,324.4694,1760.2027,316.9556,1762.0669,322.2964,1756.726,324.1606,1766.57,324.4694" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55" x="1586" y="264.1045">«include»</text></g><!--MD5=[dd712ecdf3afee52b95fd17836d27be8]
+link CProd to BP--><g id="link_CProd_BP"><path d="M1683.51,341.1094 C1688.28,341.1094 1693.05,341.1094 1697.83,341.1094 " fill="none" id="CProd-to-BP" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="1698.09,334.1094,1718.09,341.1094,1698.09,348.1094,1698.09,334.1094" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[92d87a54211e04bb072cc90ad440f02f]
+@startuml sistemaDeCompras
+title Supuesto 2: Sistema de Compras
+
+actor Comun #LightBlue
+actor Comprador #LightBlue
+actor Vendedor #LightBlue
+actor Proveedor #LightBlue
+actor Administrador #LightBlue
+
+/'Casos de uso'/
+"Consultar ofertas" as (CO)
+"Consultar precios" as (CP)
+
+usecase RV as "Realizar venta
+- -
+extension points
+Consultar historico de ventas"
+
+"Consultar historico de ventas" as (CHV)
+"Acordar precio" as (AP)
+"Agregar productos" as (AProd)
+"Consultar productos" as (CProd)
+"Finalizar compra" as (FC)
+"Verificar disponibilidad" as (VD)
+"Marcar productos como bloqueados" as (MPB)
+"Avisar fin de oferta" as (AFO)
+"Eliminar oferta" as (EO)
+"Avisar" as (A)
+
+usecase ANP as "Avisar nuevos productos
+- -
+extension points
+Incorporar oferta"
+
+"Incorporar oferta" as (IO)
+"Enviar notificacion" as (EN)
+"Eliminar producto" as (EP)
+"Buscar productos" as (BP)
+
+/'Herencias actores'/
+Administrador -up-|> Comun
+Comprador -up-|> Comun
+Vendedor -up-|> Comun
+Proveedor -up-|> Comun
+
+/'Relaciones casos de uso'/
+Comun -up- (CO)
+Comun -left- (CP)
+Comprador -down- (RV)
+Vendedor -down- (RV)
+Comprador -left- (AProd)
+Comprador - (CProd)
+Comprador -down- (FC)
+Proveedor -left- (AFO)
+Proveedor - (ANP)
+Administrador - (EP)
+(RV) .-left-> (AP) : <<include>>
+(CHV) .-left-> (RV) : <<extend>>
+(AProd) .-down-> (MPB) : <<include>>
+(CProd) .-down-> (VD) : <<include>>
+(AFO) .-down-> (EO) : <<include>>
+(A) .-down-> (EN) : <<include>>
+(IO) .-down-> (ANP) : <<extend>>
+(AFO) -down-|> (A)
+(ANP) -|> (A)
+(CP) .-> (BP) : <<include>>
+(CProd) -|> (BP)
+
+@enduml
+
+@startuml sistemaDeCompras
+title Supuesto 2: Sistema de Compras
+
+actor Comun #LightBlue
+actor Comprador #LightBlue
+actor Vendedor #LightBlue
+actor Proveedor #LightBlue
+actor Administrador #LightBlue
+
+"Consultar ofertas" as (CO)
+"Consultar precios" as (CP)
+
+usecase RV as "Realizar venta
+- -
+extension points
+Consultar historico de ventas"
+
+"Consultar historico de ventas" as (CHV)
+"Acordar precio" as (AP)
+"Agregar productos" as (AProd)
+"Consultar productos" as (CProd)
+"Finalizar compra" as (FC)
+"Verificar disponibilidad" as (VD)
+"Marcar productos como bloqueados" as (MPB)
+"Avisar fin de oferta" as (AFO)
+"Eliminar oferta" as (EO)
+"Avisar" as (A)
+
+usecase ANP as "Avisar nuevos productos
+- -
+extension points
+Incorporar oferta"
+
+"Incorporar oferta" as (IO)
+"Enviar notificacion" as (EN)
+"Eliminar producto" as (EP)
+"Buscar productos" as (BP)
+
+Administrador -up-|> Comun
+Comprador -up-|> Comun
+Vendedor -up-|> Comun
+Proveedor -up-|> Comun
+
+Comun -up- (CO)
+Comun -left- (CP)
+Comprador -down- (RV)
+Vendedor -down- (RV)
+Comprador -left- (AProd)
+Comprador - (CProd)
+Comprador -down- (FC)
+Proveedor -left- (AFO)
+Proveedor - (ANP)
+Administrador - (EP)
+(RV) .-left-> (AP) : <<include>>
+(CHV) .-left-> (RV) : <<extend>>
+(AProd) .-down-> (MPB) : <<include>>
+(CProd) .-down-> (VD) : <<include>>
+(AFO) .-down-> (EO) : <<include>>
+(A) .-down-> (EN) : <<include>>
+(IO) .-down-> (ANP) : <<extend>>
+(AFO) -down-|> (A)
+(ANP) -|> (A)
+(CP) .-> (BP) : <<include>>
+(CProd) -|> (BP)
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: es
+Country: ES
+--></g></svg>

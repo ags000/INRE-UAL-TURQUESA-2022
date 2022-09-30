@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="592px" preserveAspectRatio="none" style="width:1411px;height:592px;background:#FFFFFF;" version="1.1" viewBox="0 0 1411 592" width="1411px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="27.6094" id="_title" style="stroke:none;stroke-width:1.0;" width="230" x="583.7575" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="220" x="588.7575" y="24.5332">Supuesto 3: Compañia Hotelera</text><!--MD5=[d9f75b78703733959770a1bae7362de0]
+entity Cliente--><g id="elem_Cliente"><ellipse cx="927" cy="52.6094" fill="#ADD8E6" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M927,60.6094 L927,87.6094 M914,68.6094 L940,68.6094 M927,87.6094 L914,102.6094 M927,87.6094 L940,102.6094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="905" y="118.6426">Cliente</text></g><!--MD5=[a46c3c6e38a726f7d5de49445d1f48e8]
+entity Comun--><g id="elem_Comun"><ellipse cx="850" cy="191.6094" fill="#ADD8E6" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M850,199.6094 L850,226.6094 M837,207.6094 L863,207.6094 M850,226.6094 L837,241.6094 M850,226.6094 L863,241.6094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="45" x="827.5" y="257.6426">Comun</text></g><!--MD5=[c5684aca041d1f33462d37a1b3ab5c59]
+entity Comercial--><g id="elem_Comercial"><ellipse cx="684" cy="347.6094" fill="#ADD8E6" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M684,355.6094 L684,382.6094 M671,363.6094 L697,363.6094 M684,382.6094 L671,397.6094 M684,382.6094 L697,397.6094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="63" x="652.5" y="413.6426">Comercial</text></g><!--MD5=[2e903384ba6a94be9c906ea46910cc3f]
+entity Administrador--><g id="elem_Administrador"><ellipse cx="949" cy="347.6094" fill="#ADD8E6" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M949,355.6094 L949,382.6094 M936,363.6094 L962,363.6094 M949,382.6094 L936,397.6094 M949,382.6094 L962,397.6094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="905.5" y="413.6426">Administrador</text></g><g id="elem_CD"><ellipse cx="1162.7928" cy="82.9679" fill="#F1F1F1" rx="102.2928" ry="22.8586" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="166" x="1079.7928" y="86.6965">Consultar disponibilidades</text></g><g id="elem_MC"><ellipse cx="1324.0075" cy="378.3109" fill="#F1F1F1" rx="81.5075" ry="18.7015" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="1264.6675" y="382.1398">Mostrar calendario</text></g><g id="elem_VO"><ellipse cx="792.0069" cy="83.0108" fill="#F1F1F1" rx="77.5069" ry="17.9014" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108" x="735.8567" y="87.3254">Visualizar ofertas</text></g><g id="elem_BE"><ellipse cx="1127.9775" cy="377.9049" fill="#F1F1F1" rx="79.4775" ry="18.2955" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="113" x="1070.256" y="381.9802">Buscar elementos</text></g><g id="elem_CR"><ellipse cx="989.8351" cy="221.9764" fill="#F1F1F1" rx="82.3351" ry="18.867" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="120" x="929.8351" y="225.7049">Consultar reservas</text></g><g id="elem_RP"><ellipse cx="453.097" cy="222.2288" fill="#F1F1F1" rx="81.097" ry="18.6194" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="394.0843" y="226.1075">Recalcular precios</text></g><g id="elem_BRT"><ellipse cx="127.0183" cy="540.713" fill="#F1F1F1" rx="121.0183" ry="26.6037" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="207" x="23.5183" y="544.4415">Bloquear reserva temporalmente</text></g><g id="elem_RO"><ellipse cx="949.1111" cy="540.8316" fill="#F1F1F1" rx="74.1111" ry="17.2222" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="99" x="896.6111" y="545.3482">Realizar ofertas</text></g><g id="elem_GPN"><ellipse cx="1167.1128" cy="540.7319" fill="#F1F1F1" rx="108.6128" ry="24.1226" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="180" x="1077.1128" y="544.4605">Gestionar peticiones nuevas</text></g><g id="elem_GNR"><ellipse cx="388.0397" cy="540.4173" fill="#F1F1F1" rx="104.5397" ry="23.3079" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="171" x="302.5397" y="544.1458">Gestionar nuevas reservas</text></g><g id="elem_C"><ellipse cx="1162.9968" cy="222.1523" fill="#F1F1F1" rx="54.9968" ry="15.5429" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61" x="1129.4968" y="226.6689">Consultar</text></g><g id="elem_ROV"><ellipse cx="683.935" cy="540.5877" fill="#F1F1F1" rx="155.935" ry="45.4783" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="196" x="581.8859" y="523.0586">Realizar ofertas vista comercial</text><line style="stroke:#181818;stroke-width:1.0;" x1="537.0839" x2="830.786" y1="526.1347" y2="526.1347"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="628.8859" y="544.668">extension points</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="207" x="576.3859" y="562.2773">Bloquear reserva temporalmente</text></g><!--MD5=[955e0b20031af896c751826bdfbc722e]
+reverse link Cliente to Comun--><g id="link_Cliente_Comun"><path d="M895.66,139.8694 C887.58,154.2494 879.06,169.3994 871.6,182.6794 " fill="none" id="Cliente-backto-Comun" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="889.65,136.2794,905.55,122.2694,901.85,143.1394,889.65,136.2794" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[1e53ee9c3cd944dfc08ead5f6de0fd73]
+reverse link Comun to Administrador--><g id="link_Comun_Administrador"><path d="M883.68,275.5094 C897.07,296.3294 912.18,319.8294 924.49,338.9794 " fill="none" id="Comun-backto-Administrador" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="877.64,279.0494,872.71,258.4394,889.42,271.4794,877.64,279.0494" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[7326b05c6fd4d62ab1f2a32c36aac3d4]
+reverse link Comun to Comercial--><g id="link_Comun_Comercial"><path d="M812.29,258.0894 C783.07,285.1994 743.05,322.3194 715.52,347.8594 " fill="none" id="Comun-backto-Comercial" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="807.84,252.6694,827.27,244.1994,817.37,262.9294,807.84,252.6694" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[30bdbcbbbdf0977fd5b011d6501a4931]
+link VO to Cliente--><g id="link_VO_Cliente"><path d="M869.52,83.1094 C881.34,83.1094 893.17,83.1094 905,83.1094 " fill="none" id="VO-Cliente" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[779d4ebccea13029962e0c20e16e8af9]
+link Cliente to CD--><g id="link_Cliente_CD"><path d="M949.12,83.1094 C986.16,83.1094 1023.2,83.1094 1060.24,83.1094 " fill="none" id="Cliente-CD" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[de377fcf74c7711054c752f1641d1a4f]
+link CD to MC--><g id="link_CD_MC"><path d="M1180.92,106.0494 C1196.36,125.5594 1218.68,155.2294 1235,183.1094 C1269.84,242.6394 1301.07,318.1694 1315.52,354.9594 " fill="none" id="CD-to-MC" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1317.36,359.6694,1317.8202,349.8313,1315.545,355.0104,1310.3659,352.7353,1317.36,359.6694" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55" x="1276" y="227.6045">«include»</text></g><!--MD5=[8243feb665d4e35b5eb06958c9ba9b75]
+link Comun to CR--><g id="link_Comun_CR"><path d="M872.7,222.1094 C884.15,222.1094 895.61,222.1094 907.06,222.1094 " fill="none" id="Comun-CR" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[a4b767ec80f75ad349d28fc7236e7290]
+link Administrador to RO--><g id="link_Administrador_RO"><path d="M949,417.1494 C949,450.8894 949,498.5494 949,523.2894 " fill="none" id="Administrador-RO" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[8b3b729cff687d3539537c7bd1c439c8]
+link Administrador to GPN--><g id="link_Administrador_GPN"><path d="M992.59,411.1994 C1035.33,442.6694 1099.37,489.8194 1136.8,517.3694 " fill="none" id="Administrador-GPN" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[f579885cb2ccc1bdaee6fb877d55ff6a]
+link Comercial to GNR--><g id="link_Comercial_GNR"><path d="M652.32,396.2894 C597.74,425.8794 486.12,486.3994 426.91,518.5094 " fill="none" id="Comercial-GNR" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[2a7c549f1dde77d5329f057ef30d70ff]
+link Comercial to ROV--><g id="link_Comercial_ROV"><path d="M684,417.1494 C684,440.5094 684,470.5394 684,495.0194 " fill="none" id="Comercial-ROV" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[6f83d31a1ecf5163fb8b6d73f4bf57a0]
+reverse link RP to ROV--><g id="link_RP_ROV"><path d="M465.86,245.2294 C487.51,281.9594 533.29,357.4194 578,417.1094 C598.48,444.4594 623.4,473.4394 643.93,496.3494 " fill="none" id="RP-backto-ROV" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="463.09,240.5194,464.2139,250.3039,465.6288,244.8268,471.1059,246.2417,463.09,240.5194" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55" x="579" y="383.6045">«include»</text></g><!--MD5=[bced46571e83d4e76ef4d831266b364b]
+link BRT to ROV--><g id="link_BRT_ROV"><path d="M181.38,516.7894 C228.71,497.4294 299.7,471.6694 364.5,461.1094 C444.64,448.0494 534.21,473.9594 598.08,499.6194 " fill="none" id="BRT-to-ROV" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="603.02,501.6194,596.1756,494.5374,598.3846,499.7452,593.1768,501.9542,603.02,501.6194" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="53" x="365.5" y="461.6045">«extend»</text></g><!--MD5=[eecb376554167d8a5d5bcedb8842c687]
+link ROV to RO--><g id="link_ROV_RO"><path d="M840.05,540.6094 C844.96,540.6094 849.86,540.6094 854.77,540.6094 " fill="none" id="ROV-to-RO" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="854.95,533.6094,874.95,540.6094,854.95,547.6094,854.95,533.6094" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[85334f5d38b1c47d738820af5bace22d]
+link CD to C--><g id="link_CD_C"><path d="M1163,106.1194 C1163,127.6594 1163,160.8194 1163,186.0094 " fill="none" id="CD-to-C" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="1170,186.3294,1163,206.3294,1156,186.3294,1170,186.3294" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ab72121a4f3e8f394a7d40a23bed07c4]
+link CR to C--><g id="link_CR_C"><path d="M1072.78,222.1094 C1077.69,222.1094 1082.6,222.1094 1087.5,222.1094 " fill="none" id="CR-to-C" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="1087.67,215.1094,1107.67,222.1094,1087.67,229.1094,1087.67,215.1094" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[0918b01ef354ee9aa9665c809986fbb6]
+link C to BE--><g id="link_C_BE"><path d="M1159.71,237.5994 C1153.6,264.4594 1140.48,322.1894 1133.18,354.3294 " fill="none" id="C-to-BE" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1132.06,359.2594,1137.9441,351.3614,1133.1613,354.3822,1130.1406,349.5994,1132.06,359.2594" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55" x="1148" y="305.6045">«include»</text></g><!--MD5=[3619ab8496d85a0eaf9f96fe6f6f6b15]
+@startuml compañiaHotelera
+title Supuesto 3: Compañia Hotelera
+
+actor Cliente #LightBlue
+actor Comun #LightBlue
+actor Comercial #LightBlue
+actor Administrador #LightBlue
+
+/'Herencias'/
+Comun -up-|> Cliente
+Administrador -up-|> Comun
+Comercial -up-|> Comun
+
+/'Casos de uso'/
+"Consultar disponibilidades" as (CD)
+"Mostrar calendario" as (MC)
+"Visualizar ofertas" as (VO)
+"Buscar elementos" as (BE)
+"Consultar reservas" as (CR)
+"Recalcular precios" as (RP)
+"Bloquear reserva temporalmente" as (BRT)
+"Realizar ofertas" as (RO)
+"Gestionar peticiones nuevas" as (GPN)
+"Gestionar nuevas reservas" as (GNR)
+"Mostrar calendario" as (MC)
+"Consultar" as (C)  
+
+usecase ROV as "Realizar ofertas vista comercial
+- -
+extension points
+Bloquear reserva temporalmente"
+
+/'Relaciones casos de uso'/
+Cliente -left- (VO)
+Cliente -right- (CD)
+(CD) .-down-> (MC) : <<include>>
+Comun - (CR)
+Administrador -down- (RO)
+Administrador -down- (GPN)
+Comercial -down- (GNR)
+Comercial -down- (ROV)
+(ROV) .-up-> (RP) : <<include>>
+(BRT) .> (ROV) : <<extend>>
+(ROV) -|> (RO)
+(CD) -|> (C)
+(CR) -|> (C)
+(C) .-> (BE) : <<include>>
+@enduml
+
+@startuml compañiaHotelera
+title Supuesto 3: Compañia Hotelera
+
+actor Cliente #LightBlue
+actor Comun #LightBlue
+actor Comercial #LightBlue
+actor Administrador #LightBlue
+
+Comun -up-|> Cliente
+Administrador -up-|> Comun
+Comercial -up-|> Comun
+
+"Consultar disponibilidades" as (CD)
+"Mostrar calendario" as (MC)
+"Visualizar ofertas" as (VO)
+"Buscar elementos" as (BE)
+"Consultar reservas" as (CR)
+"Recalcular precios" as (RP)
+"Bloquear reserva temporalmente" as (BRT)
+"Realizar ofertas" as (RO)
+"Gestionar peticiones nuevas" as (GPN)
+"Gestionar nuevas reservas" as (GNR)
+"Mostrar calendario" as (MC)
+"Consultar" as (C)  
+
+usecase ROV as "Realizar ofertas vista comercial
+- -
+extension points
+Bloquear reserva temporalmente"
+
+Cliente -left- (VO)
+Cliente -right- (CD)
+(CD) .-down-> (MC) : <<include>>
+Comun - (CR)
+Administrador -down- (RO)
+Administrador -down- (GPN)
+Comercial -down- (GNR)
+Comercial -down- (ROV)
+(ROV) .-up-> (RP) : <<include>>
+(BRT) .> (ROV) : <<extend>>
+(ROV) -|> (RO)
+(CD) -|> (C)
+(CR) -|> (C)
+(C) .-> (BE) : <<include>>
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: es
+Country: ES
+--></g></svg>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="858px" preserveAspectRatio="none" style="width:1703px;height:858px;background:#FFFFFF;" version="1.1" viewBox="0 0 1703 858" width="1703px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="27.6094" id="_title" style="stroke:none;stroke-width:1.0;" width="258" x="715.7239" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="248" x="720.7239" y="24.5332">Supuesto 5: Gestión de Incidencias</text><!--MD5=[2e903384ba6a94be9c906ea46910cc3f]
+entity Administrador--><g id="elem_Administrador"><ellipse cx="147.5" cy="214.1094" fill="#ADD8E6" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M147.5,222.1094 L147.5,249.1094 M134.5,230.1094 L160.5,230.1094 M147.5,249.1094 L134.5,264.1094 M147.5,249.1094 L160.5,264.1094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="104" y="280.1426">Administrador</text></g><!--MD5=[9ff840d49ca214a73f305757e42d4e15]
+entity Tecnico--><g id="elem_Tecnico"><ellipse cx="1067.5" cy="52.6094" fill="#ADD8E6" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M1067.5,60.6094 L1067.5,87.6094 M1054.5,68.6094 L1080.5,68.6094 M1067.5,87.6094 L1054.5,102.6094 M1067.5,87.6094 L1080.5,102.6094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="1042.5" y="118.6426">Tecnico</text></g><!--MD5=[9544e8f9a50b6f5806c8e28b91970f7d]
+entity Operador--><g id="elem_Operador"><ellipse cx="518.5" cy="214.1094" fill="#ADD8E6" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M518.5,222.1094 L518.5,249.1094 M505.5,230.1094 L531.5,230.1094 M518.5,249.1094 L505.5,264.1094 M518.5,249.1094 L531.5,264.1094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61" x="488" y="280.1426">Operador</text></g><!--MD5=[1d7739e24792ee24722dddd16337c26b]
+entity UsuarioInvitado--><g id="elem_UsuarioInvitado"><ellipse cx="1159.5" cy="537.6094" fill="#ADD8E6" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M1159.5,545.6094 L1159.5,572.6094 M1146.5,553.6094 L1172.5,553.6094 M1159.5,572.6094 L1146.5,587.6094 M1159.5,572.6094 L1172.5,587.6094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="1111" y="603.6426">UsuarioInvitado</text></g><!--MD5=[24a335e42abb18896262c0f125f18afe]
+entity GestorDeCorreo--><g id="elem_GestorDeCorreo"><ellipse cx="1257.5" cy="214.1094" fill="#ADD8E6" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M1257.5,222.1094 L1257.5,249.1094 M1244.5,230.1094 L1270.5,230.1094 M1257.5,249.1094 L1244.5,264.1094 M1257.5,249.1094 L1270.5,264.1094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="105" x="1205" y="280.1426">GestorDeCorreo</text></g><!--MD5=[a46c3c6e38a726f7d5de49445d1f48e8]
+entity Comun--><g id="elem_Comun"><ellipse cx="1150.5" cy="52.6094" fill="#ADD8E6" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M1150.5,60.6094 L1150.5,87.6094 M1137.5,68.6094 L1163.5,68.6094 M1150.5,87.6094 L1137.5,102.6094 M1150.5,87.6094 L1163.5,102.6094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="45" x="1128" y="118.6426">Comun</text></g><!--MD5=[2499f49332f1e66fcade27dd3eb13e02]
+entity Comun2--><g id="elem_Comun2"><ellipse cx="1143.5" cy="214.1094" fill="#ADD8E6" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M1143.5,222.1094 L1143.5,249.1094 M1130.5,230.1094 L1156.5,230.1094 M1143.5,249.1094 L1130.5,264.1094 M1143.5,249.1094 L1156.5,264.1094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="53" x="1117" y="280.1426">Comun2</text></g><g id="elem_GCI"><ellipse cx="147.3821" cy="82.9858" fill="#F1F1F1" rx="129.8821" ry="28.3764" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="226" x="34.3821" y="86.7143">Gestionar categorias de incidencias</text></g><g id="elem_OIVA"><ellipse cx="147.6734" cy="409.3441" fill="#F1F1F1" rx="141.6734" ry="30.7347" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="251" x="22.1734" y="413.0726">Ordenar incidencias vista Administrador</text></g><g id="elem_AC"><ellipse cx="147.2827" cy="568.0659" fill="#F1F1F1" rx="80.2827" ry="18.4565" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="115" x="88.9192" y="572.0435">Añadir comentario</text></g><g id="elem_RISI"><ellipse cx="882.705" cy="83.0504" fill="#F1F1F1" rx="125.205" ry="27.441" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="216" x="774.705" y="86.7789">Realizar informe sobre incidencias</text></g><g id="elem_ALVT"><ellipse cx="968.6774" cy="244.6449" fill="#F1F1F1" rx="113.1774" ry="25.0355" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="190" x="873.6774" y="248.3734">Atender llamada vista Tecnico</text></g><g id="elem_CD"><ellipse cx="1018.2877" cy="409.1669" fill="#F1F1F1" rx="78.2877" ry="18.0575" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="961.5149" y="413.3867">Comprobar datos</text></g><g id="elem_OI"><ellipse cx="409.2698" cy="409.0633" fill="#F1F1F1" rx="85.2698" ry="19.454" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="127" x="345.7698" y="412.7918">Ordenar incidencias</text></g><g id="elem_MID"><ellipse cx="339.6774" cy="244.6449" fill="#F1F1F1" rx="113.1774" ry="25.0355" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="190" x="244.6774" y="248.3734">Marcar incidencias duplicadas</text></g><g id="elem_ALVO"><ellipse cx="702.7402" cy="244.6574" fill="#F1F1F1" rx="118.2402" ry="26.048" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="201" x="602.2402" y="248.3859">Atender llamada vista Operador</text></g><g id="elem_IND"><ellipse cx="624.313" cy="408.872" fill="#F1F1F1" rx="94.313" ry="21.2626" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="550.313" y="412.6005">Introducir nuevos datos</text></g><g id="elem_AL"><ellipse cx="829.6002" cy="409.1294" fill="#F1F1F1" rx="75.6002" ry="17.52" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="775.1002" y="413.646">Atender llamada</text></g><g id="elem_ALHN"><ellipse cx="891.3519" cy="700.0797" fill="#F1F1F1" rx="147.8519" ry="31.9704" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="264" x="759.3519" y="703.8083">Acceder listado historico de notificaciones</text></g><g id="elem_VN"><ellipse cx="1322.5785" cy="568.3251" fill="#F1F1F1" rx="79.0785" ry="18.2157" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="1265.1751" y="572.4489">Ver notificaciones</text></g><g id="elem_CI"><ellipse cx="1525.6756" cy="568.2445" fill="#F1F1F1" rx="88.6756" ry="20.1351" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="135" x="1458.1756" y="571.973">Consultar incidencias</text></g><g id="elem_II"><ellipse cx="1159.3478" cy="699.9789" fill="#F1F1F1" rx="84.8478" ry="19.3696" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126" x="1096.3478" y="703.7075">Informar incidencias</text></g><g id="elem_DAL"><ellipse cx="940.4382" cy="831.197" fill="#F1F1F1" rx="93.4382" ry="21.0876" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146" x="867.4382" y="834.9255">Dar de alta localizacion</text></g><g id="elem_IE"><ellipse cx="1159.4659" cy="831.0025" fill="#F1F1F1" rx="89.9659" ry="20.3932" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="138" x="1090.4659" y="834.7311">Incorporar explicacion</text></g><g id="elem_SF"><ellipse cx="1339.4968" cy="831.1523" fill="#F1F1F1" rx="54.9968" ry="15.5429" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61" x="1305.9968" y="835.6689">Subir foto</text></g><g id="elem_R"><ellipse cx="1332.2806" cy="700.1323" fill="#F1F1F1" rx="52.7806" ry="15.5229" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="58" x="1300.2806" y="704.6489">Registrar</text></g><g id="elem_EC"><ellipse cx="1440.6119" cy="83.3318" fill="#F1F1F1" rx="69.1119" ry="16.2224" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="85" x="1395.1119" y="87.8484">Enviar correo</text></g><g id="elem_ED"><ellipse cx="1198.58" cy="409.2321" fill="#F1F1F1" rx="66.08" ry="15.6227" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="1157.58" y="413.7487">Editar datos</text></g><g id="elem_DAI"><ellipse cx="1440.5425" cy="244.5004" fill="#F1F1F1" rx="95.5425" ry="44.3911" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="1379.7581" y="228.3808">Dar alta incidencias</text><line style="stroke:#181818;stroke-width:1.0;" x1="1350.2175" x2="1530.8675" y1="231.457" y2="231.457"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="1390.7581" y="249.9902">extension points</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="85" x="1399.2581" y="267.5996">Enviar correo</text></g><g id="elem_CIVT"><ellipse cx="1525.7239" cy="408.985" fill="#F1F1F1" rx="171.7239" ry="41.8756" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="252" x="1399.8429" y="397.2702">Consultar incidencias vista trabajadores</text><line style="stroke:#181818;stroke-width:1.0;" x1="1358.6937" x2="1692.7542" y1="400.3464" y2="400.3464"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="1474.8429" y="418.8796">extension points</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="1487.8429" y="436.489">Editar datos</text></g><!--MD5=[ad64baca0365bfe2d34712e68c5977a4]
+link Administrador to Comun2--><g id="link_Administrador_Comun2"><path d="M173.25,205.2194 C186.71,188.2694 204.82,170.2694 226,161.1094 C313.2,123.4094 996.05,118.5794 1081,161.1094 C1093.62,167.4294 1104.35,177.6394 1113.17,188.7794 " fill="none" id="Administrador-to-Comun2" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="1119.07,185.0194,1124.72,205.4394,1107.57,192.9994,1119.07,185.0194" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[48cf6de9e8a007294f975f0553cc77fe]
+reverse link Comun to Operador--><g id="link_Comun_Operador"><path d="M1111.01,121.3594 C1110.51,121.6194 1110.01,121.8694 1109.5,122.1094 C889.44,227.0694 787.14,96.3794 566.5,200.1094 C560.39,202.9794 554.51,206.8994 549.09,211.2094 " fill="none" id="Comun-backto-Operador" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="1107.23,115.4694,1127.63,109.7294,1115.26,126.9394,1107.23,115.4694" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e4a17fab92545f96ec12b4c1cae752b0]
+link Operador to Comun2--><g id="link_Operador_Comun2"><path d="M538.6,205.3994 C549.53,188.4794 564.78,170.4594 584,161.1094 C683.31,112.7894 982.24,111.6694 1081,161.1094 C1093.62,167.4294 1104.35,177.6394 1113.17,188.7794 " fill="none" id="Operador-to-Comun2" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="1119.07,185.0194,1124.72,205.4394,1107.57,192.9994,1119.07,185.0194" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[4ad435376950fc7aca286fbc4ed0c392]
+link Tecnico to Comun--><g id="link_Tecnico_Comun"><path d="M1092.79,83.1094 C1097.83,83.1094 1102.86,83.1094 1107.9,83.1094 " fill="none" id="Tecnico-to-Comun" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="1107.96,76.1094,1127.96,83.1094,1107.96,90.1094,1107.96,76.1094" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[55efc2cae8d1d12a3588168c6d9fd273]
+link Tecnico to Comun2--><g id="link_Tecnico_Comun2"><path d="M1085.7,122.3094 C1094.98,141.7694 1106.43,165.8094 1116.69,187.3394 " fill="none" id="Tecnico-to-Comun2" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="1123.03,184.3794,1125.31,205.4394,1110.39,190.3994,1123.03,184.3794" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[00ba9c3b8310ba5e19ee5ff1579c9ec6]
+link GCI to Administrador--><g id="link_GCI_Administrador"><path d="M147.5,111.8894 C147.5,137.7794 147.5,176.5994 147.5,205.3894 " fill="none" id="GCI-Administrador" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d504e9d1cfb20f696337f0a4fedd150b]
+link Administrador to OIVA--><g id="link_Administrador_OIVA"><path d="M147.5,283.7094 C147.5,312.5994 147.5,351.7494 147.5,378.3594 " fill="none" id="Administrador-OIVA" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[1479fb9af6959699cd145371c1441688]
+link OIVA to AC--><g id="link_OIVA_AC"><path d="M147.5,439.6394 C147.5,469.9494 147.5,516.4794 147.5,544.1494 " fill="none" id="OIVA-to-AC" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="147.5,549.4194,151.5,540.4194,147.5,544.4194,143.5,540.4194,147.5,549.4194" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55" x="148.5" y="495.6045">«include»</text></g><!--MD5=[a2d1da056a2a1e05e80dba4197bdb692]
+link OIVA to OI--><g id="link_OIVA_OI"><path d="M289.25,409.1094 C293.98,409.1094 298.71,409.1094 303.44,409.1094 " fill="none" id="OIVA-to-OI" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="303.54,402.1094,323.54,409.1094,303.54,416.1094,303.54,402.1094" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ecae53ce9244377a499d5740eb91c0cb]
+link RISI to Tecnico--><g id="link_RISI_Tecnico"><path d="M1007.52,83.1094 C1019.08,83.1094 1030.64,83.1094 1042.2,83.1094 " fill="none" id="RISI-Tecnico" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[775461870f3c427d70f530f56ef5add6]
+link Tecnico to ALVT--><g id="link_Tecnico_ALVT"><path d="M1043.79,122.3094 C1025.02,152.5394 999.4,193.8194 983.41,219.5894 " fill="none" id="Tecnico-ALVT" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[01100a83fa82a18406df59ed6118876c]
+link ALVT to CD--><g id="link_ALVT_CD"><path d="M975.88,269.5894 C985.53,300.9694 1002.32,355.5394 1011.69,385.9794 " fill="none" id="ALVT-to-CD" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1013.24,391.0094,1014.4184,381.2313,1011.7706,386.2302,1006.7717,383.5824,1013.24,391.0094" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55" x="997.5" y="333.6045">«include»</text></g><!--MD5=[b21bde65d994b5ba765a40b471fbb204]
+link ALVT to AL--><g id="link_ALVT_AL"><path d="M948.29,269.2394 C924.15,297.4594 883.66,344.7994 856.76,376.2394 " fill="none" id="ALVT-to-AL" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="861.73,381.1994,843.41,391.8494,851.09,372.0994,861.73,381.1994" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ed70e940b24f3248662ac71401c12a91]
+link MID to Operador--><g id="link_MID_Operador"><path d="M452.77,244.6094 C464.5,244.6094 476.22,244.6094 487.95,244.6094 " fill="none" id="MID-Operador" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[184db8a24ab39cc92c3205b933d46982]
+link Operador to ALVO--><g id="link_Operador_ALVO"><path d="M549.05,244.6094 C560.84,244.6094 572.62,244.6094 584.41,244.6094 " fill="none" id="Operador-ALVO" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d45f2f694e989c7990240675b50786c1]
+link Operador to OI--><g id="link_Operador_OI"><path d="M492.94,283.7094 C470.54,317.0994 438.95,364.1994 421.78,389.7994 " fill="none" id="Operador-OI" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[3a026edbeb05c683777738189dc857cc]
+link ALVO to IND--><g id="link_ALVO_IND"><path d="M690.48,270.6394 C675.88,301.0694 651.38,352.1094 636.69,382.6994 " fill="none" id="ALVO-to-IND" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="634.43,387.4294,641.9195,381.0335,636.5858,382.918,634.7013,377.5843,634.43,387.4294" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55" x="667.5" y="333.6045">«include»</text></g><!--MD5=[4f035cfd94c1fd93013ca89fa3fcfc0b]
+link ALVO to AL--><g id="link_ALVO_AL"><path d="M721.79,270.2894 C743.82,298.4794 779.94,344.6894 804.21,375.7494 " fill="none" id="ALVO-to-AL" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="809.82,371.5594,816.62,391.6294,798.79,380.1794,809.82,371.5594" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[57450169ae2c05a0d65df0d72d50eb37]
+link UsuarioInvitado to ALHN--><g id="link_UsuarioInvitado_ALHN"><path d="M1110.97,592.6494 C1065.87,614.5294 998.59,647.1594 950.43,670.5294 " fill="none" id="UsuarioInvitado-ALHN" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[799e5143c1d1ebc741b82955891e89ed]
+link UsuarioInvitado to CI--><g id="link_UsuarioInvitado_CI"><path d="M1190.19,528.7494 C1204.43,513.6394 1222.7,498.1194 1243,490.1094 C1308.32,464.3494 1333.51,470.7094 1401,490.1094 C1440.47,501.4494 1479.53,529.3794 1503.1,548.5394 " fill="none" id="UsuarioInvitado-CI" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[a617de4e6808425ec03af570f9b41ecd]
+link UsuarioInvitado to R--><g id="link_UsuarioInvitado_R"><path d="M1208.15,605.6694 C1243.53,632.2494 1289.43,666.7494 1314.39,685.4994 " fill="none" id="UsuarioInvitado-R" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[2bb2a4749e34a5c69ca094a717af3378]
+link UsuarioInvitado to II--><g id="link_UsuarioInvitado_II"><path d="M1159.5,607.4094 C1159.5,631.5294 1159.5,661.5794 1159.5,680.5594 " fill="none" id="UsuarioInvitado-II" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[183f7828603667f45732a833afc8c535]
+link UsuarioInvitado to VN--><g id="link_UsuarioInvitado_VN"><path d="M1208.21,568.1094 C1219.97,568.1094 1231.72,568.1094 1243.48,568.1094 " fill="none" id="UsuarioInvitado-VN" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[cf7ba405bf391eddc4c72de2a55527b5]
+link II to DAL--><g id="link_II_DAL"><path d="M1129.96,718.5094 C1090.23,741.9094 1019.61,783.5094 976.72,808.7694 " fill="none" id="II-to-DAL" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="972.4,811.3194,982.1845,810.1954,976.7075,808.7805,978.1224,803.3035,972.4,811.3194" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55" x="1051.5" y="776.6045">«include»</text></g><!--MD5=[cb47241a43b013e8c2841e49901e0422]
+link II to IE--><g id="link_II_IE"><path d="M1159.5,719.8694 C1159.5,742.4394 1159.5,780.4094 1159.5,805.3694 " fill="none" id="II-to-IE" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1159.5,810.4794,1163.5,801.4794,1159.5,805.4794,1155.5,801.4794,1159.5,810.4794" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55" x="1160.5" y="776.6045">«include»</text></g><!--MD5=[7faaa3b3ab6ce10331aa48d62b1c1383]
+link II to SF--><g id="link_II_SF"><path d="M1184.15,718.7794 C1218.89,743.6694 1281.81,788.7694 1315.95,813.2294 " fill="none" id="II-to-SF" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1320.37,816.3994,1315.3798,807.9083,1316.3042,813.4891,1310.7234,814.4136,1320.37,816.3994" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55" x="1267.5" y="776.6045">«include»</text></g><!--MD5=[a79ee52d874207bd31ff8d86a01be650]
+link Comun to DAI--><g id="link_Comun_DAI"><path d="M1173.26,96.6294 C1217.25,120.8194 1315.3,174.7494 1379.61,210.1194 " fill="none" id="Comun-DAI" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[15c9425916b55289b83d29c38c79d673]
+link EC to DAI--><g id="link_EC_DAI"><path d="M1440.5,99.1194 C1440.5,120.8294 1440.5,162.0094 1440.5,194.8694 " fill="none" id="EC-to-DAI" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1440.5,200.0694,1444.5,191.0694,1440.5,195.0694,1436.5,191.0694,1440.5,200.0694" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="53" x="1441.5" y="166.6045">«extend»</text></g><!--MD5=[7d19d76a7d93037aadea07eed9fb0d91]
+link GestorDeCorreo to DAI--><g id="link_GestorDeCorreo_DAI"><path d="M1310.04,244.6094 C1321.68,244.6094 1333.31,244.6094 1344.95,244.6094 " fill="none" id="GestorDeCorreo-DAI" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[a3b6336ea2a0ad3536d589f83f203fc0]
+link Comun2 to CIVT--><g id="link_Comun2_CIVT"><path d="M1170.3,275.7094 C1175.65,280.6394 1181.49,285.3494 1187.5,289.1094 C1253.95,330.6894 1336.87,360.1694 1403.95,379.3794 " fill="none" id="Comun2-CIVT" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[24b20be079a33636f3f4fd658fe799e1]
+link ED to CIVT--><g id="link_ED_CIVT"><path d="M1264.67,409.1094 C1289.37,409.1094 1318.73,409.1094 1348.69,409.1094 " fill="none" id="ED-to-CIVT" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1353.89,409.1094,1344.89,405.1094,1348.89,409.1094,1344.89,413.1094,1353.89,409.1094" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="53" x="1282.75" y="402.6045">«extend»</text></g><!--MD5=[a5d27eddc382282be1d2da62bebc8cc7]
+link CIVT to CI--><g id="link_CIVT_CI"><path d="M1525.5,451.3594 C1525.5,475.0394 1525.5,504.6194 1525.5,527.9394 " fill="none" id="CIVT-to-CI" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="1532.5,527.9994,1525.5,547.9994,1518.5,527.9994,1532.5,527.9994" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d2f52cefd2e2a0367de5ad8123c4be43]
+@startuml gestionDeIncidencias
+title Supuesto 5: Gestión de Incidencias
+
+actor Administrador #LightBlue
+actor Tecnico #LightBlue
+actor Operador #LightBlue
+actor UsuarioInvitado #LightBlue
+actor GestorDeCorreo #LightBlue
+actor Comun #LightBlue
+actor Comun2 #LightBlue 
+
+/'DEFINICIONES DE CASOS DE USO'/
+"Gestionar categorias de incidencias" as (GCI)
+"Ordenar incidencias vista Administrador" as (OIVA)
+"Añadir comentario" as (AC)
+"Realizar informe sobre incidencias" as (RISI)
+"Atender llamada vista Tecnico" as (ALVT)
+"Comprobar datos" as (CD)
+"Ordenar incidencias" as (OI)
+"Marcar incidencias duplicadas" as (MID)
+"Atender llamada vista Operador" as (ALVO)
+"Introducir nuevos datos" as (IND)
+"Atender llamada" as (AL)
+"Acceder listado historico de notificaciones" as (ALHN)
+"Ver notificaciones" as (VN)
+"Consultar incidencias" as (CI)
+"Informar incidencias" as (II)
+"Dar de alta localizacion" as (DAL)
+"Incorporar explicacion" as (IE)
+"Subir foto" as (SF)
+"Registrar" as (R)
+"Enviar correo" as (EC)
+"Editar datos" as (ED)
+
+usecase DAI as "Dar alta incidencias
+- -
+extension points
+Enviar correo"
+
+usecase CIVT as "Consultar incidencias vista trabajadores
+- -
+extension points
+Editar datos"
+
+/'HERENCIAS ENTRE ACTORES'/
+Administrador -|> Comun2
+Operador -up-|> Comun
+Operador -|> Comun2
+Tecnico -|> Comun
+Tecnico -|> Comun2
+
+/'RELACIONES DE LOS CASOS DE USO'/
+Administrador -up- (GCI)
+Administrador -down- (OIVA)
+(OIVA) .down.> (AC) : <<include>>
+(OIVA) -|> (OI)
+Tecnico -left- (RISI)
+Tecnico -down- (ALVT)
+(ALVT) .down.> (CD) : <<include>>
+(ALVT) -down-|> (AL)
+Operador -left- (MID)
+Operador - (ALVO)
+Operador - (OI)
+(ALVO) .down.> (IND) : <<include>>
+(ALVO) -|> (AL)
+UsuarioInvitado -down- (ALHN)
+UsuarioInvitado -right- (CI)
+UsuarioInvitado -down- (R)
+UsuarioInvitado -down- (II)
+UsuarioInvitado - (VN)
+(II) .down.> (DAL) : <<include>>
+(II) .down.> (IE) : <<include>>
+(II) .down.> (SF) : <<include>>
+Comun -down- (DAI)
+(EC) .down.> (DAI) : <<extend>>
+GestorDeCorreo - (DAI)
+Comun2 -down- (CIVT)
+(ED) .right.> (CIVT) : <<extend>>
+(CIVT) -down-|> (CI)
+
+@enduml
+
+@startuml gestionDeIncidencias
+title Supuesto 5: Gestión de Incidencias
+
+actor Administrador #LightBlue
+actor Tecnico #LightBlue
+actor Operador #LightBlue
+actor UsuarioInvitado #LightBlue
+actor GestorDeCorreo #LightBlue
+actor Comun #LightBlue
+actor Comun2 #LightBlue 
+
+"Gestionar categorias de incidencias" as (GCI)
+"Ordenar incidencias vista Administrador" as (OIVA)
+"Añadir comentario" as (AC)
+"Realizar informe sobre incidencias" as (RISI)
+"Atender llamada vista Tecnico" as (ALVT)
+"Comprobar datos" as (CD)
+"Ordenar incidencias" as (OI)
+"Marcar incidencias duplicadas" as (MID)
+"Atender llamada vista Operador" as (ALVO)
+"Introducir nuevos datos" as (IND)
+"Atender llamada" as (AL)
+"Acceder listado historico de notificaciones" as (ALHN)
+"Ver notificaciones" as (VN)
+"Consultar incidencias" as (CI)
+"Informar incidencias" as (II)
+"Dar de alta localizacion" as (DAL)
+"Incorporar explicacion" as (IE)
+"Subir foto" as (SF)
+"Registrar" as (R)
+"Enviar correo" as (EC)
+"Editar datos" as (ED)
+
+usecase DAI as "Dar alta incidencias
+- -
+extension points
+Enviar correo"
+
+usecase CIVT as "Consultar incidencias vista trabajadores
+- -
+extension points
+Editar datos"
+
+Administrador -|> Comun2
+Operador -up-|> Comun
+Operador -|> Comun2
+Tecnico -|> Comun
+Tecnico -|> Comun2
+
+Administrador -up- (GCI)
+Administrador -down- (OIVA)
+(OIVA) .down.> (AC) : <<include>>
+(OIVA) -|> (OI)
+Tecnico -left- (RISI)
+Tecnico -down- (ALVT)
+(ALVT) .down.> (CD) : <<include>>
+(ALVT) -down-|> (AL)
+Operador -left- (MID)
+Operador - (ALVO)
+Operador - (OI)
+(ALVO) .down.> (IND) : <<include>>
+(ALVO) -|> (AL)
+UsuarioInvitado -down- (ALHN)
+UsuarioInvitado -right- (CI)
+UsuarioInvitado -down- (R)
+UsuarioInvitado -down- (II)
+UsuarioInvitado - (VN)
+(II) .down.> (DAL) : <<include>>
+(II) .down.> (IE) : <<include>>
+(II) .down.> (SF) : <<include>>
+Comun -down- (DAI)
+(EC) .down.> (DAI) : <<extend>>
+GestorDeCorreo - (DAI)
+Comun2 -down- (CIVT)
+(ED) .right.> (CIVT) : <<extend>>
+(CIVT) -down-|> (CI)
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: es
+Country: ES
+--></g></svg>
