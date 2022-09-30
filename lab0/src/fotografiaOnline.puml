@@ -1,0 +1,77 @@
+@startuml fotografiaOnline
+title Supuesto 4: Fotografía Online
+
+actor Software_de_Facturación #LightBlue
+actor Cliente #LightBlue
+actor Comun #LightBlue
+actor Administrador #LightBlue
+actor Gestor_de_Correo #LightBlue
+actor Vendedor #LightBlue
+actor Controlador_de_Fotos #LightBlue
+actor Gestor_de_Aplicacion #LightBlue
+
+
+/'Herencias'/
+Cliente -up-|> Comun
+Gestor_de_Aplicacion -left-|> Comun
+
+
+/'Casos de uso'/
+"Ver ofertas" as (VO)
+"Emitir facturas" as (EmF)
+"Editar facturas" as (EdF)
+"Editar" as (E)
+"Editar usuarios" as (EU)
+"Crear usuarios" as (CU)
+"Enviar email" as (EE)
+"Iniciar revisión de una foto" as (IRF)
+"Editar información de fotos" as (EIF)
+"Bloquear ofertas" as (BO)
+"Denunciar foto" as (DF)
+"Introducir excepción" as (IE)
+"Consultar fotos" as (CF)
+"Buscar detalles fotos" as (BDF)
+"Verificar datos introducidos" as (VDI)
+"Reducir precio del producto" as (RPP)
+
+usecase VF as "Visualizar fotos
+--
+extension points
+Denunciar foto"
+
+usecase HO as "Hacer oferta
+--
+extension points
+Reducir precio del producto"
+
+/'Relaciones casos de uso'/
+Comun -left- (VO)
+Cliente -down- (CF)
+Gestor_de_Correo -left- (EE)
+Software_de_Facturación -right- (EmF)
+Gestor_de_Aplicacion -left- (EmF)
+Administrador -right- (CU)
+Gestor_de_Aplicacion -down- (BO)
+Gestor_de_Aplicacion -right- (EdF)
+(IRF) -right- Controlador_de_Fotos
+Controlador_de_Fotos -right- (EIF)
+Cliente -left- (VF)
+Vendedor -right- (HO)
+Vendedor -up- (BDF)
+Administrador -up- (EU)
+Gestor_de_Aplicacion -up- (EF)
+(CF) -left-|> (VF)
+(BDF) -up-|> (VF)
+(DF) -up-|> (IRF)
+(EdF) -right-|> (E)
+(EU) -left-|> (E)
+(CU) .-down-> (EE) : <<include>>
+(DF) .-down-> (IE) : <<include>>
+(BDF) .> (VDI) : <<include>>
+(HO) .> (RPP) : <<include>>
+(DF) .> (VF) : <<extend>>
+
+
+
+
+@enduml

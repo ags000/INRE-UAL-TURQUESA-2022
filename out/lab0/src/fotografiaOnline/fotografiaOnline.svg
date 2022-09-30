@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="624px" preserveAspectRatio="none" style="width:1891px;height:624px;background:#FFFFFF;" version="1.1" viewBox="0 0 1891 624" width="1891px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="27.6094" id="_title" style="stroke:none;stroke-width:1.0;" width="219" x="829.3976" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="209" x="834.3976" y="24.5332">Supuesto 4: Fotografía Online</text><!--MD5=[81557b0d917a31755d23e6b07b29dcb9]
+entity Software_de_Facturación--><g id="elem_Software_de_Facturación"><ellipse cx="87" cy="145.1094" fill="#ADD8E6" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M87,153.1094 L87,180.1094 M74,161.1094 L100,161.1094 M87,180.1094 L74,195.1094 M87,180.1094 L100,195.1094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="162" x="6" y="211.1426">Software_de_Facturación</text></g><!--MD5=[d9f75b78703733959770a1bae7362de0]
+entity Cliente--><g id="elem_Cliente"><ellipse cx="1217" cy="290.6094" fill="#ADD8E6" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M1217,298.6094 L1217,325.6094 M1204,306.6094 L1230,306.6094 M1217,325.6094 L1204,340.6094 M1217,325.6094 L1230,340.6094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="1195" y="356.6426">Cliente</text></g><!--MD5=[a46c3c6e38a726f7d5de49445d1f48e8]
+entity Comun--><g id="elem_Comun"><ellipse cx="1221" cy="145.1094" fill="#ADD8E6" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M1221,153.1094 L1221,180.1094 M1208,161.1094 L1234,161.1094 M1221,180.1094 L1208,195.1094 M1221,180.1094 L1234,195.1094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="45" x="1198.5" y="211.1426">Comun</text></g><!--MD5=[2e903384ba6a94be9c906ea46910cc3f]
+entity Administrador--><g id="elem_Administrador"><ellipse cx="203" cy="290.6094" fill="#ADD8E6" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M203,298.6094 L203,325.6094 M190,306.6094 L216,306.6094 M203,325.6094 L190,340.6094 M203,325.6094 L216,340.6094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="159.5" y="356.6426">Administrador</text></g><!--MD5=[704c6e9a57e93a3451e04bae0be10214]
+entity Gestor_de_Correo--><g id="elem_Gestor_de_Correo"><ellipse cx="434" cy="546.6094" fill="#ADD8E6" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M434,554.6094 L434,581.6094 M421,562.6094 L447,562.6094 M434,581.6094 L421,596.6094 M434,581.6094 L447,596.6094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119" x="374.5" y="612.6426">Gestor_de_Correo</text></g><!--MD5=[b518afe29adc4be238f77772235dec2a]
+entity Vendedor--><g id="elem_Vendedor"><ellipse cx="794" cy="546.6094" fill="#ADD8E6" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M794,554.6094 L794,581.6094 M781,562.6094 L807,562.6094 M794,581.6094 L781,596.6094 M794,581.6094 L807,596.6094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62" x="763" y="612.6426">Vendedor</text></g><!--MD5=[e1b907efe95d102519c6fa47ddcf8568]
+entity Controlador_de_Fotos--><g id="elem_Controlador_de_Fotos"><ellipse cx="692" cy="145.1094" fill="#ADD8E6" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M692,153.1094 L692,180.1094 M679,161.1094 L705,161.1094 M692,180.1094 L679,195.1094 M692,180.1094 L705,195.1094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="143" x="620.5" y="211.1426">Controlador_de_Fotos</text></g><!--MD5=[6575a73ebd7e3d4f6905fd29aa1fa95c]
+entity Gestor_de_Aplicacion--><g id="elem_Gestor_de_Aplicacion"><ellipse cx="1348" cy="145.1094" fill="#ADD8E6" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M1348,153.1094 L1348,180.1094 M1335,161.1094 L1361,161.1094 M1348,180.1094 L1335,195.1094 M1348,180.1094 L1361,195.1094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="139" x="1278.5" y="211.1426">Gestor_de_Aplicacion</text></g><g id="elem_VO"><ellipse cx="1102.1463" cy="175.7036" fill="#F1F1F1" rx="61.6463" ry="15.5942" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="1064.1463" y="180.2202">Ver ofertas</text></g><g id="elem_EmF"><ellipse cx="273.8567" cy="175.6807" fill="#F1F1F1" rx="70.8567" ry="16.5713" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="90" x="225.8567" y="180.1973">Emitir facturas</text></g><g id="elem_EdF"><ellipse cx="1524.0677" cy="175.8229" fill="#F1F1F1" rx="71.5677" ry="16.7135" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="1475.0677" y="180.3395">Editar facturas</text></g><g id="elem_E"><ellipse cx="1668.1482" cy="175.5611" fill="#F1F1F1" rx="37.6482" ry="15.4517" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37" x="1649.6482" y="179.2896">Editar</text></g><g id="elem_EU"><ellipse cx="1813.1476" cy="175.5389" fill="#F1F1F1" rx="72.6476" ry="16.9295" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95" x="1762.6476" y="180.0555">Editar usuarios</text></g><g id="elem_CU"><ellipse cx="353.7859" cy="320.9666" fill="#F1F1F1" rx="72.2859" ry="16.8572" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="94" x="303.7859" y="325.4832">Crear usuarios</text></g><g id="elem_EE"><ellipse cx="272.9254" cy="577.2945" fill="#F1F1F1" rx="66.4254" ry="15.6851" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="231.4254" y="581.8111">Enviar email</text></g><g id="elem_IRF"><ellipse cx="482.7928" cy="175.4679" fill="#F1F1F1" rx="102.2928" ry="22.8586" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="166" x="399.7928" y="179.1965">Iniciar revisión de una foto</text></g><g id="elem_EIF"><ellipse cx="902.1395" cy="175.7373" fill="#F1F1F1" rx="103.6395" ry="23.1279" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="169" x="817.6395" y="179.4658">Editar información de fotos</text></g><g id="elem_BO"><ellipse cx="1350.855" cy="321.2804" fill="#F1F1F1" rx="76.355" ry="17.671" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="105" x="1295.6233" y="325.7349">Bloquear ofertas</text></g><g id="elem_DF"><ellipse cx="613.9259" cy="320.8946" fill="#F1F1F1" rx="71.9259" ry="16.7852" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93" x="564.4259" y="325.4112">Denunciar foto</text></g><g id="elem_IE"><ellipse cx="613.8478" cy="576.9789" fill="#F1F1F1" rx="84.8478" ry="19.3696" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126" x="550.8478" y="580.7075">Introducir excepción</text></g><g id="elem_CF"><ellipse cx="1291.0109" cy="451.1116" fill="#F1F1F1" rx="73.0109" ry="17.0022" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="96" x="1240.0109" y="455.6282">Consultar fotos</text></g><g id="elem_BDF"><ellipse cx="793.8923" cy="450.9878" fill="#F1F1F1" rx="87.3923" ry="19.8785" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="132" x="727.8923" y="454.7164">Buscar detalles fotos</text></g><g id="elem_VDI"><ellipse cx="1077.9905" cy="451.0075" fill="#F1F1F1" rx="104.9905" ry="23.3981" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="172" x="991.9905" y="454.736">Verificar datos introducidos</text></g><g id="elem_RPP"><ellipse cx="1301.8456" cy="577.2785" fill="#F1F1F1" rx="106.3456" ry="23.6691" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="175" x="1214.3456" y="581.007">Reducir precio del producto</text></g><g id="elem_VF"><ellipse cx="1003.8824" cy="320.9662" fill="#F1F1F1" rx="82.3824" ry="45.3569" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95" x="954.6324" y="303.0854">Visualizar fotos</text><line style="stroke:#181818;stroke-width:1.0;" x1="927.0121" x2="1080.7527" y1="306.1615" y2="306.1615"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="951.1324" y="324.6947">extension points</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93" x="955.6324" y="342.3041">Denunciar foto</text></g><g id="elem_HO"><ellipse cx="981.9141" cy="577.1276" fill="#F1F1F1" rx="121.4141" ry="41.5182" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="932.7592" y="556.1942">Hacer oferta</text><line style="stroke:#181818;stroke-width:1.0;" x1="873.3041" x2="1090.5241" y1="559.2704" y2="559.2704"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="920.7592" y="577.8036">extension points</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="175" x="884.2592" y="595.4129">Reducir precio del producto</text></g><g id="elem_EF"><ellipse cx="1348.2132" cy="60.0611" fill="#F1F1F1" rx="24.2132" ry="15.4517" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="18" x="1339.2132" y="63.7896">EF</text></g><!--MD5=[02bdfcba6bf9620a33ce7dc5fe2a8d4f]
+reverse link Comun to Cliente--><g id="link_Comun_Cliente"><path d="M1219.38,234.7394 C1218.94,250.6094 1218.47,267.3994 1218.07,281.8494 " fill="none" id="Comun-backto-Cliente" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="1212.38,234.4894,1219.94,214.6894,1226.38,234.8794,1212.38,234.4894" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d080e52ad592eb26801026f7374d879f]
+reverse link Comun to Gestor_de_Aplicacion--><g id="link_Comun_Gestor_de_Aplicacion"><path d="M1264.09,175.6094 C1268.86,175.6094 1273.64,175.6094 1278.41,175.6094 " fill="none" id="Comun-backto-Gestor_de_Aplicacion" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="1263.82,182.6094,1243.82,175.6094,1263.82,168.6094,1263.82,182.6094" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[47b2569f9b9090a28b3fa6848a82ce87]
+link VO to Comun--><g id="link_VO_Comun"><path d="M1163.82,175.6094 C1175.29,175.6094 1186.75,175.6094 1198.22,175.6094 " fill="none" id="VO-Comun" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[4bdac3a64806a420ced67115c7cfb578]
+link Cliente to CF--><g id="link_Cliente_CF"><path d="M1239,360.1694 C1253.23,384.7794 1271.02,415.5594 1281.68,433.9794 " fill="none" id="Cliente-CF" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[2e8f9f105ad621755933deab6e445435]
+link EE to Gestor_de_Correo--><g id="link_EE_Gestor_de_Correo"><path d="M339.66,577.1094 C351.21,577.1094 362.76,577.1094 374.3,577.1094 " fill="none" id="EE-Gestor_de_Correo" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[de53952d7f1e26cbec9224d8417a0607]
+link Software_de_Facturación to EmF--><g id="link_Software_de_Facturación_EmF"><path d="M168.08,175.6094 C179.67,175.6094 191.25,175.6094 202.84,175.6094 " fill="none" id="Software_de_Facturación-EmF" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[4b90b18cee8468625c3c0b3cc48d9fbc]
+link EmF to Gestor_de_Aplicacion--><g id="link_EmF_Gestor_de_Aplicacion"><path d="M291.57,159.4394 C311.43,142.3694 345.58,116.4994 380.5,106.1094 C472.41,78.7694 1151.71,78.3694 1243.5,106.1094 C1264.25,112.3794 1284.66,124.2794 1301.85,136.4794 " fill="none" id="EmF-Gestor_de_Aplicacion" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[89edd47dc083eafab05ce22f15ca9fad]
+link Administrador to CU--><g id="link_Administrador_CU"><path d="M246.65,321.1094 C258.25,321.1094 269.85,321.1094 281.45,321.1094 " fill="none" id="Administrador-CU" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[c9092cef81315e52ef5d84f1fd841b07]
+link Gestor_de_Aplicacion to BO--><g id="link_Gestor_de_Aplicacion_BO"><path d="M1348.8,214.6894 C1349.4,243.5794 1350.2,281.8994 1350.65,303.4794 " fill="none" id="Gestor_de_Aplicacion-BO" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[7717cc4331f907f9ac5bc44f1db83b33]
+link Gestor_de_Aplicacion to EdF--><g id="link_Gestor_de_Aplicacion_EdF"><path d="M1417.78,175.6094 C1429.26,175.6094 1440.74,175.6094 1452.22,175.6094 " fill="none" id="Gestor_de_Aplicacion-EdF" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[8b44ee4a242b758ce7ec99365f9e69d7]
+link IRF to Controlador_de_Fotos--><g id="link_IRF_Controlador_de_Fotos"><path d="M585.87,175.6094 C597.34,175.6094 608.81,175.6094 620.28,175.6094 " fill="none" id="IRF-Controlador_de_Fotos" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[2b57eb3a365b504df96fb465fa1395ea]
+link Controlador_de_Fotos to EIF--><g id="link_Controlador_de_Fotos_EIF"><path d="M763.78,175.6094 C775.3,175.6094 786.81,175.6094 798.33,175.6094 " fill="none" id="Controlador_de_Fotos-EIF" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[bbaa715530ea7312337e546eb02a86f8]
+link VF to Cliente--><g id="link_VF_Cliente"><path d="M1086.79,321.1094 C1122.82,321.1094 1158.85,321.1094 1194.87,321.1094 " fill="none" id="VF-Cliente" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b1c4a233e34299efe7905f71c178a363]
+link Vendedor to HO--><g id="link_Vendedor_HO"><path d="M825.21,577.1094 C836.95,577.1094 848.69,577.1094 860.43,577.1094 " fill="none" id="Vendedor-HO" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[807d1368f950aa73c2bfa0153f459e8e]
+link BDF to Vendedor--><g id="link_BDF_Vendedor"><path d="M794,471.2094 C794,488.9394 794,515.8594 794,537.9794 " fill="none" id="BDF-Vendedor" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[197129ff2505e91f0842f24c12d6a7ba]
+link EU to Administrador--><g id="link_EU_Administrador"><path d="M1785.09,191.4594 C1767.74,199.9094 1744.68,209.7494 1723,214.6094 C1406.36,285.6294 570.36,168.6094 264,275.6094 C258.06,277.6794 252.2,280.5494 246.61,283.8294 " fill="none" id="EU-Administrador" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[2711dd2be7fb9c3d2679308edbb297f8]
+link EF to Gestor_de_Aplicacion--><g id="link_EF_Gestor_de_Aplicacion"><path d="M1348,75.9494 C1348,91.2094 1348,115.6094 1348,136.3294 " fill="none" id="EF-Gestor_de_Aplicacion" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d4e6a7312649234116e9a1fc7dc7d90b]
+reverse link VF to CF--><g id="link_VF_CF"><path d="M1085.78,358.5794 C1143.36,384.2594 1217.32,417.2494 1258.89,435.7894 " fill="none" id="VF-backto-CF" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="1082.75,364.8994,1067.34,350.3594,1088.46,352.1094,1082.75,364.8994" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d14ee0604461c8cf22461f7214be1059]
+reverse link VF to BDF--><g id="link_VF_BDF"><path d="M932.24,365.8494 C895,388.5494 851.54,415.0394 823.44,432.1594 " fill="none" id="VF-backto-BDF" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="928.65,359.8394,949.37,355.4094,935.94,371.7894,928.65,359.8394" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[15910b3441533488d4922e08cc533a5b]
+reverse link IRF to DF--><g id="link_IRF_DF"><path d="M516.67,213.4994 C543.52,242.8994 579.78,282.6194 599.59,304.3294 " fill="none" id="IRF-backto-DF" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="511.21,217.8894,502.9,198.3994,521.55,208.4594,511.21,217.8894" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[9b027bf36f7d96c10613cba0e8c3f172]
+link EdF to E--><g id="link_EdF_E"><path d="M1595.72,175.6094 C1600.6,175.6094 1605.49,175.6094 1610.37,175.6094 " fill="none" id="EdF-to-E" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="1610.45,168.6094,1630.45,175.6094,1610.45,182.6094,1610.45,168.6094" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[9ecee008e98ab828cc5d45f4f14e1631]
+reverse link E to EU--><g id="link_E_EU"><path d="M1725.78,175.6094 C1730.68,175.6094 1735.57,175.6094 1740.47,175.6094 " fill="none" id="E-backto-EU" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="1725.67,182.6094,1705.67,175.6094,1725.67,168.6094,1725.67,182.6094" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[fa96c0b7276f62649616d856ce78ea85]
+link CU to EE--><g id="link_CU_EE"><path d="M348.81,338.3894 C334.53,383.1794 294.67,508.1594 279.23,556.5894 " fill="none" id="CU-to-EE" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="277.64,561.5694,284.1814,554.2067,279.1566,556.8049,276.5583,551.7801,277.64,561.5694" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55" x="322" y="456.6045">«include»</text></g><!--MD5=[5e1277dcdaa8b6f66458721c860428c9]
+link DF to IE--><g id="link_DF_IE"><path d="M614,338.3894 C614,381.9994 614,501.6294 614,552.6094 " fill="none" id="DF-to-IE" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="614,557.6094,618,548.6094,614,552.6094,610,548.6094,614,557.6094" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55" x="615" y="456.6045">«include»</text></g><!--MD5=[bc947bf41e31ab8ec39a719874f79161]
+link BDF to VDI--><g id="link_BDF_VDI"><path d="M881.53,451.1094 C908.68,451.1094 938.97,451.1094 967.48,451.1094 " fill="none" id="BDF-to-VDI" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="972.78,451.1094,963.78,447.1094,967.78,451.1094,963.78,455.1094,972.78,451.1094" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55" x="899.75" y="444.6045">«include»</text></g><!--MD5=[196c41c57fb4d98e5951dbffbaa1b347]
+link HO to RPP--><g id="link_HO_RPP"><path d="M1103.89,577.1094 C1132.24,577.1094 1162.29,577.1094 1190.18,577.1094 " fill="none" id="HO-to-RPP" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1195.36,577.1094,1186.36,573.1094,1190.36,577.1094,1186.36,581.1094,1195.36,577.1094" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55" x="1122" y="570.6045">«include»</text></g><!--MD5=[715d7719045c3c02b7227dcb3b8b5bb4]
+link DF to VF--><g id="link_DF_VF"><path d="M686.44,321.1094 C751.39,321.1094 846.83,321.1094 916.12,321.1094 " fill="none" id="DF-to-VF" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="921.48,321.1094,912.48,317.1094,916.48,321.1094,912.48,325.1094,921.48,321.1094" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="53" x="777.25" y="314.6045">«extend»</text></g><!--MD5=[9bfc8af5a0a9dbb6cf897c6912f0e288]
+@startuml fotografiaOnline
+title Supuesto 4: Fotografía Online
+
+actor Software_de_Facturación #LightBlue
+actor Cliente #LightBlue
+actor Comun #LightBlue
+actor Administrador #LightBlue
+actor Gestor_de_Correo #LightBlue
+actor Vendedor #LightBlue
+actor Controlador_de_Fotos #LightBlue
+actor Gestor_de_Aplicacion #LightBlue
+
+
+/'Herencias'/
+Cliente -up-|> Comun
+Gestor_de_Aplicacion -left-|> Comun
+
+
+/'Casos de uso'/
+"Ver ofertas" as (VO)
+"Emitir facturas" as (EmF)
+"Editar facturas" as (EdF)
+"Editar" as (E)
+"Editar usuarios" as (EU)
+"Crear usuarios" as (CU)
+"Enviar email" as (EE)
+"Iniciar revisión de una foto" as (IRF)
+"Editar información de fotos" as (EIF)
+"Bloquear ofertas" as (BO)
+"Denunciar foto" as (DF)
+"Introducir excepción" as (IE)
+"Consultar fotos" as (CF)
+"Buscar detalles fotos" as (BDF)
+"Verificar datos introducidos" as (VDI)
+"Reducir precio del producto" as (RPP)
+
+usecase VF as "Visualizar fotos
+- -
+extension points
+Denunciar foto"
+
+usecase HO as "Hacer oferta
+- -
+extension points
+Reducir precio del producto"
+
+/'Relaciones casos de uso'/
+Comun -left- (VO)
+Cliente -down- (CF)
+Gestor_de_Correo -left- (EE)
+Software_de_Facturación -right- (EmF)
+Gestor_de_Aplicacion -left- (EmF)
+Administrador -right- (CU)
+Gestor_de_Aplicacion -down- (BO)
+Gestor_de_Aplicacion -right- (EdF)
+(IRF) -right- Controlador_de_Fotos
+Controlador_de_Fotos -right- (EIF)
+Cliente -left- (VF)
+Vendedor -right- (HO)
+Vendedor -up- (BDF)
+Administrador -up- (EU)
+Gestor_de_Aplicacion -up- (EF)
+(CF) -left-|> (VF)
+(BDF) -up-|> (VF)
+(DF) -up-|> (IRF)
+(EdF) -right-|> (E)
+(EU) -left-|> (E)
+(CU) .-down-> (EE) : <<include>>
+(DF) .-down-> (IE) : <<include>>
+(BDF) .> (VDI) : <<include>>
+(HO) .> (RPP) : <<include>>
+(DF) .> (VF) : <<extend>>
+
+
+
+
+@enduml
+
+@startuml fotografiaOnline
+title Supuesto 4: Fotografía Online
+
+actor Software_de_Facturación #LightBlue
+actor Cliente #LightBlue
+actor Comun #LightBlue
+actor Administrador #LightBlue
+actor Gestor_de_Correo #LightBlue
+actor Vendedor #LightBlue
+actor Controlador_de_Fotos #LightBlue
+actor Gestor_de_Aplicacion #LightBlue
+
+
+Cliente -up-|> Comun
+Gestor_de_Aplicacion -left-|> Comun
+
+
+"Ver ofertas" as (VO)
+"Emitir facturas" as (EmF)
+"Editar facturas" as (EdF)
+"Editar" as (E)
+"Editar usuarios" as (EU)
+"Crear usuarios" as (CU)
+"Enviar email" as (EE)
+"Iniciar revisión de una foto" as (IRF)
+"Editar información de fotos" as (EIF)
+"Bloquear ofertas" as (BO)
+"Denunciar foto" as (DF)
+"Introducir excepción" as (IE)
+"Consultar fotos" as (CF)
+"Buscar detalles fotos" as (BDF)
+"Verificar datos introducidos" as (VDI)
+"Reducir precio del producto" as (RPP)
+
+usecase VF as "Visualizar fotos
+- -
+extension points
+Denunciar foto"
+
+usecase HO as "Hacer oferta
+- -
+extension points
+Reducir precio del producto"
+
+Comun -left- (VO)
+Cliente -down- (CF)
+Gestor_de_Correo -left- (EE)
+Software_de_Facturación -right- (EmF)
+Gestor_de_Aplicacion -left- (EmF)
+Administrador -right- (CU)
+Gestor_de_Aplicacion -down- (BO)
+Gestor_de_Aplicacion -right- (EdF)
+(IRF) -right- Controlador_de_Fotos
+Controlador_de_Fotos -right- (EIF)
+Cliente -left- (VF)
+Vendedor -right- (HO)
+Vendedor -up- (BDF)
+Administrador -up- (EU)
+Gestor_de_Aplicacion -up- (EF)
+(CF) -left-|> (VF)
+(BDF) -up-|> (VF)
+(DF) -up-|> (IRF)
+(EdF) -right-|> (E)
+(EU) -left-|> (E)
+(CU) .-down-> (EE) : <<include>>
+(DF) .-down-> (IE) : <<include>>
+(BDF) .> (VDI) : <<include>>
+(HO) .> (RPP) : <<include>>
+(DF) .> (VF) : <<extend>>
+
+
+
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: es
+Country: ES
+--></g></svg>

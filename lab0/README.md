@@ -76,7 +76,7 @@ En una aplicación de fotografía online, los clientes pueden visualizar las fot
 
 $~$
 
-<!--![plot](./../out/lab0/src/)-->
+![plot](./../out/lab0/src/fotografiaOnline/fotografiaOnline.svg)
 
 <div style='text-align: center'>
     <i><p>Imagen 4. Diagrama del supuesto 4</p></i>
