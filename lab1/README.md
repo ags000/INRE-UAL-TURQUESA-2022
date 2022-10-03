@@ -29,7 +29,7 @@
   </tr>
 
   <tr>
-      <td>Actores</td>
+      <td style="background: #ccc">Actores</td>
       <td>actores participando en caso de uso</td>
   </tr>
 
@@ -54,27 +54,3 @@
   </tr>
 </table>
 
-<style>
-
-  table {
-    border: 2px solid #000;
-
-  }
-
-
-  .t_title{
-    background: #ccc;
-    color: #fff;
-
-    text-align: center;
-
-  }
-
-  .t_col1{
-    width: 30%;
-  }
-
-  .color_t1{
-
-  }
-</style>
