@@ -1,7 +1,11 @@
 
 <h1>Lab 1: Definición de casos de uso y requisitos de información</h1>
 
+$~$
+
 > Tabla 1
+
+$~$
 
 <table>
   <tr>
@@ -9,17 +13,17 @@
   </tr>
 
   <tr>
-    <td class="t_col1 , color_t1">Nombre</td>
+    <td>Nombre</td>
     <td>'nombre del caso de uso'</td>
   </tr>
 
   <tr>
-    <td class="t_col1">Autor</td>
+    <td>Autor</td>
     <td>Nombre de los autores del caso de uso<td>
   </tr>
 
   <tr>
-    <td class="t_col1, color_t1">Fecha </td>
+    <td>Fecha </td>
     <td>fecha de creación del caso de uso</td>
   </tr>
 
@@ -29,7 +33,7 @@
   </tr>
 
   <tr>
-      <td style="background: #ccc">Actores</td>
+      <td>Actores</td>
       <td>actores participando en caso de uso</td>
   </tr>
 
@@ -51,6 +55,69 @@
   <tr>
     <td>Poscondiciones</td>
     <td>cond. cumplirse al finalizar</td>
+  </tr>
+</table>
+
+$~$
+
+> Tabla 2
+
+$~$
+
+<table>
+
+   <tr>
+     <td colspan="4" class="t_title"><h1>Template for information requirement definition</h1></td>
+  </tr>
+
+  <tr>
+    <td>INF-010</td>
+    <td>Socio</td>
+  </tr>
+
+  <tr>
+    <td>Versión</td>
+    <td><td>
+  </tr>
+
+  <tr>
+    <td>Autores </td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td>Fuentes</td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td>Referencias</td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td>Descripción</td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td>Datos específicos</td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td>Importancia</td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td>Estado</td>
+    <td></td>
+  </tr>
+  
+  <tr>
+    <td>Comentarios</td>
+    <td></td>
   </tr>
 </table>
 
