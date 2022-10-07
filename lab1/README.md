@@ -3,7 +3,70 @@
 
 $~$
 
-> Tabla 1
+Especificación de los Actores
+
+$-$
+
+<table>
+
+   <tr>
+     <td colspan="4" class="t_title"><h1>Template for information requirement definition</h1></td>
+  </tr>
+
+  <tr>
+    <td>IR 01</td>
+    <td>Estudiante</td>
+  </tr>
+
+  <tr>
+    <td>Versión</td>
+    <td>07/10/2022<td>
+  </tr>
+
+  <tr>
+    <td>Autores</td>
+    <td>Alejandro Manzano</td>
+  </tr>
+
+  <tr>
+    <td>Fuentes</td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td>Referencias</td>
+    <td>Consultar horario</td>
+  </tr>
+
+  <tr>
+    <td>Descripción</td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td>Datos específicos</td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td>Importancia</td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td>Estado</td>
+    <td></td>
+  </tr>
+  
+  <tr>
+    <td>Comentarios</td>
+    <td></td>
+  </tr>
+</table>
+
+$~$
+
+Especificiación de los Casos de Uso
 
 $~$
 
@@ -311,67 +374,3 @@ $~$
 </table>
 
 $~$
-
-$~$
-
-> Tabla 2
-
-$~$
-
-<table>
-
-   <tr>
-     <td colspan="4" class="t_title"><h1>Template for information requirement definition</h1></td>
-  </tr>
-
-  <tr>
-    <td>INF-010</td>
-    <td>Socio</td>
-  </tr>
-
-  <tr>
-    <td>Versión</td>
-    <td><td>
-  </tr>
-
-  <tr>
-    <td>Autores </td>
-    <td></td>
-  </tr>
-
-  <tr>
-    <td>Fuentes</td>
-    <td></td>
-  </tr>
-
-  <tr>
-    <td>Referencias</td>
-    <td></td>
-  </tr>
-
-  <tr>
-    <td>Descripción</td>
-    <td></td>
-  </tr>
-
-  <tr>
-    <td>Datos específicos</td>
-    <td></td>
-  </tr>
-
-  <tr>
-    <td>Importancia</td>
-    <td></td>
-  </tr>
-
-  <tr>
-    <td>Estado</td>
-    <td></td>
-  </tr>
-  
-  <tr>
-    <td>Comentarios</td>
-    <td></td>
-  </tr>
-</table>
-
