@@ -66,6 +66,71 @@ $~$
 
 $~$
 
+
+<table>
+
+<tr>
+    <td>Identificador</td>
+    <td>'UC-02'</td>
+  </tr>
+
+  <tr>
+    <td>Nombre</td>
+    <td>Proponer cambio de horario</td>
+  </tr>
+
+  <tr>
+    <td>Autor</td>
+    <td>Cristina García<td>
+  </tr>
+
+  <tr>
+    <td>Fecha </td>
+    <td>07/10/2022</td>
+  </tr>
+
+  <tr>
+    <td>Descripción</td>
+    <td>Permite proponer un cambio en el horario.</td>
+  </tr>
+
+  <tr>
+      <td>Actores</td>
+      <td>PDI</td>
+  </tr>
+
+  <tr>
+      <td>Precondiciones</td>
+      <td>El usuario ha de estar autenticado en el sistema</td>
+  </tr>
+
+  <tr>
+      <td>Flujo normal</td>
+      <td>1.- El usuario solicita abir un ticket.
+      <br>
+      2.- El sistema pide la introducción del asunto y cuerpo del mensaje.
+      <br>
+      3.- El usuario rellena los datos.
+      <br>
+      4.- El usuario envía el ticket.
+      </td>
+  </tr>
+
+  <tr>
+      <td>Flujo alternativo</td>
+      <td>4.A.- El sistema comprueba que los campos hayan sido rellenados.</td>
+  </tr>
+
+  <tr>
+    <td>Poscondiciones</td>
+    <td>No hay</td>
+  </tr>
+</table>
+
+$~$
+
+$~$
+
 > Tabla 2
 
 $~$
