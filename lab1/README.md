@@ -14,12 +14,12 @@ $~$
 
   <tr>
     <td>Identificador</td>
-    <td>'UC-01'</td>
+    <td>UC-01</td>
   </tr>
 
   <tr>
     <td>Nombre</td>
-    <td>'Consultar horarios'</td>
+    <td>Consultar horarios</td>
   </tr>
 
   <tr>
@@ -71,7 +71,7 @@ $~$
 
 <tr>
     <td>Identificador</td>
-    <td>'UC-02'</td>
+    <td>UC-02</td>
   </tr>
 
   <tr>
@@ -118,7 +118,9 @@ $~$
 
   <tr>
       <td>Flujo alternativo</td>
-      <td>4.A.- El sistema comprueba que los campos hayan sido rellenados.</td>
+      <td>4.A.- El sistema comprueba que los campos hayan sido rellenados. Si no lo son,
+        PDI podrá volver a introducir los datos (paso 3) finalizar el proceso.
+      </td>
   </tr>
 
   <tr>
@@ -133,7 +135,7 @@ $~$
 
   <tr>
     <td>Identificador</td>
-    <td>'UC-03'</td>
+    <td>UC-03</td>
   </tr>
   
   <tr>
@@ -180,12 +182,81 @@ $~$
 
   <tr>
       <td>Flujo alternativo</td>
-      <td>4.A.- El sistema comprueba que los datos del estudiante sean correctos.</td>
+      <td>4.A.- El sistema comprueba que los datos del estudiante sean correctos. Si no lo son, 
+        PAS podrá volver a introducir los datos del estudiante (paso 3) o finalizar el proceso.
+      </td>
   </tr>
 
   <tr>
     <td>Poscondiciones</td>
     <td>El estudiante está dado de alta</td>
+  </tr>
+</table>
+
+$~$
+
+
+<table>
+
+  <tr>
+    <td>Identificador</td>
+    <td>UC-04</td>
+  </tr>
+  
+  <tr>
+    <td>Nombre</td>
+    <td>Buscar listas de clase</td>
+  </tr>
+
+  <tr>
+    <td>Autor</td>
+    <td>Cristina García<td>
+  </tr>
+
+  <tr>
+    <td>Fecha </td>
+    <td>07/10/2022</td>
+  </tr>
+
+  <tr>
+    <td>Descripción</td>
+    <td>Buscar al estudiante en las listas de clase</td>
+  </tr>
+
+  <tr>
+      <td>Actores</td>
+      <td>PDI</td>
+  </tr>
+
+  <tr>
+      <td>Precondiciones</td>
+      <td>PDI debe estar auntenticado en el sistema</td>
+  </tr>
+
+  <tr>
+      <td>Flujo normal</td>
+      <td>1.- PDI solicita buscar al estudiante en las listas de clase.
+      <br>
+      2.- El sistema solicita los datos de la clase del estudiante al que se va a dar de alta.
+      <br>
+      3.- PDI introduce los datos de la clase.
+      <br>
+      4.- El sistema verifica los datos.
+	  <br>
+      5.- El sistema muestra la lista de la clase.
+	 </td>
+  </tr>
+
+  <tr>
+      <td>Flujo alternativo</td>
+      <td>4.A.- El sistema comprueba que los datos de la clase sean correctos. Si no lo son, 
+			PDI podrá volver a introducir los datos (paso 2) o finalizar el proceso.
+			</td>
+  </tr>
+
+  <tr>
+    <td>Poscondiciones</td>
+    <td>Ninguna.</td>
   </tr>
 </table>
 
