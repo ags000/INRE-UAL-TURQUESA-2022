@@ -374,3 +374,64 @@ $~$
 </table>
 
 $~$
+
+<table>
+
+  <tr>
+    <td>Identificador</td>
+    <td>UC-06</td>
+  </tr>
+  
+  <tr>
+    <td>Nombre</td>
+    <td>Modificar horario</td>
+  </tr>
+
+  <tr>
+    <td>Autor</td>
+    <td>Cristina García<td>
+  </tr>
+
+  <tr>
+    <td>Fecha </td>
+    <td>07/10/2022</td>
+  </tr>
+
+  <tr>
+    <td>Descripción</td>
+    <td>Permite modificar el horario</td>
+  </tr>
+
+  <tr>
+      <td>Actores</td>
+      <td>PAS</td>
+  </tr>
+
+  <tr>
+      <td>Precondiciones</td>
+      <td>PAS debe estar auntenticado en el sistema</td>
+  </tr>
+
+  <tr>
+      <td>Flujo normal</td>
+      <td>1.- PAS hace uso de la herramienta que tiene el sistema para modificar el horario<br>
+		  2.- PAS guarda los cambios realizados<br>
+		  3.- El sistema actualiza los horarios modificados
+	 </td>
+  </tr>
+
+  <tr>
+      <td>Flujo alternativo</td>
+      <td>2.A.- El sistema no guarda los cambios realizados debido a que PAS cierra el programa sin guardar.
+	  </td>
+  </tr>
+
+  <tr>
+    <td>Poscondiciones</td>
+    <td>Los cambios en el horario han sido actualizados.</td>
+  </tr>
+</table>
+
+$~$
+
+$~$
