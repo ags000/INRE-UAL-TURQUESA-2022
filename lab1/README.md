@@ -24,42 +24,43 @@ $~$
 
   <tr>
     <td>Autor</td>
-    <td>Nombre de los autores del caso de uso<td>
+    <td>Alejandro Manzano<td>
   </tr>
 
   <tr>
     <td>Fecha </td>
-    <td>fecha de creación del caso de uso</td>
+    <td>07/10/2022</td>
   </tr>
 
   <tr>
     <td>Descripción</td>
-    <td>desc. caso de uso</td>
+    <td>Permite al usuario ver el horario que le corresponde.</td>
   </tr>
 
   <tr>
       <td>Actores</td>
-      <td>actores participando en caso de uso</td>
+      <td>Estudiante / Sistema</td>
   </tr>
 
   <tr>
       <td>Precondiciones</td>
-      <td>cond. deben cumplirse</td>
+      <td>El Estudiante está identificado en el Sistema.</td>
   </tr>
 
   <tr>
       <td>Flujo normal</td>
-      <td>flujo normal de ej. caso de uso.</td>
+      <td>1.- El Estudiante selecciona la opción de la aplicación para ver el horario.<br>
+      2.- El Sistema busca el correspondiente horario del Estudiante y se lo muestra.</td>
   </tr>
 
   <tr>
       <td>Flujo alternativo</td>
-      <td>flujo alternativo de ej. caso de uso.</td>
+      <td>2A.- Si el Sistema no encuentra el horario del Estudiante devolverá un mensaje de error.</td>
   </tr>
 
   <tr>
     <td>Poscondiciones</td>
-    <td>cond. cumplirse al finalizar</td>
+    <td>Ninguna.</td>
   </tr>
 </table>
 
