@@ -104,11 +104,7 @@ $~$
 
 $~$
 
-
-
-
-
-
+Primero un usuario debe ingresar en el sistema con su cuenta de la universidad. Una vez ingresado en el sistema, deberá seleccionar los estudios (grado, máster o doctorado) y elegir el año que va a cursar. Después de elegir los estudios, el usuario escogerá las materias en la que se va a matricular, diferenciando entre troncales, obligatorias y optativas. Tras esto, el usuario deberá introducir o actualizar en un formulario los datos que se requieren en el proceso de la automatrícula: los datos del estudiante (DNI, nombre completo, domicilio de residencia durante el curso, centro en el que estudió el curso anterior y distancia de su domicilio a la universidad), datos de los familiares (DNI, nombre completo, residencia, profesión). Cuando se han introducido los datos en el sistema, el estudiante puede elegir el tipo de beca a la que puede acceder (familia numerosa, víctima de violencia de género o terrorismo, 99% Junta Andalucía). Posteriormente se selecciona el método de pago (tarjeta de crédito, domiciliación bancaria) y el tipo de pago (pago único o a plazos). Y finalmente, tras haber realizado el pago, se emite un resguardo de matrícula imprimible o descargable en formato pdf.
 
 $~$
 
