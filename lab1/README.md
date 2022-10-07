@@ -50,7 +50,8 @@ $~$
   <tr>
       <td>Flujo normal</td>
       <td>1.- El Estudiante selecciona la opción de la aplicación para ver el horario.<br>
-      2.- El sistema busca el correspondiente horario del Estudiante y se lo muestra.</td>
+          2.- El sistema busca el correspondiente horario del Estudiante y se lo muestra.
+      </td>
   </tr>
 
   <tr>
@@ -106,12 +107,9 @@ $~$
 
   <tr>
       <td>Flujo normal</td>
-      <td>1.- El estudiante solicita abir un ticket.
-      <br>
-      2.- El sistema pide la introducción del asunto y cuerpo del mensaje.
-      <br>
-      3.- El estudiante rellena los datos.
-      <br>
+      <td>1.- El estudiante solicita abir un ticket.<br>
+      2.- El sistema pide la introducción del asunto y cuerpo del mensaje.<br>
+      3.- El estudiante rellena los datos.<br>
       4.- El estudiante envía el ticket.
       </td>
   </tr>
@@ -170,12 +168,9 @@ $~$
 
   <tr>
       <td>Flujo normal</td>
-      <td>1.- PAS solicita dar de alta al estudiante.
-      <br>
-      2.- El sistema solicita los datos del estudiante.
-      <br>
-      3.- PAS introduce los datos del estudiante.
-      <br>
+      <td>1.- PAS solicita dar de alta al estudiante.<br>
+      2.- El sistema solicita los datos del estudiante.<br>
+      3.- PAS introduce los datos del estudiante.<br>
       4.- El sistema verifica los datos del estudiante.
       </td>
   </tr>
@@ -183,7 +178,7 @@ $~$
   <tr>
       <td>Flujo alternativo</td>
       <td>4.A.- El sistema comprueba que los datos del estudiante sean correctos. Si no lo son, 
-        PAS podrá volver a introducir los datos del estudiante (paso 3) o finalizar el proceso.
+          PAS podrá volver a introducir los datos del estudiante (paso 3) o finalizar el proceso.
       </td>
   </tr>
 
@@ -235,22 +230,77 @@ $~$
 
   <tr>
       <td>Flujo normal</td>
-      <td>1.- PDI solicita buscar al estudiante en las listas de clase.
-      <br>
-      2.- El sistema solicita los datos de la clase del estudiante al que se va a dar de alta.
-      <br>
-      3.- PDI introduce los datos de la clase.
-      <br>
-      4.- El sistema verifica los datos.
-	  <br>
+      <td>1.- PDI solicita buscar al estudiante en las listas de clase.<br>   
+      2.- El sistema solicita los datos de la clase del estudiante al que se va a dar de alta.<br>
+      3.- PDI introduce los datos de la clase.<br>
+      4.- El sistema verifica los datos.<br>
       5.- El sistema muestra la lista de la clase.
-	 </td>
+	   </td>
   </tr>
 
   <tr>
       <td>Flujo alternativo</td>
       <td>4.A.- El sistema comprueba que los datos de la clase sean correctos. Si no lo son, 
-			PDI podrá volver a introducir los datos (paso 2) o finalizar el proceso.
+			    PDI podrá volver a introducir los datos (paso 2) o finalizar el proceso.
+			</td>
+  </tr>
+
+  <tr>
+    <td>Poscondiciones</td>
+    <td>Ninguna.</td>
+  </tr>
+</table>
+
+$~$
+
+<table>
+
+  <tr>
+    <td>Identificador</td>
+    <td>UC-05</td>
+  </tr>
+  
+  <tr>
+    <td>Nombre</td>
+    <td>Verificar datos estudiantes</td>
+  </tr>
+
+  <tr>
+    <td>Autor</td>
+    <td>Cristina García<td>
+  </tr>
+
+  <tr>
+    <td>Fecha </td>
+    <td>07/10/2022</td>
+  </tr>
+
+  <tr>
+    <td>Descripción</td>
+    <td>Permite verificar los datos del estudiantes</td>
+  </tr>
+
+  <tr>
+      <td>Actores</td>
+      <td>PAS</td>
+  </tr>
+
+  <tr>
+      <td>Precondiciones</td>
+      <td>PAS debe estar auntenticado en el sistema</td>
+  </tr>
+
+  <tr>
+      <td>Flujo normal</td>
+      <td>1.- PAS introduce los datos del estudiante a dar de alta.<br>
+          2.- El sistema verifica los datos del estudiante.
+	    </td>
+  </tr>
+
+  <tr>
+      <td>Flujo alternativo</td>
+      <td>2.A.- El sistema comprueba que los datos del estudiante sean correctos. Si no lo son, 
+			    PAS podrá volver a introducir los datos (paso 1) finalizar el proceso.
 			</td>
   </tr>
 
