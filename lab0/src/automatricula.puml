@@ -10,23 +10,15 @@ actor Usuario #LightBlue
 "Actualizar datos" as (AD)
 "Seleccionar beca" as (SB)
 "Seleccionar pago" as (SP)
-"Introducir datos" as (ID)
 "Descargar resguardo de matrícula" as (DRM)
 
-usecase IS as "Ingresar en el sistema
---
-extension points
-Introducir datos"
-
 /'Relaciones casos de usos'/
-Usuario -right- (IS)
-(IS) .-right-> (SE) : <<include>>
-(IS) .-right-> (EAC) : <<include>>
-(IS) .-down-> (EM) : <<include>>
-(IS) .-down-> (AD) : <<include>>
-(IS) .-up-> (SP) : <<include>>
-(IS) .> (SB)
-(IS) .-up-> (DRM) : <<include>>
-(ID) .-left-> (IS) : <<extend>>
+Usuario -right- (SE)
+Usuario -up- (EAC)
+Usuario -down- (EM)
+Usuario -down- (AD)
+Usuario -up- (SP)
+Usuario -left- (SB)
+Usuario -up- (DRM)
 
 @enduml

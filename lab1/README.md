@@ -13,8 +13,13 @@ $~$
   </tr>
 
   <tr>
+    <td>Identificador</td>
+    <td>'UC-01'</td>
+  </tr>
+
+  <tr>
     <td>Nombre</td>
-    <td>'nombre del caso de uso'</td>
+    <td>'Consultar horarios'</td>
   </tr>
 
   <tr>
