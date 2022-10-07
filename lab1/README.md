@@ -101,18 +101,18 @@ $~$
 
   <tr>
       <td>Precondiciones</td>
-      <td>El usuario ha de estar autenticado en el sistema</td>
+      <td>El estudiante ha de estar autenticado en el sistema</td>
   </tr>
 
   <tr>
       <td>Flujo normal</td>
-      <td>1.- El usuario solicita abir un ticket.
+      <td>1.- El estudiante solicita abir un ticket.
       <br>
       2.- El sistema pide la introducción del asunto y cuerpo del mensaje.
       <br>
-      3.- El usuario rellena los datos.
+      3.- El estudiante rellena los datos.
       <br>
-      4.- El usuario envía el ticket.
+      4.- El estudiante envía el ticket.
       </td>
   </tr>
 
@@ -124,6 +124,68 @@ $~$
   <tr>
     <td>Poscondiciones</td>
     <td>No hay</td>
+  </tr>
+</table>
+
+$~$
+
+<table>
+
+  <tr>
+    <td>Identificador</td>
+    <td>'UC-03'</td>
+  </tr>
+  
+  <tr>
+    <td>Nombre</td>
+    <td>Dar de alta estudiante</td>
+  </tr>
+
+  <tr>
+    <td>Autor</td>
+    <td>Cristina García<td>
+  </tr>
+
+  <tr>
+    <td>Fecha </td>
+    <td>07/10/2022</td>
+  </tr>
+
+  <tr>
+    <td>Descripción</td>
+    <td>Permite dar de alta a un determinado estudiante</td>
+  </tr>
+
+  <tr>
+      <td>Actores</td>
+      <td>PAS</td>
+  </tr>
+
+  <tr>
+      <td>Precondiciones</td>
+      <td>PAS debe estar auntenticado en el sistema</td>
+  </tr>
+
+  <tr>
+      <td>Flujo normal</td>
+      <td>1.- PAS solicita dar de alta al estudiante.
+      <br>
+      2.- El sistema solicita los datos del estudiante.
+      <br>
+      3.- PAS introduce los datos del estudiante.
+      <br>
+      4.- El sistema verifica los datos del estudiante.
+      </td>
+  </tr>
+
+  <tr>
+      <td>Flujo alternativo</td>
+      <td>4.A.- El sistema comprueba que los datos del estudiante sean correctos.</td>
+  </tr>
+
+  <tr>
+    <td>Poscondiciones</td>
+    <td>El estudiante está dado de alta</td>
   </tr>
 </table>
 
