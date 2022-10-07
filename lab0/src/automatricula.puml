@@ -1,8 +1,9 @@
 @startuml automatricula
 title Supuesto 6: Automatricula
-
+left to right direction
 actor Usuario #LightBlue
 
+package Automatricula {
 /'Casos de uso'/
 "Seleccionar estudios" as (SE)
 "Elegir año a cursar" as (EAC)
@@ -11,14 +12,17 @@ actor Usuario #LightBlue
 "Seleccionar beca" as (SB)
 "Seleccionar pago" as (SP)
 "Descargar resguardo de matrícula" as (DRM)
-
+}
 /'Relaciones casos de usos'/
-Usuario -right- (SE)
-Usuario -up- (EAC)
-Usuario -down- (EM)
-Usuario -down- (AD)
-Usuario -up- (SP)
-Usuario -left- (SB)
-Usuario -up- (DRM)
+
+
+Usuario - (SE)
+Usuario - (EAC)
+Usuario - (EM)
+Usuario - (AD)
+Usuario - (SP)
+Usuario - (SB)
+Usuario - (DRM)
+
 
 @enduml
