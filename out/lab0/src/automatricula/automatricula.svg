@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="684px" preserveAspectRatio="none" style="width:370px;height:684px;background:#FFFFFF;" version="1.1" viewBox="0 0 370 684" width="370px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="27.6094" id="_title" style="stroke:none;stroke-width:1.0;" width="193" x="81.645" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="183" x="86.645" y="24.5332">Supuesto 6: Automatricula</text><!--MD5=[26d4927293672153a0c870c3f6d4888b]
+cluster Automatricula--><g id="cluster_Automatricula"><path d="M83.79,44.6094 L180.79,44.6094 A3.75,3.75 0 0 1 183.29,47.1094 L190.29,68.2188 L360.79,68.2188 A2.5,2.5 0 0 1 363.29,70.7188 L363.29,580.1094 A2.5,2.5 0 0 1 360.79,582.6094 L83.79,582.6094 A2.5,2.5 0 0 1 81.29,580.1094 L81.29,47.1094 A2.5,2.5 0 0 1 83.79,44.6094 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="81.29" x2="190.29" y1="68.2188" y2="68.2188"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="96" x="85.29" y="61.1426">Automatricula</text></g><g id="elem_SE"><ellipse cx="222.2561" cy="100.4026" fill="#F1F1F1" rx="86.9661" ry="19.7932" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="131" x="156.7561" y="104.1311">Seleccionar estudios</text></g><g id="elem_EAC"><ellipse cx="222.1251" cy="174.4764" fill="#F1F1F1" rx="82.3351" ry="18.867" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="120" x="162.1251" y="178.2049">Elegir año a cursar</text></g><g id="elem_EM"><ellipse cx="222.0759" cy="245.4666" fill="#F1F1F1" rx="72.2859" ry="16.8572" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="94" x="172.0759" y="249.9832">Elegir materias</text></g><g id="elem_AD"><ellipse cx="222.271" cy="315.4056" fill="#F1F1F1" rx="74.481" ry="17.2962" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="169.271" y="319.9222">Actualizar datos</text></g><g id="elem_SB"><ellipse cx="222.186" cy="457.5886" fill="#F1F1F1" rx="77.896" ry="17.9792" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="165.7255" y="461.856">Seleccionar beca</text></g><g id="elem_SP"><ellipse cx="222.0777" cy="386.6669" fill="#F1F1F1" rx="78.2877" ry="18.0575" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="165.3049" y="390.8867">Seleccionar pago</text></g><g id="elem_DRM"><ellipse cx="222.495" cy="538.5504" fill="#F1F1F1" rx="125.205" ry="27.441" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="216" x="114.495" y="542.2789">Descargar resguardo de matrícula</text></g><!--MD5=[128f0757cf0ea77f14e95a88885fd9f7]
+entity Usuario--><g id="elem_Usuario"><ellipse cx="222.29" cy="610.1094" fill="#ADD8E6" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M222.29,618.1094 L222.29,645.1094 M209.29,626.1094 L235.29,626.1094 M222.29,645.1094 L209.29,660.1094 M222.29,645.1094 L235.29,660.1094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="198.29" y="676.1426">Usuario</text></g><!--MD5=[9aba389cce4661f2564f73f531b2cdb2]
+link Usuario to SE--><g id="link_Usuario_SE"><path d="M198.13,639.1294 C157.04,635.1194 74.96,620.2394 43.29,565.1094 C20.6,525.6094 20.6,194.6094 43.29,155.1094 C61.82,122.8594 99.58,108.5494 135.67,102.5894 " fill="none" id="Usuario-SE" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[183ca8447961186cfe9ff4d1ccc326be]
+link Usuario to EAC--><g id="link_Usuario_EAC"><path d="M198.13,639.1294 C157.04,635.1194 74.96,620.2394 43.29,565.1094 C6,500.1694 6,293.0494 43.29,228.1094 C62.44,194.7794 102.21,180.8394 139.42,175.4894 " fill="none" id="Usuario-EAC" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[1dc60b1c9a6a77e1d572f38d4f0b842e]
+link Usuario to EM--><g id="link_Usuario_EM"><path d="M198.13,639.1294 C157.04,635.1194 74.96,620.2394 43.29,565.1094 C13.74,513.6594 13.74,349.5594 43.29,298.1094 C64.18,261.7394 109.74,248.7294 149.67,244.7594 " fill="none" id="Usuario-EM" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[8afbeb17fa067e8ff8091bef2f43fbf8]
+link Usuario to AD--><g id="link_Usuario_AD"><path d="M198.13,639.1294 C157.04,635.1194 74.96,620.2394 43.29,565.1094 C21.49,527.1494 21.49,406.0694 43.29,368.1094 C63.86,332.2994 108.34,319.1394 147.81,314.9494 " fill="none" id="Usuario-AD" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[785a05822b0414eb371222fcd7ab7d79]
+link Usuario to SP--><g id="link_Usuario_SP"><path d="M198.13,639.1294 C157.04,635.1194 74.96,620.2394 43.29,565.1094 C15.4,516.5494 15.4,487.6694 43.29,439.1094 C63.13,404.5694 105.23,391.0994 143.62,386.4294 " fill="none" id="Usuario-SP" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b375873db4de3e34fc4d997fae159298]
+link Usuario to SB--><g id="link_Usuario_SB"><path d="M198.13,639.1294 C157.04,635.1194 74.96,620.2394 43.29,565.1094 C31.34,544.2994 31.34,531.9194 43.29,511.1094 C63.25,476.3694 105.61,462.6994 144.11,457.8494 " fill="none" id="Usuario-SB" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b5f76fa9112ae988cead5ff2668e4c83]
+link Usuario to DRM--><g id="link_Usuario_DRM"><path d="M222.29,601.5594 C222.29,589.7594 222.29,577.9594 222.29,566.1494 " fill="none" id="Usuario-DRM" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[dcbc1038b173b17865f6f7b88e57dfa4]
+@startuml automatricula
+title Supuesto 6: Automatricula
+left to right direction
+actor Usuario #LightBlue
+
+package Automatricula {
+/'Casos de uso'/
+"Seleccionar estudios" as (SE)
+"Elegir año a cursar" as (EAC)
+"Elegir materias" as (EM)
+"Actualizar datos" as (AD)
+"Seleccionar beca" as (SB)
+"Seleccionar pago" as (SP)
+"Descargar resguardo de matrícula" as (DRM)
+}
+/'Relaciones casos de usos'/
+
+
+Usuario - (SE)
+Usuario - (EAC)
+Usuario - (EM)
+Usuario - (AD)
+Usuario - (SP)
+Usuario - (SB)
+Usuario - (DRM)
+
+
+@enduml
+
+@startuml automatricula
+title Supuesto 6: Automatricula
+left to right direction
+actor Usuario #LightBlue
+
+package Automatricula {
+"Seleccionar estudios" as (SE)
+"Elegir año a cursar" as (EAC)
+"Elegir materias" as (EM)
+"Actualizar datos" as (AD)
+"Seleccionar beca" as (SB)
+"Seleccionar pago" as (SP)
+"Descargar resguardo de matrícula" as (DRM)
+}
+
+
+Usuario - (SE)
+Usuario - (EAC)
+Usuario - (EM)
+Usuario - (AD)
+Usuario - (SP)
+Usuario - (SB)
+Usuario - (DRM)
+
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: es
+Country: ES
+--></g></svg>

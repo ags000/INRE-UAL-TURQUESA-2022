@@ -108,6 +108,8 @@ Primero un usuario debe ingresar en el sistema con su cuenta de la universidad. 
 
 $~$
 
+![plot](./../out/lab0/src/automatricula/automatricula.svg)
+
 <div style='text-align: center'>
     <i><p>Imagen 6. Diagrama del supuesto 6</p></i>
 </div>

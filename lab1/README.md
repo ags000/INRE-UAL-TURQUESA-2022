@@ -39,7 +39,7 @@ $~$
 
   <tr>
       <td>Actores</td>
-      <td>Estudiante / Sistema</td>
+      <td>Estudiante</td>
   </tr>
 
   <tr>
@@ -50,12 +50,12 @@ $~$
   <tr>
       <td>Flujo normal</td>
       <td>1.- El Estudiante selecciona la opción de la aplicación para ver el horario.<br>
-      2.- El Sistema busca el correspondiente horario del Estudiante y se lo muestra.</td>
+      2.- El sistema busca el correspondiente horario del Estudiante y se lo muestra.</td>
   </tr>
 
   <tr>
       <td>Flujo alternativo</td>
-      <td>2A.- Si el Sistema no encuentra el horario del Estudiante devolverá un mensaje de error.</td>
+      <td>2A.- Si el sistema no encuentra el horario del Estudiante devolverá un mensaje de error.</td>
   </tr>
 
   <tr>
