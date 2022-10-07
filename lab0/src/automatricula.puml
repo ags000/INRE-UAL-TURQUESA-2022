@@ -1,4 +1,4 @@
-@startuml
+@startuml automatricula
 title Supuesto 6: Automatricula
 
 actor Usuario #LightBlue
