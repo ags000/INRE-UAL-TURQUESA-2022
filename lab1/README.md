@@ -129,6 +129,18 @@ Especificiación de los Casos de Uso
 
 $~$
 
+| Identificador                 | UC-01 |
+| :---                          |    :----   |
+| Nombre                        | Consultar horarios        |
+| Autor                         | Alejandro Manzano       |
+| Fecha                         | 07/10/2022        |
+| Descripción                   | Permite al usuario ver el horario que le corresponde       |
+| Actores                       | Estudiante        |
+| Precondiciones                | El Estudiante está autenticado en el sistema.       |
+| Flujo normal                  | 	1.- El Estudiante selecciona la opción de la aplicación para ver el horario. 2.- El sistema busca el correspondiente horario del Estudiante y se lo muestra.        |
+| Flujo alternativo             | 2A.- Si el sistema no encuentra el horario del Estudiante devolverá un mensaje de error.        |
+| Poscondiciones                | Ninguna.        |
+
 <table>
   <tr>
      <td colspan="4" class="t_title"><h1>Template for use case definition</h1></td>
