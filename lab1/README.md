@@ -7,62 +7,17 @@ Especificación de los Actores
 
 $-$
 
-<table>
-
-   <tr>
-     <td colspan="4" class="t_title"><h1>Template for information requirement definition</h1></td>
-  </tr>
-
-  <tr>
-    <td>IR 01</td>
-    <td>Estudiante</td>
-  </tr>
-
-  <tr>
-    <td>Versión</td>
-    <td>07/10/2022<td>
-  </tr>
-
-  <tr>
-    <td>Autores</td>
-    <td>Alejandro Manzano</td>
-  </tr>
-
-  <tr>
-    <td>Fuentes</td>
-    <td></td>
-  </tr>
-
-  <tr>
-    <td>Referencias</td>
-    <td>Consultar horario</td>
-  </tr>
-
-  <tr>
-    <td>Descripción</td>
-    <td></td>
-  </tr>
-
-  <tr>
-    <td>Datos específicos</td>
-    <td></td>
-  </tr>
-
-  <tr>
-    <td>Importancia</td>
-    <td></td>
-  </tr>
-
-  <tr>
-    <td>Estado</td>
-    <td></td>
-  </tr>
-  
-  <tr>
-    <td>Comentarios</td>
-    <td></td>
-  </tr>
-</table>
+| IR 01                         |Estudiante                     |
+| :---                          | :---                          |
+| Versión                       |2.0 (08/10/2022)               |
+| Autores                       | Alejandro Manzano             |
+| Fuentes                       |                               |
+| Referencias                   | - Consultar horarios, UC-01   |
+| Descripción                   | El Estudiante deberá estar dado de alta en el sistema. |
+| Datos específicos             |                               |
+| Importancia                   | Muy importante                |
+| Estado                        | Aceptado                      |
+| Comentarios                   |                               |
 
 $~$
 
