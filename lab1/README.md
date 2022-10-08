@@ -151,11 +151,11 @@ $~$
 | Autor                         | Alejandro Manzano             |
 | Fecha                         | 07/10/2022                    |
 | Descripción                   | Permite al usuario ver el horario que le corresponde.       |
-| Actores                       | Estudiante        |
+| Actores                       | Estudiante                    |
 | Precondiciones                | El Estudiante está autenticado en el sistema.       |
 | Flujo normal                  | 	1.- El Estudiante selecciona la opción de la aplicación para ver el horario. <br> 2.- El sistema busca el correspondiente horario del Estudiante y se lo muestra.        |
-| Flujo alternativo             | 2A.- Si el sistema no encuentra el horario del Estudiante devolverá un mensaje de error.        |
-| Poscondiciones                | Ninguna.        |
+| Flujo alternativo             | 2A.- Si el sistema no encuentra el horario del Estudiante devolverá un mensaje de error.                       |
+| Poscondiciones                | Ninguna.                      |
 
 | Identificador                 | UC-02                         |
 | :---                          |    :----                      |
@@ -164,70 +164,22 @@ $~$
 | Fecha                         | 07/10/2022                    |
 | Descripción                   | Permite proponer un cambio en el horario.       |
 | Actores                       | PDI        |
-| Precondiciones                | El Estudiante está autenticado en el sistema.       |
+| Precondiciones                | El PDI está autenticado en el sistema.       |
 | Flujo normal                  | 	1.- El PDI solicita abrir un ticket. <br> 2.- El sistema pide la introducción del asunto y cuerpo del mensaje. <br> El PDI rellena los datos. <br> El estudiante envía el ticket.       |
 | Flujo alternativo             | 4.A.- El sistema comprueba que los campos hayan sido rellenados. Si no lo son, PDI podrá volver a introducir los datos (paso 3) finalizar el proceso.        |
 | Poscondiciones                | Ninguna.        |
 
-<table>
-
-  <tr>
-    <td>Identificador</td>
-    <td>UC-03</td>
-  </tr>
-  
-  <tr>
-    <td>Nombre</td>
-    <td>Dar de alta estudiante</td>
-  </tr>
-
-  <tr>
-    <td>Autor</td>
-    <td>Cristina García<td>
-  </tr>
-
-  <tr>
-    <td>Fecha </td>
-    <td>07/10/2022</td>
-  </tr>
-
-  <tr>
-    <td>Descripción</td>
-    <td>Permite dar de alta a un determinado Estudiante</td>
-  </tr>
-
-  <tr>
-      <td>Actores</td>
-      <td>PAS</td>
-  </tr>
-
-  <tr>
-      <td>Precondiciones</td>
-      <td>PAS debe estar auntenticado en el sistema</td>
-  </tr>
-
-  <tr>
-      <td>Flujo normal</td>
-      <td>1.- PAS solicita dar de alta al Estudiante.<br>
-      2.- El sistema solicita los datos del Estudiante.<br>
-      3.- PAS introduce los datos del Estudiante.<br>
-      4.- El sistema verifica los datos del Estudiante.
-      </td>
-  </tr>
-
-  <tr>
-      <td>Flujo alternativo</td>
-      <td>4.A.- El sistema comprueba que los datos del Estudiante sean correctos. Si no lo son, 
-          PAS podrá volver a introducir los datos del Estudiante (paso 3) o finalizar el proceso.
-      </td>
-  </tr>
-
-  <tr>
-    <td>Poscondiciones</td>
-    <td>El Estudiante está dado de alta</td>
-  </tr>
-</table>
-
+| Identificador                 | UC-03                         |
+| :---                          |    :----                      |
+| Nombre                        | Dar de alta estudiante        |
+| Autor                         | Cristina García               |
+| Fecha                         | 07/10/2022                    |
+| Descripción                   | Permite dar de alta a un determinado Estudiante.       |
+| Actores                       | PAS                           |
+| Precondiciones                | PAS debe estar auntenticado en el sistema.       |
+| Flujo normal                  | 1.- PAS solicita dar de alta al Estudiante. <br> 2.- El sistema solicita los datos del Estudiante. <br> 3.- PAS introduce los datos del Estudiante. <br> 4.- El sistema verifica los datos del Estudiante.      |
+| Flujo alternativo             | 4.A.- El sistema comprueba que los datos del Estudiante sean correctos. Si no lo son, PAS podrá volver a introducir los datos del Estudiante (paso 3) o finalizar el proceso.                       |
+| Poscondiciones                | El Estudiante está dado de alta.                      |
 $~$
 
 
