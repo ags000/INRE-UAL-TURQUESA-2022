@@ -1,22 +1,39 @@
 
-<h1>Lab 1: Definición de casos de uso y requisitos de información</h1>
+# ***Lab 1: Definición de casos de uso y requisitos de información***
 
 $~$
 
-Especificación de los Actores
+## ***Índice de contenidos***
 
-$-$
+- Supuesto 1: Horarios
+- Supuesto 2: Sistema de Compras
+
+$~$
+
+### **Supuesto 1: Horarios**
+
+<br>
+
+<div align="justify">
+En una universidad, el personal del PDI, el personal del PAS y los estudiantes pueden consultar horarios. Por su parte, el personal del PAS puede modificar horarios y dar de alta estudiantes. El personal de PDI puede proponer cambios en los horarios y dar de alta estudiantes. La funcionalidad de dar de alta estudiantes del PAS realiza una verificación de los datos del estudiante. Sin embargo, la funcionalidad de dar de alta estudiantes del PDI, además de verificar los datos también permite de forma excepcional realizar la búsqueda en las listas de clase de sus asignaturas.
+</div">
+
+<br>
+
+#### **Especificación de los Actores**
+
+<br>
 
 | IR 01                         |Estudiante                     |
 | :---                          | :---                          |
 | Versión                       |2.0 (08/10/2022)               |
 | Autores                       | Alejandro Manzano             |
 | Fuentes                       |                               |
-| Referencias                   | - Consultar horarios, UC-01   |
+| Referencias                   | - Consultar horarios, UC-01.   |
 | Descripción                   | El Estudiante deberá estar dado de alta en el sistema. |
 | Datos específicos             |                               |
-| Importancia                   | Muy importante                |
-| Estado                        | Aceptado                      |
+| Importancia                   | Muy importante.               |
+| Estado                        | Aceptado.                     |
 | Comentarios                   |                               |
 
 $~$
@@ -33,16 +50,14 @@ $~$
 | Estado                        | Aceptado.                      |
 | Comentarios                   |                                |
 
-
 $~$
-
 
 | IR 03                         |PAS                            |
 | :---                          | :---                          |
 | Versión                       |1.0 (08/10/2022)               |
 | Autores                       | Cristina García               |
 | Fuentes                       |                               |
-| Referencias                   | - Modificar horario, UC-06 <br> - Dar de alta estudiante, UC-03  <br> - Verificar datos estudiante, Uc-05  <br> |
+| Referencias                   | - Modificar horario, UC-06. <br> - Dar de alta estudiante, UC-03.  <br> - Verificar datos estudiante, Uc-05. <br> |
 | Descripción                   | El sistema deberá permitir al PAS modificar los horarios y dar de alta a los estudiantes. |
 | Datos específicos             |                                |
 | Importancia                   | Muy importante.                |
@@ -51,9 +66,9 @@ $~$
 
 $~$
 
-Especificiación de los Casos de Uso
+#### **Especificación de los Casos de Uso**
 
-$~$
+<br>
 
 | Identificador                 | UC-01                         |
 | :---                          |    :----                      |
@@ -77,7 +92,7 @@ $~$
 | Descripción                   | Permite proponer un cambio en el horario.       |
 | Actores                       | PDI        |
 | Precondiciones                | El PDI está autenticado en el sistema.       |
-| Flujo normal                  | 	1.- El PDI solicita abrir un ticket. <br> 2.- El sistema pide la introducción del asunto y cuerpo del mensaje. <br> El PDI rellena los datos. <br> El estudiante envía el ticket.       |
+| Flujo normal                  | 	1.- El PDI solicita abrir un ticket. <br> 2.- El sistema pide la introducción del asunto y cuerpo del mensaje. <br> 3.- El PDI rellena los datos. <br> 4.- El estudiante envía el ticket.       |
 | Flujo alternativo             | 4.A.- El sistema comprueba que los campos hayan sido rellenados. Si no lo son, PDI podrá volver a introducir los datos (paso 3) finalizar el proceso.        |
 | Poscondiciones                | Ninguna.        |
 
@@ -133,7 +148,7 @@ $~$
 | Descripción                   | Permite modificar el horario. |
 | Actores                       | PAS                           |
 | Precondiciones                | PAS debe estar auntenticado en el sistema.       |
-| Flujo normal                  | 1.- PAS hace uso de la herramienta que tiene el sistema para modificar el horario <br> 2.- PAS guarda los cambios realizados <br> 3.- El sistema actualiza los horarios modificados                 |
+| Flujo normal                  | 1.- PAS hace uso de la herramienta que tiene el sistema para modificar el horario. <br> 2.- PAS guarda los cambios realizados. <br> 3.- El sistema actualiza los horarios modificados.                 |
 | Flujo alternativo             | 2.A.- El sistema no guarda los cambios realizados debido a que PAS cierra el programa sin guardar.            |
 | Poscondiciones                | Los cambios en el horario han sido actualizados.                      |
 
@@ -153,3 +168,17 @@ $~$
 | Poscondiciones                | El Estudiante está dado de alta.                      |
 
 $~$
+
+### **Supuesto 2: Sistema de Compras**
+
+<br>
+
+<div align="justify">
+En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, proveedor y administrador. Los compradores pueden agregar productos, consultar precios, finalizar la compra y consultar ofertas. Agregar productos implica marcar esos productos como bloqueados. Los vendedores también pueden consultar ofertas y consultar precios. Los proveedores pueden consultar precios, avisar de nuevos productos y consultar ofertas. Avisar de nuevos productos, de forma excepcional, realiza la incorporación de una oferta. Los proveedores también tienen una funcionalidad para avisar del fin de una oferta. Cuando se avisa del fin de una oferta, se ejecuta la funcionalidad de eliminar la oferta. Ambas funcionalidades de avisar del proveedor tienen en común que se encarga de enviar una notificación. Los administradores pueden consultar precios, consultar ofertas y eliminar productos. La funcionalidad de consultar precios incluye una funcionalidad de buscar productos que es similar a la funcionalidad de consultar productos de los compradores. Sin embargo, la funcionalidad de consultar productos añade una funcionalidad para verificar la disponibilidad. Para realizar una venta, un comprador y un vendedor participan de forma conjunta. En dicha operación, se lleva a cabo el acuerdo de un precio; excepcionalmente, durante la realización de la venta, se consultará el histórico de ventas.
+</div">
+
+<br>
+
+#### **Especificación de los Casos de Uso**
+
+<br>
