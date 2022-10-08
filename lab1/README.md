@@ -66,77 +66,32 @@ $-$
 
 $~$
 
-<table>
-
-  <tr>
-    <td>IR 02</td>
-    <td>PDI</td>
-  </tr>
-
-  <tr>
-    <td>Versión</td>
-    <td>1.0 (08/10/2022)<td>
-  </tr>
-
-  <tr>
-    <td>Autores</td>
-    <td>Cristina García</td>
-  </tr>
-
-  <tr>
-    <td>Fuentes</td>
-    <td></td>
-  </tr>
-
-  <tr>
-    <td>Referencias</td>
-    <td> <li type="disc">Proponer cambio de horario, UC-02.</li>
-		 <li type="disc">Dar de alta estudiante vista PDI, UC-07.</li>
-		 <li type="disc">Buscar listas de clase, UC-04.</li>
-	</td>
-  </tr>
-
-  <tr>
-    <td>Descripción</td>
-    <td>El sistema deberá permitir al PDI proponer cambios en el horario
-		y dar de alta a estudiantes.</td>
-  </tr>
-
-  <tr>
-    <td>Datos específicos</td>
-    <td></td>
-  </tr>
-
-  <tr>
-    <td>Importancia</td>
-    <td>Muy importante</td>
-  </tr>
-
-  <tr>
-    <td>Estado</td>
-    <td>Aceptado</td>
-  </tr>
-  
-  <tr>
-    <td>Comentarios</td>
-    <td></td>
-  </tr>
-</table>
+| IR 02                         |PDI                            |
+| :---                          | :---                          |
+| Versión                       |1.0 (08/10/2022)               |
+| Autores                       | Cristina García               |
+| Fuentes                       |                               |
+| Referencias                   | - Proponer cambio de horario, UC-02.  <br> - Dar de alta estudiante vista PDI, UC-07.  <br> - Buscar listas de clase, UC-04.  <br> |
+| Descripción                   | El sistema deberá permitir al PDI proponer cambios en el horario y dar de alta a estudiantes. |
+| Datos específicos             |                                |
+| Importancia                   | Muy importante.                |
+| Estado                        | Aceptado.                      |
+| Comentarios                   |                                |
 
 
 $~$
 
 
-| IR 02                         |PAS                            |
+| IR 03                         |PAS                            |
 | :---                          | :---                          |
 | Versión                       |1.0 (08/10/2022)               |
 | Autores                       | Cristina García               |
 | Fuentes                       |                               |
-| Referencias                   | - Modificar horario  <br> - Dar de alta estudiante  <br> - Verificar datos estudiante  <br> |
+| Referencias                   | - Modificar horario, UC-06 <br> - Dar de alta estudiante, UC-03  <br> - Verificar datos estudiante, Uc-05  <br> |
 | Descripción                   | El sistema deberá permitir al PAS modificar los horarios y dar de alta a los estudiantes. |
 | Datos específicos             |                                |
-| Importancia                   | Muy importante                 |
-| Estado                        | Aceptado                       |
+| Importancia                   | Muy importante.                |
+| Estado                        | Aceptado.                      |
 | Comentarios                   |                                |
 
 $~$
