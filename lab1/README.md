@@ -123,6 +123,22 @@ $~$
   </tr>
 </table>
 
+
+$~$
+
+
+| IR 02                         |PAS                            |
+| :---                          | :---                          |
+| Versión                       |1.0 (08/10/2022)               |
+| Autores                       | Cristina García               |
+| Fuentes                       |                               |
+| Referencias                   | - Modificar horario  <br> - Dar de alta estudiante  <br> - Verificar datos estudiante  <br> |
+| Descripción                   | El sistema deberá permitir al PAS modificar los horarios y dar de alta a los estudiantes. |
+| Datos específicos             |                                |
+| Importancia                   | Muy importante                 |
+| Estado                        | Aceptado                       |
+| Comentarios                   |                                |
+
 $~$
 
 Especificiación de los Casos de Uso
