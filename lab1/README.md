@@ -120,6 +120,7 @@ $~$
 | Actores                       | PAS                           |
 | Precondiciones                | PAS debe estar auntenticado en el sistema.       |
 | Flujo normal                  | 1.- PAS introduce los datos del Estudiante a dar de alta. <br> 2.- El sistema verifica los datos del Estudiante.                 |
+| Flujo alternativo             | 2.A.- El sistema comprueba que los datos del Estudiante sean correctos. Si no lo son, PAS podrá volver a introducir los datos (paso 1) finalizar el proceso.          |
 | Poscondiciones                | Ninguna.                      |
 
 $~$
@@ -136,68 +137,19 @@ $~$
 | Flujo alternativo             | 2.A.- El sistema no guarda los cambios realizados debido a que PAS cierra el programa sin guardar.            |
 | Poscondiciones                | Los cambios en el horario han sido actualizados.                      |
 
-$~$
-
-<table>
-
-  <tr>
-    <td>Identificador</td>
-    <td>UC-07</td>
-  </tr>
-  
-  <tr>
-    <td>Nombre</td>
-    <td>Dar de alta estudiante vista PDI</td>
-  </tr>
-
-  <tr>
-    <td>Autor</td>
-    <td>Cristina García<td>
-  </tr>
-
-  <tr>
-    <td>Fecha </td>
-    <td>08/10/2022</td>
-  </tr>
-
-  <tr>
-    <td>Descripción</td>
-    <td>Permite a PDI dar de alta a un estudiante determinado</td>
-  </tr>
-
-  <tr>
-      <td>Actores</td>
-      <td>PID</td>
-  </tr>
-
-  <tr>
-      <td>Precondiciones</td>
-      <td>PID debe estar auntenticado en el sistema</td>
-  </tr>
-
-  <tr>
-      <td>Flujo normal</td>
-      <td>1.- PID solicita dar de alta al Estudiante.<br>
-      2.- El sistema solicita los datos del Estudiante.<br>
-      3.- PID introduce los datos del Estudiante.<br>
-      4.- El sistema verifica los datos del Estudiante.<br>
-	  </td>
-  </tr>
-
-  <tr>
-      <td>Flujo alternativo</td>
-      <td>4.A.- El sistema comprueba que los datos del Estudiante sean correctos. Si no lo son, 
-          PID podrá volver a introducir los datos del Estudiante (paso 3) o finalizar el proceso.
-		  4.B.- El sistema, de forma excepcional, busca las listas de clase de las asignaturas del Estudiante.
-	  </td>
-  </tr>
-
-  <tr>
-    <td>Poscondiciones</td>
-    <td>El Estudiante está dado de alta.</td>
-  </tr>
-</table>
 
 $~$
+
+| Identificador                 | UC-07                         |
+| :---                          |    :----                      |
+| Nombre                        | Dar de alta estudiante vista PDI        |
+| Autor                         | Cristina García               |
+| Fecha                         | 08/10/2022                    |
+| Descripción                   | Permite a PDI dar de alta a un estudiante determinado.       |
+| Actores                       | PID                           |
+| Precondiciones                | PID debe estar auntenticado en el sistema.       |
+| Flujo normal                  | 1.- PID solicita dar de alta al Estudiante. <br> 2.- El sistema solicita los datos del Estudiante. <br> 3.- PID introduce los datos del Estudiante. <br> 4.- El sistema verifica los datos del Estudiante.               |
+| Flujo alternativo				| 4.A.- El sistema comprueba que los datos del Estudiante sean correctos. Si no lo son, PID podrá volver a introducir los datos del Estudiante (paso 3) o finalizar el proceso. <br> 4.B.- El sistema, de forma excepcional, busca las listas de clase de las asignaturas del Estudiante.   |
+| Poscondiciones                | El Estudiante está dado de alta.                      |
 
 $~$
