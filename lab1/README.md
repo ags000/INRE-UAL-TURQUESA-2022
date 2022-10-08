@@ -129,139 +129,29 @@ Especificiación de los Casos de Uso
 
 $~$
 
-| Identificador                 | UC-01 |
-| :---                          |    :----   |
-| Nombre                        | Consultar horarios        |
-| Autor                         | Alejandro Manzano       |
-| Fecha                         | 07/10/2022        |
-| Descripción                   | Permite al usuario ver el horario que le corresponde       |
+| Identificador                 | UC-01                         |
+| :---                          |    :----                      |
+| Nombre                        | Consultar horarios            |
+| Autor                         | Alejandro Manzano             |
+| Fecha                         | 07/10/2022                    |
+| Descripción                   | Permite al usuario ver el horario que le corresponde.       |
 | Actores                       | Estudiante        |
 | Precondiciones                | El Estudiante está autenticado en el sistema.       |
-| Flujo normal                  | 	1.- El Estudiante selecciona la opción de la aplicación para ver el horario. 2.- El sistema busca el correspondiente horario del Estudiante y se lo muestra.        |
+| Flujo normal                  | 	1.- El Estudiante selecciona la opción de la aplicación para ver el horario. <br> 2.- El sistema busca el correspondiente horario del Estudiante y se lo muestra.        |
 | Flujo alternativo             | 2A.- Si el sistema no encuentra el horario del Estudiante devolverá un mensaje de error.        |
 | Poscondiciones                | Ninguna.        |
 
-<table>
-  <tr>
-     <td colspan="4" class="t_title"><h1>Template for use case definition</h1></td>
-  </tr>
-
-  <tr>
-    <td>Identificador</td>
-    <td>UC-01</td>
-  </tr>
-
-  <tr>
-    <td>Nombre</td>
-    <td>Consultar horarios</td>
-  </tr>
-
-  <tr>
-    <td>Autor</td>
-    <td>Alejandro Manzano<td>
-  </tr>
-
-  <tr>
-    <td>Fecha </td>
-    <td>07/10/2022</td>
-  </tr>
-
-  <tr>
-    <td>Descripción</td>
-    <td>Permite al usuario ver el horario que le corresponde.</td>
-  </tr>
-
-  <tr>
-      <td>Actores</td>
-      <td>Estudiante</td>
-  </tr>
-
-  <tr>
-      <td>Precondiciones</td>
-      <td>El Estudiante está identificado en el Sistema.</td>
-  </tr>
-
-  <tr>
-      <td>Flujo normal</td>
-      <td>1.- El Estudiante selecciona la opción de la aplicación para ver el horario.<br>
-          2.- El sistema busca el correspondiente horario del Estudiante y se lo muestra.
-      </td>
-  </tr>
-
-  <tr>
-      <td>Flujo alternativo</td>
-      <td>2A.- Si el sistema no encuentra el horario del Estudiante devolverá un mensaje de error.</td>
-  </tr>
-
-  <tr>
-    <td>Poscondiciones</td>
-    <td>Ninguna.</td>
-  </tr>
-</table>
-
-$~$
-
-
-<table>
-
-<tr>
-    <td>Identificador</td>
-    <td>UC-02</td>
-  </tr>
-
-  <tr>
-    <td>Nombre</td>
-    <td>Proponer cambio de horario</td>
-  </tr>
-
-  <tr>
-    <td>Autor</td>
-    <td>Cristina García<td>
-  </tr>
-
-  <tr>
-    <td>Fecha </td>
-    <td>07/10/2022</td>
-  </tr>
-
-  <tr>
-    <td>Descripción</td>
-    <td>Permite proponer un cambio en el horario.</td>
-  </tr>
-
-  <tr>
-      <td>Actores</td>
-      <td>PDI</td>
-  </tr>
-
-  <tr>
-      <td>Precondiciones</td>
-      <td>El Estudiante ha de estar autenticado en el sistema</td>
-  </tr>
-
-  <tr>
-      <td>Flujo normal</td>
-      <td>1.- El Estudiante solicita abir un ticket.<br>
-      2.- El sistema pide la introducción del asunto y cuerpo del mensaje.<br>
-      3.- El Estudiante rellena los datos.<br>
-      4.- El Estudiante envía el ticket.
-      </td>
-  </tr>
-
-  <tr>
-      <td>Flujo alternativo</td>
-      <td>4.A.- El sistema comprueba que los campos hayan sido rellenados. Si no lo son,
-        PDI podrá volver a introducir los datos (paso 3) finalizar el proceso.
-      </td>
-  </tr>
-
-  <tr>
-    <td>Poscondiciones</td>
-    <td>No hay.</td>
-  </tr>
-</table>
-
-$~$
+| Identificador                 | UC-02                         |
+| :---                          |    :----                      |
+| Nombre                        | Proponer cambio de horario    |
+| Autor                         | Cristina García               |
+| Fecha                         | 07/10/2022                    |
+| Descripción                   | Permite proponer un cambio en el horario.       |
+| Actores                       | PDI        |
+| Precondiciones                | El Estudiante está autenticado en el sistema.       |
+| Flujo normal                  | 	1.- El PDI solicita abrir un ticket. <br> 2.- El sistema pide la introducción del asunto y cuerpo del mensaje. <br> El PDI rellena los datos. <br> El estudiante envía el ticket.       |
+| Flujo alternativo             | 4.A.- El sistema comprueba que los campos hayan sido rellenados. Si no lo son, PDI podrá volver a introducir los datos (paso 3) finalizar el proceso.        |
+| Poscondiciones                | Ninguna.        |
 
 <table>
 
