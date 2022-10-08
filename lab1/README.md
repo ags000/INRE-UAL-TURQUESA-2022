@@ -157,6 +157,8 @@ $~$
 | Flujo alternativo             | 2A.- Si el sistema no encuentra el horario del Estudiante devolverá un mensaje de error.                       |
 | Poscondiciones                | Ninguna.                      |
 
+$~$
+
 | Identificador                 | UC-02                         |
 | :---                          |    :----                      |
 | Nombre                        | Proponer cambio de horario    |
@@ -169,6 +171,8 @@ $~$
 | Flujo alternativo             | 4.A.- El sistema comprueba que los campos hayan sido rellenados. Si no lo son, PDI podrá volver a introducir los datos (paso 3) finalizar el proceso.        |
 | Poscondiciones                | Ninguna.        |
 
+$~$
+
 | Identificador                 | UC-03                         |
 | :---                          |    :----                      |
 | Nombre                        | Dar de alta estudiante        |
@@ -180,68 +184,20 @@ $~$
 | Flujo normal                  | 1.- PAS solicita dar de alta al Estudiante. <br> 2.- El sistema solicita los datos del Estudiante. <br> 3.- PAS introduce los datos del Estudiante. <br> 4.- El sistema verifica los datos del Estudiante.      |
 | Flujo alternativo             | 4.A.- El sistema comprueba que los datos del Estudiante sean correctos. Si no lo son, PAS podrá volver a introducir los datos del Estudiante (paso 3) o finalizar el proceso.                       |
 | Poscondiciones                | El Estudiante está dado de alta.                      |
+
 $~$
 
-
-<table>
-
-  <tr>
-    <td>Identificador</td>
-    <td>UC-04</td>
-  </tr>
-  
-  <tr>
-    <td>Nombre</td>
-    <td>Buscar listas de clase</td>
-  </tr>
-
-  <tr>
-    <td>Autor</td>
-    <td>Cristina García<td>
-  </tr>
-
-  <tr>
-    <td>Fecha </td>
-    <td>07/10/2022</td>
-  </tr>
-
-  <tr>
-    <td>Descripción</td>
-    <td>Permite buscar al Estudiante en las listas de clase</td>
-  </tr>
-
-  <tr>
-      <td>Actores</td>
-      <td>PDI</td>
-  </tr>
-
-  <tr>
-      <td>Precondiciones</td>
-      <td>PDI debe estar auntenticado en el sistema</td>
-  </tr>
-
-  <tr>
-      <td>Flujo normal</td>
-      <td>1.- PDI solicita buscar al Estudiante en las listas de clase.<br>   
-      2.- El sistema solicita los datos de la clase del Estudiante al que se va a dar de alta.<br>
-      3.- PDI introduce los datos de la clase.<br>
-      4.- El sistema verifica los datos.<br>
-      5.- El sistema muestra la lista de la clase.
-	   </td>
-  </tr>
-
-  <tr>
-      <td>Flujo alternativo</td>
-      <td>4.A.- El sistema comprueba que los datos de la clase sean correctos. Si no lo son, 
-			    PDI podrá volver a introducir los datos (paso 2) o finalizar el proceso.
-			</td>
-  </tr>
-
-  <tr>
-    <td>Poscondiciones</td>
-    <td>Ninguna.</td>
-  </tr>
-</table>
+| Identificador                 | UC-04                         |
+| :---                          |    :----                      |
+| Nombre                        | Buscar listas de clase        |
+| Autor                         | Cristina García               |
+| Fecha                         | 07/10/2022                    |
+| Descripción                   | Permite buscar al Estudiante en las listas de clase.       |
+| Actores                       | PDI                           |
+| Precondiciones                | PDI debe estar auntenticado en el sistema.       |
+| Flujo normal                  | 1.- PDI solicita buscar al Estudiante en las listas de clase. <br> 2.- El sistema solicita los datos de la clase del Estudiante al que se va a dar de alta. <br> 3.- PDI introduce los datos de la clase. <br> 4.- El sistema verifica los datos. <br> 5.- El sistema muestra la lista de la clase.      |
+| Flujo alternativo             | 4.A.- El sistema comprueba que los datos de la clase sean correctos. Si no lo son, PDI podrá volver a introducir los datos (paso 2) o finalizar el proceso.                    |
+| Poscondiciones                | Ninguna.                      |
 
 $~$
 
