@@ -201,32 +201,18 @@ $~$
 
 $~$
 
+| Identificador                 | UC-05                         |
+| :---                          |    :----                      |
+| Nombre                        | Verificar datos estudiantes        |
+| Autor                         | Cristina García               |
+| Fecha                         | 07/10/2022                    |
+| Descripción                   | Permite verificar los datos del estudiantes.       |
+| Actores                       | PAS                           |
+| Precondiciones                | PAS debe estar auntenticado en el sistema.       |
+| Flujo normal                  | 1.- PAS introduce los datos del Estudiante a dar de alta. <br> 2.- El sistema verifica los datos del Estudiante.                 |
+| Poscondiciones                | Ninguna.                      |
+
 <table>
-
-  <tr>
-    <td>Identificador</td>
-    <td>UC-05</td>
-  </tr>
-  
-  <tr>
-    <td>Nombre</td>
-    <td>Verificar datos estudiantes</td>
-  </tr>
-
-  <tr>
-    <td>Autor</td>
-    <td>Cristina García<td>
-  </tr>
-
-  <tr>
-    <td>Fecha </td>
-    <td>07/10/2022</td>
-  </tr>
-
-  <tr>
-    <td>Descripción</td>
-    <td>Permite verificar los datos del estudiantes</td>
-  </tr>
 
   <tr>
       <td>Actores</td>
