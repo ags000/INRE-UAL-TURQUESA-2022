@@ -278,7 +278,7 @@ $~$
 
   <tr>
     <td>Descripción</td>
-    <td>Buscar al estudiante en las listas de clase</td>
+    <td>Permite buscar al estudiante en las listas de clase</td>
   </tr>
 
   <tr>
