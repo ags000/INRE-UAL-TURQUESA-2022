@@ -195,9 +195,24 @@ $~$
 | Fecha                         | 09/10/2022                    |
 | Descripción                   | Permite consultar las ofertas.       |
 | Actores                       | Comun, Proveedor, Vendedor, Comprador y Administrador                           |
-| Precondiciones                | PAS debe estar auntenticado en el sistema.       |
-| Flujo normal                  | 1.- PAS introduce los datos del Estudiante a dar de alta. <br> 2.- El sistema verifica los datos del Estudiante.                 |
-| Flujo alternativo             | 2.A.- El sistema comprueba que los datos del Estudiante sean correctos. Si no lo son, PAS podrá volver a introducir los datos (paso 1) finalizar el proceso.          |
+| Precondiciones                | El usuario debe haber accedido al sistema de compra.       |
+| Flujo normal                  | 1.- El usuario solicita entrar en la oferta deseada. <br> 2.- El sistema muestra la oferta escogida.             |
+| Flujo alternativo             | 2.A.- Si el sistema no encuentra la oferta deseada devolverá un mensaje de error.     |
+| Poscondiciones                | Ninguna.                      |
+
+$~$
+
+
+| Identificador                 | UC-02                         |
+| :---                          | :----                         |
+| Nombre                        | Consultar precios             |
+| Autor                         | Cristina García               |
+| Fecha                         | 09/10/2022                    |
+| Descripción                   | Permite consultar los precios.       |
+| Actores                       | Comun, Proveedor, Vendedor, Comprador y Administrador                           |
+| Precondiciones                | El usuario debe haber accedido al sistema de compra.       |
+| Flujo normal                  | 1.- El usuario solicita ver el precio deseado. <br> 2.- El sistema busca los productos que entren en el rango de dicho precio <br> 3.- El sistema muestra la consulta del precio.             |
+| Flujo alternativo             | 2.A.- Si el sistema no localiza ningún producto que se encuentre por el precio deseado, devolverá un mensaje de error.     |
 | Poscondiciones                | Ninguna.                      |
 
 $~$
