@@ -219,7 +219,7 @@ $~$
 
 | Identificador                 | UC-03                         |
 | :---                          | :----                         |
-| Nombre                        | Finalizar compra               |
+| Nombre                        | Finalizar compra              |
 | Autor                         | Cristina García               |
 | Fecha                         | 09/10/2022                    |
 | Descripción                   | Permite que el Comprador finalice la compra.       |
@@ -231,3 +231,16 @@ $~$
 
 $~$
 
+| Identificador                 | UC-04                         |
+| :---                          | :----                         |
+| Nombre                        | Eliminar producto             |
+| Autor                         | Cristina García               |
+| Fecha                         | 09/10/2022                    |
+| Descripción                   | Permite que el Administrador elimine un producto determinado.       |
+| Actores                       | Administrador          |
+| Precondiciones                | El Administrador debe haber accedido al sistema de compra.       |
+| Flujo normal                  | 1.- El Adminsitrador selecciona un producto a eliminar. <br> 2.- El sistema elimina el producto seleccionado.          |
+| Flujo alternativo             | 2.A.- Si el sistema no permite al Administrador eliminar el producto, mostrará un mensaje de error.   |
+| Poscondiciones                | El producto será eliminado del sistema de compras.                      |
+
+$~$
