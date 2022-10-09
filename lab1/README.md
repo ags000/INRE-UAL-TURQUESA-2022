@@ -24,9 +24,9 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-| IR 01                         |Estudiante                     |
+| IR 01                         | Estudiante                     |
 | :---                          | :---                          |
-| Versión                       |2.0 (08/10/2022)               |
+| Versión                       | 2.0 (08/10/2022)               |
 | Autores                       | Alejandro Manzano             |
 | Fuentes                       |                               |
 | Referencias                   | - Consultar horarios, UC-01.   |
@@ -38,9 +38,9 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 $~$
 
-| IR 02                         |PDI                            |
+| IR 02                         | PDI                            |
 | :---                          | :---                          |
-| Versión                       |1.0 (08/10/2022)               |
+| Versión                       | 1.0 (08/10/2022)               |
 | Autores                       | Cristina García               |
 | Fuentes                       |                               |
 | Referencias                   | - Proponer cambio de horario, UC-02.  <br> - Dar de alta estudiante vista PDI, UC-07.  <br> - Buscar listas de clase, UC-04.  <br> |
@@ -52,9 +52,9 @@ $~$
 
 $~$
 
-| IR 03                         |PAS                            |
+| IR 03                         | PAS                            |
 | :---                          | :---                          |
-| Versión                       |1.0 (08/10/2022)               |
+| Versión                       | 1.0 (08/10/2022)               |
 | Autores                       | Cristina García               |
 | Fuentes                       |                               |
 | Referencias                   | - Modificar horario, UC-06. <br> - Dar de alta estudiante, UC-03.  <br> - Verificar datos estudiante, Uc-05. <br> |
@@ -152,7 +152,6 @@ $~$
 | Flujo alternativo             | 2.A.- El sistema no guarda los cambios realizados debido a que PAS cierra el programa sin guardar.            |
 | Poscondiciones                | Los cambios en el horario han sido actualizados.                      |
 
-
 $~$
 
 | Identificador                 | UC-07                         |
@@ -179,6 +178,27 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 <br>
 
+#### **Especificación de los Actores**
+
+<br>
+
+$~$
+
 #### **Especificación de los Casos de Uso**
 
 <br>
+
+| Identificador                 | UC-01                         |
+| :---                          | :----                         |
+| Nombre                        | Consultar ofertas             |
+| Autor                         | Cristina García               |
+| Fecha                         | 09/10/2022                    |
+| Descripción                   | Permite consultar las ofertas.       |
+| Actores                       | Comun, Proveedor, Vendedor, Comprador y Administrador                           |
+| Precondiciones                | PAS debe estar auntenticado en el sistema.       |
+| Flujo normal                  | 1.- PAS introduce los datos del Estudiante a dar de alta. <br> 2.- El sistema verifica los datos del Estudiante.                 |
+| Flujo alternativo             | 2.A.- El sistema comprueba que los datos del Estudiante sean correctos. Si no lo son, PAS podrá volver a introducir los datos (paso 1) finalizar el proceso.          |
+| Poscondiciones                | Ninguna.                      |
+
+$~$
+
