@@ -329,3 +329,16 @@ $~$
 | Flujo alternativo             | 2.A.- Si el sistema no encuentra ningún histórico del producto, devolverá un mensaje de error, permitiendo finalizar el proceso.   |
 | Poscondiciones                | Ninguna. 
 
+<br>
+
+| Identificador                 | UC-10                         |
+| :---                          | :----                         |
+| Nombre                        | Incorporar oferta        |
+| Autor                         | Cristina García               |
+| Fecha                         | 11/10/2022                    |
+| Descripción                   | Permite incorporar al sistema una nueva oferta.     |
+| Actores                       | Proveedor          |
+| Precondiciones                | El Proveedor deben haber accedido al sistema de compra.       |
+| Flujo normal                  |  1.- El Proveedor solicita incorporar una oferta nueva. <br> 2.- El sistema busca dicha oferta. <br> 3.- El sistema incorpora la nueva oferta al catálogo.        |
+| Flujo alternativo             | 2.A.- Si el sistema no encuentra la oferta determinada, devolverá un mensaje de error. |
+| Poscondiciones                | La oferta ha sido incorporada al sistema. 
