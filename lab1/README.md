@@ -286,3 +286,17 @@ $-$
 | Poscondiciones                | Ninguna.                      |
 
 $-$
+
+| Identificador                 | UC-08                         |
+| :---                          | :----                         |
+| Nombre                        | Verificar disponibilidad             |
+| Autor                         | Alejandro Manzano               |
+| Fecha                         | 11/10/2022                    |
+| Descripción                   | El sistema comprueba la disponibilidad de un producto cuando el Comprador trata de consultar los detalles del mismo.       |
+| Actores                       | Comprador          |
+| Precondiciones                | El Comprador ha seleccionado la opción para consultar los detalles de un producto. |
+| Flujo normal                  | 1.- El sistema busca el producto en la base de datos y comprueba sus campos <br> 2.- El sistema devuelve el campo de la disponiblidad.   |
+| Flujo alternativo             | 1.A.- Si el sistema no encuentra el producto devolverá un mensaje de error.   |
+| Poscondiciones                | El sistema ha retornado una variable booleana.                      |
+
+$-$
