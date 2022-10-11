@@ -78,7 +78,7 @@ $~$
 | Descripción                   | Permite al usuario ver el horario que le corresponde.       |
 | Actores                       | Estudiante                    |
 | Precondiciones                | El Estudiante está autenticado en el sistema.       |
-| Flujo normal                  | 	1.- El Estudiante selecciona la opción de la aplicación para ver el horario. <br> 2.- El sistema busca el correspondiente horario del Estudiante y se lo muestra.        |
+| Flujo normal                  | 	1.- El Estudiante selecciona la opción de la aplicación para ver el horario. <br> 2.- El sistema busca el correspondiente horario del Estudiante. <br> 3.- El sistema muestra el horario pedido.       |
 | Flujo alternativo             | 2A.- Si el sistema no encuentra el horario del Estudiante devolverá un mensaje de error.                       |
 | Poscondiciones                | Ninguna.                      |
 
@@ -196,7 +196,7 @@ $~$
 | Descripción                   | Permite consultar las ofertas.       |
 | Actores                       | Comun, Proveedor, Vendedor, Comprador y Administrador                           |
 | Precondiciones                | El usuario debe haber accedido al sistema de compra.       |
-| Flujo normal                  | 1.- El usuario solicita entrar en la oferta deseada. <br> 2.- El sistema muestra la oferta escogida.             |
+| Flujo normal                  | 1.- El usuario solicita entrar en la oferta deseada. <br> 2.- El sistema busca la determinada oferta. <br> 2.- El sistema muestra la oferta escogida.             |
 | Flujo alternativo             | 2.A.- Si el sistema no encuentra la oferta deseada devolverá un mensaje de error.     |
 | Poscondiciones                | Ninguna.                      |
 
@@ -211,7 +211,7 @@ $~$
 | Descripción                   | Permite consultar los precios.       |
 | Actores                       | Comun, Proveedor, Vendedor, Comprador y Administrador                           |
 | Precondiciones                | El usuario debe haber accedido al sistema de compra.       |
-| Flujo normal                  | 1.- El usuario solicita ver el precio deseado. <br> 2.- El sistema busca los productos que entren en el rango de dicho precio <br> 3.- El sistema muestra la consulta del precio.             |
+| Flujo normal                  | 1.- El usuario solicita ver el precio deseado. <br> 2.- El sistema busca los productos que entren en el rango de dicho precio. <br> 3.- El sistema muestra la consulta del precio.             |
 | Flujo alternativo             | 2.A.- Si el sistema no localiza ningún producto por el precio deseado, devolverá un mensaje de error.     |
 | Poscondiciones                | Ninguna.                      |
 
