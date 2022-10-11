@@ -244,3 +244,17 @@ $~$
 | Poscondiciones                | El producto será eliminado del sistema de compras.                      |
 
 $~$
+
+| Identificador                 | UC-05                         |
+| :---                          | :----                         |
+| Nombre                        | Agregar producto             |
+| Autor                         | Alejandro Manzano               |
+| Fecha                         | 11/10/2022                    |
+| Descripción                   | Permite que el Comprador añada un producto a su carro de la compra para ser comprado.      |
+| Actores                       | Comprador          |
+| Precondiciones                | El producto no está marcado como bloqueado.       |
+| Flujo normal                  | 1.- El Comprador selecciona un producto a añadir. <br> 2.- El sistema añade el producto seleccionado al carro de la compra del Comprador. <br> 3.- El producto se es marcado como bloqueado por el sistema.          |
+| Flujo alternativo             | 2.A.- Si el sistema no puede añadir el producto mostrará un mensaje de error al Comprador y no se marcará como bloqueado.   |
+| Poscondiciones                | El producto ha quedado marcado como bloqueado.                     |
+
+$-$
