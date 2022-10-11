@@ -299,4 +299,18 @@ $-$
 | Flujo alternativo             | 1.A.- Si el sistema no encuentra el producto devolverá un mensaje de error.   |
 | Poscondiciones                | El sistema ha retornado una variable booleana.                      |
 
+ <br>
+
+| Identificador                 | UC-09                         |
+| :---                          | :----                         |
+| Nombre                        | Buscar productos              |
+| Autor                         | Cristina García               |
+| Fecha                         | 09/10/2022                    |
+| Descripción                   | Permite buscar productos.     |
+| Actores                       | Comun                         |
+| Precondiciones                | El usuario debe haber accedido al sistema de compra.       |
+| Flujo normal                  |  1.- El usuario solicita buscar los productos según los parámetros introducidos. <br> 2.- El sistema busca los productos que coincidan con las mismas características dadas por el usuario. <br> 3.- El sistema muestra en una nueva interfaz todos los productos que tengan las caracteristicas requeridas.        |
+| Flujo alternativo             | 2.A.- Si el sistema no encuentra ningún producto, devolverá un mensaje de error, permitiendo al usuario volver a buscar un producto (paso 1) o finalizar el proceso.   |
+| Poscondiciones                | Ninguna. 
+
 $-$
