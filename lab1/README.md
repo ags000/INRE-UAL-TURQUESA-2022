@@ -200,7 +200,7 @@ $~$
 | Flujo alternativo             | 2.A.- Si el sistema no encuentra la oferta deseada devolverá un mensaje de error.     |
 | Poscondiciones                | Ninguna.                      |
 
-$~$
+ <br>
 
 
 | Identificador                 | UC-02                         |
@@ -215,7 +215,7 @@ $~$
 | Flujo alternativo             | 2.A.- Si el sistema no localiza ningún producto por el precio deseado, devolverá un mensaje de error.     |
 | Poscondiciones                | Ninguna.                      |
 
-$~$
+ <br>
 
 | Identificador                 | UC-03                         |
 | :---                          | :----                         |
@@ -229,7 +229,7 @@ $~$
 | Flujo alternativo             | 3.A.- El sistema comprueba que todos los los datos necesarios hayan sido introducidos. Si no lo han sido, el Comprador podrá volver a introducir los datos (paso 4) o finalizar el proceso. <br> 5.A.- El sistema no ha podido confirmar la compra a través del correo del Comprador debido a que ha sido introducido de manera incorrecta.   |
 | Poscondiciones                | El Comprador ha realizado la compra.                      |
 
-$~$
+ <br>
 
 | Identificador                 | UC-04                         |
 | :---                          | :----                         |
@@ -243,7 +243,7 @@ $~$
 | Flujo alternativo             | 2.A.- Si el sistema no permite al Administrador eliminar el producto, mostrará un mensaje de error.   |
 | Poscondiciones                | El producto será eliminado del sistema de compras.                      |
 
-$~$
+ <br>
 
 | Identificador                 | UC-05                         |
 | :---                          | :----                         |
@@ -257,7 +257,8 @@ $~$
 | Flujo alternativo             | 2.A.- Si el sistema no puede añadir el producto mostrará un mensaje de error al Comprador y no se marcará como bloqueado.   |
 | Poscondiciones                | El producto ha quedado marcado como bloqueado.                     |
 
-$-$
+ <br>
+
 
 | Identificador                 | UC-06                         |
 | :---                          | :----                         |
@@ -271,7 +272,7 @@ $-$
 | Flujo alternativo             | 1.A.- Si el sistema no encuentra el producto devuelve un mensaje de error.   |
 | Poscondiciones                | El producto ha quedado marcado como bloqueado por el sistema de compras.                      |
 
-$-$
+ <br>
 
 | Identificador                 | UC-07                         |
 | :---                          | :----                         |
@@ -285,7 +286,8 @@ $-$
 | Flujo alternativo             | 2.A.- Si el sistema no encuentra el producto devolverá un mensaje de error.   |
 | Poscondiciones                | Ninguna.                      |
 
-$-$
+ <br>
+
 
 | Identificador                 | UC-08                         |
 | :---                          | :----                         |
@@ -305,7 +307,7 @@ $-$
 | :---                          | :----                         |
 | Nombre                        | Buscar productos              |
 | Autor                         | Cristina García               |
-| Fecha                         | 09/10/2022                    |
+| Fecha                         | 11/10/2022                    |
 | Descripción                   | Permite buscar productos.     |
 | Actores                       | Comun                         |
 | Precondiciones                | El usuario debe haber accedido al sistema de compra.       |
@@ -313,4 +315,17 @@ $-$
 | Flujo alternativo             | 2.A.- Si el sistema no encuentra ningún producto, devolverá un mensaje de error, permitiendo al usuario volver a buscar un producto (paso 1) o finalizar el proceso.   |
 | Poscondiciones                | Ninguna. 
 
-$-$
+<br>
+
+| Identificador                 | UC-10                         |
+| :---                          | :----                         |
+| Nombre                        | Consultar histórico de ventas         |
+| Autor                         | Cristina García               |
+| Fecha                         | 11/10/2022                    |
+| Descripción                   | Permite consultar el histórico de ventas de un producto.     |
+| Actores                       | Comprador y Vendedor          |
+| Precondiciones                | Los usuarios deben haber accedido al sistema de compra.       |
+| Flujo normal                  |  1.- El usuario solicita consultar el histórico de ventas de un producto. <br> 2.- El sistema busca dicho histórico de ventas. <br> 3.- El sistema muestra el histórico de ventas del producto pedido.        |
+| Flujo alternativo             | 2.A.- Si el sistema no encuentra ningún histórico del producto, devolverá un mensaje de error, permitiendo finalizar el proceso.   |
+| Poscondiciones                | Ninguna. 
+
