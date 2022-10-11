@@ -258,3 +258,17 @@ $~$
 | Poscondiciones                | El producto ha quedado marcado como bloqueado.                     |
 
 $-$
+
+| Identificador                 | UC-06                         |
+| :---                          | :----                         |
+| Nombre                        | Marcar producto como bloqueado             |
+| Autor                         | Alejandro Manzano               |
+| Fecha                         | 11/10/2022                    |
+| Descripción                   | Permite que al sistema marcar un producto como bloqueado cuando este añadadido al carro del Comprador.       |
+| Actores                       | Comprador          |
+| Precondiciones                | El Comprador ha añadido seleccionado la opción de agregar un producto a su carro.      |
+| Flujo normal                  | 1.- El sistema busca el producto y marca el campo que determina si este está bloqueado o no. <br> 2.- La interfaz se actualiza y se muestra el producto como bloqueado.          |
+| Flujo alternativo             | 1.A.- Si el sistema no encuentra el producto devuelve un mensaje de error.   |
+| Poscondiciones                | El producto ha quedado marcado como bloqueado por el sistema de compras.                      |
+
+$-$
