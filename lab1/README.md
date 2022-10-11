@@ -267,8 +267,22 @@ $-$
 | Descripción                   | Permite que al sistema marcar un producto como bloqueado cuando este añadadido al carro del Comprador.       |
 | Actores                       | Comprador          |
 | Precondiciones                | El Comprador ha añadido seleccionado la opción de agregar un producto a su carro.      |
-| Flujo normal                  | 1.- El sistema busca el producto y marca el campo que determina si este está bloqueado o no. <br> 2.- La interfaz se actualiza y se muestra el producto como bloqueado.          |
+| Flujo normal                  | 1.- El sistema busca el producto y cambia el campo de disponibilidad, que determina si este está bloqueado o no. <br> 2.- La interfaz se actualiza y se muestra el producto como bloqueado.          |
 | Flujo alternativo             | 1.A.- Si el sistema no encuentra el producto devuelve un mensaje de error.   |
 | Poscondiciones                | El producto ha quedado marcado como bloqueado por el sistema de compras.                      |
+
+$-$
+
+| Identificador                 | UC-07                         |
+| :---                          | :----                         |
+| Nombre                        | Consultar producto             |
+| Autor                         | Alejandro Manzano               |
+| Fecha                         | 11/10/2022                    |
+| Descripción                   | Permite al Comprador consultar los detalles de los productos en los que esté interesado.       |
+| Actores                       | Comprador          |
+| Precondiciones                | Ninguna. |
+| Flujo normal                  | 1.- El Comprador selecciona un producto del cual quiere consultar sus características. <br> 2.- El sistema busca las características del producto y verifica la disponibilidad del mismo. <br> El sistema muestra en una nueva interfaz todas las características del producto, y si está disponible o no para ser comprado.          |
+| Flujo alternativo             | 2.A.- Si el sistema no encuentra el producto devolverá un mensaje de error.   |
+| Poscondiciones                | Ninguna.                      |
 
 $-$
