@@ -182,8 +182,59 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 <br>
 
+| IR 01                         | Proveedor                     |
+| :---                          | :---                          |
+| Versión                       | 1.0 (12/10/2022)               |
+| Autores                       | Adrián Galdeano             |
+| Fuentes                       | - Preguntar-                              |
+| Referencias                   | - Por definir-   |
+| Descripción                   | El proveedor es un tipo de usuario. ¿Qué poner? |
+| Datos específicos             |     -Preguntar-  Campos de información que se guardan                        |
+| Importancia                   | Muy importante.     ¿Por qué?          |
+| Estado                        | Aceptado.         ¿Por qué?            |
+| Comentarios                   |                               |
+
 $~$
 
+
+| IR 01                         | Vendedor                     |
+| :---                          | :---                          |
+| Versión                       | 1.0 (12/10/2022)               |
+| Autores                       | Adrián Galdeano             |
+| Fuentes                       | - Preguntar-                              |
+| Referencias                   | - Por definir-   |
+| Descripción                   | El vendedor es un tipo de usuario. ¿Qué poner? |
+| Datos específicos             |     -Preguntar-  Campos de información que se guardan                        |
+| Importancia                   | Muy importante.     ¿Por qué?          |
+| Estado                        | Aceptado.         ¿Por qué?            |
+| Comentarios                   |                               |
+$~$
+
+| IR 01                         | Comprador                     |
+| :---                          | :---                          |
+| Versión                       | 1.0 (12/10/2022)               |
+| Autores                       | Adrián Galdeano             |
+| Fuentes                       | - Preguntar-                              |
+| Referencias                   | - Por definir-   |
+| Descripción                   | El vendedor es un tipo de usuario. ¿Qué poner? |
+| Datos específicos             |     -Preguntar-  Campos de información que se guardan                        |
+| Importancia                   | Muy importante.     ¿Por qué?          |
+| Estado                        | Aceptado.         ¿Por qué?            |
+| Comentarios                   |                               |
+
+$~$
+
+| IR 01                         | Administrador                     |
+| :---                          | :---                          |
+| Versión                       | 1.0 (12/10/2022)               |
+| Autores                       | Adrián Galdeano             |
+| Fuentes                       | - Preguntar-                              |
+| Referencias                   | - Por definir-   |
+| Descripción                   | El vendedor es un tipo de usuario. ¿Qué poner? |
+| Datos específicos             |     -Preguntar-  Campos de información que se guardan                        |
+| Importancia                   | Muy importante.     ¿Por qué?          |
+| Estado                        | Aceptado.         ¿Por qué?            |
+| Comentarios                   |                               |
 #### **Especificación de los Casos de Uso**
 
 <br>
@@ -342,3 +393,6 @@ $~$
 | Flujo normal                  |  1.- El Proveedor solicita incorporar una oferta nueva. <br> 2.- El sistema busca dicha oferta. <br> 3.- El sistema incorpora la nueva oferta al catálogo.        |
 | Flujo alternativo             | 2.A.- Si el sistema no encuentra la oferta determinada, devolverá un mensaje de error. |
 | Poscondiciones                | La oferta ha sido incorporada al sistema. 
+
+
+### Supesto 3:
