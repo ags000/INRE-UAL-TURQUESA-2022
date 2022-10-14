@@ -420,3 +420,15 @@ $~$
 | Flujo normal                  |  1.- El Vendedor establece un precio inicial. <br> 2.- El Comprador trata de obtener un precio más bajo. <br> 3.- Si el comprador está de acuerdo se fijaría dicho precio.      |
 | Flujo alternativo             | 3.A.- En caso de que el Vendedor no esté conforme con el precio propuesto por el Comprador se volvería a iniciar el flujo normal. |
 | Poscondiciones                | El precio por el que se realizará la venta del producto a quedado fijado. |
+
+| Identificador                 | UC-14                         |
+| :---                          | :----                         |
+| Nombre                        | Avisar nuevos productos        |
+| Autor                         | Alejandro Manzano               |
+| Fecha                         | 14/10/2022                    |
+| Descripción                   | El proveedor avisa a los usuarios del sistema de que hay nuevos productos.     |
+| Actores                       | Proveedor          |
+| Precondiciones                | El proveedor tiene nuevos productos que notificar       |
+| Flujo normal                  |  1.- El Proveedor incorpora los nuevos productos al sistema <br> 2.- De forma excepcional, el proveedor puede incorporar una oferta a los productos. <br> 3.- El proveedor envía una notificación al resto de los usuarios.      |
+| Flujo alternativo             | Ninguno. |
+| Poscondiciones                | Los usuarios del sistema reciben una notificación que les avisa de los nuevos productos. |
