@@ -407,3 +407,16 @@ $~$
 | Flujo alternativo             | 3.A.- De forma opcional se puede consultar el histórico de ventas para ver los precios a los que se ha vendido dicho producto con anterioridad y fijar un precio acorde a estas ventas. |
 | Poscondiciones                | Una existencia de un producto ha sido vendida. Se actualizará el número de existencias de ese producto en la base de datos. |
 
+<br>
+
+| Identificador                 | UC-13                         |
+| :---                          | :----                         |
+| Nombre                        | Acordar precio        |
+| Autor                         | Alejandro Manzano               |
+| Fecha                         | 14/10/2022                    |
+| Descripción                   | El Vendedor y el Comprador acuerdan un precio para el producto.     |
+| Actores                       | Vendedor y Comprador          |
+| Precondiciones                | Se ha iniciado el proceso la realización de una venta de un producto.       |
+| Flujo normal                  |  1.- El Vendedor establece un precio inicial. <br> 2.- El Comprador trata de obtener un precio más bajo. <br> 3.- Si el comprador está de acuerdo se fijaría dicho precio.      |
+| Flujo alternativo             | 3.A.- En caso de que el Vendedor no esté conforme con el precio propuesto por el Comprador se volvería a iniciar el flujo normal. |
+| Poscondiciones                | El precio por el que se realizará la venta del producto a quedado fijado. |
