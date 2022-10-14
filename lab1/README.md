@@ -443,6 +443,20 @@ $~$
 | Descripción                   | El proveedor avisa a los usuarios del sistema de que una oferta finalizará pronto.     |
 | Actores                       | Proveedor          |
 | Precondiciones                |    El producto tenía una oferta incorporada.    |
-| Flujo normal                  |  1.- El proveedor fija una fecha de fin para la oferta. <br> 2.- El proveedor envía una notificación a los usuarios del sistema avisando del fin de la oferta.     |
+| Flujo normal                  |  1.- El proveedor fija una fecha de fin para la oferta. <br> 2.- El proveedor envía una notificación a los usuarios del sistema avisando del fin de la oferta. <br> 3.- Cuando la fecha de la oferta se cumpla, se eliminará la oferta.     |
 | Flujo alternativo             | Ninguno. |
 | Poscondiciones                | Los usuarios del sistema reciben una notificación que les avisa de que una oferta finalizará pronto. |
+
+<br>
+
+| Identificador                 | UC-16                         |
+| :---                          | :----                         |
+| Nombre                        | Eliminar oferta        |
+| Autor                         | Alejandro Manzano               |
+| Fecha                         | 14/10/2022                    |
+| Descripción                   | La oferta incorporada a un producto es eliminada.      |
+| Actores                       | Proveedor          |
+| Precondiciones                | Se ha cumplido el plazo de la oferta fijado por el Proovedor.       |
+| Flujo normal                  |  1.- Se elimina el producto de las ofertas del sistema. <br> 2.- El producto vuelve a su precio original.     |
+| Flujo alternativo             | Ninguno. |
+| Poscondiciones                | El producto ya no está en oferta. |
