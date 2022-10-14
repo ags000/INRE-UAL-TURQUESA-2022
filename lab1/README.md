@@ -471,6 +471,20 @@ $~$
 | Descripción                   | El proveedor avisa a los usuarios del sistema.     |
 | Actores                       | Proveedor          |
 | Precondiciones                | El proveedor tiene información de sus productos que notificar al resto de los usuarios del sistema.       |
-| Flujo normal                  |  1.- El Proveedor realiza los cambios e incorporaciones de sus productos al sistema <br> 2.- El proveedor envía una notificación al resto de los usuarios del sistema.      |
+| Flujo normal                  |  1.- El Proveedor realiza los cambios e incorporaciones de sus productos al sistema. <br> 2.- El proveedor envía una notificación al resto de los usuarios del sistema.      |
 | Flujo alternativo             | Ninguno. |
 | Poscondiciones                | Los usuarios del sistema reciben una notificación. |
+
+<br>
+
+| Identificador                 | UC-18                         |
+| :---                          | :----                         |
+| Nombre                        | Enviar notificación        |
+| Autor                         | Alejandro Manzano               |
+| Fecha                         | 14/10/2022                    |
+| Descripción                   | El proveedor realiza un aviso en el sistema.     |
+| Actores                       | Proveedor          |
+| Precondiciones                | El avisa de nueva información en sus productos.       |
+| Flujo normal                  |  1.- El Proveedor envía una notificación a los usuarios del sistema. <br> 2.- Los usuarios del sistema reciben una notificación.      |
+| Flujo alternativo             | Ninguno. |
+| Poscondiciones                | Ninguna. |
