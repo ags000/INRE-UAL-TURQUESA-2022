@@ -460,3 +460,17 @@ $~$
 | Flujo normal                  |  1.- Se elimina el producto de las ofertas del sistema. <br> 2.- El producto vuelve a su precio original.     |
 | Flujo alternativo             | Ninguno. |
 | Poscondiciones                | El producto ya no está en oferta. |
+
+<br>
+
+| Identificador                 | UC-17                         |
+| :---                          | :----                         |
+| Nombre                        | Avisar        |
+| Autor                         | Alejandro Manzano               |
+| Fecha                         | 14/10/2022                    |
+| Descripción                   | El proveedor avisa a los usuarios del sistema.     |
+| Actores                       | Proveedor          |
+| Precondiciones                | El proveedor tiene información de sus productos que notificar al resto de los usuarios del sistema.       |
+| Flujo normal                  |  1.- El Proveedor realiza los cambios e incorporaciones de sus productos al sistema <br> 2.- El proveedor envía una notificación al resto de los usuarios del sistema.      |
+| Flujo alternativo             | Ninguno. |
+| Poscondiciones                | Los usuarios del sistema reciben una notificación. |
