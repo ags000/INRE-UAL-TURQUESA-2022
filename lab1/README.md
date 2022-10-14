@@ -388,7 +388,7 @@ $~$
 | Fecha                         | 11/10/2022                    |
 | Descripción                   | Permite incorporar al sistema una nueva oferta.     |
 | Actores                       | Proveedor          |
-| Precondiciones                | El Proveedor deben haber accedido al sistema de compra.       |
+| Precondiciones                | El Proveedor debe haber accedido al sistema de compra.       |
 | Flujo normal                  |  1.- El Proveedor solicita incorporar una oferta nueva. <br> 2.- El sistema busca dicha oferta. <br> 3.- El sistema incorpora la nueva oferta al catálogo.        |
 | Flujo alternativo             | 2.A.- Si el sistema no encuentra la oferta determinada, devolverá un mensaje de error. |
 | Poscondiciones                | La oferta ha sido incorporada al sistema. 
@@ -428,7 +428,21 @@ $~$
 | Fecha                         | 14/10/2022                    |
 | Descripción                   | El proveedor avisa a los usuarios del sistema de que hay nuevos productos.     |
 | Actores                       | Proveedor          |
-| Precondiciones                | El proveedor tiene nuevos productos que notificar       |
-| Flujo normal                  |  1.- El Proveedor incorpora los nuevos productos al sistema <br> 2.- De forma excepcional, el proveedor puede incorporar una oferta a los productos. <br> 3.- El proveedor envía una notificación al resto de los usuarios.      |
+| Precondiciones                | El proveedor tiene nuevos productos que notificar.       |
+| Flujo normal                  |  1.- El Proveedor incorpora los nuevos productos al sistema. <br> 2.- De forma excepcional, el proveedor puede incorporar una oferta a los productos. <br> 3.- El proveedor envía una notificación al resto de los usuarios.      |
 | Flujo alternativo             | Ninguno. |
 | Poscondiciones                | Los usuarios del sistema reciben una notificación que les avisa de los nuevos productos. |
+
+<br>
+
+| Identificador                 | UC-15                         |
+| :---                          | :----                         |
+| Nombre                        | Avisar fin de oferta        |
+| Autor                         | Alejandro Manzano               |
+| Fecha                         | 14/10/2022                    |
+| Descripción                   | El proveedor avisa a los usuarios del sistema de que una oferta finalizará pronto.     |
+| Actores                       | Proveedor          |
+| Precondiciones                |    El producto tenía una oferta incorporada.    |
+| Flujo normal                  |  1.- El proveedor fija una fecha de fin para la oferta. <br> 2.- El proveedor envía una notificación a los usuarios del sistema avisando del fin de la oferta.     |
+| Flujo alternativo             | Ninguno. |
+| Poscondiciones                | Los usuarios del sistema reciben una notificación que les avisa de que una oferta finalizará pronto. |
