@@ -197,7 +197,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 $~$
 
 
-| IR 01                         | Vendedor                     |
+| IR 02                         | Vendedor                     |
 | :---                          | :---                          |
 | Versión                       | 1.0 (12/10/2022)               |
 | Autores                       | Adrián Galdeano             |
@@ -210,7 +210,7 @@ $~$
 | Comentarios                   |                               |
 $~$
 
-| IR 01                         | Comprador                     |
+| IR 03                         | Comprador                     |
 | :---                          | :---                          |
 | Versión                       | 1.0 (12/10/2022)               |
 | Autores                       | Adrián Galdeano             |
@@ -224,7 +224,7 @@ $~$
 
 $~$
 
-| IR 01                         | Administrador                     |
+| IR 04                         | Administrador                     |
 | :---                          | :---                          |
 | Versión                       | 1.0 (12/10/2022)               |
 | Autores                       | Adrián Galdeano             |
@@ -252,7 +252,6 @@ $~$
 | Poscondiciones                | Ninguna.                      |
 
  <br>
-
 
 | Identificador                 | UC-02                         |
 | :---                          | :----                         |
@@ -382,7 +381,7 @@ $~$
 
 <br>
 
-| Identificador                 | UC-10                         |
+| Identificador                 | UC-11                         |
 | :---                          | :----                         |
 | Nombre                        | Incorporar oferta        |
 | Autor                         | Cristina García               |
@@ -394,5 +393,17 @@ $~$
 | Flujo alternativo             | 2.A.- Si el sistema no encuentra la oferta determinada, devolverá un mensaje de error. |
 | Poscondiciones                | La oferta ha sido incorporada al sistema. 
 
+<br>
 
-### Supesto 3:
+| Identificador                 | UC-12                         |
+| :---                          | :----                         |
+| Nombre                        | Realizar Venta        |
+| Autor                         | Alejandro Manzano               |
+| Fecha                         | 14/10/2022                    |
+| Descripción                   | El Vendedor realiza vende su producto al Comprador.     |
+| Actores                       | Vendedor y Comprador          |
+| Precondiciones                | El producto ha sido agregado al sistema con aterioridad.       |
+| Flujo normal                  |  1.- El Comprador se interesa por el producto y contacta al Vendedor a través del sistema. <br> 2.- El Vendedor responde a la solicitud de contacto del Comprador. <br> 3.- Comprador y Vendedor acuerdan un precio para el producto. <br> 4.- El Comprador recibe el dinero y el producto es enviado al Comprador.       |
+| Flujo alternativo             | 3.A.- De forma opcional se puede consultar el histórico de ventas para ver los precios a los que se ha vendido dicho producto con anterioridad y fijar un precio acorde a estas ventas. |
+| Poscondiciones                | Una existencia de un producto ha sido vendida. Se actualizará el número de existencias de ese producto en la base de datos. |
+
