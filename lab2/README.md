@@ -80,11 +80,11 @@ Un empleado envía una información para ser revisada. A un gerente se le envía
 
 <br>
 
-<!--- <div align="center">
-    <img src="./../lab2/supuesto1.svg" style="border: 3px solid #bbb">
-    <i><p>Imagen 1. Diagrama BPMN supuesto 1.</p></i>
+<div align="center">
+    <img src="./../lab2/supuesto3.svg" style="border: 3px solid #bbb">
+    <i><p>Imagen 3. Diagrama BPMN supuesto 3.</p></i>
 </div>
---->
+
 
 
 
