@@ -73,27 +73,27 @@ $~$
 | Identificador                 | UC-01                         |
 | :---                          |    :----                      |
 | Nombre                        | Consultar horarios            |
-| Autor                         | Alejandro Manzano             |
+| Autor                         | Alejandro Manzano, Cristina García y Adrian Galdeano          |
 | Fecha                         | 07/10/2022                    |
-| Descripción                   | Permite al usuario ver el horario que le corresponde.       |
-| Actores                       | Estudiante                    |
+| Descripción                   | Cuando un usuario solicita consultar un horario, el sistema deberá comportarse como se describe a continuación.  |
+| Actores                       | Estudiante, PID y PAS                    |
 | Precondiciones                | El Estudiante está autenticado en el sistema.       |
-| Flujo normal                  | 	1.- El Estudiante selecciona la opción de la aplicación para ver el horario. <br> 2.- El sistema busca el correspondiente horario del Estudiante. <br> 3.- El sistema muestra el horario pedido.       |
-| Flujo alternativo             | 2A.- Si el sistema no encuentra el horario del Estudiante devolverá un mensaje de error.                       |
+| Flujo normal                  | 	1.- El Estudiante solicita al sistema consultar un horario. <br> 2.- El sistema proporciona un enlace a cada horario que se encuentre disponible de forma organizada. <br> 3.- El usuario escoge el horario deseado. <br> 4.- El sistema muestra el horario.       |
+| Flujo alternativo             | 2A.- Si el sistema no encuentra el horario escogido por el Estudiante devolverá un mensaje de error, finalizando así el proceso.                       |
 | Poscondiciones                | Ninguna.                      |
 
 $~$
 
 | Identificador                 | UC-02                         |
 | :---                          |    :----                      |
-| Nombre                        | Proponer cambio de horario    |
+| Nombre                        | Proponer cambio horario   |
 | Autor                         | Cristina García               |
 | Fecha                         | 07/10/2022                    |
-| Descripción                   | Permite proponer un cambio en el horario.       |
+| Descripción                   | Cuando PDI propone cambiar un horario, el sistema deberá comportarse como se describe a continuación.       |
 | Actores                       | PDI        |
-| Precondiciones                | El PDI está autenticado en el sistema.       |
-| Flujo normal                  | 	1.- El PDI solicita abrir un ticket. <br> 2.- El sistema pide la introducción del asunto y cuerpo del mensaje. <br> 3.- El PDI rellena los datos. <br> 4.- El estudiante envía el ticket.       |
-| Flujo alternativo             | 4.A.- El sistema comprueba que los campos hayan sido rellenados. Si no lo son, PDI podrá volver a introducir los datos (paso 3) finalizar el proceso.        |
+| Precondiciones                | PDI está autenticado en el sistema.       |
+| Flujo normal                  | 	1.- PDI solicita abrir un ticket. <br> 2.- PDI rellena los datos y los envía. <br> 3.- El sistema verifica la integridad de los datos.
+| Flujo alternativo             | 3.A.- El sistema comprueba que los campos hayan sido rellenados. Si no lo son, PDI podrá volver a introducir los datos (paso 3) o finalizar el proceso.        |
 | Poscondiciones                | Ninguna.        |
 
 $~$
@@ -169,21 +169,27 @@ $~$
 $~$
 #### **Requisitos de la información**
 
-| RI                       |                      |
-| :---                          | :---                          |
-|                        |             |
-|                        |            |
-|                        |                               |
-|                    |   |
-|                    |  |
-|               |                               |
-|                  |                |
-|                        |                      |
-|                   |                               |
+| RI                       | Información sobre horarios               |
+| :---                     | :---                          |
+| Requisitos asiciados     | UC-01         |
+| Descripción              | El sistema deberá almacenar información correspondiente a los horarios de la universidad.           |
+| Datos específicos        | Grado universitario: 45 caracteres
+Año: 2 digitos
+| Comentarios               |           |
+
+| RI                       | Información sobre asignaturas               |
+| :---                     | :---                          |
+| Requisitos asiciados     | UC-01         |
+| Descripción              | El sistema deberá almacenar información correspondiente a los horarios de la universidad.           |
+| Datos específicos        | Nombre asignatura: 45 caracteres <br> Profesor: 45 caracteres <br> Días que se imparten: <br> * Fecha inicio: dd/mm/aaaa hh:mm <br> * Fecha fin: dd/mm/aaaa hh:mm
 
 
 
-
+| RI                       | Información sobre ticket               |
+| :---                     | :---                          |
+| Requisitos asiciados     | UC-02         |
+| Descripción              | El sistema deberá almacenar información correspondiente a los tickets realizados por los usuarios de la universidad.           |
+| Datos específicos        | Asunti: 80 caracteres <br> Cuerpo: 512 caracteres
 
 
 <br>
