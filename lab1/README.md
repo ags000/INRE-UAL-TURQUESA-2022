@@ -24,12 +24,12 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-| IR 01                         | Estudiante                     |
+| INF 01                        | Estudiante                    |
 | :---                          | :---                          |
-| Versión                       | 2.0 (08/10/2022)               |
+| Versión                       | 2.0 (08/10/2022)              |
 | Autores                       | Alejandro Manzano             |
 | Fuentes                       |                               |
-| Referencias                   | - Consultar horarios, UC-01.   |
+| Referencias                   | - Consultar horarios, UC-01.  |
 | Descripción                   | El Estudiante deberá estar dado de alta en el sistema. |
 | Datos específicos             |                               |
 | Importancia                   | Muy importante.               |
@@ -38,13 +38,13 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 $~$
 
-| IR 02                         | PDI                            |
+| INF 02                        | PDI                           |
 | :---                          | :---                          |
-| Versión                       | 1.0 (08/10/2022)               |
+| Versión                       | 1.0 (08/10/2022)              |
 | Autores                       | Cristina García               |
 | Fuentes                       |                               |
 | Referencias                   | - Proponer cambio de horario, UC-02.  <br> - Dar de alta estudiante vista PDI, UC-07.  <br> - Buscar listas de clase, UC-04.  <br> |
-| Descripción                   | El sistema deberá permitir al PDI proponer cambios en el horario y dar de alta a estudiantes. |
+| Descripción                   | El sistema deberá permitir al PDI proponer cambios en el horario y dar de alta a estudiantes.  |
 | Datos específicos             |                                |
 | Importancia                   | Muy importante.                |
 | Estado                        | Aceptado.                      |
@@ -52,9 +52,9 @@ $~$
 
 $~$
 
-| IR 03                         | PAS                            |
+| INF 03                        | PAS                           |
 | :---                          | :---                          |
-| Versión                       | 1.0 (08/10/2022)               |
+| Versión                       | 1.0 (08/10/2022)              |
 | Autores                       | Cristina García               |
 | Fuentes                       |                               |
 | Referencias                   | - Modificar horario, UC-06. <br> - Dar de alta estudiante, UC-03.  <br> - Verificar datos estudiante, Uc-05. <br> |
@@ -167,6 +167,26 @@ $~$
 | Poscondiciones                | El Estudiante está dado de alta.                      |
 
 $~$
+#### **Requisitos de la información**
+
+| RI                       |                      |
+| :---                          | :---                          |
+|                        |             |
+|                        |            |
+|                        |                               |
+|                    |   |
+|                    |  |
+|               |                               |
+|                  |                |
+|                        |                      |
+|                   |                               |
+
+
+
+
+
+
+<br>
 
 ### **Supuesto 2: Sistema de Compras**
 
@@ -182,9 +202,9 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 <br>
 
-| IR 01                         | Proveedor                     |
+| INF01                         | Proveedor                     |
 | :---                          | :---                          |
-| Versión                       | 1.0 (12/10/2022)               |
+| Versión                       | 1.0 (12/10/2022)              |
 | Autores                       | Adrián Galdeano             |
 | Fuentes                       | - Preguntar-                              |
 | Referencias                   | - Por definir-   |
@@ -197,7 +217,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 $~$
 
 
-| IR 02                         | Vendedor                     |
+| INF 02                        | Vendedor                     |
 | :---                          | :---                          |
 | Versión                       | 1.0 (12/10/2022)               |
 | Autores                       | Adrián Galdeano             |
@@ -210,7 +230,7 @@ $~$
 | Comentarios                   |                               |
 $~$
 
-| IR 03                         | Comprador                     |
+| INF 03                         | Comprador                     |
 | :---                          | :---                          |
 | Versión                       | 1.0 (12/10/2022)               |
 | Autores                       | Adrián Galdeano             |
@@ -224,7 +244,7 @@ $~$
 
 $~$
 
-| IR 04                         | Administrador                     |
+| INF 04                         | Administrador                     |
 | :---                          | :---                          |
 | Versión                       | 1.0 (12/10/2022)               |
 | Autores                       | Adrián Galdeano             |
@@ -488,3 +508,11 @@ $~$
 | Flujo normal                  |  1.- El Proveedor envía una notificación a los usuarios del sistema. <br> 2.- Los usuarios del sistema reciben una notificación.      |
 | Flujo alternativo             | Ninguno. |
 | Poscondiciones                | Ninguna. |
+
+#### **Requisitos de la información**
+
+
+
+
+
+
