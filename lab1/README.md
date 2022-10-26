@@ -296,16 +296,19 @@ $~$
 
 <br>
 
+
+   |
+
 | Identificador                 | UC-01                         |
 | :---                          | :----                         |
 | Nombre                        | Consultar ofertas             |
-| Autor                         | Cristina García               |
-| Fecha                         | 09/10/2022                    |
-| Descripción                   | Permite consultar las ofertas.       |
+| Autor                         | Cristina García, Adrián Galdeano               |
+| Fecha                         | 26/10/2022                    |
+| Descripción                   | Cuando se solicita consultar ofertas, el sistema deberá comportarse como se describe a continuación.        |
 | Actores                       | Comun, Proveedor, Vendedor, Comprador y Administrador                           |
 | Precondiciones                | El usuario debe haber accedido al sistema de compra.       |
-| Flujo normal                  | 1.- El usuario solicita entrar en la oferta deseada. <br> 2.- El sistema busca la determinada oferta. <br> 2.- El sistema muestra la oferta escogida.             |
-| Flujo alternativo             | 2.A.- Si el sistema no encuentra la oferta deseada devolverá un mensaje de error.     |
+| Flujo normal                  | 1.- El usuario solicita consultar las ofertas disponibles. <br> 2.- El sistema recopila las ofertas y las muestra en orden.           |
+| Flujo alternativo             | 2.A.- Si el sistema no encuentra alguna oferta disponible, muestra un mensaje indicándolo.     |
 | Poscondiciones                | Ninguna.                      |
 
  <br>
@@ -315,10 +318,10 @@ $~$
 | Nombre                        | Consultar precios             |
 | Autor                         | Cristina García               |
 | Fecha                         | 09/10/2022                    |
-| Descripción                   | Permite consultar los precios.       |
+| Descripción                   | Cuando se solicita consultar precios, el sistema deberá comportarse como se describe a continuación.       |
 | Actores                       | Comun, Proveedor, Vendedor, Comprador y Administrador                           |
 | Precondiciones                | El usuario debe haber accedido al sistema de compra.       |
-| Flujo normal                  | 1.- El usuario solicita ver el precio deseado. <br> 2.- El sistema busca los productos que entren en el rango de dicho precio. <br> 3.- El sistema muestra la consulta del precio.             |
+| Flujo normal                  | 1.- El usuario proporciona un intervalo de precios deseado. <br> 2.- El sistema busca los productos que entren en el rango de dicho precio y los muestra según el criterio de ordenación establecido. 
 | Flujo alternativo             | 2.A.- Si el sistema no localiza ningún producto por el precio deseado, devolverá un mensaje de error.     |
 | Poscondiciones                | Ninguna.                      |
 
@@ -327,14 +330,14 @@ $~$
 | Identificador                 | UC-03                         |
 | :---                          | :----                         |
 | Nombre                        | Finalizar compra              |
-| Autor                         | Cristina García               |
+| Autor                         | Cristina García, Adrián Galdeano               |
 | Fecha                         | 09/10/2022                    |
-| Descripción                   | Permite que el Comprador finalice la compra.       |
+| Descripción                   | Cuando se solicita finalizar compra, el sistema deberá comportarse como se describe a continuación.          |
 | Actores                       | Comprador          |
-| Precondiciones                | El Comprador debe haber accedido al sistema de compra.       |
-| Flujo normal                  | 1.- El Comprador solicita finalizar la compra de los productos escogidos previamente. <br> 2.- El sistema solicita los datos del Comprador para poder realizar la compra. <br> 4.- El Comprador introduce todos los datos pertinentes. <br> 3.- El sistema comprueba que todos los datos hayan sido introducidos. <br> 4.- El sistema finaliza la compra. <br> 5.- El sistema confirma la compra realizada mediante un resguardo tanto en el propio sistema de compras como a través de un correo.            |
-| Flujo alternativo             | 3.A.- El sistema comprueba que todos los los datos necesarios hayan sido introducidos. Si no lo han sido, el Comprador podrá volver a introducir los datos (paso 4) o finalizar el proceso. <br> 5.A.- El sistema no ha podido confirmar la compra a través del correo del Comprador debido a que ha sido introducido de manera incorrecta.   |
-| Poscondiciones                | El Comprador ha realizado la compra.                      |
+| Precondiciones                | El Comprador debe haber accedido al sistema de compra. El comprador debe estar autenticado.       |
+| Flujo normal                  | 1.- El Comprador solicita finalizar la compra de los productos escogidos previamente. <br> 2.- El sistema solicita los datos de facturación del Comprador para poder realizar la compra. <br> 3.- El Comprador introduce los datos de facturación y se los proporciona al sistema. <br> 4.- El sistema valida los datos de facturación. <br> 5.- El sistema solicita dirección de envío. <br> 6.- El cliente proporciona la dirección de envío. <br> 7.- El sistema verifica la dirección de envío y confirma la compra, mostrando un resguardo tanto en el propio sistema de compras como a través de un correo.            |
+| Flujo alternativo             | 4.A.- El sistema comprueba que todos los los datos de facturación sean válidos. Si no lo han sido, el Comprador podrá volver a introducir los datos (paso 3) o finalizar el proceso. <br> 7.A El sistema comprueba la dirección de envío, si no es válida podrá volver a introducirla (paso 6)|
+| Poscondiciones                | El Comprador ha realizado la compra y queda registrada en el sistema                      |
 
  <br>
 
@@ -342,12 +345,12 @@ $~$
 | :---                          | :----                         |
 | Nombre                        | Eliminar producto             |
 | Autor                         | Cristina García               |
-| Fecha                         | 09/10/2022                    |
-| Descripción                   | Permite que el Administrador elimine un producto determinado.       |
+| Fecha                         | 26/10/2022                    |
+| Descripción                   | Cuando se solicita eliminar producto, el sistema deberá comportarse como se describe a continuación.          |
 | Actores                       | Administrador          |
-| Precondiciones                | El Administrador debe haber accedido al sistema de compra.       |
-| Flujo normal                  | 1.- El Adminsitrador selecciona un producto a eliminar. <br> 2.- El sistema elimina el producto seleccionado.          |
-| Flujo alternativo             | 2.A.- Si el sistema no permite al Administrador eliminar el producto, mostrará un mensaje de error.   |
+| Precondiciones                | El Administrador debe haber accedido al sistema de compra y estar autenticado.       |
+| Flujo normal                  | 1.- El Adminsitrador realiza la búsqueda del identificador del producto a eliminar <br> 2.- El sistema comprueba la ID del producto, muestra el producto y sus datos y un check-box para su eliminación. <br> 3.- El administrador pulsa el check-boc para eliminar el producto y se envía al sistema <br> 4.- El sistema elimina el producto de sus registros     |
+| Flujo alternativo             | 2.A.- Si el sistema no dispone de la ID introducida, mostrará un mensaje   |
 | Poscondiciones                | El producto será eliminado del sistema de compras.                      |
 
  <br>
@@ -355,14 +358,15 @@ $~$
 | Identificador                 | UC-05                         |
 | :---                          | :----                         |
 | Nombre                        | Agregar producto             |
-| Autor                         | Alejandro Manzano               |
-| Fecha                         | 11/10/2022                    |
-| Descripción                   | Permite que el Comprador añada un producto a su carro de la compra para ser comprado.      |
+| Autor                         | Alejandro Manzano, Adrián Galdeano               |
+| Fecha                         | 26/10/2022                    |
+| Descripción                   | Cuando se solicita agregar producto, el sistema deberá comportarse como se describe a continuación.          |
 | Actores                       | Comprador          |
-| Precondiciones                | El producto no está marcado como bloqueado.       |
-| Flujo normal                  | 1.- El Comprador selecciona un producto a añadir. <br> 2.- El sistema añade el producto seleccionado al carro de la compra del Comprador. <br> 3.- El producto se es marcado como bloqueado por el sistema.          |
-| Flujo alternativo             | 2.A.- Si el sistema no puede añadir el producto mostrará un mensaje de error al Comprador y no se marcará como bloqueado.   |
-| Poscondiciones                | El producto ha quedado marcado como bloqueado.                     |
+| Precondiciones                | El producto no está marcado como bloqueado. El comprador está autenticado en el sistema.      |
+| Flujo normal                  | 1.- El Comprador busca en un buscador el producto deseado por su nombre <br> 2.- El sistema comprueba y muestra los productos relacionados a la búsqueda, con una opción de añadir para cada producto y otra opción para indicar la cantidad. <br> 3.- El Comprador pulsa en añadir, selecciona la cantidad deseada y lo envía al sistema <br> 4.- El sistema le agrega el producto deseado, disminuyendo en X su stock (X es la cantidad de productos seleccionados). Si el stock llega a 0, marca el producto como bloqueado.     |
+| Flujo alternativo             | 2.A.- Si el sistema no encuentra ningún producto relacionado con la búsqueda manda un mensaje de error.<br> 4.- Si no hay suficiente producto en stock, el sistema lanzará una alerta
+indicándolo.   |
+| Poscondiciones                | Disminuye el stock del producto en el sistema en función de la cantidad agregada por el Comprador.             |
 
  <br>
 
@@ -370,8 +374,8 @@ $~$
 | Identificador                 | UC-06                         |
 | :---                          | :----                         |
 | Nombre                        | Marcar producto como bloqueado             |
-| Autor                         | Alejandro Manzano               |
-| Fecha                         | 11/10/2022                    |
+| Autor                         | Alejandro Manzano, Adrián Galdeano               |
+| Fecha                         | 26/10/2022                    |
 | Descripción                   | Permite que al sistema marcar un producto como bloqueado cuando este añadadido al carro del Comprador.       |
 | Actores                       | Comprador          |
 | Precondiciones                | El Comprador ha añadido seleccionado la opción de agregar un producto a su carro.      |
@@ -399,26 +403,26 @@ $~$
 | Identificador                 | UC-08                         |
 | :---                          | :----                         |
 | Nombre                        | Verificar disponibilidad             |
-| Autor                         | Alejandro Manzano               |
-| Fecha                         | 11/10/2022                    |
-| Descripción                   | El sistema comprueba la disponibilidad de un producto cuando el Comprador trata de consultar los detalles del mismo.       |
+| Autor                         | Alejandro Manzano, Adrián Galdeano               |
+| Fecha                         | 26/10/2022                    |
+| Descripción                   | Cuando se solicita verificar disponibilidad, el sistema deberá comportarse como se describe a continuación.         |
 | Actores                       | Comprador          |
-| Precondiciones                | El Comprador ha seleccionado la opción para consultar los detalles de un producto. |
-| Flujo normal                  | 1.- El sistema busca el producto en la base de datos y comprueba sus campos <br> 2.- El sistema devuelve el campo de la disponiblidad.   |
-| Flujo alternativo             | 1.A.- Si el sistema no encuentra el producto devolverá un mensaje de error.   |
-| Poscondiciones                | El sistema ha retornado una variable booleana.                      |
+| Precondiciones                | El Comprador está autenticado. |
+| Flujo normal                  | 1.- El comprador escribe el nombre del producto y lo envía al sistema. <br> 2.- El sistema obtiene los productos relacionados con la búsqueda y los muestra, indicando su disponibilidad.   |
+| Flujo alternativo             | 1.A.- Si el sistema no encuentra ningún producto relacionado devolverá un mensaje de error.   |
+| Poscondiciones                | Ninguna.              |
 
  <br>
 
 | Identificador                 | UC-09                         |
 | :---                          | :----                         |
 | Nombre                        | Buscar productos              |
-| Autor                         | Cristina García               |
-| Fecha                         | 11/10/2022                    |
-| Descripción                   | Permite buscar productos.     |
+| Autor                         | Cristina García, Adrián Galdeano                |
+| Fecha                         | 26/10/2022                    |
+| Descripción                   | Cuando se solicita buscar productos, el sistema deberá comportarse como se describe a continuación.         |
 | Actores                       | Comun                         |
 | Precondiciones                | El usuario debe haber accedido al sistema de compra.       |
-| Flujo normal                  |  1.- El usuario solicita buscar los productos según los parámetros introducidos. <br> 2.- El sistema busca los productos que coincidan con las mismas características dadas por el usuario. <br> 3.- El sistema muestra en una nueva interfaz todos los productos que tengan las caracteristicas requeridas.        |
+| Flujo normal                  |  1.- El usuario introduce el nombre del producto en el buscador. <br> 2.- El sistema busca los productos que coincidan con el nombre introducido por el usuario. El sistema dispone los productos relacionados de forma ordenada según criterio establecido. Para cada producto se disponen datos básicos de este, nombre, precio, stock.     |
 | Flujo alternativo             | 2.A.- Si el sistema no encuentra ningún producto, devolverá un mensaje de error, permitiendo al usuario volver a buscar un producto (paso 1) o finalizar el proceso.   |
 | Poscondiciones                | Ninguna. 
 
@@ -427,13 +431,13 @@ $~$
 | Identificador                 | UC-10                         |
 | :---                          | :----                         |
 | Nombre                        | Consultar histórico de ventas         |
-| Autor                         | Cristina García               |
-| Fecha                         | 11/10/2022                    |
-| Descripción                   | Permite consultar el histórico de ventas de un producto.     |
+| Autor                         | Cristina García, Adrián Galdeano               |
+| Fecha                         | 26/10/2022                    |
+| Descripción                   | Cuando se solicita consultar histórico de ventas, el sistema deberá comportarse como se describe a continuación.        |
 | Actores                       | Comprador y Vendedor          |
-| Precondiciones                | Los usuarios deben haber accedido al sistema de compra.       |
-| Flujo normal                  |  1.- El usuario solicita consultar el histórico de ventas de un producto. <br> 2.- El sistema busca dicho histórico de ventas. <br> 3.- El sistema muestra el histórico de ventas del producto pedido.        |
-| Flujo alternativo             | 2.A.- Si el sistema no encuentra ningún histórico del producto, devolverá un mensaje de error, permitiendo finalizar el proceso.   |
+| Precondiciones                | Comprador y Vendedor deben estar autenticados en el sistema.       |
+| Flujo normal                  |  1.- El usuario solicita consultar el histórico de ventas de un producto. <br> 2.- El sistema solicita la ID del producto <br> 3.- El usuario proporciona la ID del producto deseado <br> 4.- El sistema muestra el histórico de ventas ordenadas según la fecha de venta.     |
+| Flujo alternativo             | 3.A.- Si el sistema no encuentra la ID, lanzará un aviso.<br> 4.A Si el producto no se ha vendido todavía, mostrá un aviso   |
 | Poscondiciones                | Ninguna. 
 
 <br>
@@ -441,53 +445,54 @@ $~$
 | Identificador                 | UC-11                         |
 | :---                          | :----                         |
 | Nombre                        | Incorporar oferta        |
-| Autor                         | Cristina García               |
-| Fecha                         | 11/10/2022                    |
-| Descripción                   | Permite incorporar al sistema una nueva oferta.     |
+| Autor                         | Cristina García, Adrián Galdeano               |
+| Fecha                         | 26/10/2022                    |
+| Descripción                   | Cuando se solicita incorporar oferta, el sistema deberá comportarse como se describe a continuación.          |
 | Actores                       | Proveedor          |
-| Precondiciones                | El Proveedor debe haber accedido al sistema de compra.       |
-| Flujo normal                  |  1.- El Proveedor solicita incorporar una oferta nueva. <br> 2.- El sistema busca dicha oferta. <br> 3.- El sistema incorpora la nueva oferta al catálogo.        |
-| Flujo alternativo             | 2.A.- Si el sistema no encuentra la oferta determinada, devolverá un mensaje de error. |
-| Poscondiciones                | La oferta ha sido incorporada al sistema. 
+| Precondiciones                | El Proveedor debe haber accedido al sistema de compra y estar autenticado.       |
+| Flujo normal                  |  1.- El Proveedor solicita incorporar una oferta nueva. <br> 2.- El sistema solicita la ID del producto a poner en oferta <br> 3.- El Proveedor introduce la ID del producto deseado <br> 4.- El sistema solicita el % de descuento a establecer en el producto. <br> 5.-El Proveedor introduce el % deseado de descuento <br> 6.- El sistema aplica el descuento al producto.       |
+| Flujo alternativo             | 2.A.- Si el sistema no encuentra la oferta el producto, lanza un aviso. <br> 6.A- Si el % se ha introducido de forma errónea, se lanza un error.|
+| Poscondiciones                | Se agrega la oferta al sistema.  |
 
 <br>
 
 | Identificador                 | UC-12                         |
 | :---                          | :----                         |
 | Nombre                        | Realizar Venta        |
-| Autor                         | Alejandro Manzano               |
-| Fecha                         | 14/10/2022                    |
-| Descripción                   | El Vendedor realiza vende su producto al Comprador.     |
+| Autor                         | Alejandro Manzano, Adrián Galdeano               |
+| Fecha                         | 26/10/2022                    |
+| Descripción                   | Cuando se solicita realizar venta, el sistema deberá comportarse como se describe a continuación.      |
 | Actores                       | Vendedor y Comprador          |
-| Precondiciones                | El producto ha sido agregado al sistema con aterioridad.       |
-| Flujo normal                  |  1.- El Comprador se interesa por el producto y contacta al Vendedor a través del sistema. <br> 2.- El Vendedor responde a la solicitud de contacto del Comprador. <br> 3.- Comprador y Vendedor acuerdan un precio para el producto. <br> 4.- El Comprador recibe el dinero y el producto es enviado al Comprador.       |
-| Flujo alternativo             | 3.A.- De forma opcional se puede consultar el histórico de ventas para ver los precios a los que se ha vendido dicho producto con anterioridad y fijar un precio acorde a estas ventas. |
-| Poscondiciones                | Una existencia de un producto ha sido vendida. Se actualizará el número de existencias de ese producto en la base de datos. |
+| Precondiciones                | Comprador y Vendedor están autenticados     |
+| Flujo normal                  |  1.- Una vez el Comprador ha agregado todos los productos deseados, solicita realizar venta. <br> 2.- El sistema informa al Vendedor, proporcionándole un botón para aceptar o rechazar la venta. <br> 3.- El vendedor aprueba la venta <br> 4.- El sistema solicita al Comprador si quiere introducir un precio alternativo para cada producto. <br> 5.- El usuario introduce un precio alternativo. <br> 6. El sistema informa al Vendedor del precio propuesto y permite al Vendedor aceptar o rechazar la venta.. <br> 7.- El Vendedor acepta la venta. <br> 8.- El sistema registra la venta.    |
+| Flujo alternativo             | 
+3.A- El vendedor rechaza la venta. El proceso termina. <br> 4.A.- De forma opcional se puede consultar el histórico de ventas para ver los precios a los que se ha vendido dicho producto con anterioridad y fijar un precio acorde a estas ventas.<br>6.B.- El Comprador no introduce un nuevo precio. El proceso contúa.<br>7.A.- El Vendedor rechaza la venta, el proceso culmina.  |
+| Poscondiciones                | Se actualiza el stock de los productos involucrados, se registra la venta en el sistema. |
 
 <br>
 
 | Identificador                 | UC-13                         |
 | :---                          | :----                         |
 | Nombre                        | Acordar precio        |
-| Autor                         | Alejandro Manzano               |
-| Fecha                         | 14/10/2022                    |
-| Descripción                   | El Vendedor y el Comprador acuerdan un precio para el producto.     |
+| Autor                         | Alejandro Manzano, Adrián Galdeano               |
+| Fecha                         | 26/10/2022                    |
+| Descripción                   | Cuando se solicita acordar precio, el sistema deberá comportarse como se describe a continuación.     |
 | Actores                       | Vendedor y Comprador          |
 | Precondiciones                | Se ha iniciado el proceso la realización de una venta de un producto.       |
-| Flujo normal                  |  1.- El Vendedor establece un precio inicial. <br> 2.- El Comprador trata de obtener un precio más bajo. <br> 3.- Si el comprador está de acuerdo se fijaría dicho precio.      |
-| Flujo alternativo             | 3.A.- En caso de que el Vendedor no esté conforme con el precio propuesto por el Comprador se volvería a iniciar el flujo normal. |
-| Poscondiciones                | El precio por el que se realizará la venta del producto a quedado fijado. |
+| Flujo normal                  | 1.- El vendedor aprueba la venta e informa de ello al sistema. <br> 4.- El sistema solicita al Comprador si quiere introducir un precio alternativo para cada producto, dándole opción para introducir el precio. <br> 5.- El usuario introduce un precio alternativo. <br> 6. El sistema informa al Vendedor del precio propuesto y permite al Vendedor aceptar o rechazar la venta. |
+| Flujo alternativo             | 5.A- El usuario no introduce un precio alternativo, el proceso continúa. |
+| Poscondiciones                | Ninguna. |
 
 | Identificador                 | UC-14                         |
 | :---                          | :----                         |
 | Nombre                        | Avisar nuevos productos        |
-| Autor                         | Alejandro Manzano               |
-| Fecha                         | 14/10/2022                    |
-| Descripción                   | El proveedor avisa a los usuarios del sistema de que hay nuevos productos.     |
+| Autor                         | Alejandro Manzano, Adrián Galdeano               |
+| Fecha                         | 26/10/2022                    |
+| Descripción                   | Cuando se solicita avisar de nuevos productos, el sistema deberá comportarse como se describe a continuación.     |
 | Actores                       | Proveedor          |
-| Precondiciones                | El proveedor tiene nuevos productos que notificar.       |
-| Flujo normal                  |  1.- El Proveedor incorpora los nuevos productos al sistema. <br> 2.- De forma excepcional, el proveedor puede incorporar una oferta a los productos. <br> 3.- El proveedor envía una notificación al resto de los usuarios.      |
-| Flujo alternativo             | Ninguno. |
+| Precondiciones                | El proveedor tiene nuevos productos que notificar. El Proveedor está autenticado.      |
+| Flujo normal                  |  1.- El Proveedor incorpora los nuevos productos al sistema. De forma excepcional, el proveedor puede incorporar una oferta a los productos.  El proveedor solicita avisar de los nuevos productos. <br> 2. El sistema reconoce los nuevos productos que previamente introdujo el Proveedor y envía una notificación a los usuarios del sistema.      |
+| Flujo alternativo             | 2.A.- Si el sistema no encuentra productos nuevos del Proveedor, el proceso culmina. No se notifica. |
 | Poscondiciones                | Los usuarios del sistema reciben una notificación que les avisa de los nuevos productos. |
 
 <br>
@@ -495,13 +500,15 @@ $~$
 | Identificador                 | UC-15                         |
 | :---                          | :----                         |
 | Nombre                        | Avisar fin de oferta        |
-| Autor                         | Alejandro Manzano               |
-| Fecha                         | 14/10/2022                    |
-| Descripción                   | El proveedor avisa a los usuarios del sistema de que una oferta finalizará pronto.     |
+| Autor                         | Alejandro Manzano, Adrián Galdeano               |
+| Fecha                         | 26/10/2022                    |
+| Descripción                   | Cuando se solicita avisar del fin de oferta, el sistema deberá comportarse como se describe a continuación.    |
 | Actores                       | Proveedor          |
-| Precondiciones                |    El producto tenía una oferta incorporada.    |
-| Flujo normal                  |  1.- El proveedor fija una fecha de fin para la oferta. <br> 2.- El proveedor envía una notificación a los usuarios del sistema avisando del fin de la oferta. <br> 3.- Cuando la fecha de la oferta se cumpla, se eliminará la oferta.     |
-| Flujo alternativo             | Ninguno. |
+| Precondiciones                |    El producto tenía una oferta incorporada y está registrado en el sistema.    |
+| Flujo normal                  |  1.- El proveedor solicita al sistema avisar del fin de una oferta<br> 2.- El sistema solicita al Proveedor que proporcione la ID del producto a avisar. <br>3.- El proveedor proporciona la ID del producto. <br>4.- El sistema verifica la ID y que el producto esté en oferta y su oferta vaya a expirar en los próximos días. Se notifica el fin de la oferta a los usuarios.     |
+| Flujo alternativo             | 4.A.- Si la ID es incorrecta, se envía un error.
+4.B- Si la oferta no va a expirar pronto, el proceso termina.
+ |
 | Poscondiciones                | Los usuarios del sistema reciben una notificación que les avisa de que una oferta finalizará pronto. |
 
 <br>
@@ -509,13 +516,13 @@ $~$
 | Identificador                 | UC-16                         |
 | :---                          | :----                         |
 | Nombre                        | Eliminar oferta        |
-| Autor                         | Alejandro Manzano               |
-| Fecha                         | 14/10/2022                    |
-| Descripción                   | La oferta incorporada a un producto es eliminada.      |
+| Autor                         | Alejandro Manzano, Adrián Galdeano               |
+| Fecha                         | 26/10/2022                    |
+| Descripción                   | Cuando se solicita eliminar oferta, el sistema deberá comportarse como se describe a continuación. |
 | Actores                       | Proveedor          |
-| Precondiciones                | Se ha cumplido el plazo de la oferta fijado por el Proovedor.       |
-| Flujo normal                  |  1.- Se elimina el producto de las ofertas del sistema. <br> 2.- El producto vuelve a su precio original.     |
-| Flujo alternativo             | Ninguno. |
+| Precondiciones                | Ninguna.    |
+| Flujo normal                  |  1.- El sistema verifica la fecha de fin de oferta, si se ha alcanzado esa fecha, el sistema establece el precio del producto a su valor original.     |
+| Flujo alternativo             | 1.A- Mientras no se alcance la fecha, el producto seguirá en oferta. |
 | Poscondiciones                | El producto ya no está en oferta. |
 
 <br>
@@ -523,12 +530,12 @@ $~$
 | Identificador                 | UC-17                         |
 | :---                          | :----                         |
 | Nombre                        | Avisar        |
-| Autor                         | Alejandro Manzano               |
-| Fecha                         | 14/10/2022                    |
-| Descripción                   | El proveedor avisa a los usuarios del sistema.     |
+| Autor                         | Alejandro Manzano, Adrián Galdeano               |
+| Fecha                         | 26/10/2022                    |
+| Descripción                   | Cuando se solicita avisar, el sistema deberá comportarse como se describe a continuación.    |
 | Actores                       | Proveedor          |
-| Precondiciones                | El proveedor tiene información de sus productos que notificar al resto de los usuarios del sistema.       |
-| Flujo normal                  |  1.- El Proveedor realiza los cambios e incorporaciones de sus productos al sistema. <br> 2.- El proveedor envía una notificación al resto de los usuarios del sistema.      |
+| Precondiciones                | El proveedor está autenticado.       |
+| Flujo normal                  |  1.- El Proveedor realiza los cambios en sus productos e incorporaciones de sus productos al sistema. <br> 2.- El sistema analiza los nuevos productos y cambios del Proveedor. <br> 3.- El sistema envía una notificación a los usuarios.     |
 | Flujo alternativo             | Ninguno. |
 | Poscondiciones                | Los usuarios del sistema reciben una notificación. |
 
@@ -537,14 +544,14 @@ $~$
 | Identificador                 | UC-18                         |
 | :---                          | :----                         |
 | Nombre                        | Enviar notificación        |
-| Autor                         | Alejandro Manzano               |
-| Fecha                         | 14/10/2022                    |
-| Descripción                   | El proveedor realiza un aviso en el sistema.     |
+| Autor                         | Alejandro Manzano, Adrián Galdeano               |
+| Fecha                         | 26/10/2022                    |
+| Descripción                   | Cuando se solicita enviar notificación, el sistema deberá comportarse como se describe a continuación.  |
 | Actores                       | Proveedor          |
 | Precondiciones                | El avisa de nueva información en sus productos.       |
-| Flujo normal                  |  1.- El Proveedor envía una notificación a los usuarios del sistema. <br> 2.- Los usuarios del sistema reciben una notificación.      |
+| Flujo normal                  |  1.- El sistema selecciona todos los usuarios del sistema y les envía una notificación indicando, el producto o lista de productos y sus detalles.    |
 | Flujo alternativo             | Ninguno. |
-| Poscondiciones                | Ninguna. |
+| Poscondiciones                | Los usuarios reciben una notificación. |
 
 #### **Requisitos de la información**
 
