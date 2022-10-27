@@ -129,7 +129,7 @@ $~$
 | Requisitos asiciados     | UC-01         |
 | Descripción              | El sistema deberá almacenar información correspondiente a los horarios de la universidad.           |
 | Datos específicos        | Grado universitario: 45 caracteres <br> Año: 2 digitos
-| Comentarios               |           |
+| Comentarios               | Ninguno. |
 
 <br>
 
@@ -166,6 +166,8 @@ $~$
 | Descripción              | El sistema deberá almacenar información correspondiente a estudiantes de la universidad.           |
 | Datos específicos        | Datos del estudiante: <br> * Nombre completo: 255 caracteres <br> * DNI : 9 caracteres (8 dígitos y 1 caracteres) <br> * Fecha de nacimiento: dd/mm/aaaa |
 | Comentarios               | Ninguno. |
+
+<br>
 
 | RI-06                    | Rol del usuario              |
 | :---                     | :---                          |
@@ -460,7 +462,7 @@ indicándolo.   |
 | Requisitos asiciados     | UC-01, UC-15       |
 | Descripción              | El sistema deberá almacenar información correspondiente a las ofertas.          |
 | Datos específicos        | Identificador de producto : entero <br> %de descuento: dos dígitos <br> Fecha inicio de oferta: dd/mm/aaaa hh:mm <br> Fecha fin de oferta: dd/mm/aaaa hh:mm |
-| Comentarios               | El identificador se corresponderá con elID del producto. |
+| Comentarios               | El identificador se corresponderá con el ID del producto. |
 
 <br>
 
@@ -469,7 +471,7 @@ indicándolo.   |
 | Requisitos asiciados     | UC-02, UC-04, UC-05, UC-06, UC-14       |
 | Descripción              | El sistema deberá almacenar información correspondiente a los productos.          |
 | Datos específicos        | Identificador de producto : entero <br>  Precio: entero. <br> Nombre de producto: 255 caracteres. <br> Stock: 10 dígitos. <br> Fecha publicación: dd/mm/aaaa|
-| Comentarios               | Ningno.|
+| Comentarios               | Ninguno.|
 
 <br>
 
@@ -478,7 +480,7 @@ indicándolo.   |
 | Requisitos asiciados     | UC-03        |
 | Descripción              | El sistema deberá almacenar información correspondiente a las compras registradas.          |
 | Datos específicos        | Identificador de compra : entero <br> Dirección de envío: 200 caracteres <br> Precio de compra: entero |
-| Comentarios               | Ningno.|
+| Comentarios               | Ninguno.|
 
 <br>
 
@@ -487,7 +489,7 @@ indicándolo.   |
 | Requisitos asiciados     | UC-05        |
 | Descripción              | El sistema deberá almacenar información correspondiente a la selección de productos a comprar por los Compradores.         |
 | Datos específicos        | Identificador de carrito : entero <br>  Itentificador de producto: entero. |
-| Comentarios               | Ningno.|
+| Comentarios               | Ninguno.|
 
 <br>
 
@@ -496,7 +498,7 @@ indicándolo.   |
 | Requisitos asiciados     | UC-10        |
 | Descripción              | El sistema deberá almacenar información correspondiente a las ventas.         |
 | Datos específicos        | Identificador de venta : entero <br> Itentificador de compra: entero <br> Fecha: dd/mm/aaaa |
-| Comentarios               | Ningno.|
+| Comentarios               | Ninguno.|
 
 <br>
 
