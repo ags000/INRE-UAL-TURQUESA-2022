@@ -221,7 +221,7 @@ $~$
 | Comentarios               | El identificador se corresponderá con el DNI del usuario |
 
 
-
+<img src="./er-supuesto1.jpg">
 
 <br>
 
