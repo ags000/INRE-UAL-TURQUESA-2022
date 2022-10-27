@@ -556,7 +556,54 @@ indicándolo.   |
 #### **Requisitos de la información**
 
 
+| RI-01                    | Información sobre ofertas             |
+| :---                     | :---                          |
+| Requisitos asiciados     | UC-01, UC-15       |
+| Descripción              | El sistema deberá almacenar información correspondiente a las ofertas.          |
+| Datos específicos        | Identificador de producto : entero <br> %de descuento: dos dígitos <br> Fecha inicio de oferta: 50 caracteres 
+<br> Fecha fin de oferta: 50 caracteres. |
+| Comentarios               | El identificador se corresponderá con elID del producto. |
 
 
+| RI-02                    | Información sobre productos             |
+| :---                     | :---                          |
+| Requisitos asiciados     | UC-02, UC-04, UC-05, UC-06, UC-14       |
+| Descripción              | El sistema deberá almacenar información correspondiente a los productos.          |
+| Datos específicos        | Identificador de producto : entero <br> 
+Precio: entero. <br> Nombre de producto: 255 caracteres.
+<br> Stock: 10 dígitos. <br> Fecha publicación: 50 caracteres.|
+| Comentarios               | Ningno.|
 
+| RI-03                    | Información sobre compras             |
+| :---                     | :---                          |
+| Requisitos asiciados     | UC-03        |
+| Descripción              | El sistema deberá almacenar información correspondiente a las compras registradas.          |
+| Datos específicos        | Identificador de compra : entero <br> 
+Dirección de envío: 200 caracteres <br> Precio de compra: entero |
+| Comentarios               | Ningno.|
 
+| RI-04                    | Información sobre agregar productos. (Carrito)             |
+| :---                     | :---                          |
+| Requisitos asiciados     | UC-05        |
+| Descripción              | El sistema deberá almacenar información correspondiente a la selección de productos a comprar por los Compradores.         |
+| Datos específicos        | Identificador de carrito : entero <br> 
+Itentificador de producto: entero. |
+| Comentarios               | Ningno.|
+
+| RI-05                    | Información sobre ventas.            |
+| :---                     | :---                          |
+| Requisitos asiciados     | UC-10        |
+| Descripción              | El sistema deberá almacenar información correspondiente a las ventas.         |
+| Datos específicos        | Identificador de venta : entero <br> 
+Itentificador de compra: entero <br> Fecha: cadena 50 caracteres. |
+| Comentarios               | Ningno.|
+
+| RI-06                    | Información sobre Usuarios.            |
+| :---                     | :---                          |
+| Requisitos asiciados     | UC-04, UC-05, UC-06, UC-10, UC-12, UC-13, UC-14, UC-15        |
+| Descripción              | El sistema deberá almacenar información correspondiente a los usuarios.         |
+| Datos específicos        | Identificador de usuario : cadena <br> 
+Contraseña : cadena <br> ROL: entero. |
+| Comentarios               | El rol es un número que proporciona privilegios a un usuario. Si el número es 0 será comprador, 1 implica ser Vendedor, 2 Proveedor y 3 Administrador.|
+
+<img src="./er-supuesto2.jpg">
