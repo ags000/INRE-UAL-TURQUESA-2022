@@ -137,12 +137,21 @@ $~$
 | :---                     | :---                          |
 | Requisitos asiciados     | UC-01         |
 | Descripción              | El sistema deberá almacenar información correspondiente a los horarios de la universidad.           |
-| Datos específicos        | Nombre asignatura: 45 caracteres <br> Profesor: 45 caracteres <br> Días que se imparten: <br> * Fecha inicio: dd/mm/aaaa hh:mm <br> * Fecha fin: dd/mm/aaaa hh:mm |
+| Datos específicos        | Nombre asignatura: 45 caracteres <br> Profesor: 45 caracteres |
 | Comentarios               | Ninguno. |
 
 <br>
 
-| RI-03                    | Información sobre ticket               |
+| RI-03                    | Periodos de asignaturas               |
+| :---                     | :---                          |
+| Requisitos asiciados     | UC-01         |
+| Descripción              | El sistema deberá almacenar información correspondiente a los periodos en los que se imparte una asignatura           |
+| Datos específicos        | Días que se imparten: <br> * Fecha inicio: dd/mm/aaaa hh:mm <br> * Fecha fin: dd/mm/aaaa hh:mm |
+| Comentarios               | Ninguno. |
+
+<br>
+
+| RI-04                    | Información sobre ticket               |
 | :---                     | :---                          |
 | Requisitos asiciados     | UC-02         |
 | Descripción              | El sistema deberá almacenar información correspondiente a los tickets realizados por los usuarios de la universidad.           |
@@ -151,7 +160,7 @@ $~$
 
 <br>
 
-| RI-04                    | Información sobre usuario               |
+| RI-05                    | Información sobre usuario               |
 | :---                     | :---                          |
 | Requisitos asiciados     | UC-03         |
 | Descripción              | El sistema deberá almacenar información correspondiente a estudiantes de la universidad.           |
@@ -160,7 +169,7 @@ $~$
 
 <br>
 
-| RI-05                    | Información sobre estudiantes               |
+| RI-06                    | Información sobre estudiantes               |
 | :---                     | :---                          |
 | Requisitos asiciados     | UC-04, UC-05         |
 | Descripción              | El sistema deberá almacenar información correspondiente a estudiantes de la universidad.           |
@@ -169,7 +178,7 @@ $~$
 
 <br>
 
-| RI-06                    | Rol del usuario              |
+| RI-07                    | Rol del usuario              |
 | :---                     | :---                          |
 | Requisitos asiciados     | UC-03        |
 | Descripción              | El sistema deberá almacenar información correspondiente al rol del usuario de la universidad.           |
