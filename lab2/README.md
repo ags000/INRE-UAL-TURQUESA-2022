@@ -61,11 +61,11 @@ Después de un incendio, por un lado se necesita obtener información de nuestra
 
 <br>
 
-<!--- <div align="center">
-    <img src="./../lab2/supuesto1.svg" style="border: 3px solid #bbb">
-    <i><p>Imagen 1. Diagrama BPMN supuesto 1.</p></i>
+<div align="center">
+    <img src="./../lab2/supuesto2.svg" style="border: 3px solid #bbb">
+    <i><p>Imagen 3. Diagrama BPMN supuesto 2.</p></i>
 </div>
---->
+
 
 <br>
 <br>
