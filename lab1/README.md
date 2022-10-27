@@ -20,52 +20,6 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-#### **Especificación de los Actores**
-
-<br>
-
-| INF 01                        | Estudiante                    |
-| :---                          | :---                          |
-| Versión                       | 2.0 (08/10/2022)              |
-| Autores                       | Alejandro Manzano             |
-| Fuentes                       |                               |
-| Referencias                   | - Consultar horarios, UC-01.  |
-| Descripción                   | El Estudiante deberá estar dado de alta en el sistema. |
-| Datos específicos             |                               |
-| Importancia                   | Muy importante.               |
-| Estado                        | Aceptado.                     |
-| Comentarios                   |                               |
-
-$~$
-
-| INF 02                        | PDI                           |
-| :---                          | :---                          |
-| Versión                       | 1.0 (08/10/2022)              |
-| Autores                       | Cristina García               |
-| Fuentes                       |                               |
-| Referencias                   | - Proponer cambio de horario, UC-02.  <br> - Dar de alta estudiante vista PDI, UC-07.  <br> - Buscar listas de clase, UC-04.  <br> |
-| Descripción                   | El sistema deberá permitir al PDI proponer cambios en el horario y dar de alta a estudiantes.  |
-| Datos específicos             |                                |
-| Importancia                   | Muy importante.                |
-| Estado                        | Aceptado.                      |
-| Comentarios                   |                                |
-
-$~$
-
-| INF 03                        | PAS                           |
-| :---                          | :---                          |
-| Versión                       | 1.0 (08/10/2022)              |
-| Autores                       | Cristina García               |
-| Fuentes                       |                               |
-| Referencias                   | - Modificar horario, UC-06. <br> - Dar de alta estudiante, UC-03.  <br> - Verificar datos estudiante, Uc-05. <br> |
-| Descripción                   | El sistema deberá permitir al PAS modificar los horarios y dar de alta a los estudiantes. |
-| Datos específicos             |                                |
-| Importancia                   | Muy importante.                |
-| Estado                        | Aceptado.                      |
-| Comentarios                   |                                |
-
-$~$
-
 #### **Especificación de los Casos de Uso**
 
 <br>
@@ -220,8 +174,13 @@ $~$
 | Datos específicos        | Identificador : 9 caracteres <br> Rol del estudiante: <br> * PDI: condicional 1 <br> * PAS: condicional 2 <br> * Estudiante: condicional 3 |
 | Comentarios               | El identificador se corresponderá con el DNI del usuario |
 
+<br>
 
-<img src="./er-supuesto1.jpg">
+<div align="center">
+    <img src="./er-supuesto1.jpg" style="border: 3px solid #bbb">
+    <i><p>Imagen 1. Diagrama Entidad-Relación del Supuesto 1.</p></i>
+</div>
+
 
 <br>
 
@@ -235,69 +194,9 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 <br>
 
-#### **Especificación de los Actores**
-
-<br>
-
-| INF01                         | Proveedor                     |
-| :---                          | :---                          |
-| Versión                       | 1.0 (12/10/2022)              |
-| Autores                       | Adrián Galdeano             |
-| Fuentes                       | - Preguntar-                              |
-| Referencias                   | - Por definir-   |
-| Descripción                   | El proveedor es un tipo de usuario. ¿Qué poner? |
-| Datos específicos             |     -Preguntar-  Campos de información que se guardan                        |
-| Importancia                   | Muy importante.     ¿Por qué?          |
-| Estado                        | Aceptado.         ¿Por qué?            |
-| Comentarios                   |                               |
-
-$~$
-
-
-| INF 02                        | Vendedor                     |
-| :---                          | :---                          |
-| Versión                       | 1.0 (12/10/2022)               |
-| Autores                       | Adrián Galdeano             |
-| Fuentes                       | - Preguntar-                              |
-| Referencias                   | - Por definir-   |
-| Descripción                   | El vendedor es un tipo de usuario. ¿Qué poner? |
-| Datos específicos             |     -Preguntar-  Campos de información que se guardan                        |
-| Importancia                   | Muy importante.     ¿Por qué?          |
-| Estado                        | Aceptado.         ¿Por qué?            |
-| Comentarios                   |                               |
-$~$
-
-| INF 03                         | Comprador                     |
-| :---                          | :---                          |
-| Versión                       | 1.0 (12/10/2022)               |
-| Autores                       | Adrián Galdeano             |
-| Fuentes                       | - Preguntar-                              |
-| Referencias                   | - Por definir-   |
-| Descripción                   | El vendedor es un tipo de usuario. ¿Qué poner? |
-| Datos específicos             |     -Preguntar-  Campos de información que se guardan                        |
-| Importancia                   | Muy importante.     ¿Por qué?          |
-| Estado                        | Aceptado.         ¿Por qué?            |
-| Comentarios                   |                               |
-
-$~$
-
-| INF 04                         | Administrador                     |
-| :---                          | :---                          |
-| Versión                       | 1.0 (12/10/2022)               |
-| Autores                       | Adrián Galdeano             |
-| Fuentes                       | - Preguntar-                              |
-| Referencias                   | - Por definir-   |
-| Descripción                   | El vendedor es un tipo de usuario. ¿Qué poner? |
-| Datos específicos             |     -Preguntar-  Campos de información que se guardan                        |
-| Importancia                   | Muy importante.     ¿Por qué?          |
-| Estado                        | Aceptado.         ¿Por qué?            |
-| Comentarios                   |                               |
 #### **Especificación de los Casos de Uso**
 
 <br>
-
-
-   |
 
 | Identificador                 | UC-01                         |
 | :---                          | :----                         |
@@ -370,7 +269,6 @@ indicándolo.   |
 
  <br>
 
-
 | Identificador                 | UC-06                         |
 | :---                          | :----                         |
 | Nombre                        | Marcar producto como bloqueado             |
@@ -398,7 +296,6 @@ indicándolo.   |
 | Poscondiciones                | Ninguna.                      |
 
  <br>
-
 
 | Identificador                 | UC-08                         |
 | :---                          | :----                         |
@@ -465,8 +362,7 @@ indicándolo.   |
 | Actores                       | Vendedor y Comprador          |
 | Precondiciones                | Comprador y Vendedor están autenticados     |
 | Flujo normal                  |  1.- Una vez el Comprador ha agregado todos los productos deseados, solicita realizar venta. <br> 2.- El sistema informa al Vendedor, proporcionándole un botón para aceptar o rechazar la venta. <br> 3.- El vendedor aprueba la venta <br> 4.- El sistema solicita al Comprador si quiere introducir un precio alternativo para cada producto. <br> 5.- El usuario introduce un precio alternativo. <br> 6. El sistema informa al Vendedor del precio propuesto y permite al Vendedor aceptar o rechazar la venta.. <br> 7.- El Vendedor acepta la venta. <br> 8.- El sistema registra la venta.    |
-| Flujo alternativo             | 
-3.A- El vendedor rechaza la venta. El proceso termina. <br> 4.A.- De forma opcional se puede consultar el histórico de ventas para ver los precios a los que se ha vendido dicho producto con anterioridad y fijar un precio acorde a estas ventas.<br>6.B.- El Comprador no introduce un nuevo precio. El proceso contúa.<br>7.A.- El Vendedor rechaza la venta, el proceso culmina.  |
+| Flujo alternativo             | 3.A- El vendedor rechaza la venta. El proceso termina. <br> 4.A.- De forma opcional se puede consultar el histórico de ventas para ver los precios a los que se ha vendido dicho producto con anterioridad y fijar un precio acorde a estas ventas.<br>6.A.- El Comprador no introduce un nuevo precio. El proceso contúa.<br>7.A.- El Vendedor rechaza la venta, el proceso culmina.  |
 | Poscondiciones                | Se actualiza el stock de los productos involucrados, se registra la venta en el sistema. |
 
 <br>
@@ -479,9 +375,11 @@ indicándolo.   |
 | Descripción                   | Cuando se solicita acordar precio, el sistema deberá comportarse como se describe a continuación.     |
 | Actores                       | Vendedor y Comprador          |
 | Precondiciones                | Se ha iniciado el proceso la realización de una venta de un producto.       |
-| Flujo normal                  | 1.- El vendedor aprueba la venta e informa de ello al sistema. <br> 4.- El sistema solicita al Comprador si quiere introducir un precio alternativo para cada producto, dándole opción para introducir el precio. <br> 5.- El usuario introduce un precio alternativo. <br> 6. El sistema informa al Vendedor del precio propuesto y permite al Vendedor aceptar o rechazar la venta. |
-| Flujo alternativo             | 5.A- El usuario no introduce un precio alternativo, el proceso continúa. |
+| Flujo normal                  | 1.- El vendedor aprueba la venta e informa de ello al sistema. <br> 4.- El sistema solicita al Comprador si quiere introducir un precio alternativo para cada producto, dándole opción para introducir el precio. <br> 5.- El usuario introduce un precio alternativo. <br> 6.- El sistema informa al Vendedor del precio propuesto y permite al Vendedor aceptar o rechazar la venta. |
+| Flujo alternativo             | 5.A.- El usuario no introduce un precio alternativo, el proceso continúa. |
 | Poscondiciones                | Ninguna. |
+
+<br>
 
 | Identificador                 | UC-14                         |
 | :---                          | :----                         |
@@ -506,9 +404,7 @@ indicándolo.   |
 | Actores                       | Proveedor          |
 | Precondiciones                |    El producto tenía una oferta incorporada y está registrado en el sistema.    |
 | Flujo normal                  |  1.- El proveedor solicita al sistema avisar del fin de una oferta<br> 2.- El sistema solicita al Proveedor que proporcione la ID del producto a avisar. <br>3.- El proveedor proporciona la ID del producto. <br>4.- El sistema verifica la ID y que el producto esté en oferta y su oferta vaya a expirar en los próximos días. Se notifica el fin de la oferta a los usuarios.     |
-| Flujo alternativo             | 4.A.- Si la ID es incorrecta, se envía un error.
-4.B- Si la oferta no va a expirar pronto, el proceso termina.
- |
+| Flujo alternativo             | 4.A.- Si la ID es incorrecta, se envía un error. <br> 4.B.- Si la oferta no va a expirar pronto, el proceso termina. |
 | Poscondiciones                | Los usuarios del sistema reciben una notificación que les avisa de que una oferta finalizará pronto. |
 
 <br>
@@ -553,57 +449,67 @@ indicándolo.   |
 | Flujo alternativo             | Ninguno. |
 | Poscondiciones                | Los usuarios reciben una notificación. |
 
+<br>
+
 #### **Requisitos de la información**
 
+<br>
 
 | RI-01                    | Información sobre ofertas             |
 | :---                     | :---                          |
 | Requisitos asiciados     | UC-01, UC-15       |
 | Descripción              | El sistema deberá almacenar información correspondiente a las ofertas.          |
-| Datos específicos        | Identificador de producto : entero <br> %de descuento: dos dígitos <br> Fecha inicio de oferta: 50 caracteres 
-<br> Fecha fin de oferta: 50 caracteres. |
+| Datos específicos        | Identificador de producto : entero <br> %de descuento: dos dígitos <br> Fecha inicio de oferta: dd/mm/aaaa hh:mm <br> Fecha fin de oferta: dd/mm/aaaa hh:mm |
 | Comentarios               | El identificador se corresponderá con elID del producto. |
 
+<br>
 
 | RI-02                    | Información sobre productos             |
 | :---                     | :---                          |
 | Requisitos asiciados     | UC-02, UC-04, UC-05, UC-06, UC-14       |
 | Descripción              | El sistema deberá almacenar información correspondiente a los productos.          |
-| Datos específicos        | Identificador de producto : entero <br> 
-Precio: entero. <br> Nombre de producto: 255 caracteres.
-<br> Stock: 10 dígitos. <br> Fecha publicación: 50 caracteres.|
+| Datos específicos        | Identificador de producto : entero <br>  Precio: entero. <br> Nombre de producto: 255 caracteres. <br> Stock: 10 dígitos. <br> Fecha publicación: dd/mm/aaaa|
 | Comentarios               | Ningno.|
+
+<br>
 
 | RI-03                    | Información sobre compras             |
 | :---                     | :---                          |
 | Requisitos asiciados     | UC-03        |
 | Descripción              | El sistema deberá almacenar información correspondiente a las compras registradas.          |
-| Datos específicos        | Identificador de compra : entero <br> 
-Dirección de envío: 200 caracteres <br> Precio de compra: entero |
+| Datos específicos        | Identificador de compra : entero <br> Dirección de envío: 200 caracteres <br> Precio de compra: entero |
 | Comentarios               | Ningno.|
+
+<br>
 
 | RI-04                    | Información sobre agregar productos. (Carrito)             |
 | :---                     | :---                          |
 | Requisitos asiciados     | UC-05        |
 | Descripción              | El sistema deberá almacenar información correspondiente a la selección de productos a comprar por los Compradores.         |
-| Datos específicos        | Identificador de carrito : entero <br> 
-Itentificador de producto: entero. |
+| Datos específicos        | Identificador de carrito : entero <br>  Itentificador de producto: entero. |
 | Comentarios               | Ningno.|
+
+<br>
 
 | RI-05                    | Información sobre ventas.            |
 | :---                     | :---                          |
 | Requisitos asiciados     | UC-10        |
 | Descripción              | El sistema deberá almacenar información correspondiente a las ventas.         |
-| Datos específicos        | Identificador de venta : entero <br> 
-Itentificador de compra: entero <br> Fecha: cadena 50 caracteres. |
+| Datos específicos        | Identificador de venta : entero <br> Itentificador de compra: entero <br> Fecha: dd/mm/aaaa |
 | Comentarios               | Ningno.|
+
+<br>
 
 | RI-06                    | Información sobre Usuarios.            |
 | :---                     | :---                          |
 | Requisitos asiciados     | UC-04, UC-05, UC-06, UC-10, UC-12, UC-13, UC-14, UC-15        |
 | Descripción              | El sistema deberá almacenar información correspondiente a los usuarios.         |
-| Datos específicos        | Identificador de usuario : cadena <br> 
-Contraseña : cadena <br> ROL: entero. |
+| Datos específicos        | Identificador de usuario : cadena <br>  Contraseña : cadena <br> ROL: entero. |
 | Comentarios               | El rol es un número que proporciona privilegios a un usuario. Si el número es 0 será comprador, 1 implica ser Vendedor, 2 Proveedor y 3 Administrador.|
 
-<img src="./er-supuesto2.jpg">
+<br>
+
+<div align="center">
+    <img src="./er-supuesto2.jpg" style="border: 3px solid #bbb">
+    <i><p>Imagen 2. Diagrama Entidad-Relación del Supuesto 2.</p></i>
+</div>
