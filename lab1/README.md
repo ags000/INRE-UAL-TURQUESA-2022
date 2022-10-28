@@ -20,6 +20,13 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
+<div align="center">
+    <img src="./../out/lab0/src/horarios/horarios.svg" style="border: 3px solid #bbb">
+    <i><p>Imagen 1. Diagrama del supuesto 1.</p></i>
+</div>
+
+<br>
+
 #### **Especificación de los Casos de Uso**
 
 <br>
@@ -30,7 +37,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 | Autor                         | Alejandro Manzano, Cristina García y Adrian Galdeano          |
 | Fecha                         | 07/10/2022                    |
 | Descripción                   | Cuando un usuario solicita consultar un horario, el sistema deberá comportarse como se describe a continuación.  |
-| Actores                       | Estudiante, PID y PAS                    |
+| Actores                       | Estudiante, PDI y PAS                    |
 | Precondiciones                | El Estudiante está autenticado en el sistema.       |
 | Flujo normal                  | 	1.- El Estudiante solicita al sistema consultar un horario. <br> 2.- El sistema proporciona un enlace a cada horario que se encuentre disponible de forma organizada. <br> 3.- El usuario escoge el horario deseado. <br> 4.- El sistema muestra el horario.       |
 | Flujo alternativo             | 2A.- Si el sistema no encuentra el horario escogido por el Estudiante devolverá un mensaje de error, finalizando así el proceso.                       |
@@ -41,13 +48,13 @@ $~$
 | Identificador                 | UC-02                         |
 | :---                          |    :----                      |
 | Nombre                        | Proponer cambio horario   |
-| Autor                         | Cristina García               |
+| Autor                         | Cristina García, Alejandro Manzano               |
 | Fecha                         | 07/10/2022                    |
 | Descripción                   | Cuando PDI propone cambiar un horario, el sistema deberá comportarse como se describe a continuación.       |
 | Actores                       | PDI        |
 | Precondiciones                | PDI está autenticado en el sistema.       |
-| Flujo normal                  | 	1.- PDI solicita abrir un ticket. <br> 2.- PDI rellena los datos y los envía. <br> 3.- El sistema verifica la integridad de los datos.
-| Flujo alternativo             | 3.A.- El sistema comprueba que los campos hayan sido rellenados. Si no lo son, PDI podrá volver a introducir los datos (paso 3) o finalizar el proceso.        |
+| Flujo normal                  | 	1.- PDI solicita abrir un ticket. <br> 2.- PDI rellena los datos y los envía. <br> 3.- El sistema verifica que los campos del ticket hayan sido rellenados correctamente.
+| Flujo alternativo             | 3.A.- Si los datos introducidos no son correctos, PDI podrá volver a introducir los datos (paso 3) o finalizar el proceso.        |
 | Poscondiciones                | Ninguna.        |
 
 $~$
@@ -57,7 +64,7 @@ $~$
 | Nombre                        | Dar de alta estudiante        |
 | Autor                         | Cristina García               |
 | Fecha                         | 07/10/2022                    |
-| Descripción                   | Cuando PDI propone dar de alta a un estudiante, el sistema deberá comportarse como se describe a continuación.         |
+| Descripción                   | Cuando PAS propone dar de alta a un estudiante, el sistema deberá comportarse como se describe a continuación.         |
 | Actores                       | PAS                           |
 | Precondiciones                | PAS debe estar auntenticado en el sistema.       |
 | Flujo normal                  | 1.- PAS solicita dar de alta al Estudiante. <br> 2.- El sistema solicita los datos del Estudiante. <br> 3.- PAS introduce los datos del Estudiante. <br> 4.- El sistema verifica los datos del Estudiante y da de alta al estudiante.      |
@@ -114,8 +121,8 @@ $~$
 | Autor                         | Cristina García               |
 | Fecha                         | 08/10/2022                    |
 | Descripción                   | Cuando PDI solicita dar de alta a un estudiante, el sistema deberá comportarse como se describe a continuación.      |
-| Actores                       | PID                           |
-| Precondiciones                | PID debe estar auntenticado en el sistema.       |
+| Actores                       | PDI                           |
+| Precondiciones                | PDI debe estar auntenticado en el sistema.       |
 | Flujo normal                  | 1.- PID solicita dar de alta al Estudiante. <br> 2.- El sistema solicita los datos del Estudiante. <br> 3.- PID introduce los datos del Estudiante . <br> 4.- El sistema verifica los datos del Estudiante y se le da de alta en el sistema.               |
 | Flujo alternativo				| 4.A.- El sistema comprueba que los datos del Estudiante sean correctos. Si no lo son, PID podrá volver a introducir los datos del Estudiante (paso 3) o finalizar el proceso. <br> 4.B.- El sistema, de forma excepcional, busca las listas de clase de las asignaturas del Estudiante.   |
 | Poscondiciones                | El Estudiante está dado de alta.                      |
@@ -189,7 +196,7 @@ $~$
 
 <div align="center">
     <img src="./er-supuesto1.jpg" style="border: 3px solid #bbb">
-    <i><p>Imagen 1. Diagrama Entidad-Relación del Supuesto 1.</p></i>
+    <i><p>Imagen 2. Diagrama Entidad-Relación del Supuesto 1.</p></i>
 </div>
 
 
@@ -202,6 +209,13 @@ $~$
 <div align="justify">
 En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, proveedor y administrador. Los compradores pueden agregar productos, consultar precios, finalizar la compra y consultar ofertas. Agregar productos implica marcar esos productos como bloqueados. Los vendedores también pueden consultar ofertas y consultar precios. Los proveedores pueden consultar precios, avisar de nuevos productos y consultar ofertas. Avisar de nuevos productos, de forma excepcional, realiza la incorporación de una oferta. Los proveedores también tienen una funcionalidad para avisar del fin de una oferta. Cuando se avisa del fin de una oferta, se ejecuta la funcionalidad de eliminar la oferta. Ambas funcionalidades de avisar del proveedor tienen en común que se encarga de enviar una notificación. Los administradores pueden consultar precios, consultar ofertas y eliminar productos. La funcionalidad de consultar precios incluye una funcionalidad de buscar productos que es similar a la funcionalidad de consultar productos de los compradores. Sin embargo, la funcionalidad de consultar productos añade una funcionalidad para verificar la disponibilidad. Para realizar una venta, un comprador y un vendedor participan de forma conjunta. En dicha operación, se lleva a cabo el acuerdo de un precio; excepcionalmente, durante la realización de la venta, se consultará el histórico de ventas.
 </div">
+
+<br>
+
+<div align="center">
+    <img src="./../out/lab0/src/sistemaDeCompras/sistemaDeCompras.svg" style="border: 3px solid #bbb">
+    <i><p>Imagen 2. Diagrama del supuesto 2.</p></i>
+</div>
 
 <br>
 
@@ -522,5 +536,5 @@ indicándolo.   |
 
 <div align="center">
     <img src="./er-supuesto2.jpg" style="border: 3px solid #bbb">
-    <i><p>Imagen 2. Diagrama Entidad-Relación del Supuesto 2.</p></i>
+    <i><p>Imagen 4. Diagrama Entidad-Relación del Supuesto 2.</p></i>
 </div>
