@@ -39,9 +39,10 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 | Descripción                   | Cuando un usuario solicita consultar un horario, el sistema deberá comportarse como se describe a continuación.  |
 | Actores                       | Estudiante, PDI y PAS                    |
 | Precondiciones                | El Estudiante está autenticado en el sistema.       |
-| Flujo normal                  | 	1.- El Estudiante solicita al sistema consultar un horario. <br> 2.- El sistema proporciona un enlace a cada horario que se encuentre disponible de forma organizada. <br> 3.- El usuario escoge el horario deseado. <br> 4.- El sistema muestra el horario.       |
-| Flujo alternativo             | 2A.- Si el sistema no encuentra el horario escogido por el Estudiante devolverá un mensaje de error, finalizando así el proceso.                       |
+| Flujo normal                  | 	1.- El Estudiante solicita al sistema consultar un horario. <br> 2.- El sistema solicita al usuario la selección del nombre del grado y el año a consultar en dos desplegables. <br> 3.- El usuario selecciona el grado y el año en el desplegable. <br> 4.- El sistema proporciona el horario para el grado y el año deseado. Finaliza el proceso.      |
+| Flujo alternativo             | 4A.- El usuario no selecciona la información en los dos desplegables, se lanza un mensaje de aviso para que el usuario rellene los campos.          |
 | Poscondiciones                | Ninguna.                      |
+| Comentarios                   | El desplegable del año variará en función de la selección en el desplegable del grado. Es decir, si un grado tiene 5 años, y no 4, en el desplegable aparecerán hasta 5 años si y solo si se selecciona un grado de 5 años.                  |
 
 $~$
 
@@ -53,9 +54,9 @@ $~$
 | Descripción                   | Cuando PDI propone cambiar un horario, el sistema deberá comportarse como se describe a continuación.       |
 | Actores                       | PDI        |
 | Precondiciones                | PDI está autenticado en el sistema.       |
-| Flujo normal                  | 	1.- PDI solicita abrir un ticket. <br> 2.- PDI rellena los datos y los envía. <br> 3.- El sistema verifica que los campos del ticket hayan sido rellenados correctamente.
-| Flujo alternativo             | 3.A.- Si los datos introducidos no son correctos, PDI podrá volver a introducir los datos (paso 3) o finalizar el proceso.        |
-| Poscondiciones                | Ninguna.        |
+| Flujo normal                  | 1.- PDI solicita realizar un cambio de horario. <br> 2.- El sistema solicita a PDI que introduzca el grado y el año, debiendo rellenar un desplegable. <br> 3.- El usuario rellena los desplegables y transmite la información al sistema. <br> 4.- El sistema solicita al PDI que introduzca una descripción del cambio en el horario que desea acometer. <br> 5.- El PDI redacta los cambios que desea realizar en el horario. <br> 6.- El sistema comprueba que PDI ha agregado la descripción. <br> 7.- El sistema envía el grado, año y descripción proporcionada a un PAS. El proceso finaliza. | 
+| Flujo alternativo             | 4.A.- El usuario no selecciona la información en los dos desplegables, se lanza un mensaje de aviso para que el usuario rellene los campos. <br> 6.A.- El sistema lanza una alerta y solicita al usuario que agregue una descripción.         |
+| Poscondiciones                | Se guarda un registro (grado, año, descripción) para que un PAS considere la modificación del horario.        |
 
 $~$
 
@@ -67,9 +68,9 @@ $~$
 | Descripción                   | Cuando PAS propone dar de alta a un estudiante, el sistema deberá comportarse como se describe a continuación.         |
 | Actores                       | PAS                           |
 | Precondiciones                | PAS debe estar auntenticado en el sistema.       |
-| Flujo normal                  | 1.- PAS solicita dar de alta al Estudiante. <br> 2.- El sistema solicita los datos del Estudiante. <br> 3.- PAS introduce los datos del Estudiante. <br> 4.- El sistema verifica los datos del Estudiante y da de alta al estudiante.      |
-| Flujo alternativo             | 4.A.- El sistema comprueba que los datos del Estudiante sean correctos. Si no lo son, PAS podrá volver a introducir los datos del Estudiante (paso 3) o finalizar el proceso.                       |
-| Poscondiciones                | El Estudiante está dado de alta.                      |
+| Flujo normal                  | 1.- PAS solicita dar de alta al Estudiante. <br> 2.- El sistema solicita a PAS que proporcione los datos del Estudiante en diferentes inputs de texto (DNI, Nombre completo, fecha...) <br> 3.- PAS introduce los datos del Estudiante y lo envía al sistema. <br> 4.- El sistema verifica que todos los datos han sido rellenados de forma correcta. <br> 5.- El sistema da de alta al Estudiante y el proceso finaliza.     |
+| Flujo alternativo             | 4.A.-Si los datos no se han rellenado de forma correcta (Ej. No están todos los dígitos del DNI), PAS podrá volver a introducir los datos del Estudiante o finalizar el proceso.                       |
+| Poscondiciones                | El Estudiante queda dado de alta en el sistema.    |
 
 $~$
 
@@ -78,11 +79,11 @@ $~$
 | Nombre                        | Buscar listas de clase        |
 | Autor                         | Cristina García               |
 | Fecha                         | 07/10/2022                    |
-| Descripción                   |  Cuando PDI propone buscar listas de clase, el sistema deberá comportarse como se describe a continuación.    |
+| Descripción                   |  Cuando PDI solicita buscar listas de clase, el sistema deberá comportarse como se describe a continuación.    |
 | Actores                       | PDI                           |
 | Precondiciones                | PDI debe estar auntenticado en el sistema.       |
-| Flujo normal                  | 1.- PDI solicita buscar las listas de clase. <br> 2.- El sistema solicita los datos de la clase. <br> 3.- PDI introduce los datos de la clase. <br> 4.- El sistema verifica los datos y porporciona la lista.      |
-| Flujo alternativo             | 4.A.- El sistema comprueba que los datos de la clase sean correctos. Si no lo son, PDI podrá volver a introducir los datos (paso 2) o finalizar el proceso.                    |
+| Flujo normal                  | 1.- PDI solicita buscar las listas de clase. <br> 2.- El sistema solicita el grado, año y grupo en tres distintos desplegables. <br> 3.- PDI introduce los datos de la clase en los desplegables y lo envía al sistema. <br> 4.- El sistema verifica que los desplegables estén rellenos <br> 5.- El sistema muestra la lista de clase del grupo, grado y año elegido.       |
+| Flujo alternativo             | 4.A.- El sistema muestra un mensaje de alerta si no se han rellenado todos los desplegables. El PDI podrá volver a introducir los datos o finalizar el proceso.                    |
 | Poscondiciones                | Ninguna.                      |
 
 $~$
@@ -95,9 +96,10 @@ $~$
 | Descripción                   | Cuando PAS solicita verificar los datos del estudiante, el sistema deberá comportarse como se describe a continuación.        |
 | Actores                       | PAS                           |
 | Precondiciones                | PAS debe estar auntenticado en el sistema.       |
-| Flujo normal                  | 1.- El sistema verifica los datos del Estudiante.                 |
-| Flujo alternativo             | 2.A.- El sistema comprueba que los datos del Estudiante sean correctos. Si no lo son, PAS podrá volver a introducir los datos (paso 1) o finalizar el proceso.          |
+| Flujo normal                  | 1.- PAS introduce los datos del Estudiante y lo envía al sistema. <br> 2.- El sistema verifica que todos los datos han sido rellenados de forma correcta. <br> 3.- El sistema da de alta al Estudiante y el proceso finaliza.  |
+| Flujo alternativo             | 2.A.- El sistema comprueba que los datos del Estudiante se han rellenado de la forma correcta. Si no lo son, PAS podrá volver a introducir los datos o finalizar el proceso.          |
 | Poscondiciones                | Ninguna.                      |
+| Comentarios                   | Se entiende por verificar datos del estudiante, la comprobación de que se hayan introducido los datos de forma válida en el sistema. En el flujo se parte desde que PAS introduce los datos del estudiante, ya que forma parte del UC-03.  | 
 
 $~$
 
@@ -109,8 +111,8 @@ $~$
 | Descripción                   | Cuando PAS modifica un horario, el sistema deberá comportarse como se describe a continuación. |
 | Actores                       | PAS                           |
 | Precondiciones                | PAS debe estar auntenticado en el sistema.       |
-| Flujo normal                  | 1.- PAS hace uso de la herramienta que tiene el sistema para modificar el horario, guarda los cambios realizados y los envía. <br> 2.- El sistema verificar que todo sea correcto y actualiza el horario modificado.                 |
-| Flujo alternativo             | 2.A.- Si se produce un error, no se guardarán los cambios, finalizando así el proceso.           |
+| Flujo normal                  | 1.- PAS solicita modificar un horario. <br> 2.- El sistema le solicita que proporcione el grado, año y grupo en tres desplegables. <br> 3.- PAS rellena los desplegables y lo envía al sistema. <br> 4.- El sistema verifica los desplegables <br> 5.- El sistema solicita a PAS la asignatura a cambiar (desplegable con el nombre de las asignaturas del grupo) <br> 6.- PAS proporciona la asignatura que desea modificar <br> 7.- El sistema revisa la asignatura y muestra todos los horarios de la asignatura con opción para su modificación (estilo calendario de HTML). <br> 8.- PAS modifica los horarios de la asignatura deseados y lo envía al sistema <br> 9.- El sistema verifica los horarios establecidos. <br> 10.- El sistema aprueba los cambios y el proceso finaliza.            |
+| Flujo alternativo             | 4.A.- Si no se rellenan todos los desplegables, se lanza una alerta y se permite volver a hacerlo o finalizar el proceso. <br> 7.A.- Si no se proporciona la asignatura, lanza un aviso y se permite volver a proporcionarla o finalizar el proceso. <br> 9.A.- Si se ha introducido algún horario en un día festivo, el sistema informará y permitirá cambiarlo.          |
 | Poscondiciones                | Los cambios en el horario han sido actualizados.                      |
 
 $~$
@@ -123,73 +125,73 @@ $~$
 | Descripción                   | Cuando PDI solicita dar de alta a un estudiante, el sistema deberá comportarse como se describe a continuación.      |
 | Actores                       | PDI                           |
 | Precondiciones                | PDI debe estar auntenticado en el sistema.       |
-| Flujo normal                  | 1.- PID solicita dar de alta al Estudiante. <br> 2.- El sistema solicita los datos del Estudiante. <br> 3.- PID introduce los datos del Estudiante . <br> 4.- El sistema verifica los datos del Estudiante y se le da de alta en el sistema.               |
-| Flujo alternativo				| 4.A.- El sistema comprueba que los datos del Estudiante sean correctos. Si no lo son, PID podrá volver a introducir los datos del Estudiante (paso 3) o finalizar el proceso. <br> 4.B.- El sistema, de forma excepcional, busca las listas de clase de las asignaturas del Estudiante.   |
+| Flujo normal                  | 1.- PDI solicita dar de alta al Estudiante. <br> 2.- El sistema solicita a PDI que proporcione los datos del Estudiante en diferentes inputs de texto (DNI, Nombre completo, fecha...) <br> 3.- PDI introduce los datos del Estudiante y lo envía al sistema. <br> 4.- El sistema verifica que todos los datos han sido rellenados de forma correcta. <br> 5.- El sistema da de alta al Estudiante y el proceso finaliza.   |
+| Flujo alternativo				| 4.A.-Si los datos no se han rellenado de forma correcta (Ej. No están todos los dígitos del DNI), PAS podrá volver a introducir los datos del Estudiante o finalizar el proceso. <br> 5.A- PDI solicita buscar las listas de clase. <br> 6.A.- El sistema solicita el grado, año y grupo en tres distintos desplegables. <br> 7.A.- PDI introduce los datos de la clase en los desplegables y lo envía al sistema. <br> 8.A.- El sistema verifica que los desplegables estén rellenos <br> 9.A.- El sistema muestra la lista de clase del grupo, grado y año elegido. <br> 10.A.-El sistema da de alta al Estudiante y el proceso finaliza.|
 | Poscondiciones                | El Estudiante está dado de alta.                      |
 
 $~$
 
 #### **Requisitos de la información**
 
-| RI-01                    | Información sobre horarios               |
+| RI-01                    | HorarioAsignatura               |
 | :---                     | :---                          |
 | Requisitos asiciados     | UC-01         |
-| Descripción              | El sistema deberá almacenar información correspondiente a los horarios de la universidad.           |
-| Datos específicos        | Grado universitario: 45 caracteres <br> Año: 2 digitos
+| Descripción              | El sistema deberá almacenar información correspondiente a cuándo se imparte una determinada asignatura, para así formar el horario completo de un grupo.           |
+| Datos específicos        | HorarioAsignatura: <br> -idAsignatura (entero) <br> -idGrupo (entero) <br> -idGrado (entero) <br> -FechaInicio (dd/mm/aaaa hh:mm) <br> -FechaFin (dd/mm/aaaa hh:mm).|
 | Comentarios               | Ninguno. |
 
 <br>
 
-| RI-02                    | Información sobre asignaturas               |
+| RI-02                    | Asignaturas               |
 | :---                     | :---                          |
 | Requisitos asiciados     | UC-01         |
-| Descripción              | El sistema deberá almacenar información correspondiente a los horarios de la universidad.           |
-| Datos específicos        | Nombre asignatura: 45 caracteres <br> Profesor: 45 caracteres |
+| Descripción              | El sistema deberá almacenar información correspondiente a cada asignatura de la universidad.           |
+| Datos específicos        | -idAsignatura (entero) <br> -Nombre asignatura: 255 caracteres <br> -Profesor: 255 caracteres |
 | Comentarios               | Ninguno. |
 
 <br>
 
-| RI-03                    | Periodos de asignaturas               |
+| RI-03                    | Usuarios               |
 | :---                     | :---                          |
 | Requisitos asiciados     | UC-01         |
-| Descripción              | El sistema deberá almacenar información correspondiente a los periodos en los que se imparte una asignatura           |
-| Datos específicos        | Días que se imparten: <br> * Fecha inicio: dd/mm/aaaa hh:mm <br> * Fecha fin: dd/mm/aaaa hh:mm |
+| Descripción              | El sistema deberá almacenar información correspondiente a los usuarios del sistema, PDI, PAS y Estudiante |
+| Datos específicos        | -login (255 caracteres)<br> -contraseña (255 caracteres) <br> NombreCompleto (255 caracteres) <br> DNI (XXXXXXXX-A) <br> -FechaNacimiento: dd/mm/aaaa hh:mm |
 | Comentarios               | Ninguno. |
 
 <br>
 
-| RI-04                    | Información sobre ticket               |
+| RI-04                    | Rol de usuario                |
 | :---                     | :---                          |
-| Requisitos asiciados     | UC-02         |
-| Descripción              | El sistema deberá almacenar información correspondiente a los tickets realizados por los usuarios de la universidad.           |
-| Datos específicos        | Asunto: 80 caracteres <br> Cuerpo: 512 caracteres  |
+| Requisitos asiciados     | UC-02                         |
+| Descripción              | Un usuario puede ser Estudiante, PDI y PAS simultánemeante, o cualquier combinación de estos.    |
+| Datos específicos        | -login (255 caracteres) <br> idRolUsuario (entero)  |
 | Comentarios               | Ninguno. |
 
 <br>
 
-| RI-05                    | Información sobre usuario               |
+| RI-05                    | Grupos                        |
 | :---                     | :---                          |
-| Requisitos asiciados     | UC-03         |
-| Descripción              | El sistema deberá almacenar información correspondiente a estudiantes de la universidad.           |
-| Datos específicos        | Datos del usuario: <br> * Nombre completo: 255 caracteres <br> * DNI : 9 caracteres (8 dígitos y 1 caracteres) <br> * Fecha de nacimiento: dd/mm/aaaa <br> * Grado: 45 caracteres <br> * Año: 2 dígitos <br>|
+| Requisitos asiciados     | UC-03                         |
+| Descripción              | El sistema deberá almacenar información correspondiente a cada grupo. Un grupo es una clase de un grado.       | |
+| Datos específicos        | -idGrupo (entero) <br> -idAsignatura (entero) <br> -año (entero)  |
 | Comentarios               | Se considera que todos los estudiantes con mismpo grado y año, se encuentran en la misma lista de clase. |
 
 <br>
 
-| RI-06                    | Información sobre estudiantes               |
+| RI-06                    | Grados               |
 | :---                     | :---                          |
 | Requisitos asiciados     | UC-04, UC-05         |
-| Descripción              | El sistema deberá almacenar información correspondiente a estudiantes de la universidad.           |
-| Datos específicos        | Datos del estudiante: <br> * Nombre completo: 255 caracteres <br> * DNI : 9 caracteres (8 dígitos y 1 caracteres) <br> * Fecha de nacimiento: dd/mm/aaaa |
+| Descripción              | El sistema deberá almacenar información correspondiente a cada Grado ofertado por la universidad         |
+| Datos específicos        | -idGrado (entero) <br> -Nombre (255 caracteres)|
 | Comentarios               | Ninguno. |
 
 <br>
 
-| RI-07                    | Rol del usuario              |
+| RI-07                    | Usuario_Grupo            |
 | :---                     | :---                          |
 | Requisitos asiciados     | UC-03        |
-| Descripción              | El sistema deberá almacenar información correspondiente al rol del usuario de la universidad.           |
-| Datos específicos        | Identificador : 9 caracteres <br> Rol del estudiante: <br> * PDI: condicional 1 <br> * PAS: condicional 2 <br> * Estudiante: condicional 3 |
+| Descripción              | El sistema deberá almacenar información correspondiente al grupo al que pertenece cada usuario Estudiante.           |
+| Datos específicos        | -idUsuario (entero) <br> -idGrupo (entero)|
 | Comentarios               | El identificador se corresponderá con el DNI del usuario |
 
 <br>
