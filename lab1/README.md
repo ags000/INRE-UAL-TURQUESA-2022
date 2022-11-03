@@ -406,18 +406,16 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 <br>
 
-<!--FALTAN UC12 Y UC-13 Y UC-14-->
-
 | Identificador                 | UC-12                         |
 | :---                          | :----                         |
 | Nombre                        | Realizar Venta        |
-| Autor                         | Alejandro Manzano, Adrián Galdeano               |
+| Autor                         | Alejandro Manzano, Adrián Galdeano, Cristina García               |
 | Fecha                         | 26/10/2022                    |
 | Descripción                   | Cuando se solicita realizar venta, el sistema deberá comportarse como se describe a continuación.      |
 | Actores                       | Vendedor y Comprador          |
 | Precondiciones                | Comprador y Vendedor están autenticados. El Comprador debe haber agregado todos los productos deseados.   |
-| Flujo normal                  | 1.- El Vendedor solicita realizar venta. <br> 2.- El Comprador acepta la venta propuesta. <br> 3.- El sistema propone al Comprador acordar un precio alternativo para el producto. <br> 4.- El Comprador introduce un precio alternativo, pudiendo consultar el histórico de ventas para ver los precios a los que se ha vendido el producto. <br> 5.- El sistema informa al Vendedor del precio propuesto <br> 6.- El Vendedor aceptar el nuevo precio. <br> 7.- El sistema registra la venta.    |
-| Flujo alternativo             | 2.A- Si el Comprador rechaza la venta, el proceso termina. <br> 6.A.- Si el Comprador no introduce un nuevo precio, el proceso continúa.<br> 7.A.- Si el Vendedor rechaza el nuevo precio, puede terminar el proceso o permitir al Comprador intentar acordar otro precio (paso 4).  |
+| Flujo normal                  | 1.- El Vendedor solicita realizar venta. <br> 2.- El Comprador acepta la venta propuesta. <br> 3.- El sistema le permite al Comprador consultar el histórico de ventas para acordar un precio alternativo para el producto. <br> 4.- Comprador y Vendedor empiezan el proceso para acordar el precio.  <br> 5.- El sistema registra la venta.    |
+| Flujo alternativo             | 2.A- Si el Comprador rechaza la venta, el proceso termina. <br> 4.A.- Si el Comprador no introduce un nuevo precio, el proceso continúa.  |
 | Poscondiciones                | Se actualiza el stock de los productos involucrados, se registra la venta en el sistema. |
 
 <br>
@@ -430,21 +428,21 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 | Descripción                   | Cuando se solicita acordar precio, el sistema deberá comportarse como se describe a continuación.     |
 | Actores                       | Vendedor y Comprador          |
 | Precondiciones                | Se ha iniciado el proceso la realización de una venta de un producto.       |
-| Flujo normal                  | 1.- El Comprador introduce un precio alternativo al propuesto por el Vendedor. <br> 6.- El sistema informa al Vendedor del precio propuesto y permite al Vendedor aceptar o rechazar la venta. |
-| Flujo alternativo             | 5.A.- El usuario no introduce un precio alternativo, el proceso continúa. |
-| Poscondiciones                | Ninguna. |
+| Flujo normal                  | 1.- El Comprador introduce un precio alternativo al propuesto por el Vendedor. <br> 2.- El sistema informa al Vendedor del precio propuesto. <br> 3.- El Vendedor acepta el nuevo precio propuesto. |
+| Flujo alternativo             | 3.A.- Si el Vendedor rechaza el nuevo precio, puede terminar el proceso o permitir al Comprador intentar acordar otro precio (paso 1). 
+| Poscondiciones                | El precio de la venta queda fijado. |
 
 <br>
 
 | Identificador                 | UC-14                         |
 | :---                          | :----                         |
 | Nombre                        | Avisar nuevos productos       |
-| Autor                         | Alejandro Manzano, Adrián Galdeano               |
+| Autor                         | Alejandro Manzano, Adrián Galdeano, Cristina García               |
 | Fecha                         | 26/10/2022                    |
 | Descripción                   | Cuando se solicita avisar de nuevos productos, el sistema deberá comportarse como se describe a continuación.     |
 | Actores                       | Proveedor          |
-| Precondiciones                | El Proveedor, autenticado en el sistema, incorpora nuevos productos.      |
-| Flujo normal                  | 1.- El Proveedor solicita avisar de los nuevos productos,, pudiendo incorporar una oferta en ellos. <br> 2. El sistema envía una notificación a los usuarios del sistema con los nuevos productos incorporados.      |
+| Precondiciones                | El Proveedor, autenticado, debe haber incorporado nuevos productos en el sistema.      |
+| Flujo normal                  | 1.- El Proveedor solicita avisar de los nuevos productos, pudiendo incorporar una oferta en ellos. <br> 2. El sistema envía una notificación a los usuarios del sistema con los nuevos productos incorporados.      |
 | Flujo alternativo             | 2.A.- Si el sistema no encuentra productos nuevos del Proveedor, el proceso culmina. No se notifica. |
 | Poscondiciones                | Los usuarios del sistema reciben una notificación que les avisa de los nuevos productos. |
 
