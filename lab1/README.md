@@ -133,9 +133,9 @@ $~$
 
 #### **Requisitos de la información**
 
-| RI-01                    | HorarioAsignatura               |
+| RI-01                    | Horario_Asignatura               |
 | :---                     | :---                          |
-| Requisitos asiciados     | UC-01         |
+| Requisitos asiciados     | UC-01, UC-02, UC-06         |
 | Descripción              | El sistema deberá almacenar información correspondiente a cuándo se imparte una determinada asignatura, para así formar el horario completo de un grupo.           |
 | Datos específicos        | HorarioAsignatura: <br> -idAsignatura (entero) <br> -idGrupo (entero) <br> -idGrado (entero) <br> -FechaInicio (dd/mm/aaaa hh:mm) <br> -FechaFin (dd/mm/aaaa hh:mm).|
 | Comentarios               | Ninguno. |
@@ -144,7 +144,7 @@ $~$
 
 | RI-02                    | Asignaturas               |
 | :---                     | :---                          |
-| Requisitos asiciados     | UC-01         |
+| Requisitos asiciados     | UC-01, UC-02, UC-06      |
 | Descripción              | El sistema deberá almacenar información correspondiente a cada asignatura de la universidad.           |
 | Datos específicos        | -idAsignatura (entero) <br> -Nombre asignatura: 255 caracteres <br> -Profesor: 255 caracteres |
 | Comentarios               | Ninguno. |
@@ -153,16 +153,16 @@ $~$
 
 | RI-03                    | Usuarios               |
 | :---                     | :---                          |
-| Requisitos asiciados     | UC-01         |
+| Requisitos asiciados     | UC-04, UC-05, UC-07         |
 | Descripción              | El sistema deberá almacenar información correspondiente a los usuarios del sistema, PDI, PAS y Estudiante |
 | Datos específicos        | -login (255 caracteres)<br> -contraseña (255 caracteres) <br> NombreCompleto (255 caracteres) <br> DNI (XXXXXXXX-A) <br> -FechaNacimiento: dd/mm/aaaa hh:mm |
 | Comentarios               | Ninguno. |
 
 <br>
 
-| RI-04                    | Rol de usuario                |
+| RI-04                    | Rol_usuario                |
 | :---                     | :---                          |
-| Requisitos asiciados     | UC-02                         |
+| Requisitos asiciados     | UC-05                         |
 | Descripción              | Un usuario puede ser Estudiante, PDI y PAS simultánemeante, o cualquier combinación de estos.    |
 | Datos específicos        | -login (255 caracteres) <br> idRolUsuario (entero)  |
 | Comentarios               | Ninguno. |
@@ -171,7 +171,7 @@ $~$
 
 | RI-05                    | Grupos                        |
 | :---                     | :---                          |
-| Requisitos asiciados     | UC-03                         |
+| Requisitos asiciados     | UC-04                         |
 | Descripción              | El sistema deberá almacenar información correspondiente a cada grupo. Un grupo es una clase de un grado.       | |
 | Datos específicos        | -idGrupo (entero) <br> -idAsignatura (entero) <br> -año (entero)  |
 | Comentarios               | Se considera que todos los estudiantes con mismpo grado y año, se encuentran en la misma lista de clase. |
@@ -180,19 +180,46 @@ $~$
 
 | RI-06                    | Grados               |
 | :---                     | :---                          |
-| Requisitos asiciados     | UC-04, UC-05         |
+| Requisitos asiciados     | UC-02, UC-06        |
 | Descripción              | El sistema deberá almacenar información correspondiente a cada Grado ofertado por la universidad         |
 | Datos específicos        | -idGrado (entero) <br> -Nombre (255 caracteres)|
 | Comentarios               | Ninguno. |
 
 <br>
 
-| RI-07                    | Usuario_Grupo            |
+| RI-07                    | Grupo_Usuario            |
 | :---                     | :---                          |
-| Requisitos asiciados     | UC-03        |
+| Requisitos asiciados     | UC-04        |
 | Descripción              | El sistema deberá almacenar información correspondiente al grupo al que pertenece cada usuario Estudiante.           |
 | Datos específicos        | -idUsuario (entero) <br> -idGrupo (entero)|
-| Comentarios               | El identificador se corresponderá con el DNI del usuario |
+| Comentarios               | Ninguno. |
+
+<br>
+
+| RI-08                    | Propuesta_horario            |
+| :---                     | :---                          |
+| Requisitos asiciados     | UC-01, UC-02        |
+| Descripción              | El sistema deberá almacenar información correspondiente a las propuestas de modificación de un horario.        |
+| Datos específicos        | -idUsuario (entero) <br> -idPropuesta (entero)|
+| Comentarios               | Ninguno. |
+
+<br>
+
+| RI-09                    | Propuesta_Cambio_Horario           |
+| :---                     | :---                          |
+| Requisitos asiciados     | UC-01, UC-02        |
+| Descripción              | El sistema deberá almacenar información correspondiente a las propuestas de modificación de un horario para un grupo de un grado en específico. Registrando la fecha a eliminar y la nueva fecha a agregar.        |
+| Datos específicos        | -idPropuesta_horario (entero) <br> -idAsignatura (entero) <br> -idGrupo (entero) <br> -idGrado (entero) <br> -Fecha_inicio_eliminar (DATE) <br> -Fecha_inicio_nueva (DATE) <br> -Fecha_fin_nueva (DATE) |
+| Comentarios               | Ninguno. |
+
+<br>
+
+| RI-10                    | Asignatura_Grupo          |
+| :---                     | :---                          |
+| Requisitos asiciados     | UC-01        |
+| Descripción              | El sistema deberá almacenar qué asignatura se imparte para cada grupo.      |
+| Datos específicos        | -idGrupo (entero) <br> -idAsignatura (entero)|
+| Comentarios              | Ninguno. |
 
 <br>
 
