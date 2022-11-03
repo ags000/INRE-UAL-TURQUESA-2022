@@ -508,25 +508,25 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 <br>
 
-| RI-01                    | Información sobre ofertas             |
+| RI-01                    | Ofertas             |
 | :---                     | :---                          |
 | Requisitos asiciados     | UC-01, UC-15       |
 | Descripción              | El sistema deberá almacenar información correspondiente a las ofertas.          |
-| Datos específicos        | Identificador de producto : entero <br> %de descuento: dos dígitos <br> Fecha inicio de oferta: dd/mm/aaaa hh:mm <br> Fecha fin de oferta: dd/mm/aaaa hh:mm |
+| Datos específicos        | Identificador de producto : entero <br> % de descuento: dos dígitos <br> Fecha inicio de oferta: dd/mm/aaaa hh:mm <br> Fecha fin de oferta: dd/mm/aaaa hh:mm |
 | Comentarios               | El identificador se corresponderá con el ID del producto. |
 
 <br>
 
-| RI-02                    | Información sobre productos             |
+| RI-02                    | Productos             |
 | :---                     | :---                          |
 | Requisitos asiciados     | UC-02, UC-04, UC-05, UC-06, UC-14       |
 | Descripción              | El sistema deberá almacenar información correspondiente a los productos.          |
-| Datos específicos        | Identificador de producto : entero <br>  Precio: entero. <br> Nombre de producto: 255 caracteres. <br> Stock: 10 dígitos. <br> Fecha publicación: dd/mm/aaaa|
+| Datos específicos        | Identificador de producto : entero <br>  Precio: entero. <br> Nombre de producto: 255 caracteres. <br> Stock: 5 dígitos. <br> Fecha publicación: dd/mm/aaaa|
 | Comentarios               | Ninguno.|
 
 <br>
 
-| RI-03                    | Información sobre compras             |
+| RI-03                    | Compras             |
 | :---                     | :---                          |
 | Requisitos asiciados     | UC-03        |
 | Descripción              | El sistema deberá almacenar información correspondiente a las compras registradas.          |
@@ -535,25 +535,25 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 <br>
 
-| RI-04                    | Información sobre agregar productos. (Carrito)             |
+| RI-04                    | Venta             |
 | :---                     | :---                          |
 | Requisitos asiciados     | UC-05        |
 | Descripción              | El sistema deberá almacenar información correspondiente a la selección de productos a comprar por los Compradores.         |
-| Datos específicos        | Identificador de carrito : entero <br>  Itentificador de producto: entero. |
+| Datos específicos        | Identificador de compra: entero <br> Identificador de producto: entero <br> Precio acordado: entero <br> Identificador de usuario: cadena |
 | Comentarios               | Ninguno.|
 
 <br>
 
-| RI-05                    | Información sobre ventas.            |
+| RI-05                    | Histórico de Ventas            |
 | :---                     | :---                          |
 | Requisitos asiciados     | UC-10        |
 | Descripción              | El sistema deberá almacenar información correspondiente a las ventas.         |
-| Datos específicos        | Identificador de venta : entero <br> Itentificador de compra: entero <br> Fecha: dd/mm/aaaa |
+| Datos específicos        | Identificador de venta : entero <br> Itentificador de compra: entero <br> Fecha: dd/mm/aaaa <br> Precio: int |
 | Comentarios               | Ninguno.|
 
 <br>
 
-| RI-06                    | Información sobre Usuarios.            |
+| RI-06                    | Usuarios.            |
 | :---                     | :---                          |
 | Requisitos asiciados     | UC-04, UC-05, UC-06, UC-10, UC-12, UC-13, UC-14, UC-15        |
 | Descripción              | El sistema deberá almacenar información correspondiente a los usuarios.         |
