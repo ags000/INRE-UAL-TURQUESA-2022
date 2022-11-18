@@ -133,7 +133,40 @@ Apendices
 
 <br>
 
-| Diagramas                | Descripción                   |
+| Modelo de Entrevista     |                               |
 | :---                     | :---                          |
-|                          |                               |
+| Entrevistado             | Ulie Estilique                |
+| Fecha                    | 15/11/2022                    |
+| Hora                     | 09:55                         |
+| Lugar                    | Gran Canaria                  |
+| Asunto                   | Entrevista a un mecánico de barco                              |
+| Desarrollo de la entrevista   |                          |
+| Contexto                 | Pregunta / Tema tratado       |
+|                          |   (herramientas de explotación == herramientas de uso para publicar, retirar y modificar publicaciones) <br> ¿Se le ocurre alguna forma de proteger las herramientas de explotación para cada contenido de la web, tanto estático como dinámico que haya que tener sí o sí en cuenta? <br> R: (omitida)               |
+|                          | ¿Las estadísticas de acceso son para los usuarios que acceden al  portal o para la empresa ? <br>R:  Simplemente por si hay mucha gente pidiendo la ruta específica. Que los mandamases vean que hay mucha gente pidiendo esa ruta.                           |
+|                          | ¿Qué tipo de estadísticas quiere (tráfico de usuarios, horas en las que más se usa la aplicación, qué servicios son los que más se usan …? <br> R: Saber si hay que introducir un nuevo barco, un nuevo autobús en la ruta.                        |
+|                         | ¿Qué secciones y servicios se tienen en cuenta en el portal? <br> R: Ni idea.                     |
+|                         | Respecto al cloud tag en la home del website ¿se refiere a que la página de cada usuario cambia sus funcionalidades según el rol de este (cliente, administrador)? <br> R: Ni idea.          |
+|                         | Para el buscador. ¿Qué se considera un término clave? <br> R: Selector de tipo de ruta que quiero hacer (ruta escénica, ruta más rápida…). Keywords, manuales y por proximidad                |
+|                         | ¿Qué elementos se obtienen como resultado de una búsqueda? P.e.: eventos de ocio, paradas, rutas… <br> R: Ruta con elementos de ocio y paradas marcadas, pero solo se obtienen rutas         |
+|                         | A la hora de realizar una búsqueda,¿ se permite aplicar distintos filtros con la finalidad de facilitar el contenido? P.e.: mostrar resultados del idioma buscado,... <br> R: Solo se obtienen rutas, se filtra el tipo de ruta. (ej de filtro. poner un monumento como fin)                      |
+|                         | ¿Qué se puede modificar del listado de horarios y servicios? <br> R: (Omitida)                 |
+|                         | ¿Hay algún dato que no se pueda modificar en el sistema? <br> R: Ni idea                      |
+|                         | ¿De qué forma se mide la distancia entre paradas (tiempo, distancia, paradas, etc)? <br> R: Se muestra de las dos maneras (distancia y tiempo).                    |
+|                         | ¿Calcular tiempos de recorrido hace referencia a lo que tarda una línea en dar una vuelta completa, o la distancia entre paradas? <br> R: Listado de paradas y la ruta completa. Barcos también.                 |
+|                         | ¿Cuál es la distancia que se considera cercana? <br> R: El cliente marca la distancia que considera cercana, de la que se le mostrarán los elementos disponibles.              |
+|                         | ¿Cuáles son los parámetros a potenciar en la solución? <br> R: (Omitida)                 |
+|                         | ¿Qué se entiende exactamente por alarmas? (Notificaciones que se envían automáticamente cuando ocurre un evento?) <br> R: Barco roto, incidencias, calles cortadas, manifestación. Eventos en general.              |
+|                         | ¿Qué otros mecanismos se podrían definir para las alarmas? ¿Se podrán configurar para activarlos o desactivarlos? <br> R: (Omitida)         |
+|                         | ¿A qué se refiere con tiempo de salto?  <br> R: Tiempo de retraso que se produce por una incidencia.                  |
+|                         | ¿Algún software de gestión del transporte y coordinación de los servicios a tener en cuenta? <br> R: (Omitida)  |
+|                         | ¿Qué protocolo de conexión se debería aplicar y siguiendo qué principios? Por ejemplo, si buscamos la integración de la mayor parte de las aplicaciones de la AUTGC, deberíamos usar un protocolo que ya comparta la mayoría de estas aplicaciones. <br> R: Ni idea.                     |
+|                         | Como empresa licitadora, ¿hemos de encargarnos de la adaptación del sistema para los distintos puntos de información habilitados por la Autoridad Única del Transporte (teniendo en cuenta la arquitectura y diseño de estos puntos) o todo este trabajo irá a cargo de la AUTGC ? Ya que se nos ha referido que la AUTGC los proveerá debidamente configurados. <br> R: (Omitida)                 |
+|                         | ¿Qué se entiende por crear un sitio Web en paralelo con contenido formateado en texto plano? <br> R: (Omitida)    |
+|                         | ¿Qué otros soportes publicitarios de promoción se pueden realizar? <br> R: Ni idea.               |
+|                         | ¿A cuantos usuarios está dirigida la aplicación? ¿Cuál es el tráfico promedio que se espera al día?<br>R: A todo el mundo.           |
+| Conclusiones de la entrevista     | El cliente no estaba cualificado para responder a las preguntas técnicas.    |
+| Resumen                 |                     |
+| Puntos a aclarar        |                     |
+| Observaciones           | Dado el resultado de la entrevista, más adelante, habrá que realizar otra entrevista con un responsable más cualificado.      |
 
