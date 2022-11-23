@@ -512,7 +512,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 | :---                     | :---                          |
 | Requisitos asiciados     | UC-01, UC-15       |
 | Descripción              | El sistema deberá almacenar información correspondiente a las ofertas.          |
-| Datos específicos        | Identificador de producto : entero <br> % de descuento: dos dígitos <br> Fecha inicio de oferta: dd/mm/aaaa hh:mm <br> Fecha fin de oferta: dd/mm/aaaa hh:mm |
+| Datos específicos        | Identificador de producto : entero <br> % de descuento: dos dígitos <br> Fecha inicio de oferta: dd/mm/aaaa hh:mm <br> Fecha fin de oferta: dd/mm/aaaa hh:mm <br> Producto asociado: idproducto <br> Proveedor: idUsuario. |
 | Comentarios               | El identificador se corresponderá con el ID del producto. |
 
 <br>
@@ -528,32 +528,41 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 | RI-03                    | Compras             |
 | :---                     | :---                          |
-| Requisitos asiciados     | UC-03        |
+| Requisitos asiciados     | UC-03, UC-05        |
 | Descripción              | El sistema deberá almacenar información correspondiente a las compras registradas.          |
-| Datos específicos        | Identificador de compra : entero <br> Dirección de envío: 200 caracteres <br> Precio de compra: entero |
-| Comentarios               | Ninguno.|
+| Datos específicos        | Identificador de compra : entero <br> Dirección de envío: 200 caracteres <br> Precio de compra: entero <br> Fecha de compra: DATETIME <br> Usuario comprador: idUsuario. |
+| Comentarios               | Unificamos el concepto de compra y venta. La opción carrito no se registra en la base de datos. |
 
 <br>
 
-| RI-04                    | Venta             |
+| RI-04                    | Productos_vendidos             |
+| :---                     | :---                           |
+| Requisitos asiciados     | UC-03, UC-05                   |
+| Descripción              | El sistema deberá almacenar información correspondiente a los productos comprados por cada usuario.          |
+| Datos específicos        | Producto: idProducto <br> Compra: idCompra. |
+| Comentarios               | Ninguno. |
+
+<br>
+
+| RI-05                    | Notificaciones                |
 | :---                     | :---                          |
-| Requisitos asiciados     | UC-05        |
-| Descripción              | El sistema deberá almacenar información correspondiente a la selección de productos a comprar por los Compradores.         |
-| Datos específicos        | Identificador de compra: entero <br> Identificador de producto: entero <br> Precio acordado: entero <br> Identificador de usuario: cadena |
-| Comentarios               | Ninguno.|
+| Requisitos asiciados     | UC-14, UC-15, UC-17, UC-18                             |
+| Descripción              | El sistema deberá almacenar información correspondiente a las notificaciones.         |
+| Datos específicos        | Identificador de notificación: idNotificacion <br> Notificación: cadena |
+| Comentarios              | Un usuario proveedor puede avisar para que el sistema notifique. Una notificación se destina a uno o muchos usuarios. |
 
 <br>
 
-| RI-05                    | Histórico de Ventas            |
-| :---                     | :---                          |
-| Requisitos asiciados     | UC-10        |
-| Descripción              | El sistema deberá almacenar información correspondiente a las ventas.         |
-| Datos específicos        | Identificador de venta : entero <br> Itentificador de compra: entero <br> Fecha: dd/mm/aaaa <br> Precio: int |
-| Comentarios               | Ninguno.|
+| RI-06                    | Notificaciones_sistema            |
+| :---                     | :---                              |
+| Requisitos asiciados     | UC-14, UC-15, UC-17, UC-18                                   |
+| Descripción              | El sistema deberá almacenar información correspondiente a las notificaciones destinadas a cada usuario.         |
+| Datos específicos        | Identificador de usuario: idUsuario <br> Identificador notificación: idNotificacion |
+| Comentarios               | Un usuario proveedor puede avisar para que el sistema notifique. Una notificación se destina a uno o muchos usuarios. |
 
 <br>
 
-| RI-06                    | Usuarios.            |
+| RI-07                    | Usuarios.            |
 | :---                     | :---                          |
 | Requisitos asiciados     | UC-04, UC-05, UC-06, UC-10, UC-12, UC-13, UC-14, UC-15        |
 | Descripción              | El sistema deberá almacenar información correspondiente a los usuarios.         |
