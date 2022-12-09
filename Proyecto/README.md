@@ -995,6 +995,90 @@ Requisitos Funcionales
 
 Requisitos No Funcionales
 
+<br>
+
+| RNF-01				| Desarrollar procesos de recogida de información de cada gestor		|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| Se debe modelar una forma de recopilar la información de cada gestor del transporte. La información proporcionada por estos gestores se encuentra disponible en medio magnético o papel. 		|
+| Comentarios			|		|
+
+<br>
+
+| RNF-02				| Desarrollar trabajo de campo para la obtención de la información		|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| Se debe realizar un trabajo físico que permita la obtención de la información no recogida y necesaria para el correcto funcionamiento del sistema. 		|
+| Comentarios			| La AUTGC facilitará los medios que estén a su alcance.
+Se debe recoger la información física (discos magnéticos, papel) de los gestores de transporte. Además, se debe recoger información de otras fuentes.
+Por ejemplo, un informador que avise de obras en una ruta.	|
+
+<br>
+
+| RNF-03				| Datos que se deben obtener		|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			|		|
+| Comentarios			|		|
+
+<br>
+
+| RNF-04				| Modelo de datos		|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			|		|
+| Comentarios			|		|
+
+<br>
+
+| RNF-05				| Definir la estructura de la base de datos		|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			|		|
+| Comentarios			|		|
+
+<br>
+
+| RNF-06				| Desarrollo del  proceso de carga inicial de datos		|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			|		|
+| Comentarios			|		|
+
+<br>
+
+| RNF-07				| Desarrollo del  proceso de carga inicial de datos		|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			|		|
+| Comentarios			|		|
+
+<br>
+
+| RNF-08				| Proceso de verificación de consistencia y amplitud de datos		|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			|		|
+| Comentarios			|		|
+
+<br>
+
+| RNF-08				| Base de datos corporativa de la AUTGC		|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			|		|
+| Comentarios			|		|
+
+<br>
 
 
 ## 4.2. Casos de uso.
