@@ -94,7 +94,9 @@ Apendices
 
 ## 4.1. Requisitos.
 
-### 4.1.1 Requisitos Funcionales.
+### 4.1.1 Gestor de contenidos.
+
+Requisitos Funcionales
 
 <br>
 
@@ -272,7 +274,7 @@ Apendices
 | Estabilidad			|		|
 | Comentarios			|		|
 
-### 4.1.2 Requisitos No Funcionales.
+Requisitos No Funcionales
 
 <br>
 
@@ -408,6 +410,592 @@ Apendices
 | Requisitos asociados	|		|
 | Descripción			| Actualización continúa durante todo el contrato de dichos contenidos, de acuerdo con el tipo de cada uno de ellos, y sobre todo vigilando que no se presenten contenidos obsoletos en ningún caso.		|
 | Comentarios			|		|
+
+### 4.1.2 Sistemas de la información.
+
+Requisitos Funcionales
+
+<br>
+
+| RF-01					| Mapas relacionados con el transporte público de Gran Canaria		|
+| :---					| :--  	|
+| Versión				|		|
+| Autores				|		|
+| Fuentes				|		|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			|		|
+| Importancia			|		|
+| Urgencia				|		|
+| Estado				|		|
+| Estabilidad			|		|
+| Comentarios			|		|
+
+<br>
+
+| RF-02					| Calcular distancias entre paradas		|
+| :---					| :--  	|
+| Versión				|		|
+| Autores				|		|
+| Fuentes				|		|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			|		|
+| Importancia			|		|
+| Urgencia				|		|
+| Estado				|		|
+| Estabilidad			|		|
+| Comentarios			|		|
+
+<br>
+
+| RF-03					| Definir transbordos		|
+| :---					| :--  	|
+| Versión				|		|
+| Autores				|		|
+| Fuentes				|		|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			|		|
+| Importancia			|		|
+| Urgencia				|		|
+| Estado				|		|
+| Estabilidad			|		|
+| Comentarios			|		|
+
+<br>
+
+| RF-04					| Calcular tiempos de recorrido		|
+| :---					| :--  	|
+| Versión				|		|
+| Autores				|		|
+| Fuentes				|		|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			|		|
+| Importancia			|		|
+| Urgencia				|		|
+| Estado				|		|
+| Estabilidad			|		|
+| Comentarios			|		|
+
+<br>
+
+| RF-05					| Identificar zonas por las que no se puede transitar		|
+| :---					| :--  	|
+| Versión				|		|
+| Autores				|		|
+| Fuentes				|		|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			|		|
+| Importancia			|		|
+| Urgencia				|		|
+| Estado				|		|
+| Estabilidad			|		|
+| Comentarios			|		|
+
+<br>
+
+| RF-06					| Definir barrios, zonas y municipios		|
+| :---					| :--  	|
+| Versión				|		|
+| Autores				|		|
+| Fuentes				|		|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| El sistema debe poder realizar la definición.		|
+| Importancia			|		|
+| Urgencia				|		|
+| Estado				|		|
+| Estabilidad			|		|
+| Comentarios			|		|
+
+<br>
+
+| RF-07					| Seleccionar origen desde el mapa		|
+| :---					| :--  	|
+| Versión				|		|
+| Autores				|		|
+| Fuentes				|		|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			|		|
+| Importancia			|		|
+| Urgencia				|		|
+| Estado				|		|
+| Estabilidad			|		|
+| Comentarios			|		|
+
+<br>
+
+| RF-08					| Seleccionar destino desde el mapa		|
+| :---					| :--  	|
+| Versión				|		|
+| Autores				|		|
+| Fuentes				|		|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			|		|
+| Importancia			|		|
+| Urgencia				|		|
+| Estado				|		|
+| Estabilidad			|		|
+| Comentarios			|		|
+
+<br>
+
+| RF-09					| Presentar recorrido de una línea		|
+| :---					| :--  	|
+| Versión				|		|
+| Autores				|		|
+| Fuentes				|		|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			|		|
+| Importancia			|		|
+| Urgencia				|		|
+| Estado				|		|
+| Estabilidad			|		|
+| Comentarios			|		|
+
+<br>
+
+| RF-10					| Presentar la solución de un itinerario recomendado		|
+| :---					| :--  	|
+| Versión				|		|
+| Autores				|		|
+| Fuentes				|		|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			|		|
+| Importancia			|		|
+| Urgencia				|		|
+| Estado				|		|
+| Estabilidad			|		|
+| Comentarios			|		|
+
+<br>
+
+| RF-11					| Mostrar las paradas y sus datos según selección previa		|
+| :---					| :--  	|
+| Versión				|		|
+| Autores				|		|
+| Fuentes				|		|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| Cercanas a un cierto sitio, de una línea, dentro de un municipio, zona o barrio, etc.		|
+| Importancia			|		|
+| Urgencia				|		|
+| Estado				|		|
+| Estabilidad			|		|
+| Comentarios			|		|
+
+<br>
+
+| RF-12					| Ubicar sitios de interés, eventos culturales y turísticos		|
+| :---					| :--  	|
+| Versión				|		|
+| Autores				|		|
+| Fuentes				|		|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			|		|
+| Importancia			|		|
+| Urgencia				|		|
+| Estado				|		|
+| Estabilidad			|		|
+| Comentarios			|		|
+
+<br>
+
+| RF-13					| Presentar información adicional para paradas		|
+| :---					| :--  	|
+| Versión				|		|
+| Autores				|		|
+| Fuentes				|		|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| Indicando líneas que pasan por cada parada, su dirección postal, foto, etc.		|
+| Importancia			|		|
+| Urgencia				|		|
+| Estado				|		|
+| Estabilidad			|		|
+| Comentarios			|		|
+
+<br>
+
+| RF-14					| Presentar información accediendo a una cierta línea		|
+| :---					| :--  	|
+| Versión				|		|
+| Autores				|		|
+| Fuentes				|		|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| Se presentan tarifas, horarios, empresa gestora, incidencias, etc		|
+| Importancia			|		|
+| Urgencia				|		|
+| Estado				|		|
+| Estabilidad			|		|
+| Comentarios			|		|
+
+<br>
+
+| RF-15					| Mostrar parada de inicio y fin para un itinerario recomendado		|
+| :---					| :--  	|
+| Versión				|		|
+| Autores				|		|
+| Fuentes				|		|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| A partir de la solución de un itinerario recomendado, por cada tramo se mostrará la parada de inicio y de fin.		|
+| Importancia			|		|
+| Urgencia				|		|
+| Estado				|		|
+| Estabilidad			|		|
+| Comentarios			|		|
+
+<br>
+
+| RF-16					| Acercar sobre el mapa		|
+| :---					| :--  	|
+| Versión				|		|
+| Autores				|		|
+| Fuentes				|		|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| 		|
+| Importancia			|		|
+| Urgencia				|		|
+| Estado				|		|
+| Estabilidad			|		|
+| Comentarios			|		|
+
+<br>
+
+| RF-17					| Alejar sobre el mapa		|
+| :---					| :--  	|
+| Versión				|		|
+| Autores				|		|
+| Fuentes				|		|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| 		|
+| Importancia			|		|
+| Urgencia				|		|
+| Estado				|		|
+| Estabilidad			|		|
+| Comentarios			|		|
+
+<br>
+
+| RF-18					| Desplazar sobre el mapa		|
+| :---					| :--  	|
+| Versión				|		|
+| Autores				|		|
+| Fuentes				|		|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| 		|
+| Importancia			|		|
+| Urgencia				|		|
+| Estado				|		|
+| Estabilidad			|		|
+| Comentarios			|		|
+
+<br>
+
+| RF-19					| Ir a mapa base (en el mapa)		|
+| :---					| :--  	|
+| Versión				|		|
+| Autores				|		|
+| Fuentes				|		|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| 		|
+| Importancia			|		|
+| Urgencia				|		|
+| Estado				|		|
+| Estabilidad			|		|
+| Comentarios			|		|
+
+<br>
+
+| RF-20					| Centrar mapa		|
+| :---					| :--  	|
+| Versión				|		|
+| Autores				|		|
+| Fuentes				|		|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| 		|
+| Importancia			|		|
+| Urgencia				|		|
+| Estado				|		|
+| Estabilidad			|		|
+| Comentarios			|		|
+
+<br>
+
+| RF-21					| Cálculo de itinerarios recomendados		|
+| :---					| :--  	|
+| Versión				|		|
+| Autores				|		|
+| Fuentes				|		|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| 		|
+| Importancia			|		|
+| Urgencia				|		|
+| Estado				|		|
+| Estabilidad			|		|
+| Comentarios			| El proceso debe encontrar la mejor solución en el menor tiempo (de itinerario) contemplando todas las alternativas del transporte público disponible.		|
+
+<br>
+
+| RF-22					| Modificar los parámetros utilizados en el cálculo del itinerario		|
+| :---					| :--  	|
+| Versión				|		|
+| Autores				|		|
+| Fuentes				|		|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| Todos aquellos parámetros que se utilicen en el cálculo y puedan influir en el resultado del itinerario se podrán modificar y ajustar hasta lograr el mayor grado de exactitud en el modelo.		|
+| Importancia			|		|
+| Urgencia				|		|
+| Estado				|		|
+| Estabilidad			|		|
+| Comentarios			|		|
+
+<br>
+
+| RF-23					| Mostrar tramos que componen un trayecto		|
+| :---					| :--  	|
+| Versión				|		|
+| Autores				|		|
+| Fuentes				|		|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| Para cada tramo se especificará la línea implicada, el tiempo necesario para recorrerlo, el punto de inicio y el de fin, el coste por etapa y la hora estimada de comienzo.		|
+| Importancia			|		|
+| Urgencia				|		|
+| Estado				|		|
+| Estabilidad			|		|
+| Comentarios			|		|
+
+<br>
+
+| RF-24					| Mostrar coste de un viaje		|
+| :---					| :--  	|
+| Versión				|		|
+| Autores				|		|
+| Fuentes				|		|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| 		|
+| Importancia			|		|
+| Urgencia				|		|
+| Estado				|		|
+| Estabilidad			|		|
+| Comentarios			|		|
+
+<br>
+
+| RF-25					| Definir parámetros de la consulta a realizar		|
+| :---					| :--  	|
+| Versión				|		|
+| Autores				|		|
+| Fuentes				|		|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| El usuario debe: establecer punto de origen y destino del itinerario, fecha y hora del trayecto y el aspecto que le interesa potenciar de la solución (tiempo, coste, transbordos, etc).		|
+| Importancia			|		|
+| Urgencia				|		|
+| Estado				|		|
+| Estabilidad			|		|
+| Comentarios			|		|
+
+<br>
+
+| RF-26					| Seleccionar origen y destino		|
+| :---					| :--  	|
+| Versión				|		|
+| Autores				|		|
+| Fuentes				|		|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| 		|
+| Importancia			|		|
+| Urgencia				|		|
+| Estado				|		|
+| Estabilidad			|		|
+| Comentarios			|		|
+
+<br>
+
+| RF-27					| Mostrar en el mapa recorrido de la solución		|
+| :---					| :--  	|
+| Versión				|		|
+| Autores				|		|
+| Fuentes				|		|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| 		|
+| Importancia			|		|
+| Urgencia				|		|
+| Estado				|		|
+| Estabilidad			|		|
+| Comentarios			|		|
+
+<br>
+
+| RF-28					| Mostrar solución en forma esquemática		|
+| :---					| :--  	|
+| Versión				|		|
+| Autores				|		|
+| Fuentes				|		|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| 		|
+| Importancia			|		|
+| Urgencia				|		|
+| Estado				|		|
+| Estabilidad			|		|
+| Comentarios			|		|
+
+<br>
+
+| RF-29					| Mostrar solución como texto para ser impreso		|
+| :---					| :--  	|
+| Versión				|		|
+| Autores				|		|
+| Fuentes				|		|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| 		|
+| Importancia			|		|
+| Urgencia				|		|
+| Estado				|		|
+| Estabilidad			|		|
+| Comentarios			|		|
+
+<br>
+
+| RF-30					| Acceder a información de mayor detalle de las paradas y las líneas que forman parte de la respuesta desde la solución		|
+| :---					| :--  	|
+| Versión				|		|
+| Autores				|		|
+| Fuentes				|		|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| 		|
+| Importancia			|		|
+| Urgencia				|		|
+| Estado				|		|
+| Estabilidad			|		|
+| Comentarios			|		|
+
+<br>
+
+| RF-31					| Indicar los diferentes tramos que debe recorrer un usuario		|
+| :---					| :--  	|
+| Versión				|		|
+| Autores				|		|
+| Fuentes				|		|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| 		|
+| Importancia			|		|
+| Urgencia				|		|
+| Estado				|		|
+| Estabilidad			|		|
+| Comentarios			| Una vez presentada solución.		|
+
+<br>
+
+| RF-32					| Indicar el tiempo empleado en recorrer un tramo		|
+| :---					| :--  	|
+| Versión				|		|
+| Autores				|		|
+| Fuentes				|		|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| 		|
+| Importancia			|		|
+| Urgencia				|		|
+| Estado				|		|
+| Estabilidad			|		|
+| Comentarios			| Una vez presentada solución.		|
+
+<br>
+
+| RF-33					| Mostrar tiempo total del trayecto hasta alcanzar destino		|
+| :---					| :--  	|
+| Versión				|		|
+| Autores				|		|
+| Fuentes				|		|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| 		|
+| Importancia			|		|
+| Urgencia				|		|
+| Estado				|		|
+| Estabilidad			|		|
+| Comentarios			| Una vez presentada solución.		|
+
+<br>
+
+| RF-34					| Mostrar la línea		|
+| :---					| :--  	|
+| Versión				|		|
+| Autores				|		|
+| Fuentes				|		|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| 		|
+| Importancia			|		|
+| Urgencia				|		|
+| Estado				|		|
+| Estabilidad			|		|
+| Comentarios			| Una vez presentada solución.		|
+
+<br>
+
+| RF-35					| Mostrar descripción de la línea		|
+| :---					| :--  	|
+| Versión				|		|
+| Autores				|		|
+| Fuentes				|		|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| 		|
+| Importancia			|		|
+| Urgencia				|		|
+| Estado				|		|
+| Estabilidad			|		|
+| Comentarios			| Una vez presentada solución.		|
+
+<br>
+
+| RF-36					| Mostrar destino de la línea en la que viajará		|
+| :---					| :--  	|
+| Versión				|		|
+| Autores				|		|
+| Fuentes				|		|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| 		|
+| Importancia			|		|
+| Urgencia				|		|
+| Estado				|		|
+| Estabilidad			|		|
+| Comentarios			| Una vez presentada solución.		|
+
+<br>
+
+Requisitos No Funcionales
+
+
 
 ## 4.2. Casos de uso.
 
