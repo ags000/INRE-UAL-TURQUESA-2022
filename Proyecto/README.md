@@ -96,11 +96,83 @@ Apendices
 
 <br>
 
-| Requisito                | Descripción                   |                                  |
-| :---                     | :---                          | :---                             |
-|                          |                               |                                  |
+| RF-01					| Gestor de contenido con sus herramientas de mantenimiento		|
+| :---					| :--  	|
+| Versión				|		|
+| Autores				|		|
+| Fuentes				|		|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			|		|
+| Importancia			|		|
+| Urgencia				|		|
+| Estado				|		|
+| Estabilidad			|		|
+| Comentarios			|		|
 
 <br>
+
+| RF-02					|		|
+| :---					| :--  	|
+| Versión				|		|
+| Autores				|		|
+| Fuentes				|		|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			|		|
+| Importancia			|		|
+| Urgencia				|		|
+| Estado				|		|
+| Estabilidad			|		|
+| Comentarios			|		|
+
+<br>
+
+| RF-03					|		|
+| :---					| :--  	|
+| Versión				|		|
+| Autores				|		|
+| Fuentes				|		|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			|		|
+| Importancia			|		|
+| Urgencia				|		|
+| Estado				|		|
+| Estabilidad			|		|
+| Comentarios			|		|
+
+<br>
+
+| RF-04					|		|
+| :---					| :--  	|
+| Versión				|		|
+| Autores				|		|
+| Fuentes				|		|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			|		|
+| Importancia			|		|
+| Urgencia				|		|
+| Estado				|		|
+| Estabilidad			|		|
+| Comentarios			|		|
+
+<br>
+
+| RF-05					|		|
+| :---					| :--  	|
+| Versión				|		|
+| Autores				|		|
+| Fuentes				|		|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			|		|
+| Importancia			|		|
+| Urgencia				|		|
+| Estado				|		|
+| Estabilidad			|		|
+| Comentarios			|		|
 
 ## 4.2. Casos de uso.
 
