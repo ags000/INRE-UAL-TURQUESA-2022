@@ -44,10 +44,17 @@ Apendices
 
 <br>
 
-| Término                  | Descripción                   |
-| :---                     | :---                          |
-| WYSIWYG                  | Acrónimo de «Lo que ves obtienes», (What you see is what you get) es una frase aplicada a los procesadores de texto y otros editores de texto con formato (como los editores de HTML) que permiten escribir un documento mostrando directamente el resultado final, frecuentemente el resultado impreso.                             |
-
+| Término                  | Descripción                     |
+| :---                     | :---                            |
+| WYSIWYG                  | Acrónimo de «Lo que ves obtienes», (What you see is what you get) es una frase aplicada a los procesadores de texto y otros editores de texto con formato (como los editores de HTML) que permiten escribir un documento mostrando directamente el resultado final, frecuentemente el resultado impreso.                                                     |
+| CEN                      | Las nubes de etiquetas consisten en agrupar palabras (etiquetas, tags) y mostrarle al visitante de la web cuales son las etiquetas más usadas, usando también estilos que permiten visualizar mejor cual tiene mayor actividad y cual tiene menor actividad.          |
+| SIIT                     | Comité Europeo de Normalización |
+| SMET                     | Sistema interactivo de información del transporte |
+| HelpDesk                 | Sistema de la monitorización de la explotación del transporte |
+| SAE                      |  |
+| PDA                      |  |
+| LOPD                     |  |
+| AUT                      | Autoridad Única del Transporte |
 
 <br>
 
