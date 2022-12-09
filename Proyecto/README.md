@@ -120,8 +120,8 @@ Apendices
 | Autores				|		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
-| Requisitos asociados	|		|
-| Descripción			|		|
+| Requisitos asociados	| RF-01		|
+| Descripción			| El sistema deberá poseer acceso web con un editor WYSIWYG para el gestor.		|
 | Importancia			|		|
 | Urgencia				|		|
 | Estado				|		|
@@ -136,8 +136,8 @@ Apendices
 | Autores				|		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
-| Requisitos asociados	|		|
-| Descripción			|		|
+| Requisitos asociados	| RF-01		|
+| Descripción			| El sistema deberá proporcionar las herramientas para la creación de páginas de forma sencilla y coherente con el resto de la Web a usuarios finales que no tengan conocimiento de programación ni de HTML		|
 | Importancia			|		|
 | Urgencia				|		|
 | Estado				|		|
@@ -152,7 +152,7 @@ Apendices
 | Autores				|		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
-| Requisitos asociados	|		|
+| Requisitos asociados	| RF-01		|
 | Descripción			|		|
 | Importancia			|		|
 | Urgencia				|		|
@@ -168,8 +168,8 @@ Apendices
 | Autores				|		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
-| Requisitos asociados	|		|
-| Descripción			|		|
+| Requisitos asociados	| RF-01		|
+| Descripción			| El sistema deberá proporcionar las herramientas para la modificación sencilla del diseño común a varias páginas o de la Web entera.		|
 | Importancia			|		|
 | Urgencia				|		|
 | Estado				|		|
@@ -200,8 +200,8 @@ Apendices
 | Autores				|		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
-| Requisitos asociados	|		|
-| Descripción			|		|
+| Requisitos asociados	| RF-01		|
+| Descripción			| Estadísticas de acceso a las distintas Secciones y Servicios.		|
 | Importancia			|		|
 | Urgencia				|		|
 | Estado				|		|
@@ -216,7 +216,7 @@ Apendices
 | Autores				|		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
-| Requisitos asociados	|		|
+| Requisitos asociados	| El entorno de colaboración estará enfocado a facilitar la comunicación e intercambio de información.		|
 | Descripción			|		|
 | Importancia			|		|
 | Urgencia				|		|
@@ -232,8 +232,8 @@ Apendices
 | Autores				|		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
-| Requisitos asociados	|		|
-| Descripción			|		|
+| Requisitos asociados	| RF-08		|
+| Descripción			| Espacios para el trabajo compartido y en colaboración en la AUT		|
 | Importancia			|		|
 | Urgencia				|		|
 | Estado				|		|
@@ -248,8 +248,8 @@ Apendices
 | Autores				|		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
-| Requisitos asociados	|		|
-| Descripción			|		|
+| Requisitos asociados	| RF-08		|
+| Descripción			| Herramientas web 2.0 para los usuarios del transporte público! Foro, Blog, y relación de cloud tag en la home del website.		|
 | Importancia			|		|
 | Urgencia				|		|
 | Estado				|		|
@@ -265,7 +265,7 @@ Apendices
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
-| Descripción			|		|
+| Descripción			| El buscador permitirá la localización de cualquier contenido mediante la introducción de términos clave. En las búsquedas no se diferenciarán las palabras con o sin acento, mayúsculas o minúsculas. Dispondrá de opciones que permitan la parametrización de las búsquedas considerado entre otras características: idioma, secciones del sitio, etc. 		|
 | Importancia			|		|
 | Urgencia				|		|
 | Estado				|		|
@@ -280,7 +280,7 @@ Apendices
 | :---					| :----  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
-| Descripción			|		|
+| Descripción			| Definir, a través de un análisis completo, tanto el enfoque del portal y necesidades de los usuarios como el análisis técnico.		|
 | Comentarios			|		|
 
 <br>
@@ -288,8 +288,8 @@ Apendices
 | RNF-02		    	| Recopilar información		|
 | :---					| :----  	|
 | Objetivos asociados	|		|
-| Requisitos asociados	|		|
-| Descripción			|		|
+| Requisitos asociados	| RNF-01		|
+| Descripción			| Identificación de necesidades (contenidos, servicios, audiencias,…), definición de la estructura (arquitectura de la información, mapa web,…) y organización del portal, detallar componentes organizativos, funcionales y técnicos del mismo.		|
 | Comentarios			|		|
 
 <br>
@@ -297,8 +297,8 @@ Apendices
 | RNF-03		    	| Propuesta de home e interior		|
 | :---					| :----  	|
 | Objetivos asociados	|		|
-| Requisitos asociados	|		|
-| Descripción			|		|
+| Requisitos asociados	| RNF-01		|
+| Descripción			| La empresa adjudicataria deberá presentar dos propuestas de home e interior, que deberán reflejar menús, iconografía, colores, estilos, etc, de modo que quede determinada la línea de comunicación e imagen en Internet del Proyecto y de los servicios.		|
 | Comentarios			|		|
 
 <br>
@@ -306,8 +306,8 @@ Apendices
 | RNF-04		    	| Tareas del Proyecto		|
 | :---					| :----  	|
 | Objetivos asociados	|		|
-| Requisitos asociados	|		|
-| Descripción			|		|
+| Requisitos asociados	| RNF-01, RNF-03		|
+| Descripción			| Las tareas, una vez asignado el proyecto serán: Diseño del interfaz, Diseño de páginas tipo, Definición del estilo gráfico de comunicación y promoción on-line, Creación del libro de estilo y de la marca en canales digitales.		|
 | Comentarios			|		|
 
 <br>
@@ -315,8 +315,8 @@ Apendices
 | RNF-05		    	| Requerimientos técnicos		|
 | :---					| :----  	|
 | Objetivos asociados	|		|
-| Requisitos asociados	|		|
-| Descripción			|		|
+| Requisitos asociados	| RNF-01		|
+| Descripción			| En función de los análisis realizados, se establecerán los requerimientos técnicos con los que debe cumplir la plataforma que soporte el portal y sus servicios.		|
 | Comentarios			|		|
 
 <br>
@@ -325,7 +325,7 @@ Apendices
 | :---					| :----  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
-| Descripción			|		|
+| Descripción			| Diseño, desarrollo, puesta en marcha, alojamiento y mantenimiento de la plataforma tecnológica para difusión, soporte y comunicación de contenidos referentes al transporte público.		|
 | Comentarios			|		|
 
 <br>
@@ -334,7 +334,7 @@ Apendices
 | :---					| :----  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
-| Descripción			|		|
+| Descripción			| Diseño de la arquitectura tanto física como lógica.		|
 | Comentarios			|		|
 
 <br>
@@ -343,7 +343,7 @@ Apendices
 | :---					| :----  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
-| Descripción			|		|
+| Descripción			| Diseño del modelo de datos, que preferentemente debe corresponderse con alguno de los estándares europeos definidos por el CEN (comité europeo de normalización). 		|
 | Comentarios			|		|
 
 <br>
@@ -352,7 +352,7 @@ Apendices
 | :---					| :----  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
-| Descripción			|		|
+| Descripción			| Descripción general de la solución propuesta, arquitectura de hardware, arquitectura de software, descripción de cada uno de los componentes.		|
 | Comentarios			|		|
 
 <br>
@@ -361,7 +361,7 @@ Apendices
 | :---					| :----  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
-| Descripción			|		|
+| Descripción			| Desarrollo o adaptación de las aplicaciones necesarias para el correcto funcionamiento del portal.		|
 | Comentarios			|		|
 
 <br>
@@ -370,7 +370,7 @@ Apendices
 | :---					| :----  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
-| Descripción			|		|
+| Descripción			| Versión multidispositivo.		|
 | Comentarios			|		|
 
 <br>
@@ -379,7 +379,7 @@ Apendices
 | :---					| :----  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
-| Descripción			|		|
+| Descripción			| Elaborar una propuesta inicial de contenido recopilando todo lo disponible en diversas fuentes y sometiéndola al visto bueno de la AUTGC, la cual a su vez facilitará los medios que estén a su disposición para facilitar el trabajo.		|
 | Comentarios			|		|
 
 <br>
@@ -388,7 +388,7 @@ Apendices
 | :---					| :----  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
-| Descripción			|		|
+| Descripción			| La carga inicial de los contenidos acordados en el gestor.		|
 | Comentarios			|		|
 
 <br>
@@ -397,7 +397,7 @@ Apendices
 | :---					| :----  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
-| Descripción			|		|
+| Descripción			| Maquetación conforme a las pautas dadas y plantillas existentes en el gestor.		|
 | Comentarios			|		|
 
 <br>
@@ -406,7 +406,7 @@ Apendices
 | :---					| :----  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
-| Descripción			|		|
+| Descripción			| Actualización continúa durante todo el contrato de dichos contenidos, de acuerdo con el tipo de cada uno de ellos, y sobre todo vigilando que no se presenten contenidos obsoletos en ningún caso.		|
 | Comentarios			|		|
 
 ## 4.2. Casos de uso.
