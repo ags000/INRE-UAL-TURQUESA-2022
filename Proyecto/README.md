@@ -46,7 +46,8 @@ Apendices
 
 | Término                  | Descripción                   |
 | :---                     | :---                          |
-|                          |                               |
+| WYSIWYG                  | Acrónimo de «Lo que ves obtienes», (What you see is what you get) es una frase aplicada a los procesadores de texto y otros editores de texto con formato (como los editores de HTML) que permiten escribir un documento mostrando directamente el resultado final, frecuentemente el resultado impreso.                             |
+
 
 <br>
 
