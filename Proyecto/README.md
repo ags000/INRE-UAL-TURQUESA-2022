@@ -94,10 +94,12 @@ Apendices
 
 ## 4.1. Requisitos.
 
+### 4.1.1 Requisitos Funcionales.
+
 <br>
 
 | RF-01					| Gestor de contenido con sus herramientas de mantenimiento		|
-| :---					| :--  	|
+| :---					| :----  	|
 | Versión				|		|
 | Autores				|		|
 | Fuentes				|		|
@@ -112,8 +114,8 @@ Apendices
 
 <br>
 
-| RF-02					|		|
-| :---					| :--  	|
+| RF-02					| Acceso web con editor WYSIWYG		|
+| :---					| :----  	|
 | Versión				|		|
 | Autores				|		|
 | Fuentes				|		|
@@ -128,8 +130,8 @@ Apendices
 
 <br>
 
-| RF-03					|		|
-| :---					| :--  	|
+| RF-03					| Creación de páginas de forma sencilla y coherente		|
+| :---					| :---- 	|
 | Versión				|		|
 | Autores				|		|
 | Fuentes				|		|
@@ -144,8 +146,8 @@ Apendices
 
 <br>
 
-| RF-04					|		|
-| :---					| :--  	|
+| RF-04					| Previsualización previa a la publicación definitiva de una página		|
+| :---					| :---- 	|
 | Versión				|		|
 | Autores				|		|
 | Fuentes				|		|
@@ -160,8 +162,8 @@ Apendices
 
 <br>
 
-| RF-05					|		|
-| :---					| :--  	|
+| RF-05					| Modificación sencilla del diseño		|
+| :---					| :----  	|
 | Versión				|		|
 | Autores				|		|
 | Fuentes				|		|
@@ -172,6 +174,239 @@ Apendices
 | Urgencia				|		|
 | Estado				|		|
 | Estabilidad			|		|
+| Comentarios			|		|
+
+<br>
+
+| RF-06					| Contenido flexible		|
+| :---					| :----  	|
+| Versión				|		|
+| Autores				|		|
+| Fuentes				|		|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			|		|
+| Importancia			|		|
+| Urgencia				|		|
+| Estado				|		|
+| Estabilidad			|		|
+| Comentarios			|		|
+
+<br>
+
+| RF-07					| Herramientas de seguimiento		|
+| :---					| :----  	|
+| Versión				|		|
+| Autores				|		|
+| Fuentes				|		|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			|		|
+| Importancia			|		|
+| Urgencia				|		|
+| Estado				|		|
+| Estabilidad			|		|
+| Comentarios			|		|
+
+<br>
+
+| RF-08					| Entorno de colaboración		|
+| :---					| :----  	|
+| Versión				|		|
+| Autores				|		|
+| Fuentes				|		|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			|		|
+| Importancia			|		|
+| Urgencia				|		|
+| Estado				|		|
+| Estabilidad			|		|
+| Comentarios			|		|
+
+<br>
+
+| RF-09					| Espacios para el trabajo compartido y en colaboración en la AUT		|
+| :---					| :---- 	|
+| Versión				|		|
+| Autores				|		|
+| Fuentes				|		|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			|		|
+| Importancia			|		|
+| Urgencia				|		|
+| Estado				|		|
+| Estabilidad			|		|
+| Comentarios			|		|
+
+<br>
+
+| RF-10					| Herramientas web 2.0 para los usuarios del transporte público		|
+| :---					| :----  	|
+| Versión				|		|
+| Autores				|		|
+| Fuentes				|		|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			|		|
+| Importancia			|		|
+| Urgencia				|		|
+| Estado				|		|
+| Estabilidad			|		|
+| Comentarios			|		|
+
+<br>
+
+| RF-11					| Buscador		|
+| :---					| :----  	|
+| Versión				|		|
+| Autores				|		|
+| Fuentes				|		|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			|		|
+| Importancia			|		|
+| Urgencia				|		|
+| Estado				|		|
+| Estabilidad			|		|
+| Comentarios			|		|
+
+### 4.1.2 Requisitos No Funcionales.
+
+<br>
+
+| RNF-01		    	| Análisis del portal		|
+| :---					| :----  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			|		|
+| Comentarios			|		|
+
+<br>
+
+| RNF-02		    	| Recopilar información		|
+| :---					| :----  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			|		|
+| Comentarios			|		|
+
+<br>
+
+| RNF-03		    	| Propuesta de home e interior		|
+| :---					| :----  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			|		|
+| Comentarios			|		|
+
+<br>
+
+| RNF-04		    	| Tareas del Proyecto		|
+| :---					| :----  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			|		|
+| Comentarios			|		|
+
+<br>
+
+| RNF-05		    	| Requerimientos técnicos		|
+| :---					| :----  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			|		|
+| Comentarios			|		|
+
+<br>
+
+| RNF-06		    	| Ciclo de vida del software		|
+| :---					| :----  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			|		|
+| Comentarios			|		|
+
+<br>
+
+| RNF-07		    	| Diseño de la arquitectura		|
+| :---					| :----  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			|		|
+| Comentarios			|		|
+
+<br>
+
+| RNF-08		    	| Diseño del modelo de datos		|
+| :---					| :----  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			|		|
+| Comentarios			|		|
+
+<br>
+
+| RNF-10		    	| Desarrollo o adaptación de las aplicaciones		|
+| :---					| :----  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			|		|
+| Comentarios			|		|
+
+<br>
+
+| RNF-11		    	| Versión multidispositivo		|
+| :---					| :----  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			|		|
+| Comentarios			|		|
+
+<br>
+
+| RNF-12		    	| Detallar los lenguajes y navegadores soportados		|
+| :---					| :----  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			|		|
+| Comentarios			|		|
+
+<br>
+
+| RNF-13		    	| Propuesta inicial		|
+| :---					| :----  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			|		|
+| Comentarios			|		|
+
+<br>
+
+| RNF-14		    	| Carga inicial		|
+| :---					| :----  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			|		|
+| Comentarios			|		|
+
+<br>
+
+| RNF-15		    	| Maquetación		|
+| :---					| :----  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			|		|
+| Comentarios			|		|
+
+<br>
+
+| RNF-16		    	| Actualización		|
+| :---					| :----  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			|		|
 | Comentarios			|		|
 
 ## 4.2. Casos de uso.
