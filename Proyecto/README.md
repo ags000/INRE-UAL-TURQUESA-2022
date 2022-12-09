@@ -1143,6 +1143,14 @@ Por ejemplo, un informador que avise de obras en una ruta.	|
 
 ## 4.2. Casos de uso.
 
+
+### 4.2.1. Diagramas de casos de uso.
+
+
+<br>
+
+### 4.2.2. Lista general de casos de uso  y actores del proyecto.
+
 <br>
 
 | Identificar			| CU-01	|
@@ -1248,6 +1256,8 @@ Por ejemplo, un informador que avise de obras en una ruta.	|
 | Poscondiciones		|		|
 | Comentarios			|		|
 
+<br>
+
 | Identificar			| CU-08	|
 | :---					| :--  	|
 | Nombre				| Acceder a estadísticas		|
@@ -1261,6 +1271,8 @@ Por ejemplo, un informador que avise de obras en una ruta.	|
 | Poscondiciones		|		|
 | Comentarios			|		|
 
+<br>
+
 | Identificar			| CU-09	|
 | :---					| :--  	|
 | Nombre				| Buscar		|
@@ -1273,6 +1285,8 @@ Por ejemplo, un informador que avise de obras en una ruta.	|
 | Flujo alternativo		|		|
 | Poscondiciones		|		|
 | Comentarios			|		|
+
+<br>
 
 | Identificar			| CU-10	|
 | :---					| :--  	|
@@ -1316,21 +1330,6 @@ Por ejemplo, un informador que avise de obras en una ruta.	|
 | Flujo alternativo		|		|
 | Poscondiciones		|		|
 | Comentarios			|		|
-
-<br>
-
-### 4.2.1. Diagramas de casos de uso.
-
-
-<br>
-
-### 4.2.2. Lista general de casos de uso  y actores del proyecto.
-
-<br>
-
-| Caso de uso              | Descripción                   |
-| :---                     | :---                          |
-|                          |                               |
 
 <br>
 
