@@ -1141,6 +1141,272 @@ Por ejemplo, un informador que avise de obras en una ruta.	|
 | Descripción			|		|
 | Comentarios			|		|
 
+C. Servicios continuos
+
+### No se si este rnf se puede desplegar en 3 (por lo de la intalación sobre la plataforma, HelpDesk,...)
+| RNF-					| Alojamiento y puesta en marcha de las aplicaciones		|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	| RNF-06foro		|
+| Descripción			| El alojamiento y puesta en  marcha de las aplicaciones se producirá en el servidor de publicación seleccionado, en la plataforma donde permanecerán alojadas hasta el fin del contrato		|
+| Comentarios			| Se incluirá la instalación sobre la plataforma, HelpDesk para la atención de incidencias sobre la explotación de este entorno, operación de sistemas en modo remoto, y administración y mantenimiento del sistema en modo remoto	|
+
+<br>
+
+| RNF-					| Disposición y mantenimiento de un dominio para su publicación		|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	| RNF-06		|
+| Descripción			| Todas las tareas de mantenimiento correctivo de las aplicaciones asegurarán su correcto mantenimiento durante el período del proyecto.		|
+| Comentarios			|		|
+
+<br>
+
+| RNF-					| Mantenimiento integral de las aplicaciones desarrolladas para la AUTGC		|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| Mantenimiento preventivo, correctivo y evolutivo aplicable al desarrollo de software objeto del contrato durante un perdio de años. El servicio de atención integral se proporcionará por vía telefónica, presencial y e-mail. El servicio de mantenimiento se atenderá, al menos, en horario local de 8 a 20 horas de lunes a jueves y en horario de 8 a 15 horas los viernes.|
+| Comentarios			|		|
+
+<br>
+
+| RNF-					| Las aplicaciones a desarrollar se alimentarán de otras herramientas software de la AUTGC		|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| Las aplicaciones a desarrollar se alimentarán de otras herramientas software de la AUTGC, por tanto, y con el objeto de facilitar esta cooperación, se deberán utilizar modelos, especificaciones, protocolos y herramientas compatibles las otras herramientas de la AUTGC existentes en el momento de la adjudicación y preferentemente empleando modelos de datos de acuerdo con los estándares definidos por el CEN.|
+| Comentarios			|		|
+
+<br>
+
+| RNF-					| Integrción de otros subsistemas de la AUTGC	|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| Se integrarán otros subsistemas de la AUTGC como el módulo de gestión de la Tarjeta de Pago Única, la pasarela de pago (web), módulos de datos provenientes de los operadores de transportes (SAE, viajeros, ...), y otros software de gestión del transportes y coordinación de los servicios.		|
+| Comentarios			|		|
+
+<br>
+
+| RNF-					| Plataforma desarrollada proveerá de un cliente estándar de conexión a web services		|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| La plataforma desarrollada proveerá de un cliente estándar de conexión a web services que permitan conectarse con las aplicaciones que soportan ese mismo protocolo de conexión. |
+| Comentarios			| Quedando fuera de este proyecto la adaptación de otras aplicaciones que existan en la AUTGC y que no cumplan dicho estándar.	|
+
+<br>
+
+| RNF-					| Software permeable	|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| El software deberá ser permeable y permitir la integración en el Sistema General mediante servicios web o herramientas similares de tecnología avanzada y a ser posible abierta y no propietaria. 	|
+| Comentarios			|		|
+
+<br>
+
+| RNF-					| Funcionamiento de los sistemas de información		|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| Los datos necesarios para el funcionamiento de los sistemas de información serán recogidos de las bases de datos de las empresas prestatarias de los servicios de transportes, y de la AUT, que son bases de datos relacionales. |
+| Comentarios			|		|
+
+<br>
+
+| RNF-					| Propiedades del software		|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| El software deberá tener una arquitectura modular y escalable, de manera que se puedan poner en marcha las distintas funcionalidades a medidas que vayan siendo comprobadas y validas, permitiendo además las futuras ampliaciones que fuesen necesarias. 	|
+| Comentarios			|		|
+
+# RNF o RF ???
+
+| RNF-					| Representación de la red de transporte	|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| La representación de la red de transporte deberá formar parte de un sistema de información geográfica. Esta información deberá incluir la posición geográfica (latitud, longitud y altura) de los nodos de dicha red, los recorridos de los vehículos, carreteras de la isla y planos de núcleos urbanos, fotografías de sitios de interés turístico, ocio, cultura, paradas y estaciones, etc.		|
+| Comentarios			|		|
+
+<br>
+
+| RNF-					| Integración en el SIIT	|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| La AUTGC colaborará con el licitador en la provisión de la información georeferenciada que el licitador debe integrar en el SIIT, siendo el licitador el responsable de recopilar, revisar y poner a punto la misma con el mayor grado de exactitud posible.		|
+| Comentarios			|		|
+
+<br>
+
+| RNF-					| Contenidos y servicios orientados al usuario final	|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| Los contenidos y servicios orientados al usuario final deberán ser accesibles desde distintos puntos de información habilitados para ello por la AUT en estaciones, intercambiadores, paradas preferentes, etc., dichos Puntos de información los proveerá debidamente configurados la AUTGC.	|
+| Comentarios			|		|
+
+<br>
+
+| RNF-					| Contenidos y servicios orientados al usuario final	|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| Los contenidos y servicios orientados al usuario final deberán ser accesibles desde cualquier punto en donde los usuarios dispongan de acceso a Internet haciendo uso tanto de dispositivos móviles (ordenadores portátiles, teléfonos móviles, PDAs, etc.) 	|
+| Comentarios		   |		|
+
+<br>
+
+| RNF-					| Las aplicaciones deberán ajustarse a las recomendaciones del W3C		|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| Todas las aplicaciones deberán ajustarse a las recomendaciones aportadas por el W3C, donde se recogen las pautas de accesibilidad al contenido WEB, versión 1.0		|
+| Comentarios			|		|
+
+<br>
+
+| RNF-					| Cumplimiento del nivel de conformidad AA	|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| Se exige el cumplimiento del nivel de conformidad AA, desestimándose la opción de crear un sitio Web en paralelo con contenidos formateados en texto plano, al considerarse ésta una solución no inclusiva y no integradora.	|
+| Comentarios			|		|
+
+<br>
+
+| RNF-					| Sistema de monitorización visible		|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| La interfaz del sitio y de las partes accesibles del sistema de monitorización de la explotación deberá ser visible en cualquier plataforma, sistema operativo y navegador de Internet, sin necesidad de descargar ningún complemento externo. Si esto fuera necesario, deberá de confeccionarse un apartado de descargas actualizado, desde el cual proceder a realizar la descarga de dicho software. No se empleará flash, shockwave u otro formato gráfico propietario en el desarrollo y publicación de la web. 	|
+| Comentarios			|		|
+
+<br>
+
+| RNF-					| Navegación entre todos los componentes	|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| La interfaz del sitio y de las partes accesibles del sistema de monitorización de la explotación deberá tener navegación entre todos los componentes deberá de ser rápida, sencilla y estructurada temáticamente hablando.	|
+| Comentarios			|		|
+
+<br>
+
+| RNF-					| Herramientas o elementos de navegación	|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| La interfaz del sitio y de las partes accesibles del sistema de monitorización de la explotación deberá tener herramientas o elementos de navegación comunes fácilmente accesibles desde todas las pantallas.	|
+| Comentarios			|		|
+
+<br>
+
+| RNF-					| Elementos de navegación	|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| La interfaz del sitio y de las partes accesibles del sistema de monitorización de la explotación deberá incorporar elementos de navegación que permitan saber en cada momento en que nivel del árbol de información se encuentra el usuario. 	|
+| Comentarios			|		|
+
+<br>
+
+| RNF-					| Páginas del sistema de monitorización	|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| La interfaz del sitio y de las partes accesibles del sistema de monitorización de la explotación deberá tener páginas que podrán contener elementos multimedia y mostrar resultados de consultas a bases de Datos, para mostrar resultados de forma dinámica.	|
+| Comentarios			|		|
+
+<br>
+
+| RNF-					| Portal del sistema de monitorización	|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| La interfaz del sitio y de las partes accesibles del sistema de monitorización de la explotación deberá tener el portal visible, con una velocidad de presentación razonable en aquellas páginas que sean dinámicas. 	|
+| Comentarios			|		|
+
+<br>
+
+| RNF-					| Software de desarrollo y administración multiplataforma	|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| En la interfaz del sitio y de las partes accesibles del sistema de monitorización de la explotación el software de desarrollo y administración de la Web deberá de poder manejarse desde cualquier plataforma. 	|
+| Comentarios			|		|
+
+<br>
+
+| RNF-					| Software preparado para dispositivos Web 	|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| En la interfaz del sitio y de las partes accesibles del sistema de monitorización de la explotación el software estará preparado para permitir el uso de cualquier dispositivo Web especialmente para el uso de pantalla táctil, sin modificar el código.	 	|
+| Comentarios			|		|
+
+<br>
+
+| RNF-					| Normativa LOPD	|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| Se deberá cumplir lo dispuesto por la LOPD, en cuanto a normas de protección de datos de carácter personal, así como la legislación aplicable en materia de publicación y comunicación de información en Internet.	 	|
+| Comentarios			|		|
+
+<br>
+
+| RNF-					| Mecanismos y medidas de seguridad		|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| Se deberán incorporar mecanismos y medidas de seguridad con el objeto de garantizar la seguridad de las transacciones que se puedan realizar y para dar una imagen de seguridad y tecnología avanzada al sitio. 	|
+| Comentarios			| El pago de los certificados u otros medios de protección privados correrá por cuenta del desarrollador durante el período de desarrollo del contrato. A partir del fin del proyecto, se negociará el mantenimiento de este punto.		|
+
+<br>
+
+| RNF-					| Posicionamiento en buscadores	|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| La página Web resultante deberá estar preparada para facilitar el posicionamiento natural en los principales buscadores de ámbito nacional e internacional para ello se deberán emplear las técnicas apropiadas. |
+| Comentarios			|		|
+
+<br>
+
+| RNF-					| Idiomas	|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| El portal deberá contener al menos ediciones en inglés, alemán, francés y español. La edición en español debe de ofrecer la posibilidad de clonar de forma sencilla la página para la traducción a otros de los idiomas contemplados en el sitio. Todas las ediciones en los distintos idiomas deberán tener las mismas funcionalidades y gestionarse del mismo modo. El sistema resultante de este proyecto deberá permitir la fácil creación, adaptación y gestión de ediciones adicionales en otros idiomas. 	|
+| Comentarios			|		|
+
+<br>
+
+# ESTO TMB PUEDE SER UN RF?????
+
+| RNF-					| Comercio electrónico	|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| El sistema deberá permitir la ejecución de programas de autentificación de usuarios, sistemas de pago y de comercio electrónico, en particular deberá contemplar todos los subsistemas, interfaces, desarrollos e implementaciones necesarias para permitir la recarga, consulta, y cualquier operación relativa al titulo único del transporte de Gran Canaria. 		|
+| Comentarios			|		|
+
+<br>
+
+| RNF-					| Contenidos publicitarios 	|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| La propuesta deberá contemplar la posibilidad de incluir espacios publicitarios, como banners u otros soportes publicitarios de promoción. 		|
+| Comentarios			|		|
+
+<br>
+
 ## 4.2. Casos de uso.
 
 
