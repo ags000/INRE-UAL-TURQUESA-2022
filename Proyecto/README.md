@@ -1071,7 +1071,7 @@ Por ejemplo, un informador que avise de obras en una ruta.	|
 
 <br>
 
-| RNF-08				| Base de datos corporativa de la AUTGC		|
+| RNF-09				| Base de datos corporativa de la AUTGC		|
 | :---					| :--  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -1080,8 +1080,242 @@ Por ejemplo, un informador que avise de obras en una ruta.	|
 
 <br>
 
+| RNF-10				| Casos de prueba y validación		|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			|		|
+| Comentarios			|		|
+
+<br>
+
+| RNF-11				| Se dispondrá de ayuda en línea para cada proceso		|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			|		|
+| Comentarios			|		|
+
+<br>
+
+| RNF-12				| Lenguaje de programación		|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			|		|
+| Comentarios			|		|
+
+<br>
+
+| RNF-13				| Tablas en la base de datos		|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			|		|
+| Comentarios			|		|
+
+<br>
+
+| RNF-14				| Datos relacionados con el transporte público		|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			|		|
+| Comentarios			|		|
+
+<br>
+
+| RNF-15				| Integrar información del transporte público y su información cartográfica asociada		|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			|		|
+| Comentarios			|		|
+
+<br>
+
+| RNF-16				| Aspectos del cálculo del itinerario		|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			|		|
+| Comentarios			|		|
 
 ## 4.2. Casos de uso.
+
+<br>
+
+| Identificar			| CU-01	|
+| :---					| :--  	|
+| Nombre				| Acceder a editor WYSIWYG		|
+| Autor					|		|
+| Fecha					|		|
+| Descripción			|		|
+| Actores				|		|
+| Precondiciones		|		|
+| Flujo normal			|		|
+| Flujo alternativo		|		|
+| Poscondiciones		|		|
+| Comentarios			|		|
+
+<br>
+
+| Identificar			| CU-02	|
+| :---					| :--  	|
+| Nombre				| 		|
+| Autor					|		|
+| Fecha					|		|
+| Descripción			|		|
+| Actores				|		|
+| Precondiciones		|		|
+| Flujo normal			|		|
+| Flujo alternativo		|		|
+| Poscondiciones		|		|
+| Comentarios			|		|
+
+<br>
+
+| Identificar			| CU-03	|
+| :---					| :--  	|
+| Nombre				| Modificar página		|
+| Autor					|		|
+| Fecha					|		|
+| Descripción			|		|
+| Actores				|		|
+| Precondiciones		|		|
+| Flujo normal			|		|
+| Flujo alternativo		|		|
+| Poscondiciones		|		|
+| Comentarios			|		|
+
+<br>
+
+| Identificar			| CU-04	|
+| :---					| :--  	|
+| Nombre				| Publicar contenido		|
+| Autor					|		|
+| Fecha					|		|
+| Descripción			|		|
+| Actores				|		|
+| Precondiciones		|		|
+| Flujo normal			|		|
+| Flujo alternativo		|		|
+| Poscondiciones		|		|
+| Comentarios			|		|
+
+<br>
+
+| Identificar			| CU-05	|
+| :---					| :--  	|
+| Nombre				| Modificar contenido		|
+| Autor					|		|
+| Fecha					|		|
+| Descripción			|		|
+| Actores				|		|
+| Precondiciones		|		|
+| Flujo normal			|		|
+| Flujo alternativo		|		|
+| Poscondiciones		|		|
+| Comentarios			|		|
+
+<br>
+
+| Identificar			| CU-06	|
+| :---					| :--  	|
+| Nombre				| Eliminar contenido		|
+| Autor					|		|
+| Fecha					|		|
+| Descripción			|		|
+| Actores				|		|
+| Precondiciones		|		|
+| Flujo normal			|		|
+| Flujo alternativo		|		|
+| Poscondiciones		|		|
+| Comentarios			|		|
+
+<br>
+
+| Identificar			| CU-07	|
+| :---					| :--  	|
+| Nombre				| Crear páginas		|
+| Autor					|		|
+| Fecha					|		|
+| Descripción			|		|
+| Actores				|		|
+| Precondiciones		|		|
+| Flujo normal			|		|
+| Flujo alternativo		|		|
+| Poscondiciones		|		|
+| Comentarios			|		|
+
+| Identificar			| CU-08	|
+| :---					| :--  	|
+| Nombre				| Acceder a estadísticas		|
+| Autor					|		|
+| Fecha					|		|
+| Descripción			|		|
+| Actores				|		|
+| Precondiciones		|		|
+| Flujo normal			|		|
+| Flujo alternativo		|		|
+| Poscondiciones		|		|
+| Comentarios			|		|
+
+| Identificar			| CU-09	|
+| :---					| :--  	|
+| Nombre				| Buscar		|
+| Autor					|		|
+| Fecha					|		|
+| Descripción			|		|
+| Actores				|		|
+| Precondiciones		|		|
+| Flujo normal			|		|
+| Flujo alternativo		|		|
+| Poscondiciones		|		|
+| Comentarios			|		|
+
+| Identificar			| CU-10	|
+| :---					| :--  	|
+| Nombre				| Parametrizar búsqueda		|
+| Autor					|		|
+| Fecha					|		|
+| Descripción			|		|
+| Actores				|		|
+| Precondiciones		|		|
+| Flujo normal			|		|
+| Flujo alternativo		|		|
+| Poscondiciones		|		|
+| Comentarios			|		|
+
+<br>
+
+| Identificar			| CU-11	|
+| :---					| :--  	|
+| Nombre				| Acceder al foro		|
+| Autor					|		|
+| Fecha					|		|
+| Descripción			|		|
+| Actores				|		|
+| Precondiciones		|		|
+| Flujo normal			|		|
+| Flujo alternativo		|		|
+| Poscondiciones		|		|
+| Comentarios			|		|
+
+<br>
+
+| Identificar			| CU-12	|
+| :---					| :--  	|
+| Nombre				| Acceder al blog		|
+| Autor					|		|
+| Fecha					|		|
+| Descripción			|		|
+| Actores				|		|
+| Precondiciones		|		|
+| Flujo normal			|		|
+| Flujo alternativo		|		|
+| Poscondiciones		|		|
+| Comentarios			|		|
 
 <br>
 
