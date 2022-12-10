@@ -1407,6 +1407,178 @@ C. Servicios continuos
 
 <br>
 
+| RNF-					| Información general sobre el servicio público de transporte de viajeros	|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| Se mostrará la información básica en el ámbito del transporte regular, es decir, operadores que prestan el servicio, líneas, horarios, recorridos, paradas, tarifas, tipos de bonos y descuentos, etc. Existirá la posibilidad de mostrar una foto de cualquiera de las paradas que integran el recorrido y que sea seleccionada por el usuario, incluso debe poderse simular el recorrido mediante la visualización de las paradas o puntos de interés por los que discurra el recorrido, indicando la hora prevista de paso así como los posibles lugares de interés o transbordos que se deban realizar. La consulta de información se realizará por distintos criterios (municipios, barrio o zona, paradas, empresa, etc.)	|
+| Comentarios			|		|
+
+<br>
+
+| RNF-					| Consultas origen-destino 	|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| El sistema deberá informar de cómo ir de un punto origen de la red de transporte a otro destino de la red de transporte. Para ello, el usuario introducirá en el sistema el origen y el destino del viaje que quiere realizar, pudiendo para ello seleccionarlos a través de distintas búsquedas (por municipios, barrio o zona, paradas, etc.). El usuario tendrá la opción de plantear la consulta seleccionando el criterio de búsqueda que desee (tiempo de viaje, precio, número de transbordos, parada, intervalo horario de salida). Como resultado el sistema proporcionará la información de la mejor óptima a la búsqueda planteada.	|
+| Comentarios			|		|
+
+<br>
+
+| RNF-					| Información proporcionada por las consultas		|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| La solución de las consultas deben proporcionar el identificador de la solución, precio, número de estapas con la información de cada una (línea, parada, código, hora estimada de llegada, ...)	|
+| Comentarios			|		|
+
+<br>
+
+| RNF-					| Opcionalidades de la consulta	|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| El sistema ofrecerá la opción de imprimir toda la información obtenida como resultado, y también de simular el recorrido, en cuanto a los eventos que lo componen y las operaciones a realizar presentando a su vez las fotos que correspondan a las paradas y lugares de interés relacionados con el recorrido de manera similar a la simulación que ofrecen los navegadores basados en GPS. 	|
+| Comentarios			|		|
+
+<br>
+
+| RNF-					| Información de horarios de paso de vehículos por puntos de la red de transporte 	|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| Dada un punto de la red de transporte (una parada o punto relevante de la red de transporte) se deberá mostrar información relativa a la planificación de los vehículos que pueden pasar por este punto. La información a mostrar debe contemplar la línea, parada inicial, hora de inicio de la expedición, parada final, hora estimada de llegada a la parada final y observaciones.	|
+| Comentarios			|		|
+
+<br>
+
+| RNF-					| Información de interés turístico	|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| Se mostrará la información de interés turístico, como por ejemplo, información sobre los distintos municipios (localización, qué visitar, etc.), las principales playas, naturaleza (miradores, paisajes relevantes, etc.), fiestas populares (fechas, lugar de celebración), gastronomía, puntos de información turísticas y patrimonio artístico, arquitectónico y arqueológico. Además, se informará de rutas con interés turístico con posibilidad de ser realizadas en transporte regular de viajeros. 		|
+| Comentarios			| La AUTGC facilitará el acuerdo de cesión de esta información por parte de otros organismos de la administración, siendo el licitante el responsable de recabarla coordinarla y adecuarla a la imagen y alcance del proyecto. 		|
+
+<br>
+
+| RNF-					| Información de lugares de interés general		|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| El sistema proporcionará información sobre lugares de interés general de toda la Isla, como por ejemplo: centros sanitarios, centros de seguridad y emergencias, centros de la administraciones públicas, centros culturales, lugares de ocio, etc. Además, se informará de los servicios de transporte público que pueden utilizarse para llegar a ellos. 	|
+| Comentarios			| La AUTGC facilitará el acuerdo de cesión de esta información por parte de otros organismos de la administración, siendo el licitante el responsable de recabarla coordinarla y adecuarla a la imagen y alcance del proyecto. 		|
+
+<br>
+
+| RNF-					| Agenda cultural y de ocio	|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| Se mostrará información sobre la agenda cultural y de ocio de los principales teatros, auditorios, salas de exposiciones, así como de los eventos que se celebren en la Isla relacionados con la cultura y el ocio.	|
+| Comentarios			| La AUTGC facilitará el acuerdo de cesión de esta información por parte de otros organismos de la administración, siendo el licitante el responsable de recabarla coordinarla y adecuarla a la imagen y alcance del proyecto. |
+
+<br>
+
+| RNF-					| Información corporativa 		|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| Se mostrará información sobre la Autoridad Única del Transporte de Gran Canaria y sobre el sistema de transporte público regular de viajeros en la isla. 		|
+| Comentarios			| Esta información será facilitada por la AUTGC.		|
+
+<br>
+
+| RNF-					| El sistema posibilitará de manera segura la recarga de la tarjeta única de pago de la AUTGC, mediante pasarela multibanco.		|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| El sistema posibilitará de manera segura la recarga de la tarjeta única de pago de la AUTGC, mediante pasarela multibanco.	|
+| Comentarios			|		|
+
+<br>
+
+| RNF-					| Descarga de archivo		|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| El sistema deberá proporcionar la funcionalidad de descargar archivos que contengan aplicaciones y datos asociados a servicios que la AUT pudiera proporcionar.		|
+| Comentarios			|		|
+
+<br>
+
+| RNF-					| Consultas estadísticas 	|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| El portal contará con un aplicativo de estadísticas que permita conocer como se utiliza el sistema por parte de los usuarios, con el fin de obtener información de interés desde el punto de vista del transporte (origen más solicitado, destino más solicitado, información más requerida, puntos de información más solicitados, etc.) y procurar su mejora continuada. 		|
+| Comentarios			|		|
+
+<br>
+
+| RNF-					| Actualización de contenidos	|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| El software se desarrollará de forma que permita una actualización o modificación sencilla y rápida de los datos del sistema, tanto de los relacionados con la prestación del servicio de transporte como de los vinculados a turismo y cultura.	|
+| Comentarios			|		|
+
+<br>
+
+| RNF-					| Información geográfica	|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| La información sobre puntos de la red de transporte será ubicada sobre cartografía utilizandolas coordenadas que para ello suministren las empresas prestatarias de los servicios de transporte y que deberá ser revisada unificada y depurada por el licitador. El software permitirá asociar a cada parada ubicada sobre la cartografía datos de interés para la AUT como para los usuarios, permitiendo consultar dichos datos "pinchando" sobre la cartografía o elaborando consultas con múltiples criterios pero acotados para optimizar el tiempo de respuesta (ejemplo: paradas de la línea 1, paradas de la línea 1 con marquesinas en el municipio de Mogán, horarios de paso de la línea 1 y 2, etc.). 	|
+| Comentarios			|		|
+
+<br>
+
+| RNF-					| Otras utilidades asociadas a la cartografía	|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| El software permitirá asociar a cada parada ubicada sobre la cartografía datos de interés para la AUT como para los usuarios, permitiendomostrar una foto de la parada seleccionada, seleccionar sobre la cartografía las paradas necesarias para la ejecución de las consultas de origen-destino, mostrar plano de recorrido del servicio consultado, y simular el recorrido consultado en estilo similar a los navegadores GPS. 	|
+| Comentarios			|		|
+
+<br>
+
+| RNF-					| Garantías Software		|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| Se deberá garantizar por dos años el software, a contar desde la fecha de recepción del proyecto en su totalidad, obligándose a realizar durante dicho período los cambios necesarios para solventar las deficiencias detectadas imputables a la empresa desarrolladora si así lo solicita la AUT. Dicha garantía incluirá la subsanación de errores o fallos ocultos que se pongan de manifiesto en el funcionamiento de las aplicaciones, o que se descubran mediante pruebas o cualesquiera otros medios, así como la conclusión de la documentación incompleta y subsanación de la que contenga deficiencias. 	|
+| Comentarios			| El tiempo de respuesta ante una solicitud de asistencia por fallo será como máximo de 24 horas. 		|
+
+<br>
+
+| RNF-					|Software y licencias 		|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| Se deberá entregar todas aquellas herramientas, licencias software y códigos fuente que sean necesarios para la generación y depuración de nuevas versiones de los distintos aplicativos, permitiendo la realización de modificaciones y mejoras por personal de la AUT hasta la finalización del contrato.		|
+| Comentarios			|		|
+
+<br>
+
+| RNF-					|Implantación del sistema 		|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| La instalación del software se realizará en los servidores que sean necesarios y en los equipos de los distintos puntos de información que la AUT decida instalar (hasta un máximo de 20 puntos), así corno la carga de todo tipo de datos (servicios de transporte, turísticos, culturales, etc.) que deban ser utilizados por el sistema.	|
+| Comentarios			|		|
+
+<br>
+
+| RNF-					|Mantenimiento del software		|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	| 		|
+| Descripción			| Se desarrollará y ejecutará un plan de mantenimiento que garantice el perfecto direccionamiento del sistema de información (software, hardware, comunicaciones, etc.). 	|
+| Comentarios			| Dentro del plan de mantenimiento se incluye las labores vinculadas a la renovación tecnológica (migraciones motivadas por la aparición de nuevas versiones, adaptación a nuevos lenguajes, utilización de nuevo hardware)|
+ 
+<br>
+
+
 ## 4.2. Casos de uso.
 
 
