@@ -552,7 +552,7 @@ Requisitos Funcionales
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
-| Descripción			|		|
+| Descripción			| El sistema proporcionará la información de todo el recorrido que realiza una línea de determinado transporte.		|
 | Importancia			|		|
 | Urgencia				|		|
 | Estado				|		|
@@ -568,7 +568,7 @@ Requisitos Funcionales
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
-| Descripción			|		|
+| Descripción			| El sistema presentará un itinerario recomendado para cada ruta que se introduzca.		|
 | Importancia			|		|
 | Urgencia				|		|
 | Estado				|		|
@@ -600,7 +600,7 @@ Requisitos Funcionales
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
-| Descripción			|		|
+| Descripción			| El sistema remarcará en el mapa los lugares de interés turísticos y culturales.		|
 | Importancia			|		|
 | Urgencia				|		|
 | Estado				|		|
@@ -664,12 +664,12 @@ Requisitos Funcionales
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
-| Descripción			| 		|
+| Descripción			| El sistema permitirá ampliar la visión en el mapa para mostrar más detalles sobre el mismo.		|
 | Importancia			|		|
 | Urgencia				|		|
 | Estado				|		|
 | Estabilidad			|		|
-| Comentarios			|		|
+| Comentarios			| Más detalles implica que se puedan leer los nombres de calles y avenidas más secundarias y de otro tipo. 		|
 
 <br>
 
@@ -680,7 +680,7 @@ Requisitos Funcionales
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
-| Descripción			| 		|
+| Descripción			| El sistema permitirá alejar la visión en el mapa para mostrar una visión más general del mismo.		|
 | Importancia			|		|
 | Urgencia				|		|
 | Estado				|		|
@@ -696,7 +696,7 @@ Requisitos Funcionales
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
-| Descripción			| 		|
+| Descripción			| El sistema permitirá desplazar la visión sobre el mapa.		|
 | Importancia			|		|
 | Urgencia				|		|
 | Estado				|		|
@@ -712,7 +712,7 @@ Requisitos Funcionales
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
-| Descripción			| 		|
+| Descripción			|		|
 | Importancia			|		|
 | Urgencia				|		|
 | Estado				|		|
@@ -728,7 +728,7 @@ Requisitos Funcionales
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
-| Descripción			| 		|
+| Descripción			| El sistema permitirá centrar la visión sobre el mapa en relación a la posición actual.		|
 | Importancia			|		|
 | Urgencia				|		|
 | Estado				|		|
