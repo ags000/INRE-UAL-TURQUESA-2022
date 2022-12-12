@@ -112,7 +112,7 @@ Requisitos Funcionales
 | Urgencia				|		|
 | Estado				|		|
 | Estabilidad			|		|
-| Comentarios			|		|
+| Comentarios			| 		|
 
 <br>
 
@@ -123,12 +123,12 @@ Requisitos Funcionales
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	| RF-01		|
-| Descripción			| El sistema deberá poseer acceso web con un editor WYSIWYG para el gestor.		|
+| Descripción			| El sistema deberá poseer acceso web con un editor WYSIWYG para el gestor de contenido.		|
 | Importancia			|		|
 | Urgencia				|		|
 | Estado				|		|
 | Estabilidad			|		|
-| Comentarios			|		|
+| Comentarios			| WYSIWYG (What You See Is What You Get) implica que el editor deberá mostrar siempre la versión final del archivo que se está creando o editando.		|
 
 <br>
 
@@ -139,7 +139,7 @@ Requisitos Funcionales
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	| RF-01		|
-| Descripción			| El sistema deberá proporcionar las herramientas para la creación de páginas de forma sencilla y coherente con el resto de la Web a usuarios finales que no tengan conocimiento de programación ni de HTML		|
+| Descripción			| El sistema deberá proporcionar las herramientas para la creación de páginas de forma sencilla y coherente con el resto de la Web a usuarios finales que no tengan conocimiento de programación ni de HTML.		|
 | Importancia			|		|
 | Urgencia				|		|
 | Estado				|		|
@@ -148,14 +148,14 @@ Requisitos Funcionales
 
 <br>
 
-| RF-04					| Previsualización previa a la publicación definitiva de una página		|
+| RF-04					| Previsualización de la publicación de una página		|
 | :---					| :---- 	|
 | Versión				|		|
 | Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	| RF-01		|
-| Descripción			|		|
+| Descripción			| El gestor de contenidos debe de poseer una función para previsualizar la versión final de la página previamente a que esta sea publicada de manera definitiva.		|
 | Importancia			|		|
 | Urgencia				|		|
 | Estado				|		|
