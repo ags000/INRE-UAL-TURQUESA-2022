@@ -904,7 +904,7 @@ Requisitos Funcionales
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
-| Descripción			| 		|
+| Descripción			| El sistema proporcionará al usuario la información relativa a los tramos que este debe realizar durante el trayecto.		|
 | Importancia			|		|
 | Urgencia				|		|
 | Estado				|		|
@@ -920,7 +920,7 @@ Requisitos Funcionales
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
-| Descripción			| 		|
+| Descripción			| El sistema proporcionará el tiempo asociado estimado para recorrer un tramo. 		|
 | Importancia			|		|
 | Urgencia				|		|
 | Estado				|		|
@@ -936,7 +936,7 @@ Requisitos Funcionales
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
-| Descripción			| 		|
+| Descripción			| El sistema proporcionará un computo del tiempo total para realizar el trayecto completo.		|
 | Importancia			|		|
 | Urgencia				|		|
 | Estado				|		|
@@ -952,7 +952,7 @@ Requisitos Funcionales
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
-| Descripción			| 		|
+| Descripción			| El sistema mostrará la línea a elegir para realizar el trayecto desseado. 		|
 | Importancia			|		|
 | Urgencia				|		|
 | Estado				|		|
@@ -968,7 +968,7 @@ Requisitos Funcionales
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
-| Descripción			| 		|
+| Descripción			| El sistema dará información sobre la línea, como el número de tramos, el tiempo estimado por tramo y total del trayecto.		|
 | Importancia			|		|
 | Urgencia				|		|
 | Estado				|		|
