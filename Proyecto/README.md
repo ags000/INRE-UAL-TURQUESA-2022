@@ -422,9 +422,9 @@ Requisitos Funcionales
 | Versión				|		|
 | Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fuentes				|		|
-| Objetivos asociados	|		|
+| Objetivos asociados	| OBJ-02		|
 | Requisitos asociados	|		|
-| Descripción			|		|
+| Descripción			| El sistema debe poseer toda la información integrada de la red de transporte público de todos los municipios de Gran Canaria.		|
 | Importancia			|		|
 | Urgencia				|		|
 | Estado				|		|
@@ -440,7 +440,7 @@ Requisitos Funcionales
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
-| Descripción			|		|
+| Descripción			| El sistema debe ser capaz de calcular la distancia entre dos paradas de cada transporte.		|
 | Importancia			|		|
 | Urgencia				|		|
 | Estado				|		|
@@ -456,7 +456,7 @@ Requisitos Funcionales
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
-| Descripción			|		|
+| Descripción			| El sistema deberás ser capaz de crear transbordos entre los viajes para optimizar la eficiencia de las rutas de los vehículos.		|
 | Importancia			|		|
 | Urgencia				|		|
 | Estado				|		|
@@ -472,7 +472,7 @@ Requisitos Funcionales
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
-| Descripción			|		|
+| Descripción			| El sistema deberá de ser capaz de calcular un tiempo estimado para el trayecto de un recorrido completo.		|
 | Importancia			|		|
 | Urgencia				|		|
 | Estado				|		|
@@ -488,7 +488,7 @@ Requisitos Funcionales
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
-| Descripción			|		|
+| Descripción			| El sistema de ser capaz de identificar zonas intransitables y elaborar una ruta alternativa para llegar al destino.		|
 | Importancia			|		|
 | Urgencia				|		|
 | Estado				|		|
@@ -520,7 +520,7 @@ Requisitos Funcionales
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
-| Descripción			|		|
+| Descripción			| El usuario podrá introducir un lugar de origen en el mapa a partir del cual calcular las rutas.		|
 | Importancia			|		|
 | Urgencia				|		|
 | Estado				|		|
@@ -536,7 +536,7 @@ Requisitos Funcionales
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
-| Descripción			|		|
+| Descripción			| El usuario podrá introducir un lugar de destino en el mapa a partir del cual calcular las rutas.		|
 | Importancia			|		|
 | Urgencia				|		|
 | Estado				|		|
