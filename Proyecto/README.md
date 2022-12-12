@@ -103,7 +103,7 @@ Requisitos Funcionales
 | RF-01					| Gestor de contenido con sus herramientas de mantenimiento		|
 | :---					| :----  	|
 | Versión				|		|
-| Autores				|		|
+| Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -119,7 +119,7 @@ Requisitos Funcionales
 | RF-02					| Acceso web con editor WYSIWYG		|
 | :---					| :----  	|
 | Versión				|		|
-| Autores				|		|
+| Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	| RF-01		|
@@ -135,7 +135,7 @@ Requisitos Funcionales
 | RF-03					| Creación de páginas de forma sencilla y coherente		|
 | :---					| :---- 	|
 | Versión				|		|
-| Autores				|		|
+| Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	| RF-01		|
@@ -151,7 +151,7 @@ Requisitos Funcionales
 | RF-04					| Previsualización previa a la publicación definitiva de una página		|
 | :---					| :---- 	|
 | Versión				|		|
-| Autores				|		|
+| Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	| RF-01		|
@@ -167,7 +167,7 @@ Requisitos Funcionales
 | RF-05					| Modificación sencilla del diseño		|
 | :---					| :----  	|
 | Versión				|		|
-| Autores				|		|
+| Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	| RF-01		|
@@ -183,7 +183,7 @@ Requisitos Funcionales
 | RF-06					| Contenido flexible		|
 | :---					| :----  	|
 | Versión				|		|
-| Autores				|		|
+| Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -199,7 +199,7 @@ Requisitos Funcionales
 | RF-07					| Herramientas de seguimiento		|
 | :---					| :----  	|
 | Versión				|		|
-| Autores				|		|
+| Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	| RF-01		|
@@ -215,7 +215,7 @@ Requisitos Funcionales
 | RF-08					| Entorno de colaboración		|
 | :---					| :----  	|
 | Versión				|		|
-| Autores				|		|
+| Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	| El entorno de colaboración estará enfocado a facilitar la comunicación e intercambio de información.		|
@@ -231,7 +231,7 @@ Requisitos Funcionales
 | RF-09					| Espacios para el trabajo compartido y en colaboración en la AUT		|
 | :---					| :---- 	|
 | Versión				|		|
-| Autores				|		|
+| Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	| RF-08		|
@@ -247,7 +247,7 @@ Requisitos Funcionales
 | RF-10					| Herramientas web 2.0 para los usuarios del transporte público		|
 | :---					| :----  	|
 | Versión				|		|
-| Autores				|		|
+| Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	| RF-08		|
@@ -263,7 +263,7 @@ Requisitos Funcionales
 | RF-11					| Buscador		|
 | :---					| :----  	|
 | Versión				|		|
-| Autores				|		|
+| Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -420,7 +420,7 @@ Requisitos Funcionales
 | RF-01					| Mapas relacionados con el transporte público de Gran Canaria		|
 | :---					| :--  	|
 | Versión				|		|
-| Autores				|		|
+| Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -436,7 +436,7 @@ Requisitos Funcionales
 | RF-02					| Calcular distancias entre paradas		|
 | :---					| :--  	|
 | Versión				|		|
-| Autores				|		|
+| Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -452,7 +452,7 @@ Requisitos Funcionales
 | RF-03					| Definir transbordos		|
 | :---					| :--  	|
 | Versión				|		|
-| Autores				|		|
+| Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -468,7 +468,7 @@ Requisitos Funcionales
 | RF-04					| Calcular tiempos de recorrido		|
 | :---					| :--  	|
 | Versión				|		|
-| Autores				|		|
+| Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -484,7 +484,7 @@ Requisitos Funcionales
 | RF-05					| Identificar zonas por las que no se puede transitar		|
 | :---					| :--  	|
 | Versión				|		|
-| Autores				|		|
+| Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -500,7 +500,7 @@ Requisitos Funcionales
 | RF-06					| Definir barrios, zonas y municipios		|
 | :---					| :--  	|
 | Versión				|		|
-| Autores				|		|
+| Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -516,7 +516,7 @@ Requisitos Funcionales
 | RF-07					| Seleccionar origen desde el mapa		|
 | :---					| :--  	|
 | Versión				|		|
-| Autores				|		|
+| Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -532,7 +532,7 @@ Requisitos Funcionales
 | RF-08					| Seleccionar destino desde el mapa		|
 | :---					| :--  	|
 | Versión				|		|
-| Autores				|		|
+| Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -548,7 +548,7 @@ Requisitos Funcionales
 | RF-09					| Presentar recorrido de una línea		|
 | :---					| :--  	|
 | Versión				|		|
-| Autores				|		|
+| Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -564,7 +564,7 @@ Requisitos Funcionales
 | RF-10					| Presentar la solución de un itinerario recomendado		|
 | :---					| :--  	|
 | Versión				|		|
-| Autores				|		|
+| Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -580,7 +580,7 @@ Requisitos Funcionales
 | RF-11					| Mostrar las paradas y sus datos según selección previa		|
 | :---					| :--  	|
 | Versión				|		|
-| Autores				|		|
+| Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -596,7 +596,7 @@ Requisitos Funcionales
 | RF-12					| Ubicar sitios de interés, eventos culturales y turísticos		|
 | :---					| :--  	|
 | Versión				|		|
-| Autores				|		|
+| Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -612,7 +612,7 @@ Requisitos Funcionales
 | RF-13					| Presentar información adicional para paradas		|
 | :---					| :--  	|
 | Versión				|		|
-| Autores				|		|
+| Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -628,7 +628,7 @@ Requisitos Funcionales
 | RF-14					| Presentar información accediendo a una cierta línea		|
 | :---					| :--  	|
 | Versión				|		|
-| Autores				|		|
+| Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -644,7 +644,7 @@ Requisitos Funcionales
 | RF-15					| Mostrar parada de inicio y fin para un itinerario recomendado		|
 | :---					| :--  	|
 | Versión				|		|
-| Autores				|		|
+| Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -660,7 +660,7 @@ Requisitos Funcionales
 | RF-16					| Acercar sobre el mapa		|
 | :---					| :--  	|
 | Versión				|		|
-| Autores				|		|
+| Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -676,7 +676,7 @@ Requisitos Funcionales
 | RF-17					| Alejar sobre el mapa		|
 | :---					| :--  	|
 | Versión				|		|
-| Autores				|		|
+| Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -692,7 +692,7 @@ Requisitos Funcionales
 | RF-18					| Desplazar sobre el mapa		|
 | :---					| :--  	|
 | Versión				|		|
-| Autores				|		|
+| Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -708,7 +708,7 @@ Requisitos Funcionales
 | RF-19					| Ir a mapa base (en el mapa)		|
 | :---					| :--  	|
 | Versión				|		|
-| Autores				|		|
+| Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -724,7 +724,7 @@ Requisitos Funcionales
 | RF-20					| Centrar mapa		|
 | :---					| :--  	|
 | Versión				|		|
-| Autores				|		|
+| Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -740,7 +740,7 @@ Requisitos Funcionales
 | RF-21					| Cálculo de itinerarios recomendados		|
 | :---					| :--  	|
 | Versión				|		|
-| Autores				|		|
+| Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -756,7 +756,7 @@ Requisitos Funcionales
 | RF-22					| Modificar los parámetros utilizados en el cálculo del itinerario		|
 | :---					| :--  	|
 | Versión				|		|
-| Autores				|		|
+| Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -772,7 +772,7 @@ Requisitos Funcionales
 | RF-23					| Mostrar tramos que componen un trayecto		|
 | :---					| :--  	|
 | Versión				|		|
-| Autores				|		|
+| Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -788,7 +788,7 @@ Requisitos Funcionales
 | RF-24					| Mostrar coste de un viaje		|
 | :---					| :--  	|
 | Versión				|		|
-| Autores				|		|
+| Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -804,7 +804,7 @@ Requisitos Funcionales
 | RF-25					| Definir parámetros de la consulta a realizar		|
 | :---					| :--  	|
 | Versión				|		|
-| Autores				|		|
+| Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -820,7 +820,7 @@ Requisitos Funcionales
 | RF-26					| Seleccionar origen y destino		|
 | :---					| :--  	|
 | Versión				|		|
-| Autores				|		|
+| Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -836,7 +836,7 @@ Requisitos Funcionales
 | RF-27					| Mostrar en el mapa recorrido de la solución		|
 | :---					| :--  	|
 | Versión				|		|
-| Autores				|		|
+| Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -852,7 +852,7 @@ Requisitos Funcionales
 | RF-28					| Mostrar solución en forma esquemática		|
 | :---					| :--  	|
 | Versión				|		|
-| Autores				|		|
+| Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -868,7 +868,7 @@ Requisitos Funcionales
 | RF-29					| Mostrar solución como texto para ser impreso		|
 | :---					| :--  	|
 | Versión				|		|
-| Autores				|		|
+| Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -884,7 +884,7 @@ Requisitos Funcionales
 | RF-30					| Acceder a información de mayor detalle de las paradas y las líneas que forman parte de la respuesta desde la solución		|
 | :---					| :--  	|
 | Versión				|		|
-| Autores				|		|
+| Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -900,7 +900,7 @@ Requisitos Funcionales
 | RF-31					| Indicar los diferentes tramos que debe recorrer un usuario		|
 | :---					| :--  	|
 | Versión				|		|
-| Autores				|		|
+| Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -916,7 +916,7 @@ Requisitos Funcionales
 | RF-32					| Indicar el tiempo empleado en recorrer un tramo		|
 | :---					| :--  	|
 | Versión				|		|
-| Autores				|		|
+| Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -932,7 +932,7 @@ Requisitos Funcionales
 | RF-33					| Mostrar tiempo total del trayecto hasta alcanzar destino		|
 | :---					| :--  	|
 | Versión				|		|
-| Autores				|		|
+| Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -948,7 +948,7 @@ Requisitos Funcionales
 | RF-34					| Mostrar la línea		|
 | :---					| :--  	|
 | Versión				|		|
-| Autores				|		|
+| Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -964,7 +964,7 @@ Requisitos Funcionales
 | RF-35					| Mostrar descripción de la línea		|
 | :---					| :--  	|
 | Versión				|		|
-| Autores				|		|
+| Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -980,7 +980,7 @@ Requisitos Funcionales
 | RF-36					| Mostrar destino de la línea en la que viajará		|
 | :---					| :--  	|
 | Versión				|		|
-| Autores				|		|
+| Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
