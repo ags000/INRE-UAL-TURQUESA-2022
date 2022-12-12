@@ -984,7 +984,7 @@ Requisitos Funcionales
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
-| Descripción			| 		|
+| Descripción			| El sistema mostrará cláramente el destino de la línea que se ha escogido para viajar.		|
 | Importancia			|		|
 | Urgencia				|		|
 | Estado				|		|
