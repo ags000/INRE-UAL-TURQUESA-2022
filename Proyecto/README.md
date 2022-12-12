@@ -187,7 +187,7 @@ Requisitos Funcionales
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
-| Descripción			|		|
+| Descripción			| Todo contenido de la web de cualquier tipo deberá de poder ser publicado, retirado y modificado por el gestor de contenido.		|
 | Importancia			|		|
 | Urgencia				|		|
 | Estado				|		|
