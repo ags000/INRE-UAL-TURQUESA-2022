@@ -100,14 +100,14 @@ Requisitos Funcionales
 
 <br>
 
-| RF-01					| Gestor de contenido con sus herramientas de mantenimiento		|
+| RF-01					| Gestor de contenido	|
 | :---					| :----  	|
 | Versión				|		|
 | Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
-| Descripción			|		|
+| Descripción			| El SIIT deberá poseer un sistema propio que pueda ser utilizado para administrar el contenido y la información del sistema interactivo. Así como, las herramientas necesarias para el mantenimiento del mismo.		|
 | Importancia			|		|
 | Urgencia				|		|
 | Estado				|		|
