@@ -744,7 +744,7 @@ Requisitos Funcionales
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
-| Descripción			| 		|
+| Descripción			| El sistema calculará y proporcionará al usuario los itinerarios recomentados para una determinada ruta. 		|
 | Importancia			|		|
 | Urgencia				|		|
 | Estado				|		|
@@ -792,7 +792,7 @@ Requisitos Funcionales
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
-| Descripción			| 		|
+| Descripción			| El sistema deberá de mostrar el coste asociado al viaje que se realizará en el transporte público. 		|
 | Importancia			|		|
 | Urgencia				|		|
 | Estado				|		|
@@ -824,7 +824,7 @@ Requisitos Funcionales
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
-| Descripción			| 		|
+| Descripción			| El usuario podrá introducir de manera simultánea el origen y el destino de la ruta para calcular la solución del itinerario.		|
 | Importancia			|		|
 | Urgencia				|		|
 | Estado				|		|
@@ -833,14 +833,14 @@ Requisitos Funcionales
 
 <br>
 
-| RF-27					| Mostrar en el mapa recorrido de la solución		|
+| RF-27					| Mostrar en el mapa el recorrido de la solución		|
 | :---					| :--  	|
 | Versión				|		|
 | Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
-| Descripción			| 		|
+| Descripción			| El sistema deberá de mostrar el recorrido completo ilustrado sobre el mapa una vez calculada la solución del itinerario con los datos introducidos por el usuario.		|
 | Importancia			|		|
 | Urgencia				|		|
 | Estado				|		|
@@ -856,7 +856,7 @@ Requisitos Funcionales
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
-| Descripción			| 		|
+| Descripción			| El sistema también deberá ser capaz de mostrar la solución del rerorrido de forma esquemática; especificando cada parada y su ubicación.		|
 | Importancia			|		|
 | Urgencia				|		|
 | Estado				|		|
@@ -872,7 +872,7 @@ Requisitos Funcionales
 | Fuentes				|		|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
-| Descripción			| 		|
+| Descripción			| El sistema también deberá ser capaz de mostrar la solución en formato de texto para ser impreso en los tickets de cada viaje; mostrando el origen, el destino y el número de paradas.		|
 | Importancia			|		|
 | Urgencia				|		|
 | Estado				|		|
@@ -889,7 +889,7 @@ Requisitos Funcionales
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
 | Descripción			| 		|
-| Importancia			|		|
+| Importancia			| El usuario podrá acceder a una pestaña con información detallada tanto de las paradas como de las líneas que están relacionadas con la solución calculada por el sistema.		|
 | Urgencia				|		|
 | Estado				|		|
 | Estabilidad			|		|
