@@ -1746,7 +1746,7 @@ C. Servicios continuos
 | Nombre				| Previsualizar página		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			|		|
+| Descripción			| El sistema tiene una opción para visualizar la versión final de los cambios realizados antes de ser publicados.		|
 | Actores				| Usuario Logueado, Administrador		|
 | Precondiciones		|		|
 | Flujo normal			|		|
@@ -1761,7 +1761,7 @@ C. Servicios continuos
 | Nombre				| Buscar		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			|		|
+| Descripción			| El sistema posee un sistema para buscar los distintos contenidos del mismo.		|
 | Actores				| Usuario No Logueado, Usuario Logueado, Administrador		|
 | Precondiciones		|		|
 | Flujo normal			|		|
@@ -1776,7 +1776,7 @@ C. Servicios continuos
 | Nombre				| Elegir idioma		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			|		|
+| Descripción			| El usuario podrá cambiar el idioma del sistema entre los que estén permitidos.		|
 | Actores				| Usuario No Logueado, Usuario Logueado, Administrador		|
 | Precondiciones		|		|
 | Flujo normal			|		|
