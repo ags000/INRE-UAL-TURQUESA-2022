@@ -1,0 +1,60 @@
+@startuml SMET
+title SMET
+
+actor Usuario_no_logueado  #LightBlue
+actor Usuario_logueado #LightBlue
+actor Sistema #LightBlue
+actor Opeador_de_transporte #LightBlue
+actor Opeador_adjudicatario #LightBlue
+
+/'Casos de uso'/
+"Genear alarmas" as (DA)
+"Ver eventos" as (VE)
+"Ver eventos (vista Usuario logueado)" as (VEVUL)
+"Ver alarmas (vista Usuario logueado)" as (VAUL)
+"Ver alarmas (vista Operador de transporte)" as (VAOP)
+"Ver alarmas (vista Operador adjudicatario)" as (VAOA)
+"Ver alarma " as (VA)
+"ver advertencias" as (VADV)
+"Crear conjunto de operadores" as (CCO)
+"Registrar situaciones puntuales" as (RSP)
+"Registrar periodos continuos de tiempo" as (RPCT)
+"Proveer datos" as (PD)
+"Definir evento" as (DE)
+"Crear advertencia" as (CA)
+"Examinar el estado de la explotación en tiempo real" as (EEE)
+usecase AEETR as "Examinar el estado de la explotación en tiempo real (Vista Operador adjudicataro)
+--
+extension points
+Crear conjunto de operadores"
+
+/'Herencias actores'/
+Usuario_logueado -|> Usuario_no_logueado
+
+/'Relaciones casos de uso'/
+Sistema -- (DA)
+Usuario_logueado -- (VE)
+Usuario_logueado -- (VAUL)
+Opeador_de_transporte -- (VAOP)
+Opeador_de_transporte -- (VADV)
+Usuario_no_logueado -down- (VA)
+(VAOA) -|> (VA)
+(VAOP) -|> (VA)
+(VAUL) -|> (VA)
+Usuario_no_logueado -- (EEE)
+Usuario_no_logueado -- (VEVUL)
+(VEVUL) -|> (VE)
+Opeador_adjudicatario -- (AEETR)
+(CCO) .-> (AEETR) : <<extend>>
+(AEETR) -|> (EEE)
+Opeador_adjudicatario -- (RSP)
+Opeador_adjudicatario -- (RPCT)
+Opeador_adjudicatario -- (VAOA)
+Opeador_adjudicatario -- (PD)
+Opeador_adjudicatario -right- (DE)
+(CA) .-> (DE) : <<include>>
+
+
+
+
+
