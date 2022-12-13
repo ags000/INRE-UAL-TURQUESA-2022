@@ -1661,7 +1661,7 @@ C. Servicios continuos
 | Nombre				| Publicar contenido		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			|		|
+| Descripción			| El usuario puede acceder al gestor de contenido para publicar nuevos contenidos		|
 | Actores				|		|
 | Precondiciones		|		|
 | Flujo normal			|		|
@@ -1790,6 +1790,104 @@ C. Servicios continuos
 | Comentarios			|		|
 
 <br>
+
+| Identificar			| CU-13	|
+| :---					| :--  	|
+| Nombre				| Administrar contenidos		|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
+| Fecha					| 13/12/2022		|
+| Descripción			| El usuario accede a la sección de la administración del contenido.		|
+| Actores				| Usuario		|
+| Precondiciones		| El usuario ha entrado en el sistema.		|
+| Flujo normal			| 1. El usuario selecciona la función de administrar el contenido de una página. <br>
+                          2. El sistema muestra la interfaz y lista las opciones a realizar. <br>
+                          3. El usuario selecciona la opción deseada.
+                          4. El usuario guarda y publica los cambios realizados mediante la herramienta escogida.	|
+| Flujo alternativo		| 3A. El usuario selecciona la opción para publicar contenido. <br>
+                          3B. El usuario selecciona la opción de eliminar contenido. <br>
+                          3C. El usuario selecciona la opción para modificar el contenido. <br>
+                          3D. El usuario cancela la administración de contenidos.	|
+| Poscondiciones		| Los cambios realizados a través de las funciones se guardarán en la base de datos.		|
+| Comentarios			|		|
+
+<br>
+
+| Identificar			| CU-14	|
+| :---					| :--  	|
+| Nombre				| 		|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
+| Fecha					| 13/12/2022		|
+| Descripción			|		|
+| Actores				|		|
+| Precondiciones		|		|
+| Flujo normal			|		|
+| Flujo alternativo		|		|
+| Poscondiciones		|		|
+| Comentarios			|		|
+
+<br>
+
+| Identificar			| CU-15	|
+| :---					| :--  	|
+| Nombre				| 		|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
+| Fecha					| 13/12/2022		|
+| Descripción			|		|
+| Actores				|		|
+| Precondiciones		|		|
+| Flujo normal			|		|
+| Flujo alternativo		|		|
+| Poscondiciones		|		|
+| Comentarios			|		|
+
+<br>
+
+| Identificar			| CU-16	|
+| :---					| :--  	|
+| Nombre				| 		|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
+| Fecha					| 13/12/2022		|
+| Descripción			|		|
+| Actores				|		|
+| Precondiciones		|		|
+| Flujo normal			|		|
+| Flujo alternativo		|		|
+| Poscondiciones		|		|
+| Comentarios			|		|
+
+<br>
+
+| Identificar			| CU-17	|
+| :---					| :--  	|
+| Nombre				| 		|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
+| Fecha					| 13/12/2022		|
+| Descripción			|		|
+| Actores				|		|
+| Precondiciones		|		|
+| Flujo normal			|		|
+| Flujo alternativo		|		|
+| Poscondiciones		|		|
+| Comentarios			|		|
+
+<br>
+
+| Identificar			| CU-18	|
+| :---					| :--  	|
+| Nombre				| 		|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
+| Fecha					| 13/12/2022		|
+| Descripción			|		|
+| Actores				|		|
+| Precondiciones		|		|
+| Flujo normal			|		|
+| Flujo alternativo		|		|
+| Poscondiciones		|		|
+| Comentarios			|		|
+
+<br>
+
+
 
 | INF01                         |                       |
 | :---                          | :---                           |
