@@ -12,7 +12,6 @@ actor Administrador #LightBlue
 "Crear nueva página" as (CNP)
 "Previsualizar página" as (PP)
 "Visualizar estadísticas de acceso" as (VEA)
-"Visualizar estadísticas de acceso (Vista Administrador)" as (VEAVA)
 "Utilizar espacio compartido" as (UEC)
 "Administrar contenido" as (AC)
 "Acceder a la Web" as (AW)
@@ -24,16 +23,14 @@ Usuario_logueado -|> Usuario_no_logueado
 Administrador -|> Usuario_logueado
 
 /'Relaciones casos de uso'/
-Usuario_logueado -- (HW)
-Usuario_logueado -- (B)
-Usuario_logueado -- (EI)
+Usuario_no_logueado -- (HW)
+Usuario_no_logueado -- (B)
+Usuario_no_logueado -- (EI)
 
-Usuario_no_logueado  -down- (VEA)
-Usuario_no_logueado  -- (CNP)
+Usuario_logueado  -- (CNP)
 (CNP) .-> (PP) : <<include>>
 
-Administrador -- (VEAVA)
-(VEAVA) -down-|> (VEA)
+Administrador -- (VEA)
 Administrador -- (UEC)
 Administrador -- (AC)
 Administrador -- (AW)
