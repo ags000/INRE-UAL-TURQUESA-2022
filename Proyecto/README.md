@@ -1790,9 +1790,17 @@ C. Servicios continuos
 
 <br>
 
-| Actor                    | Descripción                   |
-| :---                     | :---                          |
-|                          |                               |
+| INF01                         | Proveedor                      |
+| :---                          | :---                           |
+| Versión                       |                                |
+| Autores                       |                                |
+| Fuentes                       |                                |
+| Referencias                   |                                |
+| Descripción                   |                                |
+| Datos específicos             |                                |
+| Importancia                   |                                |
+| Estado                        |                                |
+| Comentarios                   |                                |
 
 <br>
 
