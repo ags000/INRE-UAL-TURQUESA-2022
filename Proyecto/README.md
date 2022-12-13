@@ -1763,11 +1763,14 @@ C. Servicios continuos
 | Fecha					| 13/12/2022		|
 | Descripción			| El sistema posee un sistema para buscar los distintos contenidos del mismo.		|
 | Actores				| Usuario No Logueado, Usuario Logueado, Administrador		|
-| Precondiciones		|		|
-| Flujo normal			|		|
-| Flujo alternativo		|		|
-| Poscondiciones		|		|
-| Comentarios			|		|
+| Precondiciones		| Ninguna.		|
+| Flujo normal			| 1. El usuario accede al buscador. <br>
+                          2. El usuario busca escribe en el buscador el elemento que desea encontrar. <br>
+                          3. El sistema consulta en sus datos para encontrar el elemento. <br>
+                          4. El usuario recibe el elemento buscado.		|
+| Flujo alternativo		| 4A. El elemento buscado no es encontrado.		|
+| Poscondiciones		| Ninguna.		|
+| Comentarios			| 		|
 
 <br>
 
