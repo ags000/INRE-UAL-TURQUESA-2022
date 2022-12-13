@@ -1615,8 +1615,8 @@ C. Servicios continuos
 | Nombre				| Acceder a editor WYSIWYG		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			|		|
-| Actores				|		|
+| Descripción			| El usuario 		|
+| Actores				| Usuario, Gestor de Contenidos		|
 | Precondiciones		|		|
 | Flujo normal			|		|
 | Flujo alternativo		|		|
@@ -1627,7 +1627,7 @@ C. Servicios continuos
 
 | Identificar			| CU-02	|
 | :---					| :--  	|
-| Nombre				| 		|
+| Nombre				| Acceso web		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
 | Descripción			|		|
@@ -1642,16 +1642,17 @@ C. Servicios continuos
 
 | Identificar			| CU-03	|
 | :---					| :--  	|
-| Nombre				| Modificar página		|
+| Nombre				| Modificar diseño		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			|		|
-| Actores				|		|
-| Precondiciones		|		|
-| Flujo normal			|		|
-| Flujo alternativo		|		|
-| Poscondiciones		|		|
-| Comentarios			|		|
+| Descripción			| El usuario puede acceder a la sección de administrar contenido para modificar el diseño de las páginas.		|
+| Actores				| Usuario		|
+| Precondiciones		| El usuario ha seleccionado la opción para modificar el diseño.		|
+| Flujo normal			| 1. El usuario utiliza las herramientas de edición del diseño. <br>
+                          2. El usuario publica los cambios realizados.		|
+| Flujo alternativo		| 2A. El usuario cancela la modificación de contenido y los cambios realizados no se guardan.		|
+| Poscondiciones		| El diseño de los elementos editados ha sido modificado.		|
+| Comentarios			| Se permitirá la modificación del diseño común de varias páginas o incluso de la web entera.		|
 
 <br>
 
@@ -1790,7 +1791,7 @@ C. Servicios continuos
 
 <br>
 
-| INF01                         | Proveedor                      |
+| INF01                         |                       |
 | :---                          | :---                           |
 | Versión                       |                                |
 | Autores                       |                                |
