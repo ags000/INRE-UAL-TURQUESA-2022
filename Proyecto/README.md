@@ -92,12 +92,15 @@ Apendices
 
 ### 3.2.1. Sub-procesos.
 
-DIAGRAMA BPMN
+<br>
+
+<div align="center">
+    <img src="./../Proyecto/BPMN-01.svg" style="border: 3px solid #bbb">
+    <i><p>Imagen 1. BPMN-01.</p></i>
+</div>
 
 <br>
 
-
-<br>
 
 ### 3.2.2. Tareas.
 
@@ -107,7 +110,9 @@ ENUNCIADO BPMN
 
 | Nombre                   | Descripción                   |
 | :---                     | :---                          |
-|                          |                               |
+| BPMN-01                  | Un trabajador de la AUTGC establece contacto con un operador de transporte para obtener el acta de incidencias (medio magnético o soporte papel) para proporcionarselo al operador adjudicatario. El operador revisa la información y si  considera que los datos no son correctos, contactará con los operadores de trabajo para que la corrijan y le envien la nueva información.                                |
+
+
 
 <br>
 
