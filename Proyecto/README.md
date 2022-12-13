@@ -1725,12 +1725,13 @@ C. Servicios continuos
 | Nombre				| Visualizar estadísticas de acceso		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			| 		|
+| Descripción			| El podrá consultar las estadísticas de acceso a las distintas secciones y servicios.		|
 | Actores				| Administrador		|
-| Precondiciones		| 		|
-| Flujo normal			| 		|
-| Flujo alternativo		|  		|
-| Poscondiciones		| 		|
+| Precondiciones		| El usuario debe de estar identificado como administrador.		|
+| Flujo normal			| 1. El usuario seleccionará el apartado del portal para acceder a las estadísticas. <br>
+                          2. El sistema realizará varias consultas y mostrará por pantalla el cómputo de las estadísticas mediante distintos gráficos.		|
+| Flujo alternativo		| 3. Opcionalmente, el usuario podrá aplicar filtros para otro tipo de estadísticas a parte de las estadísticas generales. 		|
+| Poscondiciones		| Ninguna.		|
 | Comentarios			| 	    |
 
 <br>
