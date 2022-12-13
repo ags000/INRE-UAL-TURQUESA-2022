@@ -1781,10 +1781,12 @@ C. Servicios continuos
 | Fecha					| 13/12/2022		|
 | Descripción			| El usuario podrá cambiar el idioma del sistema entre los que estén permitidos.		|
 | Actores				| Usuario No Logueado, Usuario Logueado, Administrador		|
-| Precondiciones		|		|
-| Flujo normal			|		|
-| Flujo alternativo		|		|
-| Poscondiciones		|		|
+| Precondiciones		| Ninguna. 		|
+| Flujo normal			| 1. El usuario accede a la opción para cambiar el idioma. <br>
+	                      2. El usuario selecciona el idioma deseado y lo aplica.
+                          3. El sistema cambia todos los textos al lenguaje indicado.	|
+| Flujo alternativo		| 		|
+| Poscondiciones		| El idioma de la aplicación ha sido cambiado.		|
 | Comentarios			|		|
 
 <br>
