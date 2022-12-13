@@ -1614,7 +1614,7 @@ C. Servicios continuos
 | :---					| :--  	|
 | Nombre				| Acceder a editor WYSIWYG		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fecha					|		|
+| Fecha					| 13/12/2022		|
 | Descripción			|		|
 | Actores				|		|
 | Precondiciones		|		|
@@ -1629,7 +1629,7 @@ C. Servicios continuos
 | :---					| :--  	|
 | Nombre				| 		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fecha					|		|
+| Fecha					| 13/12/2022		|
 | Descripción			|		|
 | Actores				|		|
 | Precondiciones		|		|
@@ -1644,7 +1644,7 @@ C. Servicios continuos
 | :---					| :--  	|
 | Nombre				| Modificar página		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fecha					|		|
+| Fecha					| 13/12/2022		|
 | Descripción			|		|
 | Actores				|		|
 | Precondiciones		|		|
@@ -1659,7 +1659,7 @@ C. Servicios continuos
 | :---					| :--  	|
 | Nombre				| Publicar contenido		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fecha					|		|
+| Fecha					| 13/12/2022		|
 | Descripción			|		|
 | Actores				|		|
 | Precondiciones		|		|
@@ -1674,7 +1674,7 @@ C. Servicios continuos
 | :---					| :--  	|
 | Nombre				| Modificar contenido		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fecha					|		|
+| Fecha					| 13/12/2022		|
 | Descripción			|		|
 | Actores				|		|
 | Precondiciones		|		|
@@ -1689,7 +1689,7 @@ C. Servicios continuos
 | :---					| :--  	|
 | Nombre				| Eliminar contenido		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fecha					|		|
+| Fecha					| 13/12/2022		|
 | Descripción			|		|
 | Actores				|		|
 | Precondiciones		|		|
@@ -1704,7 +1704,7 @@ C. Servicios continuos
 | :---					| :--  	|
 | Nombre				| Crear páginas		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fecha					|		|
+| Fecha					| 13/12/2022		|
 | Descripción			|		|
 | Actores				|		|
 | Precondiciones		|		|
@@ -1719,7 +1719,7 @@ C. Servicios continuos
 | :---					| :--  	|
 | Nombre				| Acceder a estadísticas		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fecha					|		|
+| Fecha					| 13/12/2022		|
 | Descripción			|		|
 | Actores				|		|
 | Precondiciones		|		|
@@ -1734,7 +1734,7 @@ C. Servicios continuos
 | :---					| :--  	|
 | Nombre				| Buscar		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fecha					|		|
+| Fecha					| 13/12/2022		|
 | Descripción			|		|
 | Actores				|		|
 | Precondiciones		|		|
@@ -1749,7 +1749,7 @@ C. Servicios continuos
 | :---					| :--  	|
 | Nombre				| Parametrizar búsqueda		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fecha					|		|
+| Fecha					| 13/12/2022		|
 | Descripción			|		|
 | Actores				|		|
 | Precondiciones		|		|
@@ -1764,7 +1764,7 @@ C. Servicios continuos
 | :---					| :--  	|
 | Nombre				| Acceder al foro		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fecha					|		|
+| Fecha					| 13/12/2022		|
 | Descripción			|		|
 | Actores				|		|
 | Precondiciones		|		|
@@ -1779,7 +1779,7 @@ C. Servicios continuos
 | :---					| :--  	|
 | Nombre				| Acceder al blog		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fecha					|		|
+| Fecha					| 13/12/2022		|
 | Descripción			|		|
 | Actores				|		|
 | Precondiciones		|		|
