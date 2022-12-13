@@ -47,14 +47,15 @@ Apendices
 | Término                  | Descripción                     |
 | :---                     | :---                            |
 | WYSIWYG                  | Acrónimo de «Lo que ves obtienes», (What you see is what you get) es una frase aplicada a los procesadores de texto y otros editores de texto con formato (como los editores de HTML) que permiten escribir un documento mostrando directamente el resultado final, frecuentemente el resultado impreso.                                                     |
-| CEN                      | Las nubes de etiquetas consisten en agrupar palabras (etiquetas, tags) y mostrarle al visitante de la web cuales son las etiquetas más usadas, usando también estilos que permiten visualizar mejor cual tiene mayor actividad y cual tiene menor actividad.          |
-| SIIT                     | Comité Europeo de Normalización |
-| SMET                     | Sistema interactivo de información del transporte |
-| HelpDesk                 | Sistema de la monitorización de la explotación del transporte |
-| SAE                      |  |
-| PDA                      |  |
-| LOPD                     |  |
+| Cloud tag                | Las nubes de etiquetas consisten en agrupar palabras (etiquetas, tags) y mostrarle al visitante de la web cuales son las etiquetas más usadas, usando también estilos que permiten visualizar mejor cual tiene mayor actividad y cual tiene menor actividad.
+| CEN                      | Comité Europeo de Normalización         |
+| SIIT                     | Sistema Interactivo de Información del Transporte |
+| SMET                     | Sistema de la Mo5nitorización de la Explotación del Transporte |
+| HelpDesk                 | Conjunto de recursos tecnológicos y humanos, para prestar servicios con la posibilidad de gestionar y solucionar todas las posibles incidencias de manera integral, junto con la atención de requerimientos relacionados con las Tecnologías de la Información y la Comunicación (TIC).  |
+| PDA                      | Personal Digital Assistant, Ayudante personal digital. Es un dispositivo de pequeño tamaño que combina un ordenador, teléfono/fax, Internet y conexiones de red.  |
+| LOPD                     |  Ley Orgánica 15/1999 de 13 de diciembre de Protección de Datos de Carácter Personal. Es una ley española que tiene por objeto la garantía y la protección de los datos personales, las libertades públicas y los derechos fundamentales de las personas físicas, en especial de su honor, intimidad y privacidad personal y familiar.   |
 | AUT                      | Autoridad Única del Transporte |
+
 
 <br>
 
