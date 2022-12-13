@@ -1642,17 +1642,17 @@ C. Servicios continuos
 
 | Identificar			| CU-03	|
 | :---					| :--  	|
-| Nombre				| Modificar diseño		|
+| Nombre				| Modificar contenido		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			| El usuario puede acceder a la sección de administrar contenido para modificar el diseño de las páginas.		|
+| Descripción			| El usuario puede acceder a la sección de administrar contenido para modificar el contenido de las páginas.		|
 | Actores				| Usuario		|
 | Precondiciones		| El usuario ha seleccionado la opción para modificar el diseño.		|
 | Flujo normal			| 1. El usuario utiliza las herramientas de edición del diseño. <br>
                           2. El usuario publica los cambios realizados.		|
 | Flujo alternativo		| 2A. El usuario cancela la modificación de contenido y los cambios realizados no se guardan.		|
 | Poscondiciones		| El diseño de los elementos editados ha sido modificado.		|
-| Comentarios			| Se permitirá la modificación del diseño común de varias páginas o incluso de la web entera.		|
+| Comentarios			| 		|
 
 <br>
 
@@ -1661,43 +1661,46 @@ C. Servicios continuos
 | Nombre				| Publicar contenido		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			| El usuario puede acceder al gestor de contenido para publicar nuevos contenidos		|
-| Actores				|		|
-| Precondiciones		|		|
-| Flujo normal			|		|
-| Flujo alternativo		|		|
-| Poscondiciones		|		|
+| Descripción			| El usuario puede acceder al gestor de contenido para publicar nuevos contenidos.		|
+| Actores				| Usuario, Gestor de contenidos		|
+| Precondiciones		| El usuario ha seleccionado la opción de administración de contenido.		|
+| Flujo normal			| 1. El usuario añade contenido en la página seleccionada. <br>
+                          2. El usuario guarda y publica los cambios realizados.	|
+| Flujo alternativo		| 2. El usuario cancela la publicación del nuevo contenido. 		|
+| Poscondiciones		| Los cambios realizados se guardarán en la base de datos.				|
 | Comentarios			|		|
 
 <br>
 
 | Identificar			| CU-05	|
 | :---					| :--  	|
-| Nombre				| Modificar contenido		|
+| Nombre				| Eliminar contenido		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			|		|
-| Actores				|		|
-| Precondiciones		|		|
-| Flujo normal			|		|
-| Flujo alternativo		|		|
-| Poscondiciones		|		|
+| Descripción			| El usuario puede acceder a la sección de administrar contenido para eliminar contenido.		|
+| Actores				| Usuario, Gestor de contenidos		|
+| Precondiciones		| El usuario ha seleccionado la opción de administración de contenido.				|
+| Flujo normal			| 1. El usuario elimina contenido en la página seleccionada. <br>
+                          2. El usuario guarda y publica los cambios realizados.		|
+| Flujo alternativo		| 2. El usuario cancela la publicación del nuevo contenido. 		|
+| Poscondiciones		| Los cambios realizados se guardarán en la base de datos.		|
 | Comentarios			|		|
 
 <br>
 
 | Identificar			| CU-06	|
 | :---					| :--  	|
-| Nombre				| Eliminar contenido		|
+| Nombre				| Modificar diseño		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			|		|
-| Actores				|		|
-| Precondiciones		|		|
-| Flujo normal			|		|
-| Flujo alternativo		|		|
-| Poscondiciones		|		|
-| Comentarios			|		|
+| Descripción			| El usuario puede acceder a la sección de administrar contenido para modificar contenido.		|
+| Actores				| Usuario, Gestor de contenidos		|
+| Precondiciones		| El usuario ha seleccionado la opción de administración de contenido.		|
+| Flujo normal			| 1. El usuario modifica contenido en la página seleccionada. <br>
+                          2. El usuario guarda y publica los cambios realizados.		|
+| Flujo alternativo		| 2. El usuario cancela la publicación del nuevo contenido. 		|
+| Poscondiciones		| Los cambios realizados se guardarán en la base de datos.		|
+| Comentarios			| 	|
 
 <br>
 
@@ -1706,10 +1709,12 @@ C. Servicios continuos
 | Nombre				| Crear páginas		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			|		|
-| Actores				|		|
-| Precondiciones		|		|
-| Flujo normal			|		|
+| Descripción			| El usuario podrá crear diversas páginas dentro del sistema.		|
+| Actores				| Usuario	|
+| Precondiciones		| El usuario selecciona crear una nueva página		|
+| Flujo normal			| 1. El usuario crear y diseña una nueva página <br>
+                          2. El sistema muestra la previsualización de la página a crear. <br>
+                          3.  |
 | Flujo alternativo		|		|
 | Poscondiciones		|		|
 | Comentarios			|		|
@@ -1788,7 +1793,6 @@ C. Servicios continuos
 | Flujo alternativo		|		|
 | Poscondiciones		|		|
 | Comentarios			|		|
-
 <br>
 
 | Identificar			| CU-13	|
@@ -1802,25 +1806,25 @@ C. Servicios continuos
 | Flujo normal			| 1. El usuario selecciona la función de administrar el contenido de una página. <br>
                           2. El sistema muestra la interfaz y lista las opciones a realizar. <br>
                           3. El usuario selecciona la opción deseada.
-                          4. El usuario guarda y publica los cambios realizados mediante la herramienta escogida.	|
+                          	|
 | Flujo alternativo		| 3A. El usuario selecciona la opción para publicar contenido. <br>
                           3B. El usuario selecciona la opción de eliminar contenido. <br>
                           3C. El usuario selecciona la opción para modificar el contenido. <br>
                           3D. El usuario cancela la administración de contenidos.	|
-| Poscondiciones		| Los cambios realizados a través de las funciones se guardarán en la base de datos.		|
-| Comentarios			|		|
+| Poscondiciones		|   |
+| Comentarios			| -		|
 
 <br>
 
 | Identificar			| CU-14	|
 | :---					| :--  	|
-| Nombre				| 		|
+| Nombre				| Previsualizar página		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			|		|
-| Actores				|		|
-| Precondiciones		|		|
-| Flujo normal			|		|
+| Descripción			| El usuario podrá previsualizar la página a crear antes de publicar.		|
+| Actores				| Usuario		|
+| Precondiciones		| El usuario debe haber accedido a la creación de una página nueva.		|
+| Flujo normal			| 1. El sistema mostrará una previsualización de la página que se está creando.		|
 | Flujo alternativo		|		|
 | Poscondiciones		|		|
 | Comentarios			|		|
@@ -1829,13 +1833,13 @@ C. Servicios continuos
 
 | Identificar			| CU-15	|
 | :---					| :--  	|
-| Nombre				| 		|
+| Nombre				| Publicar página		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			|		|
-| Actores				|		|
-| Precondiciones		|		|
-| Flujo normal			|		|
+| Descripción			| El usuario puede publicar una página nueva en el sistema.		|
+| Actores				| Usuario		|
+| Precondiciones		| El usuario debe haber accedido a la creación de una página nueva.		|
+| Flujo normal			| 1. El usuario 		|
 | Flujo alternativo		|		|
 | Poscondiciones		|		|
 | Comentarios			|		|
