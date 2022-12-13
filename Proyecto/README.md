@@ -1661,11 +1661,11 @@ C. Servicios continuos
 
 | Identificar			| CU-03	|
 | :---					| :--  	|
-| Nombre				| Administrar contenidos		|
+| Nombre				| Administrar contenido		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
 | Descripción			| El usuario accede a la sección de la administración del contenido.		|
-| Actores				| Usuario		|
+| Actores				| Administrador		|
 | Precondiciones		| El usuario ha entrado en el sistema.		|
 | Flujo normal			| 1. El usuario selecciona la función de administrar el contenido de una página. <br>
                           2. El sistema muestra la interfaz y lista las opciones a realizar. <br>
@@ -1687,7 +1687,7 @@ C. Servicios continuos
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
 | Descripción			| 		|
-| Actores				| 		|
+| Actores				| Administrador		|
 | Precondiciones		| 		|
 | Flujo normal			| 	    |
 | Flujo alternativo		| 		|
@@ -1702,7 +1702,7 @@ C. Servicios continuos
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
 | Descripción			| 		|
-| Actores				| 		|
+| Actores				| Administrador		|
 | Precondiciones		| 		|
 | Flujo normal			| 		|
 | Flujo alternativo		|  		|
@@ -1717,7 +1717,7 @@ C. Servicios continuos
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
 | Descripción			| 		|
-| Actores				|		|
+| Actores				| Administrador		|
 | Precondiciones		| 		|
 | Flujo normal			| 		|
 | Flujo alternativo		|  		|
@@ -1732,7 +1732,7 @@ C. Servicios continuos
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
 | Descripción			| 		|
-| Actores				| 	    |
+| Actores				| Usuario Logueado, Administrador	    |
 | Precondiciones		| 		|
 | Flujo normal			|       |
 | Flujo alternativo		|		|
@@ -1747,7 +1747,7 @@ C. Servicios continuos
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
 | Descripción			|		|
-| Actores				| 		|
+| Actores				| Usuario Logueado, Administrador		|
 | Precondiciones		|		|
 | Flujo normal			|		|
 | Flujo alternativo		|		|
@@ -1762,7 +1762,7 @@ C. Servicios continuos
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
 | Descripción			|		|
-| Actores				|		|
+| Actores				| Usuario No Logueado, Usuario Logueado, Administrador		|
 | Precondiciones		|		|
 | Flujo normal			|		|
 | Flujo alternativo		|		|
@@ -1777,7 +1777,7 @@ C. Servicios continuos
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
 | Descripción			|		|
-| Actores				|		|
+| Actores				| Usuario No Logueado, Usuario Logueado, Administrador		|
 | Precondiciones		|		|
 | Flujo normal			|		|
 | Flujo alternativo		|		|
@@ -1792,7 +1792,7 @@ C. Servicios continuos
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
 | Descripción			|		|
-| Actores				|		|
+| Actores				| Usuario No Logueado, Usuario Logueado, Administrador		|
 | Precondiciones		|		|
 | Flujo normal			|		|
 | Flujo alternativo		|		|
@@ -1801,10 +1801,38 @@ C. Servicios continuos
 
 <br>
 
-| INF01                         |                       |
+| INF01                         | Administrador                  |
 | :---                          | :---                           |
 | Versión                       |                                |
-| Autores                       |                                |
+| Autores                       | Cristina García, Adrián Galdeano, Alejandro Manzano   |
+| Fuentes                       |                                |
+| Referencias                   |                                |
+| Descripción                   |                                |
+| Datos específicos             |                                |
+| Importancia                   |                                |
+| Estado                        |                                |
+| Comentarios                   |                                |
+
+<br>
+
+| INF02                         | Usuario Logueado               |
+| :---                          | :---                           |
+| Versión                       |                                |
+| Autores                       | Cristina García, Adrián Galdeano, Alejandro Manzano   |
+| Fuentes                       |                                |
+| Referencias                   |                                |
+| Descripción                   |                                |
+| Datos específicos             |                                |
+| Importancia                   |                                |
+| Estado                        |                                |
+| Comentarios                   |                                |
+
+<br>
+
+| INF03                         | Usuario No Logueado            |
+| :---                          | :---                           |
+| Versión                       |                                |
+| Autores                       | Cristina García, Adrián Galdeano, Alejandro Manzano   |
 | Fuentes                       |                                |
 | Referencias                   |                                |
 | Descripción                   |                                |
