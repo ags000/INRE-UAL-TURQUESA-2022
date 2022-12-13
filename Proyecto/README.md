@@ -65,9 +65,7 @@ Apendices
 | OBJ-1                 		  | Gestión del Portal del SIIT   |
 | :---                    		  | :---                          |
 | Versión                         | 2.0                           |
-| Descripción                     | El sistema deberá implementar un Portal Web que cuente tanto con las necesidades de los usuarios como el análisis técnico. Se deberá implementar la identificación de necesidades (contenidos, servicios, audiencias,…), 
-definición de la estructura (arquitectura de la información, mapa web,…) y organización 
-del portal, detallar componentes organizativos, funcionales y técnicos del mismo. |
+| Descripción                     | El sistema deberá implementar un Portal Web que cuente tanto con las necesidades de los usuarios como el análisis técnico. Se deberá implementar la identificación de necesidades (contenidos, servicios, audiencias,…), definición de la estructura (arquitectura de la información, mapa web,…) y organización del portal, detallar componentes organizativos, funcionales y técnicos del mismo. |
 | Comentarios                     |                               |
 
 <br>
@@ -75,11 +73,7 @@ del portal, detallar componentes organizativos, funcionales y técnicos del mism
 | OBJ-2                 		  | Gestión de los sistemas de la información del SIIT   |
 | :---                    		  | :---                          |
 | Versión                         | 2.0                           |
-| Descripción                     | El sistema deberá implementar un sistema integrado de información de la red de transporte 
-público de todos los municipios de Gran Canaria que proporcione herramientas de análisis, 
-consulta, localización y gestión, con el objeto de que el usuario del transporte público pueda 
-consultar de forma dinámica la información del servicio permitiéndole conocer y programar 
-con antelación su viaje.                               |
+| Descripción                     | El sistema deberá implementar un sistema integrado de información de la red de transporte público de todos los municipios de Gran Canaria que proporcione herramientas de análisis, consulta, localización y gestión, con el objeto de que el usuario del transporte público pueda consultar de forma dinámica la información del servicio permitiéndole conocer y programar con antelación su viaje.                               |
 | Comentarios                     |                               |
 
 <br>
@@ -1038,9 +1032,7 @@ Requisitos No Funcionales
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
 | Descripción			| Se debe realizar un trabajo físico que permita la obtención de la información no recogida y necesaria para el correcto funcionamiento del sistema. 		|
-| Comentarios			| La AUTGC facilitará los medios que estén a su alcance.
-Se debe recoger la información física (discos magnéticos, papel) de los gestores de transporte. Además, se debe recoger información de otras fuentes.
-Por ejemplo, un informador que avise de obras en una ruta.	|
+| Comentarios			| La AUTGC facilitará los medios que estén a su alcance. <br> Se debe recoger la información física (discos magnéticos, papel) de los gestores de transporte. Además, se debe recoger información de otras fuentes. Por ejemplo, un informador que avise de obras en una ruta.	|
 
 <br>
 
@@ -1168,13 +1160,15 @@ Por ejemplo, un informador que avise de obras en una ruta.	|
 | Descripción			|		|
 | Comentarios			|		|
 
-C. Servicios continuos
+<br>
+
+### C. Servicios continuos
 
 ### No se si este rnf se puede desplegar en 3 (por lo de la intalación sobre la plataforma, HelpDesk,...)
 | RNF-					| Alojamiento y puesta en marcha de las aplicaciones		|
 | :---					| :--  	|
 | Objetivos asociados	|		|
-| Requisitos asociados	| RNF-06foro		|
+| Requisitos asociados	| RNF-06 - foro		|
 | Descripción			| El alojamiento y puesta en  marcha de las aplicaciones se producirá en el servidor de publicación seleccionado, en la plataforma donde permanecerán alojadas hasta el fin del contrato		|
 | Comentarios			| Se incluirá la instalación sobre la plataforma, HelpDesk para la atención de incidencias sobre la explotación de este entorno, operación de sistemas en modo remoto, y administración y mantenimiento del sistema en modo remoto	|
 
@@ -1608,9 +1602,12 @@ C. Servicios continuos
 
 ## 4.2. Casos de uso.
 
+<br>
 
 ### 4.2.1. Lista de diagramas de casos de uso del modelo.
 
+
+<br>
 
 ### 4.2.2. Diagramas de casos de uso.
 
@@ -1676,15 +1673,8 @@ C. Servicios continuos
 | Descripción			| El usuario accede a la sección de la administración del contenido.		|
 | Actores				| Administrador		|
 | Precondiciones		| El usuario ha entrado en el sistema.		|
-| Flujo normal			| 1. El usuario selecciona la función de administrar el contenido de una página. <br>
-                          2. El sistema muestra la interfaz y lista las opciones a realizar. <br>
-                          3. El usuario selecciona la opción deseada.
-                          4. El usuario guarda los cambios realizados.                          	|
-| Flujo alternativo		| 3A. El usuario selecciona la opción para publicar contenido. <br>
-                          3B. El usuario selecciona la opción de eliminar contenido. <br>
-                          3C. El usuario selecciona la opción para modificar el contenido. <br>
-                          3D. El usuario cancela la administración de contenidos. <br>
-                          4A. El usuario descarta los cambios realizados.	|
+| Flujo normal			| 1. El usuario selecciona la función de administrar el contenido de una página. <br> 2. El sistema muestra la interfaz y lista las opciones a realizar. <br> 3. El usuario selecciona la opción deseada.4. El usuario guarda los cambios realizados.                          	|
+| Flujo alternativo		| 3A. El usuario selecciona la opción para publicar contenido. <br>  3B. El usuario selecciona la opción de eliminar contenido. <br> 3C. El usuario selecciona la opción para modificar el contenido. <br> 3D. El usuario cancela la administración de contenidos. <br> 4A. El usuario descarta los cambios realizados.	|
 | Poscondiciones		| La base de datos es actualizada con los cambios realizados.  |
 | Comentarios			| -		|
 
@@ -1728,9 +1718,8 @@ C. Servicios continuos
 | Descripción			| El podrá consultar las estadísticas de acceso a las distintas secciones y servicios.		|
 | Actores				| Administrador		|
 | Precondiciones		| El usuario debe de estar identificado como administrador.		|
-| Flujo normal			| 1. El usuario seleccionará el apartado del portal para acceder a las estadísticas. <br>
-                          2. El sistema realizará varias consultas y mostrará por pantalla el cómputo de las estadísticas mediante distintos gráficos.		|
-| Flujo alternativo		| 3. Opcionalmente, el usuario podrá aplicar filtros para otro tipo de estadísticas a parte de las estadísticas generales. 		|
+| Flujo normal			| 1. El usuario seleccionará el apartado del portal para acceder a las estadísticas. <br> 2. El sistema realizará varias consultas y mostrará por pantalla el cómputo de las estadísticas mediante distintos gráficos.		|
+| Flujo alternativo		| 2. Opcionalmente, el usuario podrá aplicar filtros para otro tipo de estadísticas a parte de las estadísticas generales. 		|
 | Poscondiciones		| Ninguna.		|
 | Comentarios			| 	    |
 
@@ -1774,10 +1763,7 @@ C. Servicios continuos
 | Descripción			| El sistema posee un sistema para buscar los distintos contenidos del mismo.		|
 | Actores				| Usuario No Logueado, Usuario Logueado, Administrador		|
 | Precondiciones		| Ninguna.		|
-| Flujo normal			| 1. El usuario accede al buscador. <br>
-                          2. El usuario busca escribe en el buscador el elemento que desea encontrar. <br>
-                          3. El sistema consulta en sus datos para encontrar el elemento. <br>
-                          4. El usuario recibe el elemento buscado.		|
+| Flujo normal			| 1. El usuario accede al buscador. <br> 2. El usuario busca escribe en el buscador el elemento que desea encontrar. <br>  3. El sistema consulta en sus datos para encontrar el elemento. <br> 4. El usuario recibe el elemento buscado.		|
 | Flujo alternativo		| 4A. El elemento buscado no es encontrado.		|
 | Poscondiciones		| Ninguna.		|
 | Comentarios			| 		|
@@ -1792,9 +1778,7 @@ C. Servicios continuos
 | Descripción			| El usuario podrá cambiar el idioma del sistema entre los que estén permitidos.		|
 | Actores				| Usuario No Logueado, Usuario Logueado, Administrador		|
 | Precondiciones		| Ninguna. 		|
-| Flujo normal			| 1. El usuario accede a la opción para cambiar el idioma. <br>
-	                      2. El usuario selecciona el idioma deseado y lo aplica.
-                          3. El sistema cambia todos los textos al lenguaje indicado.	|
+| Flujo normal			| 1. El usuario accede a la opción para cambiar el idioma. <br> 2. El usuario selecciona el idioma deseado y lo aplica. <br> 3. El sistema cambia todos los textos al lenguaje indicado.	|
 | Flujo alternativo		| 		|
 | Poscondiciones		| El idioma de la aplicación ha sido cambiado.		|
 | Comentarios			|		|
@@ -1816,7 +1800,7 @@ C. Servicios continuos
 
 <br>
 
-| INF01                         | Administrador                  |
+| INF-01                         | Administrador                  |
 | :---                          | :---                           |
 | Versión                       |                                |
 | Autores                       | Cristina García, Adrián Galdeano, Alejandro Manzano   |
@@ -1844,7 +1828,7 @@ C. Servicios continuos
 
 <br>
 
-| INF03                         | Usuario No Logueado            |
+| INF-03                         | Usuario No Logueado            |
 | :---                          | :---                           |
 | Versión                       |                                |
 | Autores                       | Cristina García, Adrián Galdeano, Alejandro Manzano   |
@@ -1861,10 +1845,12 @@ C. Servicios continuos
 ### 4.2.4. Detalle de los casos de uso.
 
 
+
+
 <br>
 
 ## 4.3. Diagramas de clases asociados a los requisitos de información.
-
+E-R
 
 <br>
 
