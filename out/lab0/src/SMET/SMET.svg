@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="869px" preserveAspectRatio="none" style="width:2370px;height:869px;background:#FFFFFF;" version="1.1" viewBox="0 0 2370 869" width="2370px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="27.6094" id="_title" style="stroke:none;stroke-width:1.0;" width="49" x="1153.7845" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="39" x="1158.7845" y="24.5332">SMET</text><!--MD5=[854437c9625fb3133d762d8df613f533]
+entity Usuario_no_logueado--><g id="elem_Usuario_no_logueado"><ellipse cx="921.5" cy="310.6094" fill="#ADD8E6" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M921.5,318.6094 L921.5,345.6094 M908.5,326.6094 L934.5,326.6094 M921.5,345.6094 L908.5,360.6094 M921.5,345.6094 L934.5,360.6094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="139" x="852" y="376.6426">Usuario_no_logueado</text></g><!--MD5=[8fe90401ea1b44801285df08fa817c52]
+entity Usuario_logueado--><g id="elem_Usuario_logueado"><ellipse cx="591.5" cy="310.6094" fill="#ADD8E6" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M591.5,318.6094 L591.5,345.6094 M578.5,326.6094 L604.5,326.6094 M591.5,345.6094 L578.5,360.6094 M591.5,345.6094 L604.5,360.6094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="115" x="534" y="376.6426">Usuario_logueado</text></g><!--MD5=[52ec6a8b74b13041fc2aa09119826c6e]
+entity Sistema--><g id="elem_Sistema"><ellipse cx="1079.5" cy="52.6094" fill="#ADD8E6" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M1079.5,60.6094 L1079.5,87.6094 M1066.5,68.6094 L1092.5,68.6094 M1079.5,87.6094 L1066.5,102.6094 M1079.5,87.6094 L1092.5,102.6094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="1054.5" y="118.6426">Sistema</text></g><!--MD5=[f78b2a09930539d4a7ba51d2d2c9bd47]
+entity Opeador_de_transporte--><g id="elem_Opeador_de_transporte"><ellipse cx="270.5" cy="52.6094" fill="#ADD8E6" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M270.5,60.6094 L270.5,87.6094 M257.5,68.6094 L283.5,68.6094 M270.5,87.6094 L257.5,102.6094 M270.5,87.6094 L283.5,102.6094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="153" x="194" y="118.6426">Opeador_de_transporte</text></g><!--MD5=[20fc03f5e77fa9f6e78801c55676b161]
+entity Opeador_adjudicatario--><g id="elem_Opeador_adjudicatario"><ellipse cx="1569.5" cy="466.6094" fill="#ADD8E6" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M1569.5,474.6094 L1569.5,501.6094 M1556.5,482.6094 L1582.5,482.6094 M1569.5,501.6094 L1556.5,516.6094 M1569.5,501.6094 L1582.5,516.6094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="145" x="1497" y="532.6426">Opeador_adjudicatario</text></g><g id="elem_DA"><ellipse cx="1079.7256" cy="212.0545" fill="#F1F1F1" rx="75.2256" ry="17.4451" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="1025.7256" y="216.5711">Genear alarmas</text></g><g id="elem_VE"><ellipse cx="750.58" cy="341.2321" fill="#F1F1F1" rx="66.08" ry="15.6227" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="709.58" y="345.7487">Ver eventos</text></g><g id="elem_VEVUL"><ellipse cx="835.641" cy="212.2376" fill="#F1F1F1" rx="133.641" ry="29.1282" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="234" x="718.641" y="215.9661">Ver eventos (vista Usuario logueado)</text></g><g id="elem_VAUL"><ellipse cx="591.641" cy="497.2376" fill="#F1F1F1" rx="133.641" ry="29.1282" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="234" x="474.641" y="500.9661">Ver alarmas (vista Usuario logueado)</text></g><g id="elem_VAOP"><ellipse cx="270.6453" cy="496.9384" fill="#F1F1F1" rx="152.1453" ry="32.8291" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="273" x="134.1453" y="500.6669">Ver alarmas (vista Operador de transporte)</text></g><g id="elem_VAOA"><ellipse cx="1073.7356" cy="497.0565" fill="#F1F1F1" rx="150.2356" ry="32.4471" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="269" x="939.2356" y="500.785">Ver alarmas (vista Operador adjudicatario)</text></g><g id="elem_VA"><ellipse cx="824.3631" cy="497.2183" fill="#F1F1F1" rx="63.8631" ry="15.609" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="69" x="784.8631" y="501.7349">Ver alarma</text></g><g id="elem_VADV"><ellipse cx="82.355" cy="83.2804" fill="#F1F1F1" rx="76.355" ry="17.671" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="105" x="27.1233" y="87.7349">ver advertencias</text></g><g id="elem_CCO"><ellipse cx="2093.6359" cy="497.2366" fill="#F1F1F1" rx="113.6359" ry="25.1272" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="191" x="1998.1359" y="500.9651">Crear conjunto de operadores</text></g><g id="elem_RSP"><ellipse cx="1542.3167" cy="340.9727" fill="#F1F1F1" rx="117.3167" ry="25.8633" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="199" x="1442.8167" y="344.7012">Registrar situaciones puntuales</text></g><g id="elem_RPCT"><ellipse cx="1470.2518" cy="670.5597" fill="#F1F1F1" rx="140.2518" ry="30.4504" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="248" x="1346.2518" y="674.2883">Registrar periodos continuos de tiempo</text></g><g id="elem_PD"><ellipse cx="1716.5039" cy="670.6102" fill="#F1F1F1" rx="70.5039" ry="16.5008" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="89" x="1669.0039" y="675.1268">Proveer datos</text></g><g id="elem_DE"><ellipse cx="1761.6531" cy="497.04" fill="#F1F1F1" rx="70.1531" ry="16.4306" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88" x="1714.6531" y="501.5566">Definir evento</text></g><g id="elem_CA"><ellipse cx="1775.3789" cy="340.9852" fill="#F1F1F1" rx="79.8789" ry="18.3758" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="114" x="1717.3373" y="345.0118">Crear advertencia</text></g><g id="elem_EEE"><ellipse cx="1296.6723" cy="825.8438" fill="#F1F1F1" rx="176.6723" ry="37.7345" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="324" x="1134.6723" y="829.5723">Examinar el estado de la explotación en tiempo real</text></g><g id="elem_AEETR"><ellipse cx="2093.5345" cy="670.7163" fill="#F1F1F1" rx="271.0345" ry="56.6069" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="516" x="1837.6155" y="671.8636">Examinar el estado de la explotación en tiempo real (Vista Operador adjudicataro)</text><line style="stroke:#181818;stroke-width:1.0;" x1="1824.2555" x2="2362.8135" y1="674.9398" y2="674.9398"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="2044.6155" y="693.473">extension points</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="191" x="2000.1155" y="711.0824">Crear conjunto de operadores</text></g><!--MD5=[213fdcda8a49667d9a57561662627904]
+link Usuario_logueado to Usuario_no_logueado--><g id="link_Usuario_logueado_Usuario_no_logueado"><path d="M631.92,301.8594 C647.03,289.7294 665.14,277.9094 684,271.6094 C739.65,253.0294 759.8,254.7594 816,271.6094 C830.37,275.9194 844.6,282.8894 857.72,290.7894 " fill="none" id="Usuario_logueado-to-Usuario_no_logueado" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="861.94,285.1794,874.86,301.9694,854.29,296.8994,861.94,285.1794" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[f47920a7585b04dc46fb31d58e534756]
+link Sistema to DA--><g id="link_Sistema_DA"><path d="M1079.5,122.2094 C1079.5,146.3294 1079.5,176.2794 1079.5,194.5394 " fill="none" id="Sistema-DA" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e08be41231cb8d12ad88bb21f27e3199]
+link Usuario_logueado to VE--><g id="link_Usuario_logueado_VE"><path d="M649.26,341.1094 C660.99,341.1094 672.73,341.1094 684.46,341.1094 " fill="none" id="Usuario_logueado-VE" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[46ccfcafbbf254061a92dcb958e58871]
+link Usuario_logueado to VAUL--><g id="link_Usuario_logueado_VAUL"><path d="M591.5,380.1794 C591.5,407.2494 591.5,443.0494 591.5,467.6594 " fill="none" id="Usuario_logueado-VAUL" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[28ec9476cf1468b4c06cb77313421044]
+link Opeador_de_transporte to VAOP--><g id="link_Opeador_de_transporte_VAOP"><path d="M270.5,122.1294 C270.5,202.6094 270.5,388.9294 270.5,463.9494 " fill="none" id="Opeador_de_transporte-VAOP" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[201db4ec4f130b8b0f6aab38694a5c58]
+link VADV to Opeador_de_transporte--><g id="link_VADV_Opeador_de_transporte"><path d="M159.24,83.1094 C170.69,83.1094 182.13,83.1094 193.58,83.1094 " fill="none" id="VADV-Opeador_de_transporte" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ce85206208a4b7b9b86236e2c87dce32]
+link Usuario_no_logueado to VA--><g id="link_Usuario_no_logueado_VA"><path d="M897.52,380.1794 C876.88,412.9594 848.19,458.5094 833.68,481.5394 " fill="none" id="Usuario_no_logueado-VA" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[505b423e660a8f16bd4d06a601e7cf92]
+reverse link VA to VAOA--><g id="link_VA_VAOA"><path d="M908.73,497.1094 C913.6,497.1094 918.47,497.1094 923.35,497.1094 " fill="none" id="VA-backto-VAOA" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="908.7,504.1094,888.7,497.1094,908.7,490.1094,908.7,504.1094" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[3fb8542617189f48329f4bf0681f8bc9]
+link VAOP to VA--><g id="link_VAOP_VA"><path d="M327.73,466.3494 C363.94,448.6794 412.36,428.2194 458,419.1094 C574.37,395.8694 612.83,380.3794 725,419.1094 C752.76,428.6894 778.68,449.5694 797.11,467.3094 " fill="none" id="VAOP-to-VA" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="802.24,462.5494,811.22,481.7394,792.23,472.3394,802.24,462.5494" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[99c80e0c25a18833a23f9e3afe0cacd8]
+link VAUL to VA--><g id="link_VAUL_VA"><path d="M725.29,497.1094 C730.2,497.1094 735.1,497.1094 740.01,497.1094 " fill="none" id="VAUL-to-VA" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="740.17,490.1094,760.17,497.1094,740.17,504.1094,740.17,490.1094" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[0e8bbb268a531f3c909cb6d3b396f1fe]
+link Usuario_no_logueado to EEE--><g id="link_Usuario_no_logueado_EEE"><path d="M991.32,347.1494 C1065.35,356.4394 1179.92,382.8894 1241.5,458.1094 C1320.77,554.9394 1311.34,716.1994 1302.23,788.0794 " fill="none" id="Usuario_no_logueado-EEE" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[76334b1b2d4fff7f23f766834b71087f]
+link VEVUL to Usuario_no_logueado--><g id="link_VEVUL_Usuario_no_logueado"><path d="M854.37,240.9794 C866.44,258.7994 882.25,282.1494 895.49,301.7094 " fill="none" id="VEVUL-Usuario_no_logueado" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d34115bf4212be9ae2baf494e2f43acb]
+link VEVUL to VE--><g id="link_VEVUL_VE"><path d="M816.85,240.9794 C803.38,261.0994 785.2,288.2594 771.27,309.0694 " fill="none" id="VEVUL-to-VE" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="777.09,312.9694,760.15,325.6994,765.45,305.1794,777.09,312.9694" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[09114c6f8a85ce8c1bc6971c283725ac]
+link Opeador_adjudicatario to AEETR--><g id="link_Opeador_adjudicatario_AEETR"><path d="M1642.24,524.8494 C1653.03,528.6894 1664.04,532.5494 1674.5,536.1094 C1763.4,566.3494 1863.6,598.3494 1943.72,623.4394 " fill="none" id="Opeador_adjudicatario-AEETR" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[7423537821898d7f82b433f15b33e760]
+link CCO to AEETR--><g id="link_CCO_AEETR"><path d="M2093.5,522.3194 C2093.5,544.7494 2093.5,579.0594 2093.5,608.9194 " fill="none" id="CCO-to-AEETR" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="2093.5,614.0494,2097.5,605.0494,2093.5,609.0494,2089.5,605.0494,2093.5,614.0494" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="53" x="2094.5" y="580.6045">«extend»</text></g><!--MD5=[b4c03454b5470dcf34a0bc9d3b7d80cc]
+link AEETR to EEE--><g id="link_AEETR_EEE"><path d="M1896.46,709.4494 C1865.68,715.3594 1834.23,721.3994 1804.5,727.1094 C1683.48,750.3494 1546.23,776.6894 1444.93,796.1294 " fill="none" id="AEETR-to-EEE" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="1446.12,803.0194,1425.16,799.9194,1443.49,789.2794,1446.12,803.0194" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b2c2d09ad4b0e58a10a0af7e2809a93e]
+link RSP to Opeador_adjudicatario--><g id="link_RSP_Opeador_adjudicatario"><path d="M1546.9,367.1994 C1551.22,391.8294 1557.86,429.7194 1562.83,458.0594 " fill="none" id="RSP-Opeador_adjudicatario" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ea99303e1bc6469f2131750edcd614c7]
+link Opeador_adjudicatario to RPCT--><g id="link_Opeador_adjudicatario_RPCT"><path d="M1547.53,536.1694 C1529.41,567.5494 1504.09,611.4294 1487.49,640.1694 " fill="none" id="Opeador_adjudicatario-RPCT" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[db4fd8a88535df6bc936383c8f679d39]
+link VAOA to Opeador_adjudicatario--><g id="link_VAOA_Opeador_adjudicatario"><path d="M1223.66,497.1094 C1314.73,497.1094 1405.81,497.1094 1496.89,497.1094 " fill="none" id="VAOA-Opeador_adjudicatario" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[bc11bbb521b2ac23ca247b504f3c981e]
+link Opeador_adjudicatario to PD--><g id="link_Opeador_adjudicatario_PD"><path d="M1602.12,536.1694 C1633.93,573.2794 1680.7,627.8494 1703.31,654.2194 " fill="none" id="Opeador_adjudicatario-PD" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[1de23c5c713c5f006be70062a1d48a3c]
+link Opeador_adjudicatario to DE--><g id="link_Opeador_adjudicatario_DE"><path d="M1642.25,497.1094 C1658.55,497.1094 1674.86,497.1094 1691.16,497.1094 " fill="none" id="Opeador_adjudicatario-DE" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[4ec8d7fdd29885576dfdc37a98caab88]
+link CA to DE--><g id="link_CA_DE"><path d="M1773.89,359.7794 C1771.29,388.4494 1766.15,444.9994 1763.38,475.4794 " fill="none" id="CA-to-DE" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1762.92,480.4994,1767.7251,471.9022,1763.3765,475.5203,1759.7585,471.1717,1762.92,480.4994" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55" x="1769.5" y="424.6045">«include»</text></g><!--MD5=[6c3955ce3072a26c97b3cbba212c00f0]
+@startuml SMET
+title SMET
+
+actor Usuario_no_logueado  #LightBlue
+actor Usuario_logueado #LightBlue
+actor Sistema #LightBlue
+actor Opeador_de_transporte #LightBlue
+actor Opeador_adjudicatario #LightBlue
+
+/'Casos de uso'/
+"Genear alarmas" as (DA)
+"Ver eventos" as (VE)
+"Ver eventos (vista Usuario logueado)" as (VEVUL)
+"Ver alarmas (vista Usuario logueado)" as (VAUL)
+"Ver alarmas (vista Operador de transporte)" as (VAOP)
+"Ver alarmas (vista Operador adjudicatario)" as (VAOA)
+"Ver alarma " as (VA)
+"ver advertencias" as (VADV)
+"Crear conjunto de operadores" as (CCO)
+"Registrar situaciones puntuales" as (RSP)
+"Registrar periodos continuos de tiempo" as (RPCT)
+"Proveer datos" as (PD)
+"Definir evento" as (DE)
+"Crear advertencia" as (CA)
+"Examinar el estado de la explotación en tiempo real" as (EEE)
+usecase AEETR as "Examinar el estado de la explotación en tiempo real (Vista Operador adjudicataro)
+- -
+extension points
+Crear conjunto de operadores"
+
+/'Herencias actores'/
+Usuario_logueado -|> Usuario_no_logueado
+
+/'Relaciones casos de uso'/
+Sistema - - (DA)
+Usuario_logueado - (VE)
+Usuario_logueado - - (VAUL)
+Opeador_de_transporte - -down- - (VAOP)
+Opeador_de_transporte -left- (VADV)
+Usuario_no_logueado -down- (VA)
+(VAOA) -left-|> (VA)
+(VAOP) -|> (VA)
+(VAUL) -|> (VA)
+Usuario_no_logueado -down- (EEE)
+Usuario_no_logueado -up- (VEVUL)
+(VEVUL) -right-|> (VE)
+Opeador_adjudicatario - - (AEETR)
+(CCO) .-> (AEETR) : <<extend>>
+(AEETR) -down-|> (EEE)
+Opeador_adjudicatario -up- (RSP)
+Opeador_adjudicatario -down- (RPCT)
+Opeador_adjudicatario -left- (VAOA)
+Opeador_adjudicatario - - (PD)
+Opeador_adjudicatario -right- (DE)
+(CA) .-> (DE) : <<include>>
+
+
+
+
+
+@end
+
+@startuml SMET
+title SMET
+
+actor Usuario_no_logueado  #LightBlue
+actor Usuario_logueado #LightBlue
+actor Sistema #LightBlue
+actor Opeador_de_transporte #LightBlue
+actor Opeador_adjudicatario #LightBlue
+
+"Genear alarmas" as (DA)
+"Ver eventos" as (VE)
+"Ver eventos (vista Usuario logueado)" as (VEVUL)
+"Ver alarmas (vista Usuario logueado)" as (VAUL)
+"Ver alarmas (vista Operador de transporte)" as (VAOP)
+"Ver alarmas (vista Operador adjudicatario)" as (VAOA)
+"Ver alarma " as (VA)
+"ver advertencias" as (VADV)
+"Crear conjunto de operadores" as (CCO)
+"Registrar situaciones puntuales" as (RSP)
+"Registrar periodos continuos de tiempo" as (RPCT)
+"Proveer datos" as (PD)
+"Definir evento" as (DE)
+"Crear advertencia" as (CA)
+"Examinar el estado de la explotación en tiempo real" as (EEE)
+usecase AEETR as "Examinar el estado de la explotación en tiempo real (Vista Operador adjudicataro)
+- -
+extension points
+Crear conjunto de operadores"
+
+Usuario_logueado -|> Usuario_no_logueado
+
+Sistema - - (DA)
+Usuario_logueado - (VE)
+Usuario_logueado - - (VAUL)
+Opeador_de_transporte - -down- - (VAOP)
+Opeador_de_transporte -left- (VADV)
+Usuario_no_logueado -down- (VA)
+(VAOA) -left-|> (VA)
+(VAOP) -|> (VA)
+(VAUL) -|> (VA)
+Usuario_no_logueado -down- (EEE)
+Usuario_no_logueado -up- (VEVUL)
+(VEVUL) -right-|> (VE)
+Opeador_adjudicatario - - (AEETR)
+(CCO) .-> (AEETR) : <<extend>>
+(AEETR) -down-|> (EEE)
+Opeador_adjudicatario -up- (RSP)
+Opeador_adjudicatario -down- (RPCT)
+Opeador_adjudicatario -left- (VAOA)
+Opeador_adjudicatario - - (PD)
+Opeador_adjudicatario -right- (DE)
+(CA) .-> (DE) : <<include>>
+
+
+
+
+
+@end
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: es
+Country: ES
+--></g></svg>

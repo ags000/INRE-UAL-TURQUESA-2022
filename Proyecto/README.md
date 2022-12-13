@@ -1623,6 +1623,15 @@ C. Servicios continuos
 
 <br>
 
+<br>
+
+<div align="center">
+    <img src="./../out/lab0/src/SMET/SMET.svg" style="border: 3px solid #bbb">
+    <i><p>Imagen 3. Diagrama del SMET.</p></i>
+</div>
+
+<br>
+
 ### 4.2.3. Lista general de casos de uso  y actores del proyecto.
 
 
