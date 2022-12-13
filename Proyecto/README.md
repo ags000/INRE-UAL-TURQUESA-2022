@@ -65,21 +65,29 @@ Apendices
 | OBJ-1                 		  | Gestión del Portal del SIIT   |
 | :---                    		  | :---                          |
 | Versión                         | 2.0                           |
-| Descripción                     |                               |
+| Descripción                     | El sistema deberá implementar un Portal Web que cuente tanto con las necesidades de los usuarios como el análisis técnico. Se deberá implementar la identificación de necesidades (contenidos, servicios, audiencias,…), 
+definición de la estructura (arquitectura de la información, mapa web,…) y organización 
+del portal, detallar componentes organizativos, funcionales y técnicos del mismo. |
 | Comentarios                     |                               |
 
+<br>
 
 | OBJ-2                 		  | Gestión de los sistemas de la información del SIIT   |
 | :---                    		  | :---                          |
 | Versión                         | 2.0                           |
-| Descripción                     |                               |
+| Descripción                     | El sistema deberá implementar un sistema integrado de información de la red de transporte 
+público de todos los municipios de Gran Canaria que proporcione herramientas de análisis, 
+consulta, localización y gestión, con el objeto de que el usuario del transporte público pueda 
+consultar de forma dinámica la información del servicio permitiéndole conocer y programar 
+con antelación su viaje.                               |
 | Comentarios                     |                               |
 
+<br>
 
-| OBJ-3                 		  | Gestión del Portal del SIIT   |
+| OBJ-3                 		  | Gestión del SMET   |
 | :---                    		  | :---                          |
 | Versión                         | 2.0                           |
-| Descripción                     |                               |
+| Descripción                     | El sistema deberá implementar el análisis, diseño, implementación y la puesta en marcha de un sistema de información central sobre la explotación para la Autoridad Única del Transportes cuya misión fundamental sea la de monitorizar en tiempo real el estado de la red de transporte público por carretera en la Isla de Gran Canaria. |
 | Comentarios                     |                               |
 
 <br>
