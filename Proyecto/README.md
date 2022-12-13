@@ -1613,7 +1613,7 @@ C. Servicios continuos
 | Identificar			| CU-01	|
 | :---					| :--  	|
 | Nombre				| Acceder a editor WYSIWYG		|
-| Autor					|		|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					|		|
 | Descripción			|		|
 | Actores				|		|
@@ -1628,7 +1628,7 @@ C. Servicios continuos
 | Identificar			| CU-02	|
 | :---					| :--  	|
 | Nombre				| 		|
-| Autor					|		|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					|		|
 | Descripción			|		|
 | Actores				|		|
@@ -1643,7 +1643,7 @@ C. Servicios continuos
 | Identificar			| CU-03	|
 | :---					| :--  	|
 | Nombre				| Modificar página		|
-| Autor					|		|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					|		|
 | Descripción			|		|
 | Actores				|		|
@@ -1658,7 +1658,7 @@ C. Servicios continuos
 | Identificar			| CU-04	|
 | :---					| :--  	|
 | Nombre				| Publicar contenido		|
-| Autor					|		|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					|		|
 | Descripción			|		|
 | Actores				|		|
@@ -1673,7 +1673,7 @@ C. Servicios continuos
 | Identificar			| CU-05	|
 | :---					| :--  	|
 | Nombre				| Modificar contenido		|
-| Autor					|		|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					|		|
 | Descripción			|		|
 | Actores				|		|
@@ -1688,7 +1688,7 @@ C. Servicios continuos
 | Identificar			| CU-06	|
 | :---					| :--  	|
 | Nombre				| Eliminar contenido		|
-| Autor					|		|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					|		|
 | Descripción			|		|
 | Actores				|		|
@@ -1703,7 +1703,7 @@ C. Servicios continuos
 | Identificar			| CU-07	|
 | :---					| :--  	|
 | Nombre				| Crear páginas		|
-| Autor					|		|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					|		|
 | Descripción			|		|
 | Actores				|		|
@@ -1718,7 +1718,7 @@ C. Servicios continuos
 | Identificar			| CU-08	|
 | :---					| :--  	|
 | Nombre				| Acceder a estadísticas		|
-| Autor					|		|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					|		|
 | Descripción			|		|
 | Actores				|		|
@@ -1733,7 +1733,7 @@ C. Servicios continuos
 | Identificar			| CU-09	|
 | :---					| :--  	|
 | Nombre				| Buscar		|
-| Autor					|		|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					|		|
 | Descripción			|		|
 | Actores				|		|
@@ -1748,7 +1748,7 @@ C. Servicios continuos
 | Identificar			| CU-10	|
 | :---					| :--  	|
 | Nombre				| Parametrizar búsqueda		|
-| Autor					|		|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					|		|
 | Descripción			|		|
 | Actores				|		|
@@ -1763,7 +1763,7 @@ C. Servicios continuos
 | Identificar			| CU-11	|
 | :---					| :--  	|
 | Nombre				| Acceder al foro		|
-| Autor					|		|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					|		|
 | Descripción			|		|
 | Actores				|		|
@@ -1778,7 +1778,7 @@ C. Servicios continuos
 | Identificar			| CU-12	|
 | :---					| :--  	|
 | Nombre				| Acceder al blog		|
-| Autor					|		|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					|		|
 | Descripción			|		|
 | Actores				|		|
