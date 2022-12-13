@@ -1631,16 +1631,17 @@ C. Servicios continuos
 
 | Identificar			| CU-01	|
 | :---					| :--  	|
-| Nombre				| Acceder a editor WYSIWYG		|
+| Nombre				| Utilizar editor WYSIWYG		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			| El usuario 		|
-| Actores				| Usuario, Gestor de Contenidos		|
-| Precondiciones		|		|
-| Flujo normal			|		|
+| Descripción			| El usuario  		|
+| Actores				| Administrador		|
+| Precondiciones		| El usuario ha seleccionado la opción para acceder a la web.		|
+| Flujo normal			| 1. El usuario accede al gestor de contenidos. <br>
+                          2. 		|
 | Flujo alternativo		|		|
 | Poscondiciones		|		|
-| Comentarios			|		|
+| Comentarios			| WYSIWYG (What You See Is What You Get) quiere decir que el editor mostrará siempre la versión final del documento editado sin necesitar de previsualizar.		|
 
 <br>
 
@@ -1650,8 +1651,8 @@ C. Servicios continuos
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
 | Descripción			|		|
-| Actores				|		|
-| Precondiciones		|		|
+| Actores				| Administrador		|
+| Precondiciones		| El usuario está identificado como administrador en el sistema.		|
 | Flujo normal			|		|
 | Flujo alternativo		|		|
 | Poscondiciones		|		|
