@@ -62,6 +62,25 @@ Apendices
 
 ## 3.1. Objetivos del negocio.
 
+| OBJ-1                 		  | Gestión del Portal del SIIT   |
+| :---                    		  | :---                          |
+| Versión                         | 2.0                           |
+| Descripción                     |                               |
+| Comentarios                     |                               |
+
+
+| OBJ-2                 		  | Gestión de los sistemas de la información del SIIT   |
+| :---                    		  | :---                          |
+| Versión                         | 2.0                           |
+| Descripción                     |                               |
+| Comentarios                     |                               |
+
+
+| OBJ-3                 		  | Gestión del Portal del SIIT   |
+| :---                    		  | :---                          |
+| Versión                         | 2.0                           |
+| Descripción                     |                               |
+| Comentarios                     |                               |
 
 <br>
 
