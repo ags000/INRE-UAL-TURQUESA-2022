@@ -94,20 +94,20 @@ con antelación su viaje.                               |
 
 ## 3.2. Modelos de Procesos de Negocio.
 
-
 <br>
 
 ### 3.2.1. Sub-procesos.
 
+DIAGRAMA BPMN
+
 <br>
 
-| Nombre                   | Descripción                   |
-| :---                     | :---                          |
-|                          |                               |
 
 <br>
 
 ### 3.2.2. Tareas.
+
+ENUNCIADO BPMN
 
 <br>
 
@@ -1609,12 +1609,23 @@ C. Servicios continuos
 ## 4.2. Casos de uso.
 
 
-### 4.2.1. Diagramas de casos de uso.
+### 4.2.1. Lista de diagramas de casos de uso del modelo.
 
+
+### 4.2.2. Diagramas de casos de uso.
 
 <br>
 
-### 4.2.2. Lista general de casos de uso  y actores del proyecto.
+<div align="center">
+    <img src="./../out/lab0/src/portal/Portal.svg" style="border: 3px solid #bbb">
+    <i><p>Imagen 1. Diagrama del Portal.</p></i>
+</div>
+
+<br>
+
+### 4.2.3. Lista general de casos de uso  y actores del proyecto.
+
+
 
 <br>
 
@@ -1915,7 +1926,7 @@ C. Servicios continuos
 
 <br>
 
-### 4.2.3. Detalle de los casos de uso.
+### 4.2.4. Detalle de los casos de uso.
 
 
 <br>

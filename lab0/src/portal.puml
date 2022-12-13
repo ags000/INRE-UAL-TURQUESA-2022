@@ -1,0 +1,41 @@
+@startuml Portal
+title Portal
+
+actor Usuario_no_logueado  #LightBlue
+actor Usuario_logueado #LightBlue
+actor Administrador #LightBlue
+
+/'Casos de uso'/
+"Usar herramientas Web 2.0" as (HW)
+"Buscar" as (B)
+"Elegir idioma" as (EI)
+"Crear nueva página" as (CNP)
+"Previsualizar página" as (PP)
+"Visualizar estadísticas de acceso" as (VEA)
+"Visualizar estadísticas de acceso (Vista Administrador)" as (VEAVA)
+"Utilizar espacio compartido" as (UEC)
+"Administrar contenido" as (AC)
+"Acceder a la Web" as (AW)
+"Utilizar editor WYSIWYG" as (UE)
+"Modificar diseño de una página" as (MDP)
+
+/'Herencias actores'/
+Usuario_logueado -|> Usuario_no_logueado
+Administrador -|> Usuario_logueado
+
+/'Relaciones casos de uso'/
+Usuario_logueado -- (HW)
+Usuario_logueado -- (B)
+Usuario_logueado -- (EI)
+
+Usuario_no_logueado  -down- (VEA)
+Usuario_no_logueado  -- (CNP)
+(CNP) .-> (PP) : <<include>>
+
+Administrador -- (VEAVA)
+(VEAVA) -down-|> (VEA)
+Administrador -- (UEC)
+Administrador -- (AC)
+Administrador -- (AW)
+(AW) .-> (UE) : <<include>>
+Administrador -- (MDP)

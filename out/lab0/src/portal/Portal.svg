@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="399px" preserveAspectRatio="none" style="width:2134px;height:399px;background:#FFFFFF;" version="1.1" viewBox="0 0 2134 399" width="2134px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="27.6094" id="_title" style="stroke:none;stroke-width:1.0;" width="51" x="1034.5198" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="41" x="1039.5198" y="24.5332">Portal</text><!--MD5=[854437c9625fb3133d762d8df613f533]
+entity Usuario_no_logueado--><g id="elem_Usuario_no_logueado"><ellipse cx="1905" cy="52.6094" fill="#ADD8E6" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M1905,60.6094 L1905,87.6094 M1892,68.6094 L1918,68.6094 M1905,87.6094 L1892,102.6094 M1905,87.6094 L1918,102.6094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="139" x="1835.5" y="118.6426">Usuario_no_logueado</text></g><!--MD5=[8fe90401ea1b44801285df08fa817c52]
+entity Usuario_logueado--><g id="elem_Usuario_logueado"><ellipse cx="1537" cy="52.6094" fill="#ADD8E6" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M1537,60.6094 L1537,87.6094 M1524,68.6094 L1550,68.6094 M1537,87.6094 L1524,102.6094 M1537,87.6094 L1550,102.6094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="115" x="1479.5" y="118.6426">Usuario_logueado</text></g><!--MD5=[2e903384ba6a94be9c906ea46910cc3f]
+entity Administrador--><g id="elem_Administrador"><ellipse cx="668" cy="52.6094" fill="#ADD8E6" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M668,60.6094 L668,87.6094 M655,68.6094 L681,68.6094 M668,87.6094 L655,102.6094 M668,87.6094 L681,102.6094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="624.5" y="118.6426">Administrador</text></g><g id="elem_HW"><ellipse cx="1745.9418" cy="222.5977" fill="#F1F1F1" rx="105.4418" ry="23.4884" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="173" x="1659.4418" y="226.3262">Usar herramientas Web 2.0</text></g><g id="elem_B"><ellipse cx="1391.0997" cy="222.5616" fill="#F1F1F1" rx="42.5997" ry="15.4523" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="1368.8355" y="226.3732">Buscar</text></g><g id="elem_EI"><ellipse cx="1536.7517" cy="222.5597" fill="#F1F1F1" rx="67.7517" ry="15.9503" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="81" x="1493.2517" y="227.0763">Elegir idioma</text></g><g id="elem_CNP"><ellipse cx="2042.8478" cy="222.4789" fill="#F1F1F1" rx="84.8478" ry="19.3696" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126" x="1979.8478" y="226.2075">Crear nueva página</text></g><g id="elem_PP"><ellipse cx="2042.7698" cy="366.5633" fill="#F1F1F1" rx="85.2698" ry="19.454" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="127" x="1979.2698" y="370.2918">Previsualizar página</text></g><g id="elem_VEA"><ellipse cx="1632.0183" cy="366.713" fill="#F1F1F1" rx="121.0183" ry="26.6037" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="207" x="1528.5183" y="370.4415">Visualizar estadísticas de acceso</text></g><g id="elem_VEAVA"><ellipse cx="1126.8779" cy="222.6849" fill="#F1F1F1" rx="185.8779" ry="39.5756" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="343" x="955.3779" y="226.4135">Visualizar estadísticas de acceso (Vista Administrador)</text></g><g id="elem_UEC"><ellipse cx="319.1901" cy="222.6474" fill="#F1F1F1" rx="103.1901" ry="23.038" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="168" x="235.1901" y="226.3759">Utilizar espacio compartido</text></g><g id="elem_AC"><ellipse cx="547.035" cy="222.4164" fill="#F1F1F1" rx="89.535" ry="20.307" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="137" x="478.535" y="226.1449">Administrar contenido</text></g><g id="elem_AW"><ellipse cx="102.0785" cy="222.8251" fill="#F1F1F1" rx="79.0785" ry="18.2157" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="44.6751" y="226.9489">Acceder a la Web</text></g><g id="elem_UE"><ellipse cx="102.0702" cy="366.7234" fill="#F1F1F1" rx="96.0702" ry="21.614" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="152" x="26.0702" y="370.4519">Utilizar editor WYSIWYG</text></g><g id="elem_MDP"><ellipse cx="788.8554" cy="222.3805" fill="#F1F1F1" rx="116.8554" ry="25.7711" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="198" x="689.8554" y="226.109">Modificar diseño de una página</text></g><!--MD5=[213fdcda8a49667d9a57561662627904]
+link Usuario_logueado to Usuario_no_logueado--><g id="link_Usuario_logueado_Usuario_no_logueado"><path d="M1594.86,83.1094 C1668.29,83.1094 1741.72,83.1094 1815.14,83.1094 " fill="none" id="Usuario_logueado-to-Usuario_no_logueado" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="1815.34,76.1094,1835.34,83.1094,1815.34,90.1094,1815.34,76.1094" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[3347fcc8935db98c9ad06a7be5b55c6e]
+link Administrador to Usuario_logueado--><g id="link_Administrador_Usuario_logueado"><path d="M711.7,83.1094 C960.85,83.1094 1209.99,83.1094 1459.13,83.1094 " fill="none" id="Administrador-to-Usuario_logueado" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="1459.37,76.1094,1479.37,83.1094,1459.37,90.1094,1459.37,76.1094" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[5db901d6d4285d89eb9041082d0034b0]
+link Usuario_logueado to HW--><g id="link_Usuario_logueado_HW"><path d="M1594.66,122.0494 C1632.97,147.2394 1681.85,179.4094 1713.53,200.2494 " fill="none" id="Usuario_logueado-HW" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d5756d0807b3076031f4ed15ac489455]
+link Usuario_logueado to B--><g id="link_Usuario_logueado_B"><path d="M1496.33,122.4094 C1466.12,150.8594 1426.66,188.0194 1405.66,207.8094 " fill="none" id="Usuario_logueado-B" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[57367a6b0b4a722a92a25df91f4397e7]
+link Usuario_logueado to EI--><g id="link_Usuario_logueado_EI"><path d="M1537,122.4094 C1537,150.2194 1537,186.3694 1537,206.4494 " fill="none" id="Usuario_logueado-EI" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ff164e208e443f19e8a7e70f4a8bca44]
+link Usuario_no_logueado to VEA--><g id="link_Usuario_no_logueado_VEA"><path d="M1906.98,122.4094 C1906.98,161.6494 1901.09,222.3694 1869,262.1094 C1832.12,307.7794 1771.09,333.7994 1720.2,348.3294 " fill="none" id="Usuario_no_logueado-VEA" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[36150a294f50fa2c283fbc5787384c4c]
+link Usuario_no_logueado to CNP--><g id="link_Usuario_no_logueado_CNP"><path d="M1943.44,122.4094 C1969.92,148.7894 2003.92,182.6694 2024.55,203.2294 " fill="none" id="Usuario_no_logueado-CNP" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ef841f19de3a1cb583a5a45af1f098a3]
+link CNP to PP--><g id="link_CNP_PP"><path d="M2043,242.1694 C2043,267.7894 2043,313.9894 2043,342.0294 " fill="none" id="CNP-to-PP" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="2043,347.0394,2047,338.0394,2043,342.0394,2039,338.0394,2043,347.0394" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55" x="2044" y="306.6045">«include»</text></g><!--MD5=[1812931f4eb29694310dfbf78d2da1a0]
+link Administrador to VEAVA--><g id="link_Administrador_VEAVA"><path d="M711.6,97.1694 C782.2,118.3194 923.52,160.6594 1021.6,190.0394 " fill="none" id="Administrador-VEAVA" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[5c757b8ea9cbb688e33c02404e0791b8]
+link VEAVA to VEA--><g id="link_VEAVA_VEA"><path d="M1236.89,254.5094 C1327.64,280.0294 1454.97,315.8294 1540.31,339.8294 " fill="none" id="VEAVA-to-VEA" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="1542.36,333.1294,1559.72,345.2894,1538.57,346.6094,1542.36,333.1294" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[87759dc6e4b27432a3c48868d31e6801]
+link Administrador to UEC--><g id="link_Administrador_UEC"><path d="M624.15,101.3894 C558.79,127.1394 436.22,175.4294 368,202.3094 " fill="none" id="Administrador-UEC" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[4deab10e6e0bd72a3fe47ab982e45bf1]
+link Administrador to AC--><g id="link_Administrador_AC"><path d="M634.29,122.4094 C611.5,148.3194 582.34,181.4494 564.17,202.0994 " fill="none" id="Administrador-AC" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e9407adcec88b411e949f0046a492ca6]
+link Administrador to AW--><g id="link_Administrador_AW"><path d="M624.27,90.7094 C540.45,103.9294 351.81,136.4594 198,183.1094 C177.04,189.4694 154.25,198.5094 136.14,206.2294 " fill="none" id="Administrador-AW" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[4e137825cb7f602936694fe0fad0812a]
+link AW to UE--><g id="link_AW_UE"><path d="M102,240.7394 C102,265.3194 102,310.8094 102,339.5694 " fill="none" id="AW-to-UE" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="102,344.7294,106,335.7294,102,339.7294,98,335.7294,102,344.7294" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55" x="103" y="306.6045">«include»</text></g><!--MD5=[19b3af69aa5106bbffeecbb2d4a1d098]
+link Administrador to MDP--><g id="link_Administrador_MDP"><path d="M701.71,122.4094 C722.68,146.2494 749.05,176.2094 767.28,196.9294 " fill="none" id="Administrador-MDP" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e1152b8321c8e6c48620765170cadcd6]
+@startuml Portal
+title Portal
+
+actor Usuario_no_logueado  #LightBlue
+actor Usuario_logueado #LightBlue
+actor Administrador #LightBlue
+
+/'Casos de uso'/
+"Usar herramientas Web 2.0" as (HW)
+"Buscar" as (B)
+"Elegir idioma" as (EI)
+"Crear nueva página" as (CNP)
+"Previsualizar página" as (PP)
+"Visualizar estadísticas de acceso" as (VEA)
+"Visualizar estadísticas de acceso (Vista Administrador)" as (VEAVA)
+"Utilizar espacio compartido" as (UEC)
+"Administrar contenido" as (AC)
+"Acceder a la Web" as (AW)
+"Utilizar editor WYSIWYG" as (UE)
+"Modificar diseño de una página" as (MDP)
+
+/'Herencias actores'/
+Usuario_logueado -|> Usuario_no_logueado
+Administrador -|> Usuario_logueado
+
+/'Relaciones casos de uso'/
+Usuario_logueado - - (HW)
+Usuario_logueado - - (B)
+Usuario_logueado - - (EI)
+
+Usuario_no_logueado  -down- (VEA)
+Usuario_no_logueado  - - (CNP)
+(CNP) .-> (PP) : <<include>>
+
+Administrador - - (VEAVA)
+(VEAVA) -down-|> (VEA)
+Administrador - - (UEC)
+Administrador - - (AC)
+Administrador - - (AW)
+(AW) .-> (UE) : <<include>>
+Administrador - - (MDP)
+@end
+
+@startuml Portal
+title Portal
+
+actor Usuario_no_logueado  #LightBlue
+actor Usuario_logueado #LightBlue
+actor Administrador #LightBlue
+
+"Usar herramientas Web 2.0" as (HW)
+"Buscar" as (B)
+"Elegir idioma" as (EI)
+"Crear nueva página" as (CNP)
+"Previsualizar página" as (PP)
+"Visualizar estadísticas de acceso" as (VEA)
+"Visualizar estadísticas de acceso (Vista Administrador)" as (VEAVA)
+"Utilizar espacio compartido" as (UEC)
+"Administrar contenido" as (AC)
+"Acceder a la Web" as (AW)
+"Utilizar editor WYSIWYG" as (UE)
+"Modificar diseño de una página" as (MDP)
+
+Usuario_logueado -|> Usuario_no_logueado
+Administrador -|> Usuario_logueado
+
+Usuario_logueado - - (HW)
+Usuario_logueado - - (B)
+Usuario_logueado - - (EI)
+
+Usuario_no_logueado  -down- (VEA)
+Usuario_no_logueado  - - (CNP)
+(CNP) .-> (PP) : <<include>>
+
+Administrador - - (VEAVA)
+(VEAVA) -down-|> (VEA)
+Administrador - - (UEC)
+Administrador - - (AC)
+Administrador - - (AW)
+(AW) .-> (UE) : <<include>>
+Administrador - - (MDP)
+@end
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: es
+Country: ES
+--></g></svg>
