@@ -1145,7 +1145,7 @@ Apendices
 | :---					| :--  	|
 | Objetivos asociados	| OBJ-02		|
 | Requisitos asociados	|		|
-| Descripción			|		|
+| Descripción			| Se deberán de hacer revisiones periódicas para que los datos almacenados de los transportes y los mapas no se queden anticuados respecto a los cambios que se produzcan en los mismos.		|
 | Comentarios			|		|
 
 <br>
@@ -1226,7 +1226,7 @@ Apendices
 | :---					| :--  	|
 | Objetivos asociados	| OBJ-02		|
 | Requisitos asociados	|		|
-| Descripción			|		|
+| Descripción			| Los cálculos internos de la aplicación deberán de usar los métodos y algoritmos adecuados para obtener las rutas más óptimas y eficientes posibles.		|
 | Comentarios			|		|
 
 <br>
