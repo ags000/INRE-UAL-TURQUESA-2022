@@ -2207,13 +2207,13 @@ Apendices
 | Nombre				| Registrar situaciones puntuales              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			| 	            	|
-| Actores				|              		|
+| Descripción			| El usuario podrá registrar sitaciones puntuales.	            	|
+| Actores				| Operador adjudicatario             		|
 | Precondiciones		|                	|
-| Flujo normal			| 	                |
+| Flujo normal			| 1. El usuario solicita registrar una situación puntual. <br> 2. El sistema lista los contenidos disponibles a registrar  <br> 3. El usuario selecciona un determinado momento. <br> 4. EL sistema guarda la sitación seleccionada.  	                |
 | Flujo alternativo		|                	|
-| Poscondiciones		|              		|
-| Comentarios			|                   |
+| Poscondiciones		| La nueva situación se ha añadido a la base de datos del sistema.              		|
+| Comentarios			|             |
 
 <br>
 
