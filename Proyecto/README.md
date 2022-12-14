@@ -1894,6 +1894,8 @@ Apendices
 | Poscondiciones		| Ninguna.		|
 | Comentarios			| Ninguno.		|
 
+<br>
+
 | Identificar			| CU-02	|
 | :---					| :--  	|
 | Nombre				| Ver horario y lineas (vista Administrador)		|
@@ -1906,6 +1908,8 @@ Apendices
 | Flujo alternativo		| 6. El usuario no solicita conocer más detalles. El proceso finaliza.		|
 | Poscondiciones		| Ninguna.		|
 | Comentarios			| Ninguno.		|
+
+<br>
 
 | Identificar			| CU-03	|
 | :---					| :--  	|
@@ -1920,6 +1924,8 @@ Apendices
 | Poscondiciones		| Se ha actualizado el registro del dato modificado en la base de datos.		|
 | Comentarios			| Ninguno.		|
 
+<br>
+
 | Identificar			| CU-04	|
 | :---					| :--  	|
 | Nombre				| Introducir datos		|
@@ -1933,6 +1939,7 @@ Apendices
 | Poscondiciones		| Se ha actualizado el registro del dato modificado en la base de datos.		|
 | Comentarios			| Ninguno.		|
 
+<br>
 
 | Identificar			| CU-05	|
 | :---					| :--  	|
@@ -1947,6 +1954,8 @@ Apendices
 | Poscondiciones		| Ninguna.		|
 | Comentarios			| Ninguno.		|
 
+<br>
+
 | Identificar			| CU-06	|
 | :---					| :--  	|
 | Nombre				| Introducir potenciador		|
@@ -1959,6 +1968,8 @@ Apendices
 | Flujo alternativo		| 2.A El usuario solicita potenciar por número de transboros.|
 | Poscondiciones		| Ninguna.		|
 | Comentarios			| Ninguno.		|
+
+<br>
 
 | Identificar			| CU-07	|
 | :---					| :--  	|
@@ -1973,6 +1984,8 @@ Apendices
 | Poscondiciones		| Ninguna.		|
 | Comentarios			| El origen y destino se pueden proporcionar de diversas formas: desde el mapa, escribiendo la dirección y desde una parada o evento.|
 
+<br>
+
 | Identificar			| CU-08	|
 | :---					| :--  	|
 | Nombre				| Usar mapa		|
@@ -1986,6 +1999,7 @@ Apendices
 | Poscondiciones		| Ninguna.		|
 | Comentarios			| Ninguno. |
 
+<br>
 
 | Identificar			| CU-09	|
 | :---					| :--  	|
@@ -2000,6 +2014,7 @@ Apendices
 | Poscondiciones		| Ninguna.		|
 | Comentarios			| Ninguno. |
 
+<br>
 
 | Identificar			| CU-10	|
 | :---					| :--  	|
@@ -2014,6 +2029,7 @@ Apendices
 | Poscondiciones		| La consulta realizada se almacena en la base de datos.		|
 | Comentarios			| Ninguno.		|
 
+<br>
 
 | Identificar			| CU-11	|
 | :---					| :--  	|
@@ -2027,6 +2043,8 @@ Apendices
 | Flujo alternativo		| 2.A. El usuario hace cualquier operación siguiente [Centrar, desplazarse, alejar, acercar, ir a mapa base] <br> 2.B El usuario selecciona una parada / evento como punto de origen / destino. <br> 3.B El sistema muestra un itinerario de ejemplo (calcula distancia entre paradas, transbordos, coste, tiempos, zonas por las que no transitar) entre las dos paradas y solicita al usuario que haga una consulta. <br> 4.B El sistema muestra los detalles anteriormente calculados. <br> 2.C El usuario solicita ver más detalles de [parada/evento] <br> 3.C El sistema muestra descripción, código postal, imagen, líneas cercanas o que pasan por la [parada/evento].     	|
 | Poscondiciones		| Ninguna.		|
 | Comentarios			| Ninguno. |
+
+<br>
 
 | Identificar			| CU-12	|
 | :---					| :--  	|
