@@ -28,8 +28,14 @@ Apendices
 
 <br>
 
-# 1. Introducción.
+# Hoja de revisión 
 
+| Fecha | Versión | Descripción | Autor |
+| :--   | :--     | :--         | :--   |
+| 29/11/202  | 1.0    | Se ha recibido el pliego de condiciones técnicas el desarrollo del software de un sistema de información interactivo al viajero del transporte público regular de viajeros para la isla de Gran Canaria (portal web de servicios) mediante procedimiento abierto | Alejandro, Cristina y Adrián |
+
+
+# 1. Introducción.
 
 <br>
 
