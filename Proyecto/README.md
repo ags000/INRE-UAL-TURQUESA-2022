@@ -1836,7 +1836,6 @@ Requisitos No Funcionales
 | Referencias                   |                                |
 | Descripción                   | Usuario con todos los permisos disponibles para gestionar la aplicación. Debe identificarse en el sistema utilizando unas credenciales especiales proporcionadas por la autoridad correspondiente para poseer dichas funcionalidades.                                |
 | Importancia                   | Alta                           |
-| Estado                        |                                |
 | Comentarios                   |                                |
 
 <br>
@@ -1849,7 +1848,6 @@ Requisitos No Funcionales
 | Referencias                   |                                |
 | Descripción                   | Usuario con permisos de lectura y edición que puede alterar el contenido de la aplicación de manera controlada. Debe de identificarse utilizando las credenciales que previamente creó al registrarse en el sistema por primera vez.                              |
 | Importancia                   | Alta                           |
-| Estado                        |                                |
 | Comentarios                   |                                |
 
 <br>
@@ -1862,7 +1860,6 @@ Requisitos No Funcionales
 | Referencias                   |                                |
 | Descripción                   | Usuario con permisos solo de lectura, vista como invitado de la aplicación pero sin poder añadir contenido a la misma. Puede identificarse en el sistema para acceder a los permisos de Administrador o de Usuario Logueado dependiendo de las credenciales que utilice.                               |
 | Importancia                   | Alta                           |
-| Estado                        |                                |
 | Comentarios                   |                                |
 
 <br>
