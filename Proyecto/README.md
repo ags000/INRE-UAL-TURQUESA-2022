@@ -59,8 +59,7 @@ Apendices
 | PDA                      | Personal Digital Assistant, Ayudante personal digital. Es un dispositivo de pequeño tamaño que combina un ordenador, teléfono/fax, Internet y conexiones de red.  |
 | LOPD                     |  Ley Orgánica 15/1999 de 13 de diciembre de Protección de Datos de Carácter Personal. Es una ley española que tiene por objeto la garantía y la protección de los datos personales, las libertades públicas y los derechos fundamentales de las personas físicas, en especial de su honor, intimidad y privacidad personal y familiar.   |
 | AUT                      | Autoridad Única del Transporte |
-| Solución                      | Por definir |
-| Entorno de colaboración               | Por definir |
+| Entorno de colaboración       | Entorno enfocado a la facilitación de la comunicación e intercambio de información tanto entre los administradores como entre los usuarios del sistema. |
 
 <br>
 
