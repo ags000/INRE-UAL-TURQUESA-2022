@@ -1668,6 +1668,8 @@ Requisitos No Funcionales
 
 ### 4.2.3. Lista general de casos de uso  y actores del proyecto.
 
+### Casos de uso del portal.
+
 <br>
 
 | Identificar			| CU-01	|
@@ -1871,6 +1873,169 @@ Requisitos No Funcionales
 
 <br>
 
+
+### Casos de uso del diagrama B)
+
+| Identificar			| CU-01	|
+| :---					| :--  	|
+| Nombre				| Ver horario y lineas	|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
+| Fecha					| 13/12/2022		|
+| Descripción			| El usuario podrá consultar las líneas disponibles y el horario de cada línea.		|
+| Actores				| Usuario		|
+| Precondiciones		| El usuario tiene que acceder al sistema.	|
+| Flujo normal			| 1. El usuario solicita consultar una línea <br> 2. El sistema solicita la línea al usuario.<br> 3. El usuario escoge una línea a consultar <br> 4. El sistema muestra el recorrido de la línea en un mapa <br> 5. El sistema proporciona la opción de conocer más detalles. <br> 6. El usuario solicita conocer más detalles de la línea. <br> 7. El sistema proporciona: descripción de la línea, empresa gestora, incidencias, tarifas y horarios. <br> 8. El proceso finaliza.	|
+| Flujo alternativo		| 6. El usuario no solicita conocer más detalles. El proceso finaliza.		|
+| Poscondiciones		| Ninguna.		|
+| Comentarios			| Ninguno.		|
+
+| Identificar			| CU-02	|
+| :---					| :--  	|
+| Nombre				| Ver horario y lineas (vista Administrador)		|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
+| Fecha					| 13/12/2022		|
+| Descripción			| El usuario podrá consultar las líneas disponibles y el horario de cada línea.		|
+| Actores				| Administrador		|
+| Precondiciones		| El administrador está autenticado. |
+| Flujo normal			| 1. El usuario solicita consultar una línea <br> 2. El sistema solicita la línea al usuario.<br> 3. El usuario escoge una línea a consultar <br> 4. El sistema muestra el recorrido de la línea en un mapa <br> 5. El sistema proporciona la opción de conocer más detalles. <br> 6. El usuario solicita conocer más detalles de la línea. <br> 7. El sistema proporciona: descripción de la línea, empresa gestora, incidencias, tarifas y horarios. <br> 8. El proceso finaliza.	|
+| Flujo alternativo		| 6. El usuario no solicita conocer más detalles. El proceso finaliza.		|
+| Poscondiciones		| Ninguna.		|
+| Comentarios			| Ninguno.		|
+
+| Identificar			| CU-03	|
+| :---					| :--  	|
+| Nombre				| Modificar datos		|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
+| Fecha					| 13/12/2022		|
+| Descripción			| Se podrán modificar los datos registrados en el sistema.		|
+| Actores				| Administrador		|
+| Precondiciones		| El administrador está autenticado.	|
+| Flujo normal			| 1. El usuario solicita modificar datos. <br> 2. El sistema solicita el dato a modificar. <br> 3. El usuario selecciona el dato a modificar. <br> 4. El sistema demanda el nuevo contenido. <br> 5. El usuario proporciona el contenido. <br> 6. El sistema actualiza el contenido. El proceso finaliza. 	|
+| Flujo alternativo		|6. Si el contenido proporcionado no cumple con el mismo formato que el contenido a sustituir, el proceso finaliza.		|
+| Poscondiciones		| Se ha actualizado el registro del dato modificado en la base de datos.		|
+| Comentarios			| Ninguno.		|
+
+| Identificar			| CU-04	|
+| :---					| :--  	|
+| Nombre				| Introducir datos		|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
+| Fecha					| 13/12/2022		|
+| Descripción			| Se podrán agregar nuevos registros al sistema.		|
+| Actores				| Administrador		|
+| Precondiciones		| El administrador está autenticado.	|
+| Flujo normal			| 1. El usuario solicita agregar datos. <br> 2. El sistema solicita el tipo de dato a agregar. <br> 3. El usuario selecciona el tipo de dato a agregar. <br> 4. El sistema proporciona campos de texto para agregar la información. <br> 5. El usuario rellena los campos. <br> 6. El sistema agrega el contenido. El proceso finaliza. 	|
+| Flujo alternativo		|6. Si el contenido proporcionado no cumple con el formato que debe tener, el proceso finaliza.		|
+| Poscondiciones		| Se ha actualizado el registro del dato modificado en la base de datos.		|
+| Comentarios			| Ninguno.		|
+
+
+| Identificar			| CU-05	|
+| :---					| :--  	|
+| Nombre				| Introducir fecha y hora		|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
+| Fecha					| 13/12/2022		|
+| Descripción			| Se obtiene la fecha y hora de viaje deseada por un cliente.		|
+| Actores				| Usuario		|
+| Precondiciones		| El usuario está en el sistema.	|
+| Flujo normal			| 1. El sistema solicita la fecha y hora. <br> 2. El usuario proporciona la fecha y hora. <br> 3. El sistema almacena la fecha y hora de forma temporal. El proceso termina.	|
+| Flujo alternativo		|	|
+| Poscondiciones		| Ninguna.		|
+| Comentarios			| Ninguno.		|
+
+| Identificar			| CU-06	|
+| :---					| :--  	|
+| Nombre				| Introducir potenciador		|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
+| Fecha					| 13/12/2022		|
+| Descripción			| Se podrá filtrar una consulta en función de un potenciador.		|
+| Actores				| Usuario		|
+| Precondiciones		| El usuario está en el sistema.	|
+| Flujo normal			| 1. El sistema solicita un potenciador. <br> 2. El usuario solicita potenciar por coste. <br> 3. El sistema almacena de forma temporal el potenciador. El proceso finaliza.	|
+| Flujo alternativo		| 2.A El usuario solicita potenciar por número de transboros.|
+| Poscondiciones		| Ninguna.		|
+| Comentarios			| Ninguno.		|
+
+| Identificar			| CU-07	|
+| :---					| :--  	|
+| Nombre				| Seleccionar origen y destino		|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
+| Fecha					| 13/12/2022		|
+| Descripción			| Se podrá filtrar una consulta en función de un potenciador.		|
+| Actores				| Usuario		|
+| Precondiciones		| El usuario está en el sistema.	|
+| Flujo normal			| 1. El sistema solicita un punto de origen y destino. <br> 2. El sistema proporciona dos cuadros de texto. <br> 3. El usuario escribe en el cuadro de texto [calle y número / barrio o municipio] <br> 3. El sistema hace una traducción de la dirección proporcionada a una dirección cartografiada. <br> 4. La traducción es exitosa, el sistema registra el punto de origen y destino de forma temporal.	|
+| Flujo alternativo		| 3.A. El usuario (no usa el cuadro de texto), selecciona una parada y la marca como punto de origen / destino. <br> 4.A. El sistema registra la parada como punto de origen / destino. <br> 3.B. El usuario selecciona un evento en el mapa y lo marca como punto de origen / destino. <br> 4.B. El sistema registra el evento como punto de origen / destino. <br> 4.C. La traducción no es exitosa, el sistema indica al usuario que revise las direcciones proporcionadas.	|
+| Poscondiciones		| Ninguna.		|
+| Comentarios			| El origen y destino se pueden proporcionar de diversas formas: desde el mapa, escribiendo la dirección y desde una parada o evento.|
+
+| Identificar			| CU-08	|
+| :---					| :--  	|
+| Nombre				| Usar mapa		|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
+| Fecha					| 13/12/2022		|
+| Descripción			| Se podrá usar el mapa para registrar el punto de origen / destino.		|
+| Actores				| Usuario		|
+| Precondiciones		| El usuario está en el sistema.	|
+| Flujo normal			| 1. El usuario se desplaza por el mapa <br> 2. El sistema actualiza el mapa en función del desplazamiento. <br> 3. El usuario selecciona una parada y la marca como punto de origen / destino. <br> 4. El sistema registra la parada como punto de origen / destino.	|
+| Flujo alternativo		| 3. El usuario selecciona un evento y lo marca como punto de origen / destino. <br> 4. El sistema registra el evento como punto de origen / destino. 	|
+| Poscondiciones		| Ninguna.		|
+| Comentarios			| Ninguno. |
+
+
+| Identificar			| CU-09	|
+| :---					| :--  	|
+| Nombre				| Ver resultado		|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
+| Fecha					| 13/12/2022		|
+| Descripción			| Muestra datos de una solución de un itinerario		|
+| Actores				| Usuario		|
+| Precondiciones		| El sistema ha realizado todos los cálculos necesarios, el usuario está en el sistema.	|
+| Flujo normal			| 1. El sistema muestra la distancia entre paradas, los transbordos necesarios, el tiempo del recorrido total, los tramos a recorrer por el usuario y las zonas por las que no transitar. <br> 2. El sistema muestra la solución en forma esquemática. <br> 3. El usuario solicita ver más detalles <br> 4. El sistema muestra información adicional de las líneas: descripción, empresa gestora, incidencias, tarifas y horarios. <br> 5. El proceso finaliza.	|
+| Flujo alternativo		|  3.A. El usuario no solicita más detalles, el proceso finaliza.	|
+| Poscondiciones		| Ninguna.		|
+| Comentarios			| Ninguno. |
+
+
+| Identificar			| CU-10	|
+| :---					| :--  	|
+| Nombre				| Realizar consulta		|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
+| Fecha					| 13/12/2022		|
+| Descripción			| Se podrán consultar soluciones de itinerarios.	|
+| Actores				| Usuario		|
+| Precondiciones		| El usuario está en el sistema.	|
+| Flujo normal			| 1. El sistema muestra un mapa de GC con todos los datos cartografiados (eventos, paradas...). <br> 2. El sistema solicita la fecha y hora. <br> 3. El usuario proporciona la fecha y hora. <br> 4. El sistema almacena la fecha y hora de forma temporal. <br> 5. El sistema solicita un potenciador. <br> 6. El usuario solicita potenciar por coste. <br> 7. El sistema almacena de forma temporal el potenciador. <br>  8. El sistema solicita un punto de origen y destino. <br> 9. El sistema proporciona dos cuadros de texto. <br> 10. El usuario escribe en el cuadro de texto [calle y número / barrio o municipio] <br> 11. El sistema hace una traducción de la dirección proporcionada a una dirección cartografiada. <br> 12. La traducción es exitosa, el sistema registra el punto de origen y destino de forma temporal. <br> 13. El sistema calcula la distancia entre paradas <br> 14. El sistema define transbordos necesairos <br> 15. El sistema calcula los tiempos de recorrido <br> 16. El sistema calcula los tramos a recorrer por el usuario. <br> 17. El sistema identifica zonas por las que no transitar. <br> 18. El sistema muestra la distancia entre paradas, los transbordos necesarios, el tiempo del recorrido total, los tramos a recorrer por el usuario (itinerario recomendado) y las zonas por las que no transitar. <br> 19. El sistema muestra la solución en forma esquemática. <br> 20. El usuario solicita ver más detalles <br> 21. El sistema muestra información adicional de las líneas: descripción, empresa gestora, incidencias, tarifas y horarios. <br> 21. El proceso finaliza.
+
+| Flujo alternativo		| 6.A El usuario solicita potenciar por número de transboros. <br> 10.B. El usuario (no usa el cuadro de texto), selecciona una parada y la marca como punto de origen / destino. <br> 11.B. El sistema registra la parada como punto de origen / destino. <br> 10.C. El usuario selecciona un evento en el mapa y lo marca como punto de origen / destino. <br> 4.C. El sistema registra el evento como punto de origen / destino. <br> 4.D. La traducción no es exitosa, el sistema indica al usuario que revise las direcciones proporcionadas. <br> 13.E. El usuario se desplaza por el mapa <br> 14.E. El sistema actualiza el mapa en función del desplazamiento. <br> 15.E. El usuario selecciona una parada y la marca como punto de origen / destino. <br> 16.E. El sistema registra la parada como punto de origen / destino. <br> 15.E.2 El usuario selecciona un evento y lo marca como punto de origen / destino. <br> 16.E.2 El sistema registra el evento como punto de origen / destino. <br> 20.F. El usuario no solicita más detalles, el proceso finaliza.	|
+| Poscondiciones		| Se ha actualizado el registro del dato modificado en la base de datos.		|
+| Comentarios			| Ninguno.		|
+
+
+| Identificar			| CU-11	|
+| :---					| :--  	|
+| Nombre				| Ver información cartográfica		|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
+| Fecha					| 13/12/2022		|
+| Descripción			| Muestra un mapa con todos los datos registrados. 		|
+| Actores				| Usuario		|
+| Precondiciones		| Ninguna	|
+| Flujo normal			| 1. El sistema muestra un mapa de GC con todos los datos cartografiados (eventos, paradas...) y un cuadro de texto para introducir destino/origen. <br> 2. El proceso finaliza.	|
+| Flujo alternativo		| 2.A. El usuario hace cualquier operación siguiente [Centrar, desplazarse, alejar, acercar, ir a mapa base] <br> 2.B El usuario selecciona una parada / evento como punto de origen / destino. <br> 3.B El sistema muestra un itinerario de ejemplo (calcula distancia entre paradas, transbordos, coste, tiempos, zonas por las que no transitar) entre las dos paradas y solicita al usuario que haga una consulta. <br> 4.B El sistema muestra los detalles anteriormente calculados. <br> 2.C El usuario solicita ver más detalles de [parada/evento] <br> 3.C El sistema muestra descripción, código postal, imagen, líneas cercanas o que pasan por la [parada/evento].     	|
+| Poscondiciones		| Ninguna.		|
+| Comentarios			| Ninguno. |
+
+| Identificar			| CU-12	|
+| :---					| :--  	|
+| Nombre				| Obtener ayuda en linea	|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
+| Fecha					| 13/12/2022		|
+| Descripción			| Proporciona ayuda adaptada.		|
+| Actores				| Usuario		|
+| Precondiciones		| Ninguna	|
+| Flujo normal			| 1. El usuario solicita ayuda en línea. <br> 2. El sistema muestra pregutnas frecuentes relacionadas con la sección en la que se encuentra el usuario. <br> 3. El proceso termina.	|
+| Flujo alternativo		|  	|
+| Poscondiciones		| Ninguna.		|
+| Comentarios			| Ninguno. |
 ### 4.2.4. Detalle de los casos de uso.
 
 

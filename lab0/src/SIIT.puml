@@ -10,45 +10,35 @@ actor Administrador #LightBlue
 "Introducir potenciador" as (IP)
 "Introducir fecha y hora" as (IFH)
 "Usar mapa" as (UM)
-"Ver información adicional" as (VIAU)
-"Ver listado de horario y líneas" as (VHL)
-"Ver horario y líneas (vista Usuario)" as (VHLU)
+
+"Ver horario y líneas" as (VHLU)
 "Ver horario y líneas (vista Administrador)" as (VHLA)
 "Modificar datos" as (MD)
-"Ver información adicional (información cartográfica" as (VIAIC)
+
 "Introducir datos" as (IMD)
 
-usecase VIC as "Ver información cartográfica
---
-extension points
-Ver información adicional (información cartográfica"
+usecase VIC as "Ver información cartográfica"
 
 usecase SOD as "Seleccionar origen y destino
 --
 extension points
 Usar mapa"
 
-usecase VR as "Ver resultado
---
-extension points
-Ver información adicional"
+usecase VR as "Ver resultado"
 
 /'Relaciones casos de uso'/
 Usuario -- (OAL)
 Usuario -- (RC)
 Usuario -- (VIC)
-(VIAIC) .-> (VIC) : <<extend>>
-(VIAIC) -|> (VIAU)
 (RC) .-> (IP) : <<include>>
 (RC) .-> (IFH) : <<include>>
 (RC) .-> (SOD) : <<include>>
 (UM) .-> (SOD) : <<extend>>
-(SOD) .-> (VR) : <<include>>
-(VIAU) .-> (VR) : <<extend>>
+(RC) .-> (VR) : <<include>>
 Usuario -up- (VHLU)
-(VHLU) -|> (VHL)
+
 Administrador -- (VHLA)
-(VHLA) -|> (VHL)
+(VHLA) -|> (VHLU)
 Administrador -- (MD)
 Administrador -- (IMD)
 

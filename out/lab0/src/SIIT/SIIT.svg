@@ -1,23 +1,19 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="908px" preserveAspectRatio="none" style="width:1530px;height:908px;background:#FFFFFF;" version="1.1" viewBox="0 0 1530 908" width="1530px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="27.6094" id="_title" style="stroke:none;stroke-width:1.0;" width="174" x="671.2427" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="164" x="676.2427" y="24.5332">Sistema de información</text><!--MD5=[128f0757cf0ea77f14e95a88885fd9f7]
-entity Usuario--><g id="elem_Usuario"><ellipse cx="449.5" cy="315.6094" fill="#ADD8E6" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M449.5,323.6094 L449.5,350.6094 M436.5,331.6094 L462.5,331.6094 M449.5,350.6094 L436.5,365.6094 M449.5,350.6094 L462.5,365.6094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="425.5" y="381.6426">Usuario</text></g><!--MD5=[2e903384ba6a94be9c906ea46910cc3f]
-entity Administrador--><g id="elem_Administrador"><ellipse cx="1268.5" cy="52.6094" fill="#ADD8E6" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M1268.5,60.6094 L1268.5,87.6094 M1255.5,68.6094 L1281.5,68.6094 M1268.5,87.6094 L1255.5,102.6094 M1268.5,87.6094 L1281.5,102.6094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="1225" y="118.6426">Administrador</text></g><g id="elem_OAL"><ellipse cx="449.2514" cy="532.9596" fill="#F1F1F1" rx="94.7514" ry="21.3503" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="149" x="374.7514" y="536.6882">Obtener ayuda en línea</text></g><g id="elem_RC"><ellipse cx="241.5069" cy="533.0108" fill="#F1F1F1" rx="77.5069" ry="17.9014" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108" x="185.3567" y="537.3254">Realizar consulta</text></g><g id="elem_IP"><ellipse cx="314.4659" cy="697.5025" fill="#F1F1F1" rx="89.9659" ry="20.3932" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="138" x="245.4659" y="701.2311">Introducir potenciador</text></g><g id="elem_IFH"><ellipse cx="97.6965" cy="697.8487" fill="#F1F1F1" rx="91.6965" ry="20.7393" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="142" x="26.6965" y="701.5772">Introducir fecha y hora</text></g><g id="elem_UM"><ellipse cx="639.6685" cy="533.1932" fill="#F1F1F1" rx="60.1685" ry="15.5838" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="602.6685" y="537.7098">Usar mapa</text></g><g id="elem_VIAU"><ellipse cx="1175.6681" cy="437.343" fill="#F1F1F1" rx="99.1681" ry="22.2336" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="159" x="1096.1681" y="441.0715">Ver información adicional</text></g><g id="elem_VHL"><ellipse cx="1047.2614" cy="214.4617" fill="#F1F1F1" rx="112.2614" ry="24.8523" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="188" x="953.2614" y="218.1902">Ver listado de horario y líneas</text></g><g id="elem_VHLU"><ellipse cx="449.6384" cy="214.7371" fill="#F1F1F1" rx="126.1384" ry="27.6277" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="218" x="340.6384" y="218.4656">Ver horario y líneas (vista Usuario)</text></g><g id="elem_VHLA"><ellipse cx="755.5214" cy="214.4137" fill="#F1F1F1" rx="144.5214" ry="31.3043" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="257" x="627.0214" y="218.1422">Ver horario y líneas (vista Administrador)</text></g><g id="elem_MD"><ellipse cx="1268.5109" cy="214.6116" fill="#F1F1F1" rx="73.0109" ry="17.0022" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="96" x="1217.5109" y="219.1282">Modificar datos</text></g><g id="elem_VIAIC"><ellipse cx="1045.7384" cy="345.957" fill="#F1F1F1" rx="174.7384" ry="37.3477" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="320" x="885.7384" y="349.6856">Ver información adicional (información cartográfica</text></g><g id="elem_IMD"><ellipse cx="1450.7427" cy="214.7579" fill="#F1F1F1" rx="73.7427" ry="17.1485" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="1398.7427" y="219.2745">Introducir datos</text></g><g id="elem_VIC"><ellipse cx="941.5753" cy="532.9244" fill="#F1F1F1" rx="207.0753" ry="43.8151" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="178" x="839.1796" y="511.7284">Ver información cartográfica</text><line style="stroke:#181818;stroke-width:1.0;" x1="754.0375" x2="1129.1132" y1="514.8046" y2="514.8046"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="877.1796" y="533.3378">extension points</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="320" x="768.1796" y="550.9471">Ver información adicional (información cartográfica</text></g><g id="elem_SOD"><ellipse cx="639.4721" cy="697.7502" fill="#F1F1F1" rx="127.4721" ry="42.6409" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="179" x="550.7457" y="684.5675">Seleccionar origen y destino</text><line style="stroke:#181818;stroke-width:1.0;" x1="516.6322" x2="762.3121" y1="687.6437" y2="687.6437"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="589.2457" y="706.1769">extension points</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="606.2457" y="723.7863">Usar mapa</text></g><g id="elem_VR"><ellipse cx="920.5474" cy="860.0776" fill="#F1F1F1" rx="112.5474" ry="41.9682" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="85" x="868.2713" y="839.9419">Ver resultado</text><line style="stroke:#181818;stroke-width:1.0;" x1="818.7177" x2="1022.3771" y1="843.0181" y2="843.0181"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="859.7713" y="861.5513">extension points</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="159" x="831.2713" y="879.1607">Ver información adicional</text></g><!--MD5=[66d92e18789a93f91a35aca9a2b10ac6]
-link Usuario to OAL--><g id="link_Usuario_OAL"><path d="M449.5,385.4394 C449.5,423.7494 449.5,481.2094 449.5,511.5894 " fill="none" id="Usuario-OAL" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b828409b37fddc186e2d7d9f21705e2a]
-link Usuario to RC--><g id="link_Usuario_RC"><path d="M425.23,368.6894 C383.22,406.0594 297.84,481.9994 260.12,515.5394 " fill="none" id="Usuario-RC" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[dd083ce58e9e0423636b462485ce3190]
-link Usuario to VIC--><g id="link_Usuario_VIC"><path d="M473.56,356.1594 C539.3,380.8794 724.8,450.6294 841.53,494.5194 " fill="none" id="Usuario-VIC" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b1f5e05e3ab8ed2fdb1f7515ebdfe7fe]
-link VIAIC to VIC--><g id="link_VIAIC_VIC"><path d="M1022.38,383.5494 C1016.12,393.6794 1009.43,404.7594 1003.5,415.1094 C990.54,437.7394 976.89,463.2794 965.71,484.7194 " fill="none" id="VIAIC-to-VIC" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="963.36,489.2294,971.0735,483.1055,965.6758,484.798,963.9833,479.4003,963.36,489.2294" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="53" x="1004.5" y="442.6045">«extend»</text></g><!--MD5=[b708b1f48dd516daf182342b19faf4dd]
-link VIAIC to VIAU--><g id="link_VIAIC_VIAU"><path d="M1096.51,382.0294 C1107.39,389.4794 1118.83,397.3094 1129.51,404.6294 " fill="none" id="VIAIC-to-VIAU" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="1133.47,398.8494,1146.02,415.9294,1125.56,410.3994,1133.47,398.8494" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[05ffb2c3cf4034c7f92c5762a717aa77]
-link RC to IP--><g id="link_RC_IP"><path d="M249.17,551.1894 C262.19,580.1594 288.63,639.0094 303.57,672.2794 " fill="none" id="RC-to-IP" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="305.69,676.9994,305.67,667.1505,303.65,672.4344,298.3661,670.4145,305.69,676.9994" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55" x="283.5" y="621.6045">«include»</text></g><!--MD5=[a28424f449e33ae3d8a23f8970d0482e]
-link RC to IFH--><g id="link_RC_IFH"><path d="M226.63,550.8894 C200.74,580.1094 147.33,640.3794 117.96,673.5194 " fill="none" id="RC-to-IFH" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="114.5,677.4294,123.4612,673.3431,117.8147,673.686,117.4718,668.0396,114.5,677.4294" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55" x="175.5" y="621.6045">«include»</text></g><!--MD5=[39bb7edb0257cdcffb2045037368a6e0]
-link RC to SOD--><g id="link_RC_SOD"><path d="M274.3,549.4394 C292.52,557.8294 315.66,568.2894 336.5,577.1094 C408.57,607.6094 491.27,640.0594 552.04,663.4294 " fill="none" id="RC-to-SOD" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="556.75,665.2394,549.7901,658.2709,552.0844,663.4416,546.9137,665.7359,556.75,665.2394" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55" x="454.5" y="621.6045">«include»</text></g><!--MD5=[b251613f39b3e54fe9e098006e0eb9ac]
-link UM to SOD--><g id="link_UM_SOD"><path d="M639.5,548.8194 C639.5,571.3594 639.5,615.4394 639.5,649.6194 " fill="none" id="UM-to-SOD" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="639.5,655.0094,643.5,646.0094,639.5,650.0094,635.5,646.0094,639.5,655.0094" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="53" x="640.5" y="621.6045">«extend»</text></g><!--MD5=[c24d65879e1f8527cf405e851c8fc6b1]
-link SOD to VR--><g id="link_SOD_VR"><path d="M702.56,734.6294 C748.18,760.6794 809.63,795.7794 855.65,822.0694 " fill="none" id="SOD-to-VR" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="860.06,824.5894,854.2163,816.6615,855.7144,822.1164,850.2595,823.6145,860.06,824.5894" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55" x="789.5" y="784.6045">«include»</text></g><!--MD5=[d6acf940feefa0ea56499684d3b13b69]
-link VIAU to VR--><g id="link_VIAU_VR"><path d="M1178.01,459.3094 C1180.45,487.4094 1181.74,538.0094 1165.5,577.1094 C1123.54,678.1594 1030.49,768.4894 971.9,818.3494 " fill="none" id="VIAU-to-VR" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="967.75,821.8694,977.2038,819.1079,971.5664,818.639,972.0352,813.0016,967.75,821.8694" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="53" x="1151.5" y="621.6045">«extend»</text></g><!--MD5=[97a1096059be4b3858d41c120c00504c]
-link VHLU to Usuario--><g id="link_VHLU_Usuario"><path d="M449.5,242.1294 C449.5,260.7794 449.5,286.0094 449.5,306.8394 " fill="none" id="VHLU-Usuario" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[99f15220cad09bea98dab576ab7c9e08]
-link VHLU to VHL--><g id="link_VHLU_VHL"><path d="M500.82,189.3494 C531.88,175.4794 572.76,159.6994 611,152.6094 C737.29,129.1994 774.09,127.2194 900,152.6094 C929.66,158.5894 960.77,170.6994 986.74,182.6494 " fill="none" id="VHLU-to-VHL" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="990.06,176.4694,1005.07,191.4294,984.01,189.0994,990.06,176.4694" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[6c33033668d45b58a8aa2f174e0e5c9f]
-link Administrador to VHLA--><g id="link_Administrador_VHLA"><path d="M1224.76,95.1494 C1141.65,116.1294 959.29,162.1594 847.96,190.2694 " fill="none" id="Administrador-VHLA" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[20eea4519c730f323163672a0fe7115d]
-link VHLA to VHL--><g id="link_VHLA_VHL"><path d="M900.07,214.6094 C904.97,214.6094 909.87,214.6094 914.77,214.6094 " fill="none" id="VHLA-to-VHL" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="914.92,207.6094,934.92,214.6094,914.92,221.6094,914.92,207.6094" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[5d68fe04196ad7bb1f2741c67e4cce7d]
-link Administrador to MD--><g id="link_Administrador_MD"><path d="M1268.5,122.2594 C1268.5,147.3294 1268.5,178.8394 1268.5,197.5394 " fill="none" id="Administrador-MD" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[8ea46355e019de6100183937979030fa]
-link Administrador to IMD--><g id="link_Administrador_IMD"><path d="M1312.09,115.1294 C1348.9,141.3194 1400.06,177.7194 1428.75,198.1394 " fill="none" id="Administrador-IMD" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[811d15bf76c0c814fc3a1f4dc8b6e5bc]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="663px" preserveAspectRatio="none" style="width:1042px;height:663px;background:#FFFFFF;" version="1.1" viewBox="0 0 1042 663" width="1042px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="27.6094" id="_title" style="stroke:none;stroke-width:1.0;" width="174" x="427.4546" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="164" x="432.4546" y="24.5332">Sistema de información</text><!--MD5=[128f0757cf0ea77f14e95a88885fd9f7]
+entity Usuario--><g id="elem_Usuario"><ellipse cx="488" cy="315.6094" fill="#ADD8E6" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M488,323.6094 L488,350.6094 M475,331.6094 L501,331.6094 M488,350.6094 L475,365.6094 M488,350.6094 L501,365.6094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="464" y="381.6426">Usuario</text></g><!--MD5=[2e903384ba6a94be9c906ea46910cc3f]
+entity Administrador--><g id="elem_Administrador"><ellipse cx="680" cy="52.6094" fill="#ADD8E6" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M680,60.6094 L680,87.6094 M667,68.6094 L693,68.6094 M680,87.6094 L667,102.6094 M680,87.6094 L693,102.6094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="636.5" y="118.6426">Administrador</text></g><g id="elem_OAL"><ellipse cx="279.7514" cy="469.9596" fill="#F1F1F1" rx="94.7514" ry="21.3503" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="149" x="205.2514" y="473.6882">Obtener ayuda en línea</text></g><g id="elem_RC"><ellipse cx="488.0069" cy="470.0108" fill="#F1F1F1" rx="77.5069" ry="17.9014" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108" x="431.8567" y="474.3254">Realizar consulta</text></g><g id="elem_IP"><ellipse cx="487.9659" cy="614.5025" fill="#F1F1F1" rx="89.9659" ry="20.3932" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="138" x="418.9659" y="618.2311">Introducir potenciador</text></g><g id="elem_IFH"><ellipse cx="271.1965" cy="614.8487" fill="#F1F1F1" rx="91.6965" ry="20.7393" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="142" x="200.1965" y="618.5772">Introducir fecha y hora</text></g><g id="elem_UM"><ellipse cx="726.1685" cy="470.1932" fill="#F1F1F1" rx="60.1685" ry="15.5838" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="689.1685" y="474.7098">Usar mapa</text></g><g id="elem_VHLU"><ellipse cx="488.0873" cy="214.7268" fill="#F1F1F1" rx="83.5873" ry="19.1175" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="123" x="426.5873" y="218.4554">Ver horario y líneas</text></g><g id="elem_VHLA"><ellipse cx="225.0214" cy="214.4137" fill="#F1F1F1" rx="144.5214" ry="31.3043" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="257" x="96.5214" y="218.1422">Ver horario y líneas (vista Administrador)</text></g><g id="elem_MD"><ellipse cx="680.0109" cy="214.6116" fill="#F1F1F1" rx="73.0109" ry="17.0022" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="96" x="629.0109" y="219.1282">Modificar datos</text></g><g id="elem_IMD"><ellipse cx="862.2427" cy="214.7579" fill="#F1F1F1" rx="73.7427" ry="17.1485" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="810.2427" y="219.2745">Introducir datos</text></g><g id="elem_VIC"><ellipse cx="929.2046" cy="470.0503" fill="#F1F1F1" rx="107.7046" ry="23.9409" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="178" x="840.2046" y="473.7788">Ver información cartográfica</text></g><g id="elem_SOD"><ellipse cx="740.9721" cy="614.7502" fill="#F1F1F1" rx="127.4721" ry="42.6409" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="179" x="652.2457" y="601.5675">Seleccionar origen y destino</text><line style="stroke:#181818;stroke-width:1.0;" x1="618.1322" x2="863.8121" y1="604.6437" y2="604.6437"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="690.7457" y="623.1769">extension points</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="707.7457" y="640.7863">Usar mapa</text></g><g id="elem_VR"><ellipse cx="75.1119" cy="614.8318" fill="#F1F1F1" rx="69.1119" ry="16.2224" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="85" x="29.6119" y="619.3484">Ver resultado</text></g><!--MD5=[66d92e18789a93f91a35aca9a2b10ac6]
+link Usuario to OAL--><g id="link_Usuario_OAL"><path d="M463.73,361.3394 C426.44,383.2194 354.96,425.1394 313,449.7594 " fill="none" id="Usuario-OAL" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b828409b37fddc186e2d7d9f21705e2a]
+link Usuario to RC--><g id="link_Usuario_RC"><path d="M488,385.3794 C488,407.7394 488,434.8594 488,452.0494 " fill="none" id="Usuario-RC" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[dd083ce58e9e0423636b462485ce3190]
+link Usuario to VIC--><g id="link_Usuario_VIC"><path d="M512.02,353.7594 C577.99,371.9994 763.63,423.3594 863.48,450.9894 " fill="none" id="Usuario-VIC" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[05ffb2c3cf4034c7f92c5762a717aa77]
+link RC to IP--><g id="link_RC_IP"><path d="M488,488.2994 C488,513.3894 488,560.1694 488,588.9294 " fill="none" id="RC-to-IP" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="488,594.0794,492,585.0794,488,589.0794,484,585.0794,488,594.0794" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55" x="489" y="538.6045">«include»</text></g><!--MD5=[a28424f449e33ae3d8a23f8970d0482e]
+link RC to IFH--><g id="link_RC_IFH"><path d="M463.11,487.4594 C423.82,513.2494 347.43,563.4194 303.75,592.1094 " fill="none" id="RC-to-IFH" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="299.37,594.9794,309.0838,593.3537,303.5412,592.2224,304.6726,586.6798,299.37,594.9794" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55" x="407" y="538.6045">«include»</text></g><!--MD5=[39bb7edb0257cdcffb2045037368a6e0]
+link RC to SOD--><g id="link_RC_SOD"><path d="M516.04,486.8994 C553.57,508.0394 621.35,546.2194 672.74,575.1594 " fill="none" id="RC-to-SOD" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="677.34,577.7594,671.4655,569.8543,672.9848,575.3033,667.5358,576.8226,677.34,577.7594" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55" x="608" y="538.6045">«include»</text></g><!--MD5=[b251613f39b3e54fe9e098006e0eb9ac]
+link UM to SOD--><g id="link_UM_SOD"><path d="M727.55,485.8194 C729.54,504.7694 733.1,538.5994 736.06,566.6894 " fill="none" id="UM-to-SOD" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="736.61,571.8594,739.636,562.4869,736.0814,566.8874,731.6809,563.3327,736.61,571.8594" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="53" x="735" y="538.6045">«extend»</text></g><!--MD5=[5c0731ee29bf60ce32e1a26465943adc]
+link RC to VR--><g id="link_RC_VR"><path d="M438.64,483.9994 C374.11,501.3994 258.02,534.5594 162,572.1094 C143.05,579.5194 122.48,589.2494 106.1,597.4294 " fill="none" id="RC-to-VR" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="101.6,599.6894,111.4381,599.2296,106.0693,597.4476,107.8513,592.0788,101.6,599.6894" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55" x="296" y="538.6045">«include»</text></g><!--MD5=[97a1096059be4b3858d41c120c00504c]
+link VHLU to Usuario--><g id="link_VHLU_Usuario"><path d="M488,233.6194 C488,252.5194 488,282.7994 488,307.0394 " fill="none" id="VHLU-Usuario" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[6c33033668d45b58a8aa2f174e0e5c9f]
+link Administrador to VHLA--><g id="link_Administrador_VHLA"><path d="M636.37,96.5294 C561.64,117.7994 407.83,161.5694 310.92,189.1594 " fill="none" id="Administrador-VHLA" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[2871ab817f7b36cf822df905c135fd6f]
+link VHLA to VHLU--><g id="link_VHLA_VHLU"><path d="M369.6,214.6094 C374.48,214.6094 379.35,214.6094 384.23,214.6094 " fill="none" id="VHLA-to-VHLU" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="384.29,207.6094,404.29,214.6094,384.29,221.6094,384.29,207.6094" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[5d68fe04196ad7bb1f2741c67e4cce7d]
+link Administrador to MD--><g id="link_Administrador_MD"><path d="M680,122.2594 C680,147.3294 680,178.8394 680,197.5394 " fill="none" id="Administrador-MD" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[8ea46355e019de6100183937979030fa]
+link Administrador to IMD--><g id="link_Administrador_IMD"><path d="M723.59,115.1294 C760.4,141.3194 811.56,177.7194 840.25,198.1394 " fill="none" id="Administrador-IMD" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[06482ba092c6f5feb7cd93da8488bfdf]
 @startuml SIIT
 title Sistema de información
 
@@ -30,45 +26,35 @@ actor Administrador #LightBlue
 "Introducir potenciador" as (IP)
 "Introducir fecha y hora" as (IFH)
 "Usar mapa" as (UM)
-"Ver información adicional" as (VIAU)
-"Ver listado de horario y líneas" as (VHL)
-"Ver horario y líneas (vista Usuario)" as (VHLU)
+
+"Ver horario y líneas" as (VHLU)
 "Ver horario y líneas (vista Administrador)" as (VHLA)
 "Modificar datos" as (MD)
-"Ver información adicional (información cartográfica" as (VIAIC)
+
 "Introducir datos" as (IMD)
 
-usecase VIC as "Ver información cartográfica
-- -
-extension points
-Ver información adicional (información cartográfica"
+usecase VIC as "Ver información cartográfica"
 
 usecase SOD as "Seleccionar origen y destino
 - -
 extension points
 Usar mapa"
 
-usecase VR as "Ver resultado
-- -
-extension points
-Ver información adicional"
+usecase VR as "Ver resultado"
 
 /'Relaciones casos de uso'/
 Usuario - - (OAL)
 Usuario - - (RC)
 Usuario - - (VIC)
-(VIAIC) .-> (VIC) : <<extend>>
-(VIAIC) -|> (VIAU)
 (RC) .-> (IP) : <<include>>
 (RC) .-> (IFH) : <<include>>
 (RC) .-> (SOD) : <<include>>
 (UM) .-> (SOD) : <<extend>>
-(SOD) .-> (VR) : <<include>>
-(VIAU) .-> (VR) : <<extend>>
+(RC) .-> (VR) : <<include>>
 Usuario -up- (VHLU)
-(VHLU) -|> (VHL)
+
 Administrador - - (VHLA)
-(VHLA) -|> (VHL)
+(VHLA) -|> (VHLU)
 Administrador - - (MD)
 Administrador - - (IMD)
 
@@ -89,44 +75,34 @@ actor Administrador #LightBlue
 "Introducir potenciador" as (IP)
 "Introducir fecha y hora" as (IFH)
 "Usar mapa" as (UM)
-"Ver información adicional" as (VIAU)
-"Ver listado de horario y líneas" as (VHL)
-"Ver horario y líneas (vista Usuario)" as (VHLU)
+
+"Ver horario y líneas" as (VHLU)
 "Ver horario y líneas (vista Administrador)" as (VHLA)
 "Modificar datos" as (MD)
-"Ver información adicional (información cartográfica" as (VIAIC)
+
 "Introducir datos" as (IMD)
 
-usecase VIC as "Ver información cartográfica
-- -
-extension points
-Ver información adicional (información cartográfica"
+usecase VIC as "Ver información cartográfica"
 
 usecase SOD as "Seleccionar origen y destino
 - -
 extension points
 Usar mapa"
 
-usecase VR as "Ver resultado
-- -
-extension points
-Ver información adicional"
+usecase VR as "Ver resultado"
 
 Usuario - - (OAL)
 Usuario - - (RC)
 Usuario - - (VIC)
-(VIAIC) .-> (VIC) : <<extend>>
-(VIAIC) -|> (VIAU)
 (RC) .-> (IP) : <<include>>
 (RC) .-> (IFH) : <<include>>
 (RC) .-> (SOD) : <<include>>
 (UM) .-> (SOD) : <<extend>>
-(SOD) .-> (VR) : <<include>>
-(VIAU) .-> (VR) : <<extend>>
+(RC) .-> (VR) : <<include>>
 Usuario -up- (VHLU)
-(VHLU) -|> (VHL)
+
 Administrador - - (VHLA)
-(VHLA) -|> (VHL)
+(VHLA) -|> (VHLU)
 Administrador - - (MD)
 Administrador - - (IMD)
 
@@ -138,9 +114,9 @@ Administrador - - (IMD)
 
 PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
 (GPL source distribution)
-Java Runtime: Java(TM) SE Runtime Environment
-JVM: Java HotSpot(TM) 64-Bit Server VM
-Default Encoding: UTF-8
-Language: es
-Country: ES
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
 --></g></svg>
