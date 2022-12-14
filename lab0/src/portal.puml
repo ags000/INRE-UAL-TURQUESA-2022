@@ -14,7 +14,7 @@ actor Administrador #LightBlue
 "Visualizar estadísticas de acceso" as (VEA)
 "Utilizar espacio compartido" as (UEC)
 "Administrar contenido" as (AC)
-"Acceder a la Web" as (AW)
+"Modificar Web" as (AW)
 "Utilizar editor WYSIWYG" as (UE)
 "Modificar diseño de una página" as (MDP)
 

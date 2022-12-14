@@ -1664,28 +1664,28 @@ Requisitos No Funcionales
 | Nombre				| Utilizar editor WYSIWYG		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			| El usuario  		|
+| Descripción			| El usuario edita la Web haciendo uso del editor WYSIWYG  		|
 | Actores				| Administrador		|
-| Precondiciones		| El usuario ha seleccionado la opción para acceder a la web.		|
-| Flujo normal			| 1. 		|
+| Precondiciones		| El usuario debe haber seleccionado la opción de editar la Web.	|
+| Flujo normal			| 1. El usuario utiliza el editor WYSIWYG para editar la Web. 		|
 | Flujo alternativo		|		|
-| Poscondiciones		|		|
+| Poscondiciones		| 		|
 | Comentarios			| WYSIWYG (What You See Is What You Get) quiere decir que el editor mostrará siempre la versión final del documento editado sin necesitar de previsualizar.		|
 
 <br>
 
 | Identificar			| CU-02	|
 | :---					| :--  	|
-| Nombre				| Acceder a la Web		|
+| Nombre				| Modificar Web		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			| 		|
+| Descripción			| El usuario puede acceder a la web  			|
 | Actores				| Administrador		|
-| Precondiciones		| El usuario está identificado como administrador en el sistema.		|
-| Flujo normal			| 1. 		|
+| Precondiciones		| El usuario debe estar identificado como Administrador en el sistema.		|
+| Flujo normal			| 1. El usuario solicita la opción de editar la Web. <br> 2. El sistema permite al usuario la edición a través del editor WYSIWYG <br> 2. El usuario hace uso del editor WYSIWYG. |
 | Flujo alternativo		|		|
-| Poscondiciones		|		|
-| Comentarios			|		|
+| Poscondiciones		| Los cambios realizados se guardan en la base de datos.	|
+| Comentarios			| 		|
 
 <br>
 
