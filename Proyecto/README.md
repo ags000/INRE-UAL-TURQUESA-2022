@@ -1660,6 +1660,11 @@ Apendices
 
 ### 4.2.1. Lista de diagramas de casos de uso del modelo.
 
+| Identificar			| CU-11	|
+| :---					| :--  	|
+| DCU-01				| Diagrama del Portal del SIIT	|
+| DCU-02				| Diagrama de Sistema de información del SIIt	|
+| DCU-03				| Diagrama del SMET	|
 
 <br>
 
@@ -1669,76 +1674,43 @@ Apendices
 
 <div align="center">
     <img src="./../out/lab0/src/portal/Portal.svg" style="border: 3px solid #bbb">
-    <i><p>Imagen 1. Diagrama del Portal.</p></i>
+    <i><p>Imagen 4. DCU-01.</p></i>
 </div>
 
 <br>
 
 <div align="center">
     <img src="./../out/lab0/src/SIIT/SIIT.svg" style="border: 3px solid #bbb">
-    <i><p>Imagen 2. Diagrama de Sistema de información.</p></i>
+    <i><p>Imagen 5. DCU-02</p></i>
 </div>
 
 <br>
 
 <div align="center">
     <img src="./../out/lab0/src/SMET/SMET.svg" style="border: 3px solid #bbb">
-    <i><p>Imagen 3. Diagrama del SMET.</p></i>
+    <i><p>Imagen 6. DCU-03</p></i>
 </div>
 
 <br>
 
 ### 4.2.3. Lista general de casos de uso  y actores del proyecto.
 
+Lista de casos de uso 
 
-| Identificar			| CU-11	|
+| Código			| Caso de uso 	| Descripción       |
+| :---				| :--       	| :--               |
+| UC-01				| Utilizar editor WYSIWYG	| El usuario podrá editar la Web haciendo uso del editor WYSIWYG            |
+|                   |               |                    |
+
+<br>
+
+Lista de actores 
+
+| Actor			        | Descripción	|
 | :---					| :--  	|
-| Nombre				| Usar herramientas Web 2.0		|
-| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fecha					| 13/12/2022		|
-| Descripción			| Permite usar las herramientas web 2.0 desarrolladas.		|
-| Actores				| Usuario No Logueado, Usuario Logueado, Administrador		|
-| Precondiciones		| Acceder al portal.		|
-| Flujo normal			| 1. El usuario solicita entrar al foro. <br> 2. El sistema le redirige al foro.	|
-| Flujo alternativo		| 1.A. El usuario solicita entrar al blog. <br> 2.A. El sistema le redirige al blog. <br> 1.B. El usuario solicita visualizar el cloud tag. <br> 2.B. El sistema recopila las palabras clave. <br> 3.B El sistema muestra el cloud tag.		|
-| Poscondiciones		| Ninguna	|
-| Comentarios			| Ninguno		|
-
-<br>
-
-| INF-01                        | Administrador                  |
-| :---                          | :---                           |
-| Versión                       | 1.0                            |
-| Autores                       | Cristina García, Adrián Galdeano, Alejandro Manzano   |
-| Fuentes                       | Pliego de condiciones          |
-| Referencias                   |                                |
-| Descripción                   | Usuario con todos los permisos disponibles para gestionar la aplicación. Debe identificarse en el sistema utilizando unas credenciales especiales proporcionadas por la autoridad correspondiente para poseer dichas funcionalidades.                                |
-| Importancia                   | Alta                           |
-| Comentarios                   |                                |
-
-<br>
-
-| INF-02                        | Usuario Logueado               |
-| :---                          | :---                           |
-| Versión                       | 1.0                            |
-| Autores                       | Cristina García, Adrián Galdeano, Alejandro Manzano   |
-| Fuentes                       | Pliego de condiciones          |
-| Referencias                   |                                |
-| Descripción                   | Usuario con permisos de lectura y edición que puede alterar el contenido de la aplicación de manera controlada. Debe de identificarse utilizando las credenciales que previamente creó al registrarse en el sistema por primera vez.                              |
-| Importancia                   | Alta                           |
-| Comentarios                   |                                |
-
-<br>
-
-| INF-03                        | Usuario No Logueado            |
-| :---                          | :---                           |
-| Versión                       | 1.0                            |
-| Autores                       | Cristina García, Adrián Galdeano, Alejandro Manzano   |
-| Fuentes                       | Pliego de condiciones          |
-| Referencias                   |                                |
-| Descripción                   | Usuario con permisos solo de lectura, vista como invitado de la aplicación pero sin poder añadir contenido a la misma. Puede identificarse en el sistema para acceder a los permisos de Administrador o de Usuario Logueado dependiendo de las credenciales que utilice.                               |
-| Importancia                   | Alta                           |
-| Comentarios                   |                                |
+| Administrador			| Usuario con todos los permisos disponibles para gestionar la aplicación. Debe identificarse en el sistema utilizando unas credenciales especiales proporcionadas por la autoridad correspondiente para poseer dichas funcionalidades. 		|
+| Usuario Logueado      | Usuario con permisos de lectura y edición que puede alterar el contenido de la aplicación de manera controlada. Debe de identificarse utilizando las credenciales que previamente creó al registrarse en el sistema por primera vez.                  |
+| Usuario No Logueado    | Usuario con permisos solo de lectura, vista como invitado de la aplicación pero sin poder añadir contenido a la misma. Puede identificarse en el sistema para acceder a los permisos de Administrador o de Usuario Logueado dependiendo de las credenciales que utilice.                                                     |
 
 <br>
 
@@ -1755,9 +1727,9 @@ Apendices
 | Nombre				| Utilizar editor WYSIWYG		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			| El usuario edita la Web haciendo uso del editor WYSIWYG  		|
+| Descripción			| El usuario podrá editar la Web haciendo uso del editor WYSIWYG  		|
 | Actores				| Administrador		|
-| Precondiciones		| El usuario debe haber seleccionado la opción de editar la Web.	|
+| Precondiciones		| El usuario debe haber seleccionado la opción de editar la Web	|
 | Flujo normal			| 1. El sistema muestra la interfaz y las opciones del editor WYSIWYG. <br> 2. El usuario utiliza el editor WYSIWYG para editar la Web.		|
 | Flujo alternativo		| 2A. El usuario cancela la edición de la Web. 	|
 | Poscondiciones		| Ninguna.		|
@@ -1770,7 +1742,7 @@ Apendices
 | Nombre				| Modificar Web		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			| El usuario puede acceder a la web  			|
+| Descripción			| El usuario puede acceder a la Web  			|
 | Actores				| Administrador		|
 | Precondiciones		| El usuario debe estar identificado como Administrador en el sistema.		|
 | Flujo normal			| 1. El usuario solicita la opción de editar la Web. <br> 2. El sistema permite al usuario la edición a través del editor WYSIWYG <br> 3. El usuario hace uso del editor WYSIWYG para modificar la Web. <br> 4. El usuario guarda los cambios realizados. |
@@ -1897,6 +1869,22 @@ Apendices
 | Flujo alternativo		| 		|
 | Poscondiciones		| El idioma de la aplicación ha sido cambiado.		|
 | Comentarios			|		|
+
+<br>
+
+| Identificar			| CU-11	|
+| :---					| :--  	|
+| Nombre				| Usar herramientas Web 2.0		|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
+| Fecha					| 13/12/2022		|
+| Descripción			| Permite usar las herramientas web 2.0 desarrolladas.		|
+| Actores				| Usuario No Logueado, Usuario Logueado, Administrador		|
+| Precondiciones		| Acceder al portal.		|
+| Flujo normal			| 1. El usuario solicita entrar al foro. <br> 2. El sistema le redirige al foro.	|
+| Flujo alternativo		| 1.A. El usuario solicita entrar al blog. <br> 2.A. El sistema le redirige al blog. <br> 1.B. El usuario solicita visualizar el cloud tag. <br> 2.B. El sistema recopila las palabras clave. <br> 3.B El sistema muestra el cloud tag.		|
+| Poscondiciones		| Ninguna	|
+| Comentarios			| Ninguno		|
+
 
 <br>
 
