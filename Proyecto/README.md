@@ -1775,11 +1775,11 @@ Requisitos No Funcionales
 | Fecha					| 13/12/2022		|
 | Descripción			| El sistema tiene una opción para visualizar la versión final de los cambios realizados antes de ser publicados.		|
 | Actores				| Usuario Logueado, Administrador		|
-| Precondiciones		|		|
-| Flujo normal			|		|
-| Flujo alternativo		|		|
-| Poscondiciones		|		|
-| Comentarios			|		|
+| Precondiciones		| El usuario está usando la función de crear una nueva página.		|
+| Flujo normal			| 1. El sistema muestra una previsualización de la página con los añadidos por parte del usuario. <br> 2. El usuario puede seleccionar la opción para publicar la nueva página de manera definitiva o descartar la publicación.
+| Flujo alternativo		| -		|
+| Poscondiciones		| Ninguna.		|
+| Comentarios			| -		|
 
 <br>
 
