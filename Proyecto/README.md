@@ -2084,11 +2084,11 @@ Apendices
 
 | Identificar			| CU-01	            |
 | :---					| :--            	|
-| Nombre				| Generar alarmas              	|
+| Nombre				| Generar alarmas  	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
 | Descripción			| El sistema genera una alarma que será recibida por otro usuario para notificarlo de algo.	            	|
-| Actores				| Sistema             		|
+| Actores				| Sistema      		|
 | Precondiciones		|                	|
 | Flujo normal			| 	                |
 | Flujo alternativo		|                	|
@@ -2097,9 +2097,9 @@ Apendices
 
 <br>
 
-| Identificar			| CU-	            |
+| Identificar			| CU-02	            |
 | :---					| :--            	|
-| Nombre				|               	|
+| Nombre				| Ver advertencias              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
 | Descripción			| 	            	|
@@ -2112,9 +2112,9 @@ Apendices
 
 <br>
 
-| Identificar			| CU-	            |
+| Identificar			| CU-03	            |
 | :---					| :--            	|
-| Nombre				|               	|
+| Nombre				| Ver eventos              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
 | Descripción			| 	            	|
@@ -2127,9 +2127,9 @@ Apendices
 
 <br>
 
-| Identificar			| CU-	            |
+| Identificar			| CU-04	            |
 | :---					| :--            	|
-| Nombre				|               	|
+| Nombre				| Ver eventos (vista Usuario Logueado)              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
 | Descripción			| 	            	|
@@ -2142,9 +2142,9 @@ Apendices
 
 <br>
 
-| Identificar			| CU-	            |
+| Identificar			| CU-05	            |
 | :---					| :--            	|
-| Nombre				|               	|
+| Nombre				| Ver alarma              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
 | Descripción			| 	            	|
@@ -2157,9 +2157,9 @@ Apendices
 
 <br>
 
-| Identificar			| CU-	            |
+| Identificar			| CU-06	            |
 | :---					| :--            	|
-| Nombre				|               	|
+| Nombre				| Ver alarmas (vista Usuario Logueado)              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
 | Descripción			| 	            	|
@@ -2172,9 +2172,9 @@ Apendices
 
 <br>
 
-| Identificar			| CU-	            |
+| Identificar			| CU-07	            |
 | :---					| :--            	|
-| Nombre				|               	|
+| Nombre				| Ver alarmas (vista Operador de transporte)              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
 | Descripción			| 	            	|
@@ -2187,9 +2187,9 @@ Apendices
 
 <br>
 
-| Identificar			| CU-	            |
+| Identificar			| CU-08	            |
 | :---					| :--            	|
-| Nombre				|               	|
+| Nombre				| Ver alarmas (vista Operador adjudicatario)              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
 | Descripción			| 	            	|
@@ -2202,9 +2202,9 @@ Apendices
 
 <br>
 
-| Identificar			| CU-	            |
+| Identificar			| CU-09	            |
 | :---					| :--            	|
-| Nombre				|               	|
+| Nombre				| Registrar situaciones puntuales              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
 | Descripción			| 	            	|
@@ -2217,9 +2217,9 @@ Apendices
 
 <br>
 
-| Identificar			| CU-	            |
+| Identificar			| CU-10	            |
 | :---					| :--            	|
-| Nombre				|               	|
+| Nombre				| Definir evento              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
 | Descripción			| 	            	|
@@ -2232,9 +2232,84 @@ Apendices
 
 <br>
 
-| Identificar			| CU-	            |
+| Identificar			| CU-11	            |
 | :---					| :--            	|
-| Nombre				|               	|
+| Nombre				| Crear evento              	|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
+| Fecha					| 13/12/2022		|
+| Descripción			| 	            	|
+| Actores				|              		|
+| Precondiciones		|                	|
+| Flujo normal			| 	                |
+| Flujo alternativo		|                	|
+| Poscondiciones		|              		|
+| Comentarios			|                   |
+
+<br>
+
+| Identificar			| CU-12	            |
+| :---					| :--            	|
+| Nombre				| Proveer datos              	|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
+| Fecha					| 13/12/2022		|
+| Descripción			| 	            	|
+| Actores				|              		|
+| Precondiciones		|                	|
+| Flujo normal			| 	                |
+| Flujo alternativo		|                	|
+| Poscondiciones		|              		|
+| Comentarios			|                   |
+
+<br>
+
+| Identificar			| CU-13	            |
+| :---					| :--            	|
+| Nombre				| Registrar periodos continuos de tiempo              	|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
+| Fecha					| 13/12/2022		|
+| Descripción			| 	            	|
+| Actores				|              		|
+| Precondiciones		|                	|
+| Flujo normal			| 	                |
+| Flujo alternativo		|                	|
+| Poscondiciones		|              		|
+| Comentarios			|                   |
+
+<br>
+
+| Identificar			| CU-14	            |
+| :---					| :--            	|
+| Nombre				| Examinar el estado de la explotación en tiempo real              	|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
+| Fecha					| 13/12/2022		|
+| Descripción			| 	            	|
+| Actores				|              		|
+| Precondiciones		|                	|
+| Flujo normal			| 	                |
+| Flujo alternativo		|                	|
+| Poscondiciones		|              		|
+| Comentarios			|                   |
+
+<br>
+
+| Identificar			| CU-15	            |
+| :---					| :--            	|
+| Nombre				| Examinar el estado de la explotación en tiempo real (vista Operador adjudicatorio)              	|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
+| Fecha					| 13/12/2022		|
+| Descripción			| 	            	|
+| Actores				|              		|
+| Precondiciones		|                	|
+| Flujo normal			| 	                |
+| Flujo alternativo		|                	|
+| Poscondiciones		|              		|
+| Comentarios			|                   |
+
+<br>
+
+| Identificar			| CU-16	            |
+| :---					| :--            	|
+| Nombre				| Crear conjunto de operadores              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
 | Descripción			| 	            	|
