@@ -2129,21 +2129,6 @@ Apendices
 
 | Identificar			| CU-04	            |
 | :---					| :--            	|
-| Nombre				| Ver eventos (vista Usuario Logueado)              	|
-| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fecha					| 13/12/2022		|
-| Descripción			| El usuario puede ver la vista de eventos disponibles.	            	|
-| Actores				| Usuario Logueado             		|
-| Precondiciones		| Ninguna.               	|
-| Flujo normal			| 	                |
-| Flujo alternativo		|                	|
-| Poscondiciones		| Ninguna.             		|
-| Comentarios			| -                   |
-
-<br>
-
-| Identificar			| CU-05	            |
-| :---					| :--            	|
 | Nombre				| Ver alarma              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
@@ -2157,7 +2142,7 @@ Apendices
 
 <br>
 
-| Identificar			| CU-06	            |
+| Identificar			| CU-05	            |
 | :---					| :--            	|
 | Nombre				| Ver alarmas (vista Usuario Logueado)              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
@@ -2172,7 +2157,7 @@ Apendices
 
 <br>
 
-| Identificar			| CU-07	            |
+| Identificar			| CU-06	            |
 | :---					| :--            	|
 | Nombre				| Ver alarmas (vista Operador de transporte)              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
@@ -2187,7 +2172,7 @@ Apendices
 
 <br>
 
-| Identificar			| CU-08	            |
+| Identificar			| CU-07	            |
 | :---					| :--            	|
 | Nombre				| Ver alarmas (vista Operador adjudicatario)              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
@@ -2202,14 +2187,14 @@ Apendices
 
 <br>
 
-| Identificar			| CU-09	            |
+| Identificar			| CU-08	            |
 | :---					| :--            	|
 | Nombre				| Registrar situaciones puntuales              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
 | Descripción			| El usuario podrá registrar sitaciones puntuales.	            	|
 | Actores				| Operador adjudicatario             		|
-| Precondiciones		|                	|
+| Precondiciones		| El usuario debe estar identificado como Operador adjudicatario en el sistema.                 	|
 | Flujo normal			| 1. El usuario solicita registrar una situación puntual. <br> 2. El sistema lista los contenidos disponibles a registrar  <br> 3. El usuario selecciona un determinado momento. <br> 4. EL sistema guarda la sitación seleccionada.  	                |
 | Flujo alternativo		|                	|
 | Poscondiciones		| La nueva situación se ha añadido a la base de datos del sistema.              		|
@@ -2217,14 +2202,14 @@ Apendices
 
 <br>
 
-| Identificar			| CU-10	            |
+| Identificar			| CU-09	            |
 | :---					| :--            	|
 | Nombre				| Definir evento              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
 | Descripción			| El usuario podrá definir nuevos eventos. 	            |
 | Actores				| Operador adjudicatario             		|
-| Precondiciones		|                	|
+| Precondiciones		| El usuario debe estar identificado como Operador adjudicatario en el sistema.                 	|
 | Flujo normal			| 1. El usuario solicita definir un evento nuevo. <br> 2. El sistema solicita el título, información y destinatarios del nuevo evento <br> 3. El usuario introduce la informacion pedida. <br> 4. El sistema comprueba que la información introducida sea correcta <br> 5. El sistema publica y envía el evento los usuarios.                 |
 | Flujo alternativo		| 2.A. El usuario puede poner como destinatarios solo a los operadores de transporte, de manera que se generen advertencias exclusivamente para ellos. C<br> 4.A. Si la información no es correcta, el sistema advertirá al usuario permitiéndole voler a introducir los datos (paso 3) o finalizar el proceso.     |
 | Poscondiciones		| El nuevo evento creado se registrará en la base de datos.              		|
@@ -2232,14 +2217,14 @@ Apendices
 
 <br>
 
-| Identificar			| CU-11	            |
+| Identificar			| CU-10	            |
 | :---					| :--            	|
 | Nombre				| Proveer datos              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
 | Descripción			| El usuario podrá introducir nuevos datos en el sistema	            	|
 | Actores				| Operador adjudicatario             		|
-| Precondiciones		|                	|
+| Precondiciones		| El usuario debe estar identificado como Operador adjudicatario en el sistema.                 	|
 | Flujo normal			| 1. El usuario solicita la introducción de nuevos datos. <br> 2. El sistema solicita los datos a introducir. <br> 3. El usuario introduce los datos pedidos. <br> 4. El sistema comprueba que los datos sean correctos. <br> 5. El sistema guarda los datos en el sistema.	                |
 | Flujo alternativo		| 4.A. Si los datos introducidos son incorrectos, el sistema permitirá al usuario volver a introducirlos (paso 3) o finalizar el proceso.                	|
 | Poscondiciones		| Los nuevos datos agregados han de guardarse en la base de datos del sistema.            		|
@@ -2247,7 +2232,7 @@ Apendices
 
 <br>
 
-| Identificar			| CU-12	            |
+| Identificar			| CU-11	            |
 | :---					| :--            	|
 | Nombre				| Crear advertencia              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
@@ -2262,14 +2247,14 @@ Apendices
 
 <br>
 
-| Identificar			| CU-13	            |
+| Identificar			| CU-12	            |
 | :---					| :--            	|
 | Nombre				| Registrar periodos continuos de tiempo              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
 | Descripción			| El usuario podrá registrar un intervalo de tiempo. 	            	|
 | Actores				| Operador adjudicatario             		|
-| Precondiciones		|                	|
+| Precondiciones		| El usuario debe estar identificado como Operador adjudicatario en el sistema.                 	|
 | Flujo normal			| 1. El usuario solicita registrar un periodo de tiempo. <br> 2. El sistema lista el contenido que se puede registrar <br> 3. El usuario selecciona el intervalo de tiempo deseado.	<br> 4. El sistema guarda el intervalo de tiempo.                |
 | Flujo alternativo		|                	|
 | Poscondiciones		| Se ha añadido en la base de datos el registro de tiempo realizado.             		|
@@ -2277,7 +2262,7 @@ Apendices
 
 <br>
 
-| Identificar			| CU-14	            |
+| Identificar			| CU-13	            |
 | :---					| :--            	|
 | Nombre				| Examinar el estado de la explotación en tiempo real              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
@@ -2292,14 +2277,14 @@ Apendices
 
 <br>
 
-| Identificar			| CU-15	            |
+| Identificar			| CU-14	            |
 | :---					| :--            	|
 | Nombre				| Examinar el estado de la explotación en tiempo real (vista Operador adjudicatorio)              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
 | Descripción			| El usuario podrá examinar el estado la explotación en tiempo real.	            	|
 | Actores				| Operador adjudicatario             		|
-| Precondiciones		|               	|
+| Precondiciones		| El usuario debe estar identificado como Operador adjudicatario en el sistema.              	|
 | Flujo normal			| 1. El usuario solicita visualizar la explotación del transporte en tiempo real. <br>	2. El sistema solicita el operador que se quiere visualizar. <br> 3. El usuario selecciona el operador deseado. <br> 4. El sistema muestra el estado de la explotación del transporte en tiempo real seleccionado.   	                |
 | Flujo alternativo		| 2.A. El usuario podrá crear un conjunto de operadores en vez de visualizar a un solo operador. <br> 4.A. Si el sistema no encuentra niguna información disponible, informa al usuario y finaliza en proceso.                	|
 | Poscondiciones		|              		|
@@ -2307,7 +2292,7 @@ Apendices
 
 <br>
 
-| Identificar			| CU-16	            |
+| Identificar			| CU-15	            |
 | :---					| :--            	|
 | Nombre				| Crear conjunto de operadores              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
