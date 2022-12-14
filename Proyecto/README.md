@@ -1879,7 +1879,7 @@ Apendices
 <br>
 
 
-### Casos de uso del diagrama B)
+### Casos de uso del diagrama de Sistema de la información del SIIT
 
 | Identificar			| CU-01	|
 | :---					| :--  	|
@@ -2058,6 +2058,176 @@ Apendices
 | Flujo alternativo		|  	|
 | Poscondiciones		| Ninguna.		|
 | Comentarios			| Ninguno. |
+
+<br>
+
+### Casos de uso del diagrama del SMET
+
+<br>
+
+| Identificar			| CU-	            |
+| :---					| :--            	|
+| Nombre				|               	|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
+| Fecha					| 13/12/2022		|
+| Descripción			| 	            	|
+| Actores				|              		|
+| Precondiciones		|                	|
+| Flujo normal			| 	                |
+| Flujo alternativo		|                	|
+| Poscondiciones		|              		|
+| Comentarios			|                   |
+
+<br>
+
+| Identificar			| CU-	            |
+| :---					| :--            	|
+| Nombre				|               	|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
+| Fecha					| 13/12/2022		|
+| Descripción			| 	            	|
+| Actores				|              		|
+| Precondiciones		|                	|
+| Flujo normal			| 	                |
+| Flujo alternativo		|                	|
+| Poscondiciones		|              		|
+| Comentarios			|                   |
+
+<br>
+
+| Identificar			| CU-	            |
+| :---					| :--            	|
+| Nombre				|               	|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
+| Fecha					| 13/12/2022		|
+| Descripción			| 	            	|
+| Actores				|              		|
+| Precondiciones		|                	|
+| Flujo normal			| 	                |
+| Flujo alternativo		|                	|
+| Poscondiciones		|              		|
+| Comentarios			|                   |
+
+<br>
+
+| Identificar			| CU-	            |
+| :---					| :--            	|
+| Nombre				|               	|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
+| Fecha					| 13/12/2022		|
+| Descripción			| 	            	|
+| Actores				|              		|
+| Precondiciones		|                	|
+| Flujo normal			| 	                |
+| Flujo alternativo		|                	|
+| Poscondiciones		|              		|
+| Comentarios			|                   |
+
+<br>
+
+| Identificar			| CU-	            |
+| :---					| :--            	|
+| Nombre				|               	|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
+| Fecha					| 13/12/2022		|
+| Descripción			| 	            	|
+| Actores				|              		|
+| Precondiciones		|                	|
+| Flujo normal			| 	                |
+| Flujo alternativo		|                	|
+| Poscondiciones		|              		|
+| Comentarios			|                   |
+
+<br>
+
+| Identificar			| CU-	            |
+| :---					| :--            	|
+| Nombre				|               	|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
+| Fecha					| 13/12/2022		|
+| Descripción			| 	            	|
+| Actores				|              		|
+| Precondiciones		|                	|
+| Flujo normal			| 	                |
+| Flujo alternativo		|                	|
+| Poscondiciones		|              		|
+| Comentarios			|                   |
+
+<br>
+
+| Identificar			| CU-	            |
+| :---					| :--            	|
+| Nombre				|               	|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
+| Fecha					| 13/12/2022		|
+| Descripción			| 	            	|
+| Actores				|              		|
+| Precondiciones		|                	|
+| Flujo normal			| 	                |
+| Flujo alternativo		|                	|
+| Poscondiciones		|              		|
+| Comentarios			|                   |
+
+<br>
+
+| Identificar			| CU-	            |
+| :---					| :--            	|
+| Nombre				|               	|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
+| Fecha					| 13/12/2022		|
+| Descripción			| 	            	|
+| Actores				|              		|
+| Precondiciones		|                	|
+| Flujo normal			| 	                |
+| Flujo alternativo		|                	|
+| Poscondiciones		|              		|
+| Comentarios			|                   |
+
+<br>
+
+| Identificar			| CU-	            |
+| :---					| :--            	|
+| Nombre				|               	|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
+| Fecha					| 13/12/2022		|
+| Descripción			| 	            	|
+| Actores				|              		|
+| Precondiciones		|                	|
+| Flujo normal			| 	                |
+| Flujo alternativo		|                	|
+| Poscondiciones		|              		|
+| Comentarios			|                   |
+
+<br>
+
+| Identificar			| CU-	            |
+| :---					| :--            	|
+| Nombre				|               	|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
+| Fecha					| 13/12/2022		|
+| Descripción			| 	            	|
+| Actores				|              		|
+| Precondiciones		|                	|
+| Flujo normal			| 	                |
+| Flujo alternativo		|                	|
+| Poscondiciones		|              		|
+| Comentarios			|                   |
+
+<br>
+
+| Identificar			| CU-	            |
+| :---					| :--            	|
+| Nombre				|               	|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
+| Fecha					| 13/12/2022		|
+| Descripción			| 	            	|
+| Actores				|              		|
+| Precondiciones		|                	|
+| Flujo normal			| 	                |
+| Flujo alternativo		|                	|
+| Poscondiciones		|              		|
+| Comentarios			|                   |
+
 ### 4.2.4. Detalle de los casos de uso.
 
 
