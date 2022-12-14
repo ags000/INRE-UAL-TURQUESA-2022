@@ -2089,10 +2089,10 @@ Apendices
 | Fecha					| 13/12/2022		|
 | Descripción			| El sistema genera una alarma que será recibida por otro usuario para notificarlo de algo.	            	|
 | Actores				| Sistema      		|
-| Precondiciones		|                	|
-| Flujo normal			| 	                |
-| Flujo alternativo		|                	|
-| Poscondiciones		|              		|
+| Precondiciones		| Se dan las condiciones para que el sistema cree una alarma.                	|
+| Flujo normal			| 1. El sistema crea un mensaje con la información precisa para el usuario. <br> 2. El sistema envía la alarma al usuario. <br> 3. El usuario recibe la notificación de la alarma y confirma haber visto el mensaje.	                |
+| Flujo alternativo		| 3A. Si el usuario no confirma haber visto la alarma, el sistema volverá a enviarla (paso 2).              	|
+| Poscondiciones		| Ninguna.             		|
 | Comentarios			| Una alarma es un mensaje (no necesariamente de texto, puede ser un simple sonido) que notifica al receptor de algo en concreto.                  |
 
 <br>
