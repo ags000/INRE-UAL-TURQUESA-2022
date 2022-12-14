@@ -2225,8 +2225,8 @@ Apendices
 | Descripción			| El usuario podrá definir nuevos eventos. 	            |
 | Actores				| Operador adjudicatario             		|
 | Precondiciones		|                	|
-| Flujo normal			| 1. El usuario solicita definir un evento nuevo. <br> 2. El sistema solicita el título e información del nuevo evento <br> 3. El usuario introduce la informacion pedida. <br> 4. El sistema comprueba que la información introducida sea correcta <br> 5. El sistema publica el evento.                 |
-| Flujo alternativo		| 4.A. Si la información no es correcta, el sistema advertirá al usuario permitiéndole voler a introducir los datos (paso 3) o finalizar el proceso. <br> 5.A. Algunos eventos solo generan advertencias exclusivamente para los operadores de transporte.     |
+| Flujo normal			| 1. El usuario solicita definir un evento nuevo. <br> 2. El sistema solicita el título, información y destinatarios del nuevo evento <br> 3. El usuario introduce la informacion pedida. <br> 4. El sistema comprueba que la información introducida sea correcta <br> 5. El sistema publica y envía el evento los usuarios.                 |
+| Flujo alternativo		| 2.A. El usuario puede poner como destinatarios solo a los operadores de transporte, de manera que se generen advertencias exclusivamente para ellos.   <br> 4.A. Si la información no es correcta, el sistema advertirá al usuario permitiéndole voler a introducir los datos (paso 3) o finalizar el proceso.     |
 | Poscondiciones		| El nuevo evento creado se registrará en la base de datos.              		|
 | Comentarios			| Tanto los usuarios logueados como los no logueados podrán ver los eventos creados.                   |
 
@@ -2252,10 +2252,10 @@ Apendices
 | Nombre				| Crear advertencia              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			| El usu	            	|
-| Actores				|              		|
-| Precondiciones		|                	|
-| Flujo normal			| 	                |
+| Descripción			| El usuario 	            	|
+| Actores				| Operador adjudicatario             		|
+| Precondiciones		| El usuario debe haber definido un evento previamente               	|
+| Flujo normal			| 1. El sistema genera una advertencia con los datos introducidos en la definición del evento <br> 2. El sistema enía la advertencia a los operadores de transporte. 	                |
 | Flujo alternativo		|                	|
 | Poscondiciones		|              		|
 | Comentarios			|                   |
