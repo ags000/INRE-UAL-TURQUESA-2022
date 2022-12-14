@@ -1728,8 +1728,21 @@ Lista de casos de uso
 | CU-21  | Realizar consulta   | El usuario podrá realizar una consulta del trayecto   |
 | CU-22  | Ver información cartográfica   | El usuario podrá visualizar un mapa con todos los datos registrados    |
 | CU-23  | Obtener ayuda en linea   | El usuario podrá recibir ayuda en líena adaptada  |
-|   |   |   |
-
+| CU-24  | Generar alarmas  | El sistema genera una alarma que será recibida por otro usuario para notificarlo de algo   |
+| CU-25  | Ver advertencias   | El operador de transporte puede ver la lista de advertencias de las rutas  |
+| CU-26  | Ver eventos  | El usuario puede ver la lista de eventos disponibles  |
+| CU-27  | Ver alarma  | El usuario recibe una alarma informándole de un suceso o evento concreto relevante   |
+| CU-28  | Ver alarmas (vista Usuario Logueado)  | El usuario recibe una alarma informándole de un suceso o evento concreto relevante  |
+| CU-29  | Ver alarmas (vista Operador de transporte)  | El usuario recibe una alarma informándole de un suceso o evento concreto relevante  |
+| CU-30  | Ver alarmas (vista Operador adjudicatario)  | El usuario recibe una alarma informándole de un suceso o evento concreto relevante.  |
+| CU-31   | Registrar situaciones puntuales  | El usuario podrá registrar sitaciones puntuales  |
+| CU-32  | Definir evento  | El usuario podrá definir nuevos eventos  |
+| CU-33  | Proveer datos   | El usuario podrá introducir nuevos datos en el sistema  |
+| CU-34  | Crear advertencia | El usuario podrá crear una advertencia dirigida a los operadores de transporte  |
+| CU-35  | Registrar periodos continuos de tiempo  | El usuario podrá registrar un intervalo de tiempo  |
+| CU-36  | Examinar el estado de la explotación en tiempo real  | El usuario podrá examinar el estado de la explotación en tiempo real para cada operador  |
+| CU-37  | Examinar el estado de la explotación en tiempo real (vista Operador adjudicatorio)  | El usuario podrá examinar el estado la explotación en tiempo real  |
+| CU-38  | Crear conjunto de operadores  | El usuario podrá crear un conjunto de operadores para examinar el estado de explotación en tiempo real  |
 
 <br>
 
@@ -2138,7 +2151,7 @@ Lista de actores
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
 | Descripción			| El usuario puede ver la lista de eventos disponibles.	            	|
-| Actores				| Logueado             		|
+| Actores				| Usuario logueado y Usuario no logueado            		|
 | Precondiciones		|                	|
 | Flujo normal			| 1. El usuario selecciona la sección para ver los eventos. <br> 2. El sistema muestra un listado con todos los eventos disponibles en el momento. <br> 3. El usuario selecciona un evento concreto <br> 4. El sistema muestra toda la información del evento seleccionado.               |
 | Flujo alternativo		|                	|
@@ -2242,7 +2255,7 @@ Lista de actores
 | Nombre				| Proveer datos              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			| El usuario podrá introducir nuevos datos en el sistema	            	|
+| Descripción			| El usuario podrá introducir nuevos datos en el sistema.	            	|
 | Actores				| Operador adjudicatario             		|
 | Precondiciones		| El usuario debe estar identificado como Operador adjudicatario en el sistema.                 	|
 | Flujo normal			| 1. El usuario solicita la introducción de nuevos datos. <br> 2. El sistema solicita los datos a introducir. <br> 3. El usuario introduce los datos pedidos. <br> 4. El sistema comprueba que los datos sean correctos. <br> 5. El sistema guarda los datos en el sistema.	                |
@@ -2257,10 +2270,10 @@ Lista de actores
 | Nombre				| Crear advertencia              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			| El usuario 	            	|
+| Descripción			| El usuario podrá crear una advertencia dirigida a los operadores de transporte.	            	|
 | Actores				| Operador adjudicatario             		|
 | Precondiciones		| El usuario debe haber definido un evento previamente               	|
-| Flujo normal			| 1. El sistema genera una advertencia con los datos introducidos en la definición del evento <br> 2. El sistema enía la advertencia a los operadores de transporte. 	                |
+| Flujo normal			| 1. El sistema genera una advertencia con los datos introducidos en la definición del evento <br> 2. El sistema envía la advertencia a los operadores de transporte. 	                |
 | Flujo alternativo		|                	|
 | Poscondiciones		|              		|
 | Comentarios			|                   |
