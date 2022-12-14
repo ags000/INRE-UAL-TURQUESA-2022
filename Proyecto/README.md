@@ -488,7 +488,7 @@ Apendices
 
 <br>
 
-| RF-01					| Mapas relacionados con el transporte público de Gran Canaria		|
+| RF-01					| Tratamiento de la información cartográfica		|
 | :---					| :--  	|
 | Versión				| 1.0		|
 | Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
@@ -1102,8 +1102,8 @@ Apendices
 | RNF-03				| Datos que se deben obtener		|
 | :---					| :--  	|
 | Objetivos asociados	| OBJ-02		|
-| Requisitos asociados	|		|
-| Descripción			|		|
+| Requisitos asociados	| RF-01		|
+| Descripción			| El usuario debe obtener las líneas de guaguas, sus recorridos, paradas, horarios planificados de los itinerarios según tipos de día y períodos definidos, las tarifas, restricciones de tráfico, incidencias notificadas, etc.  		|
 | Comentarios			|		|
 
 <br>
@@ -1112,7 +1112,7 @@ Apendices
 | :---					| :--  	|
 | Objetivos asociados	| OBJ-02		|
 | Requisitos asociados	|		|
-| Descripción			|		|
+| Descripción			| El modelo de datos del sistema debe corresponderse con alguno de los estándares europeos definidos por el CEN.		|
 | Comentarios			|		|
 
 <br>
@@ -1121,7 +1121,7 @@ Apendices
 | :---					| :--  	|
 | Objetivos asociados	| OBJ-02		|
 | Requisitos asociados	|		|
-| Descripción			|		|
+| Descripción			| 		|
 | Comentarios			|		|
 
 <br>
@@ -1135,7 +1135,7 @@ Apendices
 
 <br>
 
-| RNF-07				| Desarrollo del  proceso de carga inicial de datos		|
+| RNF-07				| Mantenimiento de datos		|
 | :---					| :--  	|
 | Objetivos asociados	| OBJ-02		|
 | Requisitos asociados	|		|
@@ -1148,7 +1148,7 @@ Apendices
 | :---					| :--  	|
 | Objetivos asociados	| OBJ-02		|
 | Requisitos asociados	|		|
-| Descripción			|		|
+| Descripción			| Los procesos de verificación de la consistencia y amplitud de los datos contemplarán, como mínimo, la modificación de datos, introducción manual de datos y listados de horarios y servicios.		|
 | Comentarios			|		|
 
 <br>
@@ -1184,7 +1184,7 @@ Apendices
 | :---					| :--  	|
 | Objetivos asociados	| OBJ-02		|
 | Requisitos asociados	|		|
-| Descripción			|		|
+| Descripción			| Las tareas de programación se realizarán en lenguaje PL/SQL 		|
 | Comentarios			|		|
 
 <br>
@@ -1193,7 +1193,7 @@ Apendices
 | :---					| :--  	|
 | Objetivos asociados	| OBJ-02		|
 | Requisitos asociados	|		|
-| Descripción			|		|
+| Descripción			| La estructura de las diferentes tablas de la base de datos contendrá,como mínimo, las líneas, paradas, itinerarios de línea, empresas y tarifas.		|
 | Comentarios			|		|
 
 <br>
