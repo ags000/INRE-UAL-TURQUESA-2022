@@ -129,29 +129,29 @@ Requisitos Funcionales
 
 | RF-01					| Gestor de contenido	|
 | :---					| :----  	|
-| Versión				|		|
+| Versión				| 1.0	|
 | Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fuentes				|		|
-| Objetivos asociados	|		|
+| Fuentes				| Pliego de condiciones 		|
+| Objetivos asociados	| OBJ-1		|
 | Requisitos asociados	|		|
 | Descripción			| El SIIT deberá poseer un sistema propio que pueda ser utilizado para administrar el contenido y la información del sistema interactivo. Así como, las herramientas necesarias para el mantenimiento del mismo.		|
-| Importancia			|		|
+| Importancia			| Alta		|
 | Urgencia				|		|
 | Estado				|		|
 | Estabilidad			|		|
 | Comentarios			| 		|
 
-<br>
+<br>ok
 
 | RF-02					| Acceso web con editor WYSIWYG		|
 | :---					| :----  	|
-| Versión				|		|
+| Versión				| 1.0		|
 | Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fuentes				|		|
-| Objetivos asociados	|		|
+| Fuentes				| Pliego de condiciones 		|
+| Objetivos asociados	| OBJ-1		|
 | Requisitos asociados	| RF-01		|
-| Descripción			| El sistema deberá poseer acceso web con un editor WYSIWYG para el gestor de contenido.		|
-| Importancia			|		|
+| Descripción			| El sistema deberá poseer  el acceso a web con un editor WYSIWYG para el gestor de contenido.		|
+| Importancia			| Alta		|
 | Urgencia				|		|
 | Estado				|		|
 | Estabilidad			|		|
@@ -161,13 +161,13 @@ Requisitos Funcionales
 
 | RF-03					| Creación de páginas de forma sencilla y coherente		|
 | :---					| :---- 	|
-| Versión				|		|
+| Versión				| 1.0		|
 | Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fuentes				|		|
-| Objetivos asociados	|		|
+| Fuentes				| Pliego de condiciones 		|
+| Objetivos asociados	| OBJ-1		|
 | Requisitos asociados	| RF-01		|
 | Descripción			| El sistema deberá proporcionar las herramientas para la creación de páginas de forma sencilla y coherente con el resto de la Web a usuarios finales que no tengan conocimiento de programación ni de HTML.		|
-| Importancia			|		|
+| Importancia			| Alta		|
 | Urgencia				|		|
 | Estado				|		|
 | Estabilidad			|		|
@@ -177,13 +177,13 @@ Requisitos Funcionales
 
 | RF-04					| Previsualización de la publicación de una página		|
 | :---					| :---- 	|
-| Versión				|		|
+| Versión				| 1.0		|
 | Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fuentes				|		|
-| Objetivos asociados	|		|
-| Requisitos asociados	| RF-01		|
+| Fuentes				| Pliego de condiciones 		|
+| Objetivos asociados	| OBJ-1		|
+| Requisitos asociados	| RF-01, RF-02		|
 | Descripción			| El gestor de contenidos debe de poseer una función para previsualizar la versión final de la página previamente a que esta sea publicada de manera definitiva.		|
-| Importancia			|		|
+| Importancia			| Alta		|
 | Urgencia				|		|
 | Estado				|		|
 | Estabilidad			|		|
@@ -191,15 +191,15 @@ Requisitos Funcionales
 
 <br>
 
-| RF-05					| Modificación sencilla del diseño		|
+| RF-05					| Modificación sencilla del diseño de una página	|
 | :---					| :----  	|
-| Versión				|		|
+| Versión				| 1.0		|
 | Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fuentes				|		|
-| Objetivos asociados	|		|
+| Fuentes				| Pliego de condiciones 		|
+| Objetivos asociados	| OBJ-1		|
 | Requisitos asociados	| RF-01		|
 | Descripción			| El sistema deberá proporcionar las herramientas para la modificación sencilla del diseño común a varias páginas o de la Web entera.		|
-| Importancia			|		|
+| Importancia			| Alta		|
 | Urgencia				|		|
 | Estado				|		|
 | Estabilidad			|		|
@@ -209,13 +209,13 @@ Requisitos Funcionales
 
 | RF-06					| Contenido flexible		|
 | :---					| :----  	|
-| Versión				|		|
+| Versión				| 1.0		|
 | Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fuentes				|		|
-| Objetivos asociados	|		|
-| Requisitos asociados	|		|
+| Fuentes				| Pliego de condiciones 		|
+| Objetivos asociados	| OBJ-1		|
+| Requisitos asociados	| RF-01		|
 | Descripción			| Todo contenido de la web de cualquier tipo deberá de poder ser publicado, retirado y modificado por el gestor de contenido.		|
-| Importancia			|		|
+| Importancia			| Alta	|
 | Urgencia				|		|
 | Estado				|		|
 | Estabilidad			|		|
@@ -225,77 +225,77 @@ Requisitos Funcionales
 
 | RF-07					| Herramientas de seguimiento		|
 | :---					| :----  	|
-| Versión				|		|
+| Versión				| 1.0		|
 | Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fuentes				|		|
-| Objetivos asociados	|		|
-| Requisitos asociados	| RF-01		|
-| Descripción			| Estadísticas de acceso a las distintas Secciones y Servicios.		|
-| Importancia			|		|
+| Fuentes				| Pliego de condiciones 		|
+| Objetivos asociados	| OBJ-1		|
+| Requisitos asociados	| 		|
+| Descripción			| El sistema deberá proporcionar estadísticas de acceso a las distintas Secciones y Servicios.		|
+| Importancia			| Alta		|
 | Urgencia				|		|
 | Estado				|		|
 | Estabilidad			|		|
-| Comentarios			|		|
+| Comentarios			| Solo los gestores de contenido tendran acceso a las estadísticas		|
 
 <br>
 
 | RF-08					| Entorno de colaboración		|
 | :---					| :----  	|
-| Versión				|		|
+| Versión				| 1.0		|
 | Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fuentes				|		|
-| Objetivos asociados	|		|
-| Requisitos asociados	| El entorno de colaboración estará enfocado a facilitar la comunicación e intercambio de información.		|
-| Descripción			|		|
-| Importancia			|		|
+| Fuentes				| Pliego de condiciones 		|
+| Objetivos asociados	| OBJ-1		|
+| Requisitos asociados	| 		|
+| Descripción			| El sistema tendrá un entorno de colaboración  enfocado a facilitar la comunicación e intercambio de información.		|
+| Importancia			| Alta		|
 | Urgencia				|		|
 | Estado				|		|
 | Estabilidad			|		|
-| Comentarios			|		|
+| Comentarios			| 		|
 
 <br>
 
-| RF-09					| Espacios para el trabajo compartido y en colaboración en la AUT		|
+| RF-09					| Espacios para el trabajo compartido 		|
 | :---					| :---- 	|
-| Versión				|		|
+| Versión				| 1.0		|
 | Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fuentes				|		|
-| Objetivos asociados	|		|
+| Fuentes				| Pliego de condiciones 		|
+| Objetivos asociados	| OBJ-1		|
 | Requisitos asociados	| RF-08		|
-| Descripción			| Espacios para el trabajo compartido y en colaboración en la AUT		|
-| Importancia			|		|
+| Descripción			| El entorno de colaboración contará con espacios para el trabajo compartido y en colaboración en la AUT.		|
+| Importancia			| Alta		|
 | Urgencia				|		|
 | Estado				|		|
 | Estabilidad			|		|
-| Comentarios			|		|
+| Comentarios			| Los espacios para el trabajo compartido serán solo para los gestores de contenido. 		|
 
 <br>
 
-| RF-10					| Herramientas web 2.0 para los usuarios del transporte público		|
+| RF-10					| Herramientas web 2.0 	 |
 | :---					| :----  	|
-| Versión				|		|
+| Versión				| 1.0		|
 | Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fuentes				|		|
-| Objetivos asociados	|		|
+| Fuentes				| Pliego de condiciones 		|
+| Objetivos asociados	| OBJ-1		|
 | Requisitos asociados	| RF-08		|
 | Descripción			| Herramientas web 2.0 para los usuarios del transporte público! Foro, Blog, y relación de cloud tag en la home del website.		|
-| Importancia			|		|
+| Importancia			| Alta		|
 | Urgencia				|		|
 | Estado				|		|
 | Estabilidad			|		|
-| Comentarios			|		|
+| Comentarios			| 		|
 
 <br>
 
 | RF-11					| Buscador		|
 | :---					| :----  	|
-| Versión				|		|
+| Versión				| 1.0		|
 | Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fuentes				|		|
-| Objetivos asociados	|		|
+| Fuentes				| Pliego de condiciones 		|
+| Objetivos asociados	| OBJ-1		|
 | Requisitos asociados	|		|
 | Descripción			| El buscador permitirá la localización de cualquier contenido mediante la introducción de términos clave. En las búsquedas no se diferenciarán las palabras con o sin acento, mayúsculas o minúsculas. Dispondrá de opciones que permitan la parametrización de las búsquedas considerado entre otras características: idioma, secciones del sitio, etc. 		|
-| Importancia			|		|
+| Importancia			| Alta		|
 | Urgencia				|		|
 | Estado				|		|
 | Estabilidad			|		|
@@ -307,7 +307,7 @@ Requisitos No Funcionales
 
 | RNF-01		    	| Análisis del portal		|
 | :---					| :----  	|
-| Objetivos asociados	|		|
+| Objetivos asociados	| OBJ-1		|
 | Requisitos asociados	|		|
 | Descripción			| Definir, a través de un análisis completo, tanto el enfoque del portal y necesidades de los usuarios como el análisis técnico.		|
 | Comentarios			|		|
@@ -316,7 +316,7 @@ Requisitos No Funcionales
 
 | RNF-02		    	| Recopilar información		|
 | :---					| :----  	|
-| Objetivos asociados	|		|
+| Objetivos asociados	| OBJ-1		|
 | Requisitos asociados	| RNF-01		|
 | Descripción			| Identificación de necesidades (contenidos, servicios, audiencias,…), definición de la estructura (arquitectura de la información, mapa web,…) y organización del portal, detallar componentes organizativos, funcionales y técnicos del mismo.		|
 | Comentarios			|		|
@@ -325,7 +325,7 @@ Requisitos No Funcionales
 
 | RNF-03		    	| Propuesta de home e interior		|
 | :---					| :----  	|
-| Objetivos asociados	|		|
+| Objetivos asociados	| OBJ-1		|
 | Requisitos asociados	| RNF-01		|
 | Descripción			| La empresa adjudicataria deberá presentar dos propuestas de home e interior, que deberán reflejar menús, iconografía, colores, estilos, etc, de modo que quede determinada la línea de comunicación e imagen en Internet del Proyecto y de los servicios.		|
 | Comentarios			|		|
@@ -334,7 +334,7 @@ Requisitos No Funcionales
 
 | RNF-04		    	| Tareas del Proyecto		|
 | :---					| :----  	|
-| Objetivos asociados	|		|
+| Objetivos asociados	| OBJ-1		|
 | Requisitos asociados	| RNF-01, RNF-03		|
 | Descripción			| Las tareas, una vez asignado el proyecto serán: Diseño del interfaz, Diseño de páginas tipo, Definición del estilo gráfico de comunicación y promoción on-line, Creación del libro de estilo y de la marca en canales digitales.		|
 | Comentarios			|		|
@@ -343,7 +343,7 @@ Requisitos No Funcionales
 
 | RNF-05		    	| Requerimientos técnicos		|
 | :---					| :----  	|
-| Objetivos asociados	|		|
+| Objetivos asociados	| OBJ-1		|
 | Requisitos asociados	| RNF-01		|
 | Descripción			| En función de los análisis realizados, se establecerán los requerimientos técnicos con los que debe cumplir la plataforma que soporte el portal y sus servicios.		|
 | Comentarios			|		|
@@ -352,8 +352,8 @@ Requisitos No Funcionales
 
 | RNF-06		    	| Ciclo de vida del software		|
 | :---					| :----  	|
-| Objetivos asociados	|		|
-| Requisitos asociados	|		|
+| Objetivos asociados	| OBJ-1		|
+| Requisitos asociados	| RNF-01		|
 | Descripción			| Diseño, desarrollo, puesta en marcha, alojamiento y mantenimiento de la plataforma tecnológica para difusión, soporte y comunicación de contenidos referentes al transporte público.		|
 | Comentarios			|		|
 
@@ -361,8 +361,8 @@ Requisitos No Funcionales
 
 | RNF-07		    	| Diseño de la arquitectura		|
 | :---					| :----  	|
-| Objetivos asociados	|		|
-| Requisitos asociados	|		|
+| Objetivos asociados	| OBJ-1		|
+| Requisitos asociados	| RNF-01		|
 | Descripción			| Diseño de la arquitectura tanto física como lógica.		|
 | Comentarios			|		|
 
@@ -370,17 +370,17 @@ Requisitos No Funcionales
 
 | RNF-08		    	| Diseño del modelo de datos		|
 | :---					| :----  	|
-| Objetivos asociados	|		|
-| Requisitos asociados	|		|
-| Descripción			| Diseño del modelo de datos, que preferentemente debe corresponderse con alguno de los estándares europeos definidos por el CEN (comité europeo de normalización). 		|
+| Objetivos asociados	| OBJ-1		|
+| Requisitos asociados	| RNF-01		|
+| Descripción			| El diseño del modelo de datos debe preferentemente corresponderse con alguno de los estándares europeos definidos por el CEN (comité europeo de normalización). 		|
 | Comentarios			|		|
 
 <br>
 
 | RNF-10		    	| Desarrollo o adaptación de las aplicaciones		|
 | :---					| :----  	|
-| Objetivos asociados	|		|
-| Requisitos asociados	|		|
+| Objetivos asociados	| OBJ-1		|
+| Requisitos asociados	| RNF-01		|
 | Descripción			| Descripción general de la solución propuesta, arquitectura de hardware, arquitectura de software, descripción de cada uno de los componentes.		|
 | Comentarios			|		|
 
@@ -388,8 +388,8 @@ Requisitos No Funcionales
 
 | RNF-11		    	| Versión multidispositivo		|
 | :---					| :----  	|
-| Objetivos asociados	|		|
-| Requisitos asociados	|		|
+| Objetivos asociados	| OBJ-1		|
+| Requisitos asociados	| RNF-01		|
 | Descripción			| Desarrollo o adaptación de las aplicaciones necesarias para el correcto funcionamiento del portal.		|
 | Comentarios			|		|
 
@@ -397,8 +397,8 @@ Requisitos No Funcionales
 
 | RNF-12		    	| Detallar los lenguajes y navegadores soportados		|
 | :---					| :----  	|
-| Objetivos asociados	|		|
-| Requisitos asociados	|		|
+| Objetivos asociados	| OBJ-1		|
+| Requisitos asociados	| RNF-01		|
 | Descripción			| Versión multidispositivo.		|
 | Comentarios			|		|
 
@@ -406,8 +406,8 @@ Requisitos No Funcionales
 
 | RNF-13		    	| Propuesta inicial		|
 | :---					| :----  	|
-| Objetivos asociados	|		|
-| Requisitos asociados	|		|
+| Objetivos asociados	| OBJ-1		|
+| Requisitos asociados	| RNF-01		|
 | Descripción			| Elaborar una propuesta inicial de contenido recopilando todo lo disponible en diversas fuentes y sometiéndola al visto bueno de la AUTGC, la cual a su vez facilitará los medios que estén a su disposición para facilitar el trabajo.		|
 | Comentarios			|		|
 
@@ -415,7 +415,7 @@ Requisitos No Funcionales
 
 | RNF-14		    	| Carga inicial		|
 | :---					| :----  	|
-| Objetivos asociados	|		|
+| Objetivos asociados	| OBJ-1		|
 | Requisitos asociados	|		|
 | Descripción			| La carga inicial de los contenidos acordados en el gestor.		|
 | Comentarios			|		|
@@ -424,8 +424,8 @@ Requisitos No Funcionales
 
 | RNF-15		    	| Maquetación		|
 | :---					| :----  	|
-| Objetivos asociados	|		|
-| Requisitos asociados	|		|
+| Objetivos asociados	| OBJ-1		|
+| Requisitos asociados	| 		|
 | Descripción			| Maquetación conforme a las pautas dadas y plantillas existentes en el gestor.		|
 | Comentarios			|		|
 
@@ -433,7 +433,7 @@ Requisitos No Funcionales
 
 | RNF-16		    	| Actualización		|
 | :---					| :----  	|
-| Objetivos asociados	|		|
+| Objetivos asociados	| OBJ-1		|
 | Requisitos asociados	|		|
 | Descripción			| Actualización continúa durante todo el contrato de dichos contenidos, de acuerdo con el tipo de cada uno de ellos, y sobre todo vigilando que no se presenten contenidos obsoletos en ningún caso.		|
 | Comentarios			|		|
@@ -1302,7 +1302,7 @@ Requisitos No Funcionales
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
 | Descripción			| Se exige el cumplimiento del nivel de conformidad AA, desestimándose la opción de crear un sitio Web en paralelo con contenidos formateados en texto plano, al considerarse ésta una solución no inclusiva y no integradora.	|
-| Comentarios			|		|
+| Comentarios			|		|ok
 
 <br>
 
@@ -1637,8 +1637,6 @@ Requisitos No Funcionales
 
 ### 4.2.3. Lista general de casos de uso  y actores del proyecto.
 
-
-
 <br>
 
 | Identificar			| CU-01	|
@@ -1806,11 +1804,11 @@ Requisitos No Funcionales
 
 <br>
 
-| INF-01                         | Administrador                  |
+| INF-01                        | Administrador                  |
 | :---                          | :---                           |
-| Versión                       |                                |
+| Versión                       | 1.0                               |
 | Autores                       | Cristina García, Adrián Galdeano, Alejandro Manzano   |
-| Fuentes                       |                                |
+| Fuentes                       | Pliego de condiciones          |
 | Referencias                   |                                |
 | Descripción                   |                                |
 | Datos específicos             |                                |
@@ -1822,27 +1820,27 @@ Requisitos No Funcionales
 
 | INF02                         | Usuario Logueado               |
 | :---                          | :---                           |
-| Versión                       |                                |
+| Versión                       | 1.0                               |
 | Autores                       | Cristina García, Adrián Galdeano, Alejandro Manzano   |
-| Fuentes                       |                                |
+| Fuentes                       | Pliego de condiciones                                 |
 | Referencias                   |                                |
 | Descripción                   |                                |
 | Datos específicos             |                                |
-| Importancia                   |                                |
+| Importancia                   | Alta                               |
 | Estado                        |                                |
 | Comentarios                   |                                |
 
 <br>
 
-| INF-03                         | Usuario No Logueado            |
+| INF-03                        | Usuario No Logueado            |
 | :---                          | :---                           |
-| Versión                       |                                |
+| Versión                       | 1.0                               |
 | Autores                       | Cristina García, Adrián Galdeano, Alejandro Manzano   |
-| Fuentes                       |                                |
+| Fuentes                       | Pliego de condiciones                                 |
 | Referencias                   |                                |
 | Descripción                   |                                |
 | Datos específicos             |                                |
-| Importancia                   |                                |
+| Importancia                   | Alta                               |
 | Estado                        |                                |
 | Comentarios                   |                                |
 
