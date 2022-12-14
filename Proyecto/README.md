@@ -1682,10 +1682,10 @@ Requisitos No Funcionales
 | Descripción			| El usuario puede acceder a la web  			|
 | Actores				| Administrador		|
 | Precondiciones		| El usuario debe estar identificado como Administrador en el sistema.		|
-| Flujo normal			| 1. El usuario solicita la opción de editar la Web. <br> 2. El sistema permite al usuario la edición a través del editor WYSIWYG <br> 2. El usuario hace uso del editor WYSIWYG. |
-| Flujo alternativo		|		|
+| Flujo normal			| 1. El usuario solicita la opción de editar la Web. <br> 2. El sistema permite al usuario la edición a través del editor WYSIWYG <br> 3. El usuario hace uso del editor WYSIWYG para modificar la Web. <br> 4. El usuario guarda los cambios realizados. |
+| Flujo alternativo		| 4A. El usuario descarta los cambios realizados.		|
 | Poscondiciones		| Los cambios realizados se guardan en la base de datos.	|
-| Comentarios			| 		|
+| Comentarios			| -		|
 
 <br>
 
@@ -1715,7 +1715,7 @@ Requisitos No Funcionales
 | Flujo normal			| 1. El usuario accede a la sección para modificar el diseño. <br> 2. El sistema muestra la interfaz de diseño con las respectivas herramientas para modificarlo. <br> 3. El usuario realiza los cambios en el diseño de las páginas. <br> 4. El usuario guarda los cambios.  	    |
 | Flujo alternativo		| 4A. El usuario descarta los cambios realizados.  		|
 | Poscondiciones		| El diseño común entre una o varias páginas ha sido alterado.		|
-| Comentarios			|		|
+| Comentarios			| -		|
 
 <br>
 
