@@ -1667,9 +1667,9 @@ Requisitos No Funcionales
 | Descripción			| El usuario edita la Web haciendo uso del editor WYSIWYG  		|
 | Actores				| Administrador		|
 | Precondiciones		| El usuario debe haber seleccionado la opción de editar la Web.	|
-| Flujo normal			| 1. El usuario utiliza el editor WYSIWYG para editar la Web. 		|
-| Flujo alternativo		|		|
-| Poscondiciones		| 		|
+| Flujo normal			| 1. El sistema muestra la interfaz y las opciones del editor WYSIWYG. <br> 2. El usuario utiliza el editor WYSIWYG para editar la Web.		|
+| Flujo alternativo		| 2A. El usuario cancela la edición de la Web. 	|
+| Poscondiciones		| Ninguna.		|
 | Comentarios			| WYSIWYG (What You See Is What You Get) quiere decir que el editor mostrará siempre la versión final del documento editado sin necesitar de previsualizar.		|
 
 <br>
@@ -1683,7 +1683,7 @@ Requisitos No Funcionales
 | Actores				| Administrador		|
 | Precondiciones		| El usuario debe estar identificado como Administrador en el sistema.		|
 | Flujo normal			| 1. El usuario solicita la opción de editar la Web. <br> 2. El sistema permite al usuario la edición a través del editor WYSIWYG <br> 3. El usuario hace uso del editor WYSIWYG para modificar la Web. <br> 4. El usuario guarda los cambios realizados. |
-| Flujo alternativo		| 4A. El usuario descarta los cambios realizados.		|
+| Flujo alternativo		| 3A. El usuario cancela la edición de la Web. <br> 4A. El usuario descarta los cambios realizados.		|
 | Poscondiciones		| Los cambios realizados se guardan en la base de datos.	|
 | Comentarios			| -		|
 
