@@ -152,7 +152,7 @@ Apendices
 
 <br>
 
-### 4.1.1 Gestor de contenidos y portal.
+### 4.1.1 Portal.
 
 <br>
 
@@ -490,29 +490,29 @@ Apendices
 
 | RF-01					| Mapas relacionados con el transporte público de Gran Canaria		|
 | :---					| :--  	|
-| Versión				|		|
+| Versión				| 1.0		|
 | Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fuentes				|		|
+| Fuentes				| Pliego de condiciones 		|
 | Objetivos asociados	| OBJ-02		|
 | Requisitos asociados	|		|
 | Descripción			| El sistema debe poseer toda la información integrada de la red de transporte público de todos los municipios de Gran Canaria.		|
-| Importancia			|		|
+| Importancia			| Alta		|
 | Urgencia				|		|
 | Estado				|		|
 | Estabilidad			|		|
-| Comentarios			|		|
+| Comentarios			| La información se representará tanto georeferenciada de acuerdo a la directiva INSPIRE como con información de texto asociada.		|
 
 <br>
 
 | RF-02					| Calcular distancias entre paradas		|
 | :---					| :--  	|
-| Versión				|		|
+| Versión				| 1.0		|
 | Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fuentes				|		|
-| Objetivos asociados	|		|
-| Requisitos asociados	|		|
+| Fuentes				| Pliego de condiciones 		|
+| Objetivos asociados	| OBJ-02		|
+| Requisitos asociados	| RF-01		|
 | Descripción			| El sistema debe ser capaz de calcular la distancia entre dos paradas de cada transporte.		|
-| Importancia			|		|
+| Importancia			| Alta		|
 | Urgencia				|		|
 | Estado				|		|
 | Estabilidad			|		|
@@ -522,13 +522,13 @@ Apendices
 
 | RF-03					| Definir transbordos		|
 | :---					| :--  	|
-| Versión				|		|
+| Versión				| 1.0		|
 | Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fuentes				|		|
-| Objetivos asociados	|		|
-| Requisitos asociados	|		|
+| Fuentes				| Pliego de condiciones 		|
+| Objetivos asociados	| OBJ-02		|
+| Requisitos asociados	| RF-01		|
 | Descripción			| El sistema deberás ser capaz de crear transbordos entre los viajes para optimizar la eficiencia de las rutas de los vehículos.		|
-| Importancia			|		|
+| Importancia			| Alta		|
 | Urgencia				|		|
 | Estado				|		|
 | Estabilidad			|		|
@@ -538,13 +538,13 @@ Apendices
 
 | RF-04					| Calcular tiempos de recorrido		|
 | :---					| :--  	|
-| Versión				|		|
+| Versión				| 1.0		|
 | Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fuentes				|		|
-| Objetivos asociados	|		|
-| Requisitos asociados	|		|
+| Fuentes				| Pliego de condiciones 		|
+| Objetivos asociados	| OBJ-02		|
+| Requisitos asociados	| RF-01		|
 | Descripción			| El sistema deberá de ser capaz de calcular un tiempo estimado para el trayecto de un recorrido completo.		|
-| Importancia			|		|
+| Importancia			| Alta	 	|
 | Urgencia				|		|
 | Estado				|		|
 | Estabilidad			|		|
@@ -554,13 +554,13 @@ Apendices
 
 | RF-05					| Identificar zonas por las que no se puede transitar		|
 | :---					| :--  	|
-| Versión				|		|
+| Versión				| 1.0		|
 | Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fuentes				|		|
-| Objetivos asociados	|		|
-| Requisitos asociados	|		|
+| Fuentes				| Pliego de condiciones 		|
+| Objetivos asociados	| OBJ-02		|
+| Requisitos asociados	| RF-01		|
 | Descripción			| El sistema de ser capaz de identificar zonas intransitables y elaborar una ruta alternativa para llegar al destino.		|
-| Importancia			|		|
+| Importancia			| Alta		|
 | Urgencia				|		|
 | Estado				|		|
 | Estabilidad			|		|
@@ -570,13 +570,13 @@ Apendices
 
 | RF-06					| Definir barrios, zonas y municipios		|
 | :---					| :--  	|
-| Versión				|		|
+| Versión				| 1.0		|
 | Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fuentes				|		|
-| Objetivos asociados	|		|
-| Requisitos asociados	|		|
-| Descripción			| El sistema debe poder realizar la definición.		|
-| Importancia			|		|
+| Fuentes				| Pliego de condiciones 	|
+| Objetivos asociados	| OBJ-02		|
+| Requisitos asociados	| RF-01		|
+| Descripción			| El sistema debe poder definir tanto barrios como zonas y municipios de Gran Canaria		|
+| Importancia			| Alta		|
 | Urgencia				|		|
 | Estado				|		|
 | Estabilidad			|		|
@@ -586,13 +586,13 @@ Apendices
 
 | RF-07					| Seleccionar origen desde el mapa		|
 | :---					| :--  	|
-| Versión				|		|
+| Versión				| 1.0		|
 | Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fuentes				|		|
-| Objetivos asociados	|		|
-| Requisitos asociados	|		|
+| Fuentes				| Pliego de condiciones 		|
+| Objetivos asociados	| OBJ-02		|
+| Requisitos asociados	| RF-01		|
 | Descripción			| El usuario podrá introducir un lugar de origen en el mapa a partir del cual calcular las rutas.		|
-| Importancia			|		|
+| Importancia			| Alta		|
 | Urgencia				|		|
 | Estado				|		|
 | Estabilidad			|		|
@@ -602,13 +602,13 @@ Apendices
 
 | RF-08					| Seleccionar destino desde el mapa		|
 | :---					| :--  	|
-| Versión				|		|
+| Versión				| 1.0		|
 | Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fuentes				|		|
-| Objetivos asociados	|		|
-| Requisitos asociados	|		|
+| Fuentes				| Pliego de condiciones 		|
+| Objetivos asociados	| OBJ-02		|
+| Requisitos asociados	| RF-01		|
 | Descripción			| El usuario podrá introducir un lugar de destino en el mapa a partir del cual calcular las rutas.		|
-| Importancia			|		|
+| Importancia			| Alta		|
 | Urgencia				|		|
 | Estado				|		|
 | Estabilidad			|		|
@@ -618,13 +618,13 @@ Apendices
 
 | RF-09					| Presentar recorrido de una línea		|
 | :---					| :--  	|
-| Versión				|		|
+| Versión				| 1.0		|
 | Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fuentes				|		|
-| Objetivos asociados	|		|
-| Requisitos asociados	|		|
-| Descripción			| El sistema proporcionará la información de todo el recorrido que realiza una línea de determinado transporte.		|
-| Importancia			|		|
+| Fuentes				| Pliego de condiciones 		|
+| Objetivos asociados	| OBJ-02		|
+| Requisitos asociados	| RF-01		|
+| Descripción			| El sistema proporcionará la información de todo el recorrido que realiza una línea de un determinado transporte.		|
+| Importancia			| Alta		|
 | Urgencia				|		|
 | Estado				|		|
 | Estabilidad			|		|
@@ -634,13 +634,13 @@ Apendices
 
 | RF-10					| Presentar la solución de un itinerario recomendado		|
 | :---					| :--  	|
-| Versión				|		|
+| Versión				| 1.0		|
 | Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fuentes				|		|
-| Objetivos asociados	|		|
-| Requisitos asociados	|		|
+| Fuentes				| Pliego de condiciones 		|
+| Objetivos asociados	| OBJ-02	 	|
+| Requisitos asociados	| RF-01		|
 | Descripción			| El sistema presentará un itinerario recomendado para cada ruta que se introduzca.		|
-| Importancia			|		|
+| Importancia			| Alta		|
 | Urgencia				|		|
 | Estado				|		|
 | Estabilidad			|		|
@@ -650,29 +650,29 @@ Apendices
 
 | RF-11					| Mostrar las paradas y sus datos según selección previa		|
 | :---					| :--  	|
-| Versión				|		|
+| Versión				| 1.0		|
 | Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fuentes				|		|
-| Objetivos asociados	|		|
-| Requisitos asociados	|		|
-| Descripción			| Cercanas a un cierto sitio, de una línea, dentro de un municipio, zona o barrio, etc.		|
-| Importancia			|		|
+| Fuentes				| Pliego de condiciones 		|
+| Objetivos asociados	| OBJ-02		|
+| Requisitos asociados	| RF-01		|
+| Descripción			| El sistema mostrará las paradas y sus datos ç según una selección previa que ha de realizar el usuario.		|
+| Importancia			| Alta		|
 | Urgencia				|		|
 | Estado				|		|
 | Estabilidad			|		|
-| Comentarios			|		|
+| Comentarios			| Se podrán seleccionar las paradas cercanas a un cierto sitio, de una línea, dentro de un municipio, zona o barrio, etc.		|
 
 <br>
 
 | RF-12					| Ubicar sitios de interés, eventos culturales y turísticos		|
 | :---					| :--  	|
-| Versión				|		|
+| Versión				| 1.0		|
 | Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fuentes				|		|
-| Objetivos asociados	|		|
-| Requisitos asociados	|		|
+| Fuentes				| Pliego de condiciones 		|
+| Objetivos asociados	| OBJ-02		|
+| Requisitos asociados	| RF-01		|
 | Descripción			| El sistema remarcará en el mapa los lugares de interés turísticos y culturales.		|
-| Importancia			|		|
+| Importancia			| Alta		|
 | Urgencia				|		|
 | Estado				|		|
 | Estabilidad			|		|
@@ -680,15 +680,32 @@ Apendices
 
 <br>
 
-| RF-13					| Presentar información adicional para paradas		|
+| RF-13					| Presentar información	adicional	|
 | :---					| :--  	|
-| Versión				|		|
+| Versión				| 1.0		|
 | Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fuentes				|		|
-| Objetivos asociados	|		|
+| Fuentes				| Pliego de condiciones 		|
+| Objetivos asociados	| OBJ-02		|
 | Requisitos asociados	|		|
-| Descripción			| Indicando líneas que pasan por cada parada, su dirección postal, foto, etc.		|
-| Importancia			|		|
+| Descripción			| El sistama podrá presentar información adicional para cada acción realizada.		|
+| Importancia			| Alta		|
+| Urgencia				|		|
+| Estado				|		|
+| Estabilidad			|		|
+| Comentarios			|		|
+
+
+<br>
+
+| RF-14					| Información adicional para paradas		|
+| :---					| :--  	|
+| Versión				| 1.0		|
+| Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
+| Fuentes				| Pliego de condiciones 		|
+| Objetivos asociados	| OBJ-02		|
+| Requisitos asociados	| RF-13		|
+| Descripción			| El sistema presentará información adicional de las paradas, indicando líneas que pasan por cada parada, su dirección postal, foto, etc.		|
+| Importancia			| Alta		|
 | Urgencia				|		|
 | Estado				|		|
 | Estabilidad			|		|
@@ -696,15 +713,15 @@ Apendices
 
 <br>
 
-| RF-14					| Presentar información accediendo a una cierta línea		|
+| RF-15					| Información adicional para una línea		|
 | :---					| :--  	|
-| Versión				|		|
+| Versión				| 1.0		|
 | Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fuentes				|		|
-| Objetivos asociados	|		|
-| Requisitos asociados	|		|
-| Descripción			| Se presentan tarifas, horarios, empresa gestora, incidencias, etc		|
-| Importancia			|		|
+| Fuentes				| Pliego de condiciones 		|
+| Objetivos asociados	| OBJ-02		|
+| Requisitos asociados	| RF-13		|
+| Descripción			| El sistema presentará información adicional de una línea concreta, presentando sus tarifas, horarios, empresa gestora, incidencias, etc		|
+| Importancia			| Alta		|
 | Urgencia				|		|
 | Estado				|		|
 | Estabilidad			|		|
@@ -712,15 +729,15 @@ Apendices
 
 <br>
 
-| RF-15					| Mostrar parada de inicio y fin para un itinerario recomendado		|
+| RF-16					| Parada de inicio y fin para un itinerario recomendado		|
 | :---					| :--  	|
-| Versión				|		|
+| Versión				| 1.0		|
 | Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fuentes				|		|
-| Objetivos asociados	|		|
-| Requisitos asociados	|		|
-| Descripción			| A partir de la solución de un itinerario recomendado, por cada tramo se mostrará la parada de inicio y de fin.		|
-| Importancia			|		|
+| Fuentes				| Pliego de condiciones 		|
+| Objetivos asociados	| OBJ-02		|
+| Requisitos asociados	| RF-13		|
+| Descripción			| El sistema presentará información adicional de la solución de un itinerario recomendado, por cada tramo se mostrará la parada de inicio y de fin.		|
+| Importancia			| Alta		|
 | Urgencia				|		|
 | Estado				|		|
 | Estabilidad			|		|
@@ -728,15 +745,15 @@ Apendices
 
 <br>
 
-| RF-16					| Acercar sobre el mapa		|
+| RF-17					| Acercar sobre el mapa		|
 | :---					| :--  	|
-| Versión				|		|
+| Versión				| 1.0		|
 | Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fuentes				|		|
-| Objetivos asociados	|		|
-| Requisitos asociados	|		|
+| Fuentes				| Pliego de condiciones 		|
+| Objetivos asociados	| OBJ-02		|
+| Requisitos asociados	| RF-01		|
 | Descripción			| El sistema permitirá ampliar la visión en el mapa para mostrar más detalles sobre el mismo.		|
-| Importancia			|		|
+| Importancia			| Alta		|
 | Urgencia				|		|
 | Estado				|		|
 | Estabilidad			|		|
@@ -744,15 +761,15 @@ Apendices
 
 <br>
 
-| RF-17					| Alejar sobre el mapa		|
+| RF-18					| Alejar sobre el mapa		|
 | :---					| :--  	|
-| Versión				|		|
-| Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fuentes				|		|
-| Objetivos asociados	|		|
-| Requisitos asociados	|		|
+| Versión				| 1.0		|
+| Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		| 
+| Fuentes				| Pliego de condiciones 		|
+| Objetivos asociados	| OBJ-02		|
+| Requisitos asociados	| RF-01		|
 | Descripción			| El sistema permitirá alejar la visión en el mapa para mostrar una visión más general del mismo.		|
-| Importancia			|		|
+| Importancia			| Alta		|
 | Urgencia				|		|
 | Estado				|		|
 | Estabilidad			|		|
@@ -760,15 +777,15 @@ Apendices
 
 <br>
 
-| RF-18					| Desplazar sobre el mapa		|
+| RF-19					| Desplazar sobre el mapa		|
 | :---					| :--  	|
-| Versión				|		|
+| Versión				| 1.0		|
 | Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fuentes				|		|
-| Objetivos asociados	|		|
-| Requisitos asociados	|		|
+| Fuentes				| Pliego de condiciones 		|
+| Objetivos asociados	| OBJ-02		|
+| Requisitos asociados	| RF-01		|
 | Descripción			| El sistema permitirá desplazar la visión sobre el mapa.		|
-| Importancia			|		|
+| Importancia			| Alta		|
 | Urgencia				|		|
 | Estado				|		|
 | Estabilidad			|		|
@@ -776,15 +793,15 @@ Apendices
 
 <br>
 
-| RF-19					| Ir a mapa base (en el mapa)		|
+| RF-20					| Ir a mapa base (en el mapa)		|
 | :---					| :--  	|
-| Versión				|		|
+| Versión				| 1.0		|
 | Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fuentes				|		|
-| Objetivos asociados	|		|
-| Requisitos asociados	|		|
-| Descripción			|		|
-| Importancia			|		|
+| Fuentes				| Pliego de condiciones 		|
+| Objetivos asociados	| OBJ-02		|
+| Requisitos asociados	| RF-01		|
+| Descripción			| El sistema permitirá volver al mapa base mostrado inicialmente.|
+| Importancia			| Alta		|
 | Urgencia				|		|
 | Estado				|		|
 | Estabilidad			|		|
@@ -792,15 +809,15 @@ Apendices
 
 <br>
 
-| RF-20					| Centrar mapa		|
+| RF-21					| Centrar mapa		|
 | :---					| :--  	|
-| Versión				|		|
+| Versión				| 1.0		|
 | Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fuentes				|		|
-| Objetivos asociados	|		|
-| Requisitos asociados	|		|
+| Fuentes				| Pliego de condiciones 		|
+| Objetivos asociados	| OBJ-02		|
+| Requisitos asociados	| RF-01		|
 | Descripción			| El sistema permitirá centrar la visión sobre el mapa en relación a la posición actual.		|
-| Importancia			|		|
+| Importancia			| Alta		|
 | Urgencia				|		|
 | Estado				|		|
 | Estabilidad			|		|
@@ -808,15 +825,15 @@ Apendices
 
 <br>
 
-| RF-21					| Cálculo de itinerarios recomendados		|
+| RF-22					| Cálculo de itinerarios recomendados		|
 | :---					| :--  	|
-| Versión				|		|
+| Versión				| 1.0		|
 | Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fuentes				|		|
-| Objetivos asociados	|		|
-| Requisitos asociados	|		|
+| Fuentes				| Pliego de condiciones 		|
+| Objetivos asociados	| OBJ-02		|
+| Requisitos asociados	| 		|
 | Descripción			| El sistema calculará y proporcionará al usuario los itinerarios recomentados para una determinada ruta. 		|
-| Importancia			|		|
+| Importancia			| Alta		|
 | Urgencia				|		|
 | Estado				|		|
 | Estabilidad			|		|
@@ -824,15 +841,15 @@ Apendices
 
 <br>
 
-| RF-22					| Modificar los parámetros utilizados en el cálculo del itinerario		|
+| RF-23					| Modificar los parámetros utilizados en el cálculo del itinerario		|
 | :---					| :--  	|
-| Versión				|		|
+| Versión				| 1.0		|
 | Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fuentes				|		|
-| Objetivos asociados	|		|
-| Requisitos asociados	|		|
+| Fuentes				| Pliego de condiciones 		|
+| Objetivos asociados	| OBJ-02		|
+| Requisitos asociados	| RF-22  		|
 | Descripción			| Todos aquellos parámetros que se utilicen en el cálculo y puedan influir en el resultado del itinerario se podrán modificar y ajustar hasta lograr el mayor grado de exactitud en el modelo.		|
-| Importancia			|		|
+| Importancia			| Alta		|
 | Urgencia				|		|
 | Estado				|		|
 | Estabilidad			|		|
@@ -840,15 +857,15 @@ Apendices
 
 <br>
 
-| RF-23					| Mostrar tramos que componen un trayecto		|
+| RF-24					| Mostrar tramos que componen un trayecto		|
 | :---					| :--  	|
-| Versión				|		|
+| Versión				| 1.0	 	|
 | Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fuentes				|		|
-| Objetivos asociados	|		|
-| Requisitos asociados	|		|
+| Fuentes				| Pliego de condiciones 		|
+| Objetivos asociados	| OBJ-02		|
+| Requisitos asociados	| RF-22		|
 | Descripción			| Para cada tramo se especificará la línea implicada, el tiempo necesario para recorrerlo, el punto de inicio y el de fin, el coste por etapa y la hora estimada de comienzo.		|
-| Importancia			|		|
+| Importancia			| Alta		|
 | Urgencia				|		|
 | Estado				|		|
 | Estabilidad			|		|
@@ -856,15 +873,15 @@ Apendices
 
 <br>
 
-| RF-24					| Mostrar coste de un viaje		|
+| RF-25					| Mostrar coste de un viaje		|
 | :---					| :--  	|
-| Versión				|		|
+| Versión				| 1.0		|
 | Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fuentes				|		|
-| Objetivos asociados	|		|
-| Requisitos asociados	|		|
+| Fuentes				| Pliego de condiciones 		|
+| Objetivos asociados	| OBJ-02		|
+| Requisitos asociados	| RF-22		|
 | Descripción			| El sistema deberá de mostrar el coste asociado al viaje que se realizará en el transporte público. 		|
-| Importancia			|		|
+| Importancia			| Alta		|
 | Urgencia				|		|
 | Estado				|		|
 | Estabilidad			|		|
@@ -872,47 +889,47 @@ Apendices
 
 <br>
 
-| RF-25					| Definir parámetros de la consulta a realizar		|
+| RF-26					| Definir parámetros de la consulta a realizar		|
 | :---					| :--  	|
-| Versión				|		|
+| Versión				| 1.0		|
 | Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fuentes				|		|
-| Objetivos asociados	|		|
+| Fuentes				| Pliego de condiciones 		|
+| Objetivos asociados	| OBJ-02		|
 | Requisitos asociados	|		|
 | Descripción			| El usuario debe: establecer punto de origen y destino del itinerario, fecha y hora del trayecto y el aspecto que le interesa potenciar de la solución (tiempo, coste, transbordos, etc).		|
-| Importancia			|		|
-| Urgencia				|		|
+| Importancia			| Alta		|
+| Urgencia				| 		|
 | Estado				|		|
 | Estabilidad			|		|
 | Comentarios			|		|
 
 <br>
 
-| RF-26					| Seleccionar origen y destino		|
+| RF-27					| Seleccionar origen y destino		|
 | :---					| :--  	|
-| Versión				|		|
+| Versión				| 1.0	 	|
 | Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fuentes				|		|
-| Objetivos asociados	|		|
-| Requisitos asociados	|		|
+| Fuentes				| Pliego de condiciones 		|
+| Objetivos asociados	| OBJ-02		|
+| Requisitos asociados	| RF-26		|
 | Descripción			| El usuario podrá introducir de manera simultánea el origen y el destino de la ruta para calcular la solución del itinerario.		|
-| Importancia			|		|
+| Importancia			| Alta		|
 | Urgencia				|		|
 | Estado				|		|
 | Estabilidad			|		|
-| Comentarios			|		|
+| Comentarios			| El usuario podrá seleccionar el origen y destino a través de la calle y número de portal por municipio, el barrio, la zona, el municipio, las paradas (de una línea, de un barrio, de un municipio o de una zona), desde el mapa o a partir de un evento cultural o sitio de interés turístico.  		|
 
 <br>
 
-| RF-27					| Mostrar en el mapa el recorrido de la solución		|
+| RF-28					| Mostrar en el mapa el recorrido de la solución		|
 | :---					| :--  	|
-| Versión				|		|
+| Versión				| 1.0		|
 | Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fuentes				|		|
-| Objetivos asociados	|		|
-| Requisitos asociados	|		|
+| Fuentes				| Pliego de condiciones 		|
+| Objetivos asociados	| OBJ-02		|
+| Requisitos asociados	| RF-26		|
 | Descripción			| El sistema deberá de mostrar el recorrido completo ilustrado sobre el mapa una vez calculada la solución del itinerario con los datos introducidos por el usuario.		|
-| Importancia			|		|
+| Importancia			| Alta		|
 | Urgencia				|		|
 | Estado				|		|
 | Estabilidad			|		|
@@ -920,15 +937,15 @@ Apendices
 
 <br>
 
-| RF-28					| Mostrar solución en forma esquemática		|
+| RF-29					| Mostrar solución en forma esquemática		|
 | :---					| :--  	|
-| Versión				|		|
+| Versión				| 1.0	|
 | Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fuentes				|		|
-| Objetivos asociados	|		|
-| Requisitos asociados	|		|
+| Fuentes				| Pliego de condiciones 		|
+| Objetivos asociados	| OBJ-02		|
+| Requisitos asociados	| RF-26		|
 | Descripción			| El sistema también deberá ser capaz de mostrar la solución del rerorrido de forma esquemática; especificando cada parada y su ubicación.		|
-| Importancia			|		|
+| Importancia			| Alta		|
 | Urgencia				|		|
 | Estado				|		|
 | Estabilidad			|		|
@@ -936,15 +953,15 @@ Apendices
 
 <br>
 
-| RF-29					| Mostrar solución como texto para ser impreso		|
+| RF-30					| Mostrar solución como texto para ser impreso		|
 | :---					| :--  	|
-| Versión				|		|
+| Versión				| 1.0		|
 | Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fuentes				|		|
-| Objetivos asociados	|		|
-| Requisitos asociados	|		|
+| Fuentes				| Pliego de condiciones 		|
+| Objetivos asociados	| OBJ-02		|
+| Requisitos asociados	| RF-26		|
 | Descripción			| El sistema también deberá ser capaz de mostrar la solución en formato de texto para ser impreso en los tickets de cada viaje; mostrando el origen, el destino y el número de paradas.		|
-| Importancia			|		|
+| Importancia			| Alta		|
 | Urgencia				|		|
 | Estado				|		|
 | Estabilidad			|		|
@@ -952,15 +969,31 @@ Apendices
 
 <br>
 
-| RF-30					| Acceder a información de mayor detalle de las paradas y las líneas que forman parte de la respuesta desde la solución		|
+| RF-31					| Acceder a información de mayor detalle de las paradas y las líneas que forman parte de la respuesta desde la solución		|
 | :---					| :--  	|
-| Versión				|		|
+| Versión				| 1.0		|
 | Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fuentes				|		|
-| Objetivos asociados	|		|
-| Requisitos asociados	|		|
-| Descripción			| 		|
-| Importancia			| El usuario podrá acceder a una pestaña con información detallada tanto de las paradas como de las líneas que están relacionadas con la solución calculada por el sistema.		|
+| Fuentes				| Pliego de condiciones 		|
+| Objetivos asociados	| OBJ-02		|
+| Requisitos asociados	| RF-26		|
+| Descripción			| El usuario podrá acceder a una pestaña con información detallada tanto de las paradas como de las líneas que están relacionadas con la solución calculada por el sistema.			|
+| Importancia			| Alta	|
+| Urgencia				| 		|
+| Estado				|		|
+| Estabilidad			|		|
+| Comentarios			|		|
+
+<br>
+
+| RF-32					| Indicar los diferentes tramos que debe recorrer un usuario		|
+| :---					| :--  	|
+| Versión				| 1.0		|
+| Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
+| Fuentes				| Pliego de condiciones 		|
+| Objetivos asociados	| OBJ-02		|
+| Requisitos asociados	| RF-26		|
+| Descripción			| El sistema proporcionará al usuario la información relativa a los tramos que este debe realizar durante el trayecto, presentado en la solución del cálculo de mejor camino.		|
+| Importancia			| Alta		|
 | Urgencia				|		|
 | Estado				|		|
 | Estabilidad			|		|
@@ -968,105 +1001,89 @@ Apendices
 
 <br>
 
-| RF-31					| Indicar los diferentes tramos que debe recorrer un usuario		|
+| RF-33					| Indicar el tiempo empleado en recorrer un tramo		|
 | :---					| :--  	|
-| Versión				|		|
+| Versión				| 1.0		|
 | Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fuentes				|		|
-| Objetivos asociados	|		|
-| Requisitos asociados	|		|
-| Descripción			| El sistema proporcionará al usuario la información relativa a los tramos que este debe realizar durante el trayecto.		|
-| Importancia			|		|
+| Fuentes				| Pliego de condiciones 		|
+| Objetivos asociados	| OBJ-02	 	|
+| Requisitos asociados	| RF-26		|
+| Descripción			| El sistema proporcionará el tiempo asociado estimado para recorrer un tramo concreto presentado en la solución del cálculo de mejor camino. 		|
+| Importancia			| Alta		|
 | Urgencia				|		|
 | Estado				|		|
 | Estabilidad			|		|
-| Comentarios			| Una vez presentada solución.		|
+| Comentarios			|  		|
 
 <br>
 
-| RF-32					| Indicar el tiempo empleado en recorrer un tramo		|
+| RF-34					| Mostrar tiempo total del trayecto hasta alcanzar destino		|
 | :---					| :--  	|
-| Versión				|		|
+| Versión				| 1.0		|
 | Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fuentes				|		|
-| Objetivos asociados	|		|
-| Requisitos asociados	|		|
-| Descripción			| El sistema proporcionará el tiempo asociado estimado para recorrer un tramo. 		|
-| Importancia			|		|
+| Fuentes				| Pliego de condiciones 		|
+| Objetivos asociados	| OBJ-02		|
+| Requisitos asociados	| RF-26		|
+| Descripción			| El sistema proporcionará un computo del tiempo total para realizar el trayecto completo presentado en la solución del cálculo de mejor camino.		|
+| Importancia			| Alta		|
 | Urgencia				|		|
 | Estado				|		|
 | Estabilidad			|		|
-| Comentarios			| Una vez presentada solución.		|
+| Comentarios			| 		|
 
 <br>
 
-| RF-33					| Mostrar tiempo total del trayecto hasta alcanzar destino		|
+| RF-35					| Mostrar la línea		|
 | :---					| :--  	|
-| Versión				|		|
+| Versión				| 1.0		|
 | Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fuentes				|		|
-| Objetivos asociados	|		|
-| Requisitos asociados	|		|
-| Descripción			| El sistema proporcionará un computo del tiempo total para realizar el trayecto completo.		|
-| Importancia			|		|
+| Fuentes				| Pliego de condiciones 		|
+| Objetivos asociados	| OBJ-02		|
+| Requisitos asociados	| RF-26		|
+| Descripción			| El sistema mostrará la línea a elegir para realizar el trayecto deseado, presentado en la solución del cálculo de mejor camino..	|
+| Importancia			| Alta		|
 | Urgencia				|		|
 | Estado				|		|
 | Estabilidad			|		|
-| Comentarios			| Una vez presentada solución.		|
+| Comentarios			| 	|
 
 <br>
 
-| RF-34					| Mostrar la línea		|
+| RF-36					| Mostrar descripción de la línea		|
 | :---					| :--  	|
-| Versión				|		|
+| Versión				| 1.0		|
 | Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fuentes				|		|
-| Objetivos asociados	|		|
-| Requisitos asociados	|		|
-| Descripción			| El sistema mostrará la línea a elegir para realizar el trayecto desseado. 		|
-| Importancia			|		|
+| Fuentes				| Pliego de condiciones 	 	|
+| Objetivos asociados	| OBJ-02		|
+| Requisitos asociados	| RF-26		|
+| Descripción			| El sistema dará información de la solución tanto sobre la línea, como el número de tramos, el tiempo estimado por tramo y total del trayecto.		|
+| Importancia			| Alta	|
 | Urgencia				|		|
 | Estado				|		|
 | Estabilidad			|		|
-| Comentarios			| Una vez presentada solución.		|
+| Comentarios			| 		|
 
 <br>
 
-| RF-35					| Mostrar descripción de la línea		|
+| RF-37					| Mostrar destino de la línea en la que viajará		|
 | :---					| :--  	|
-| Versión				|		|
+| Versión				| 1.0		|
 | Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fuentes				|		|
-| Objetivos asociados	|		|
-| Requisitos asociados	|		|
-| Descripción			| El sistema dará información sobre la línea, como el número de tramos, el tiempo estimado por tramo y total del trayecto.		|
-| Importancia			|		|
+| Fuentes				| Pliego de condiciones 		|
+| Objetivos asociados	| OBJ-02		|
+| Requisitos asociados	| RF-26		|
+| Descripción			| El sistema mostrará cláramente el destino de la línea que se ha escogido para viajar, presentada en la solución.		|
+| Importancia			| Alta		|
 | Urgencia				|		|
 | Estado				|		|
 | Estabilidad			|		|
-| Comentarios			| Una vez presentada solución.		|
-
-<br>
-
-| RF-36					| Mostrar destino de la línea en la que viajará		|
-| :---					| :--  	|
-| Versión				|		|
-| Autores				| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fuentes				|		|
-| Objetivos asociados	|		|
-| Requisitos asociados	|		|
-| Descripción			| El sistema mostrará cláramente el destino de la línea que se ha escogido para viajar.		|
-| Importancia			|		|
-| Urgencia				|		|
-| Estado				|		|
-| Estabilidad			|		|
-| Comentarios			| Una vez presentada solución.		|
+| Comentarios			|   	|
 
 <br>
 
 | RNF-01				| Desarrollar procesos de recogida de información de cada gestor		|
 | :---					| :--  	|
-| Objetivos asociados	|		|
+| Objetivos asociados	| OBJ-02		|
 | Requisitos asociados	|		|
 | Descripción			| Se debe modelar una forma de recopilar la información de cada gestor del transporte. La información proporcionada por estos gestores se encuentra disponible en medio magnético o papel. 		|
 | Comentarios			|		|
@@ -1075,7 +1092,7 @@ Apendices
 
 | RNF-02				| Desarrollar trabajo de campo para la obtención de la información		|
 | :---					| :--  	|
-| Objetivos asociados	|		|
+| Objetivos asociados	| OBJ-02		|
 | Requisitos asociados	|		|
 | Descripción			| Se debe realizar un trabajo físico que permita la obtención de la información no recogida y necesaria para el correcto funcionamiento del sistema. 		|
 | Comentarios			| La AUTGC facilitará los medios que estén a su alcance. <br> Se debe recoger la información física (discos magnéticos, papel) de los gestores de transporte. Además, se debe recoger información de otras fuentes. Por ejemplo, un informador que avise de obras en una ruta.	|
@@ -1084,7 +1101,7 @@ Apendices
 
 | RNF-03				| Datos que se deben obtener		|
 | :---					| :--  	|
-| Objetivos asociados	|		|
+| Objetivos asociados	| OBJ-02		|
 | Requisitos asociados	|		|
 | Descripción			|		|
 | Comentarios			|		|
@@ -1093,7 +1110,7 @@ Apendices
 
 | RNF-04				| Modelo de datos		|
 | :---					| :--  	|
-| Objetivos asociados	|		|
+| Objetivos asociados	| OBJ-02		|
 | Requisitos asociados	|		|
 | Descripción			|		|
 | Comentarios			|		|
@@ -1102,7 +1119,7 @@ Apendices
 
 | RNF-05				| Definir la estructura de la base de datos		|
 | :---					| :--  	|
-| Objetivos asociados	|		|
+| Objetivos asociados	| OBJ-02		|
 | Requisitos asociados	|		|
 | Descripción			|		|
 | Comentarios			|		|
@@ -1111,7 +1128,7 @@ Apendices
 
 | RNF-06				| Desarrollo del  proceso de carga inicial de datos		|
 | :---					| :--  	|
-| Objetivos asociados	|		|
+| Objetivos asociados	| OBJ-02		|
 | Requisitos asociados	|		|
 | Descripción			|		|
 | Comentarios			|		|
@@ -1120,7 +1137,7 @@ Apendices
 
 | RNF-07				| Desarrollo del  proceso de carga inicial de datos		|
 | :---					| :--  	|
-| Objetivos asociados	|		|
+| Objetivos asociados	| OBJ-02		|
 | Requisitos asociados	|		|
 | Descripción			|		|
 | Comentarios			|		|
@@ -1129,7 +1146,7 @@ Apendices
 
 | RNF-08				| Proceso de verificación de consistencia y amplitud de datos		|
 | :---					| :--  	|
-| Objetivos asociados	|		|
+| Objetivos asociados	| OBJ-02		|
 | Requisitos asociados	|		|
 | Descripción			|		|
 | Comentarios			|		|
@@ -1138,7 +1155,7 @@ Apendices
 
 | RNF-09				| Base de datos corporativa de la AUTGC		|
 | :---					| :--  	|
-| Objetivos asociados	|		|
+| Objetivos asociados	| OBJ-02		|
 | Requisitos asociados	|		|
 | Descripción			|		|
 | Comentarios			|		|
@@ -1147,7 +1164,7 @@ Apendices
 
 | RNF-10				| Casos de prueba y validación		|
 | :---					| :--  	|
-| Objetivos asociados	|		|
+| Objetivos asociados	| OBJ-02		|
 | Requisitos asociados	|		|
 | Descripción			|		|
 | Comentarios			|		|
@@ -1156,7 +1173,7 @@ Apendices
 
 | RNF-11				| Se dispondrá de ayuda en línea para cada proceso		|
 | :---					| :--  	|
-| Objetivos asociados	|		|
+| Objetivos asociados	| OBJ-02		|
 | Requisitos asociados	|		|
 | Descripción			|		|
 | Comentarios			|		|
@@ -1165,7 +1182,7 @@ Apendices
 
 | RNF-12				| Lenguaje de programación		|
 | :---					| :--  	|
-| Objetivos asociados	|		|
+| Objetivos asociados	| OBJ-02		|
 | Requisitos asociados	|		|
 | Descripción			|		|
 | Comentarios			|		|
@@ -1174,7 +1191,7 @@ Apendices
 
 | RNF-13				| Tablas en la base de datos		|
 | :---					| :--  	|
-| Objetivos asociados	|		|
+| Objetivos asociados	| OBJ-02		|
 | Requisitos asociados	|		|
 | Descripción			|		|
 | Comentarios			|		|
@@ -1183,7 +1200,7 @@ Apendices
 
 | RNF-14				| Datos relacionados con el transporte público		|
 | :---					| :--  	|
-| Objetivos asociados	|		|
+| Objetivos asociados	| OBJ-02		|
 | Requisitos asociados	|		|
 | Descripción			|		|
 | Comentarios			|		|
@@ -1192,7 +1209,7 @@ Apendices
 
 | RNF-15				| Integrar información del transporte público y su información cartográfica asociada		|
 | :---					| :--  	|
-| Objetivos asociados	|		|
+| Objetivos asociados	| OBJ-02		|
 | Requisitos asociados	|		|
 | Descripción			|		|
 | Comentarios			|		|
@@ -1201,7 +1218,7 @@ Apendices
 
 | RNF-16				| Aspectos del cálculo del itinerario		|
 | :---					| :--  	|
-| Objetivos asociados	|		|
+| Objetivos asociados	| OBJ-02		|
 | Requisitos asociados	|		|
 | Descripción			|		|
 | Comentarios			|		|
@@ -2009,7 +2026,7 @@ Apendices
 | Descripción			| Muestra datos de una solución de un itinerario		|
 | Actores				| Usuario		|
 | Precondiciones		| El sistema ha realizado todos los cálculos necesarios, el usuario está en el sistema.	|
-| Flujo normal			| 1. El sistema muestra la distancia entre paradas, los transbordos necesarios, el tiempo del recorrido total, los tramos a recorrer por el usuario y las zonas por las que no transitar. <br> 2. El sistema muestra la solución en forma esquemática. <br> 3. El usuario solicita ver más detalles <br> 4. El sistema muestra información adicional de las líneas: descripción, empresa gestora, incidencias, tarifas y horarios. <br> 5. El proceso finaliza.	|
+| Flujo normal			| 1. El sistema muestra la distancia entre paradas, los transbordos necesarios, el tiempo del recorrido total, los tramos a recorrer por el usuario y las zonas por las que no transitar. <br> 2. El sistema muestra la solución en forma esquemática. <br> 3. El usuario solicita ver más detalles <br> 4. El sistema muestra información adicional de las líneas: descripción, empresa gestora, incidencias, tarifas y horarios.	|
 | Flujo alternativo		|  3.A. El usuario no solicita más detalles, el proceso finaliza.	|
 | Poscondiciones		| Ninguna.		|
 | Comentarios			| Ninguno. |
@@ -2054,7 +2071,7 @@ Apendices
 | Descripción			| Proporciona ayuda adaptada.		|
 | Actores				| Usuario		|
 | Precondiciones		| Ninguna	|
-| Flujo normal			| 1. El usuario solicita ayuda en línea. <br> 2. El sistema muestra pregutnas frecuentes relacionadas con la sección en la que se encuentra el usuario. <br> 3. El proceso termina.	|
+| Flujo normal			| 1. El usuario solicita ayuda en línea. <br> 2. El sistema muestra pregutnas frecuentes relacionadas con la sección en la que se encuentra el usuario.	|
 | Flujo alternativo		|  	|
 | Poscondiciones		| Ninguna.		|
 | Comentarios			| Ninguno. |
