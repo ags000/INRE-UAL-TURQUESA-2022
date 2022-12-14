@@ -1896,7 +1896,7 @@ Apendices
 <br>
 
 
-### Casos de uso del diagrama B)
+### Casos de uso del diagrama de Sistema de la información del SIIT
 
 | Identificar			| CU-01	|
 | :---					| :--  	|
@@ -1911,6 +1911,8 @@ Apendices
 | Poscondiciones		| Ninguna.		|
 | Comentarios			| Ninguno.		|
 
+<br>
+
 | Identificar			| CU-02	|
 | :---					| :--  	|
 | Nombre				| Ver horario y lineas (vista Administrador)		|
@@ -1923,6 +1925,8 @@ Apendices
 | Flujo alternativo		| 6. El usuario no solicita conocer más detalles. El proceso finaliza.		|
 | Poscondiciones		| Ninguna.		|
 | Comentarios			| Ninguno.		|
+
+<br>
 
 | Identificar			| CU-03	|
 | :---					| :--  	|
@@ -1937,6 +1941,8 @@ Apendices
 | Poscondiciones		| Se ha actualizado el registro del dato modificado en la base de datos.		|
 | Comentarios			| Ninguno.		|
 
+<br>
+
 | Identificar			| CU-04	|
 | :---					| :--  	|
 | Nombre				| Introducir datos		|
@@ -1950,6 +1956,7 @@ Apendices
 | Poscondiciones		| Se ha actualizado el registro del dato modificado en la base de datos.		|
 | Comentarios			| Ninguno.		|
 
+<br>
 
 | Identificar			| CU-05	|
 | :---					| :--  	|
@@ -1964,6 +1971,8 @@ Apendices
 | Poscondiciones		| Ninguna.		|
 | Comentarios			| Ninguno.		|
 
+<br>
+
 | Identificar			| CU-06	|
 | :---					| :--  	|
 | Nombre				| Introducir potenciador		|
@@ -1976,6 +1985,8 @@ Apendices
 | Flujo alternativo		| 2.A El usuario solicita potenciar por número de transboros.|
 | Poscondiciones		| Ninguna.		|
 | Comentarios			| Ninguno.		|
+
+<br>
 
 | Identificar			| CU-07	|
 | :---					| :--  	|
@@ -1990,6 +2001,8 @@ Apendices
 | Poscondiciones		| Ninguna.		|
 | Comentarios			| El origen y destino se pueden proporcionar de diversas formas: desde el mapa, escribiendo la dirección y desde una parada o evento.|
 
+<br>
+
 | Identificar			| CU-08	|
 | :---					| :--  	|
 | Nombre				| Usar mapa		|
@@ -2003,6 +2016,7 @@ Apendices
 | Poscondiciones		| Ninguna.		|
 | Comentarios			| Ninguno. |
 
+<br>
 
 | Identificar			| CU-09	|
 | :---					| :--  	|
@@ -2017,6 +2031,7 @@ Apendices
 | Poscondiciones		| Ninguna.		|
 | Comentarios			| Ninguno. |
 
+<br>
 
 | Identificar			| CU-10	|
 | :---					| :--  	|
@@ -2026,11 +2041,12 @@ Apendices
 | Descripción			| Se podrán consultar soluciones de itinerarios.	|
 | Actores				| Usuario		|
 | Precondiciones		| El usuario está en el sistema.	|
-| Flujo normal			| 1. El usuario solicita realizar una consulta. <br> 2. El sistema muestra un mapa de Gran Canaria con todos los datos cartografiados (eventos, paradas...). <br> 3. El sistema solicita los datos para realizar la consulta (fecha, hora, potenciador, punto de origen, punto de destino). <br> 4. El usuario proporciona los datos pedidos. <br> 6. El sistema hace una traducción de la dirección proporcionada a una dirección cartografiada. <br> 7. El sistema calcula la distancia entre paradas, los tiempos de recorrido, los tramos a recorrer por el usuario y define transbordos necesarios. <br> 8. El sistema identifica zonas por las que no transitar. <br> 9. El sistema muestra la distancia entre paradas, los transbordos necesarios, el tiempo del recorrido total, los tramos a recorrer por el usuario (itinerario recomendado) y las zonas por las que no transitar. <br> 10. El sistema muestra la solución en forma esquemática. <br> 11. El usuario solicita ver más detalles <br> 12. El sistema muestra información adicional de las líneas: descripción, empresa gestora, incidencias, tarifas y horarios.
-| Flujo alternativo		| 7.A El usuario solicita potenciar por número de transboros. <br> 11.A. El usuario (no usa el cuadro de texto), selecciona una parada y la marca como punto de origen / destino. <br> 11.B. El sistema registra la parada como punto de origen / destino. <br> 11.C. El usuario selecciona un evento en el mapa y lo marca como punto de origen / destino. <br> 5.C. El sistema registra el evento como punto de origen / destino. <br> 5.D. La traducción no es exitosa, el sistema indica al usuario que revise las direcciones proporcionadas. <br> 14.E. El usuario se desplaza por el mapa <br> 15.E. El sistema actualiza el mapa en función del desplazamiento. <br> 16.E. El usuario selecciona una parada y la marca como punto de origen / destino. <br> 17.E. El sistema registra la parada como punto de origen / destino. <br> 16.E.2 El usuario selecciona un evento y lo marca como punto de origen / destino. <br> 17.E.2 El sistema registra el evento como punto de origen / destino. <br> 21.F. El usuario no solicita más detalles, el proceso finaliza.	|
-| Poscondiciones		| Se ha actualizado el registro del dato modificado en la base de datos.		|
+| Flujo normal			| 1. El usuario solicita realizar una consulta. <br> 2. El sistema muestra un mapa de Gran Canaria con todos los datos cartografiados (eventos, paradas...). <br> 3. El sistema solicita los datos para realizar la consulta (fecha, hora, potenciador, punto de origen, punto de destino). <br> 4. El usuario proporciona los datos pedidos. <br> 6. El sistema hace una traducción de la dirección proporcionada a una dirección cartografiada. <br> 7. El sistema calcula la distancia entre paradas, los tiempos de recorrido, los tramos a recorrer por el usuario y define transbordos necesarios. <br> 8. El sistema identifica zonas por las que no transitar. <br> 9. El sistema muestra la distancia entre paradas, los transbordos necesarios, el tiempo del recorrido total, los tramos a recorrer por el usuario (itinerario recomendado) y las zonas por las que no transitar. <br> 10. El sistema muestra la solución en forma esquemática. <br> 11. El usuario solicita ver más detalles. <br> 12. El sistema muestra información adicional de las líneas: descripción, empresa gestora, incidencias, tarifas y horarios.
+| Flujo alternativo		| 4A. El usuario solicita potenciar por número de transboros. <br> 4B. El usuario (no usa el cuadro de texto), selecciona una parada y la marca como punto de origen / destino. <br> 4C. El usuario selecciona un evento en el mapa y lo marca como punto de origen / destino. <br> 5A. El sistema registra el evento como punto de origen / destino. <br> 5B. La traducción no es exitosa, el sistema indica al usuario que revise las direcciones proporcionadas. <br> 9A. El usuario se desplaza por el mapa <br> 9B. El sistema actualiza el mapa en función del desplazamiento. <br> 9C. El usuario selecciona una parada y la marca como punto de origen / destino. <br> 10A. El sistema registra la parada como punto de origen / destino. <br> 10B. El usuario selecciona un evento y lo marca como punto de origen / destino. <br> 10C. El sistema registra el evento como punto de origen / destino. <br> 11A. El usuario no solicita más detalles, el proceso finaliza.	|
+| Poscondiciones		| La consulta realizada se almacena en la base de datos.		|
 | Comentarios			| Ninguno.		|
 
+<br>
 
 | Identificar			| CU-11	|
 | :---					| :--  	|
@@ -2045,6 +2061,8 @@ Apendices
 | Poscondiciones		| Ninguna.		|
 | Comentarios			| Ninguno. |
 
+<br>
+
 | Identificar			| CU-12	|
 | :---					| :--  	|
 | Nombre				| Obtener ayuda en linea	|
@@ -2057,6 +2075,176 @@ Apendices
 | Flujo alternativo		|  	|
 | Poscondiciones		| Ninguna.		|
 | Comentarios			| Ninguno. |
+
+<br>
+
+### Casos de uso del diagrama del SMET
+
+<br>
+
+| Identificar			| CU-	            |
+| :---					| :--            	|
+| Nombre				|               	|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
+| Fecha					| 13/12/2022		|
+| Descripción			| 	            	|
+| Actores				|              		|
+| Precondiciones		|                	|
+| Flujo normal			| 	                |
+| Flujo alternativo		|                	|
+| Poscondiciones		|              		|
+| Comentarios			|                   |
+
+<br>
+
+| Identificar			| CU-	            |
+| :---					| :--            	|
+| Nombre				|               	|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
+| Fecha					| 13/12/2022		|
+| Descripción			| 	            	|
+| Actores				|              		|
+| Precondiciones		|                	|
+| Flujo normal			| 	                |
+| Flujo alternativo		|                	|
+| Poscondiciones		|              		|
+| Comentarios			|                   |
+
+<br>
+
+| Identificar			| CU-	            |
+| :---					| :--            	|
+| Nombre				|               	|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
+| Fecha					| 13/12/2022		|
+| Descripción			| 	            	|
+| Actores				|              		|
+| Precondiciones		|                	|
+| Flujo normal			| 	                |
+| Flujo alternativo		|                	|
+| Poscondiciones		|              		|
+| Comentarios			|                   |
+
+<br>
+
+| Identificar			| CU-	            |
+| :---					| :--            	|
+| Nombre				|               	|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
+| Fecha					| 13/12/2022		|
+| Descripción			| 	            	|
+| Actores				|              		|
+| Precondiciones		|                	|
+| Flujo normal			| 	                |
+| Flujo alternativo		|                	|
+| Poscondiciones		|              		|
+| Comentarios			|                   |
+
+<br>
+
+| Identificar			| CU-	            |
+| :---					| :--            	|
+| Nombre				|               	|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
+| Fecha					| 13/12/2022		|
+| Descripción			| 	            	|
+| Actores				|              		|
+| Precondiciones		|                	|
+| Flujo normal			| 	                |
+| Flujo alternativo		|                	|
+| Poscondiciones		|              		|
+| Comentarios			|                   |
+
+<br>
+
+| Identificar			| CU-	            |
+| :---					| :--            	|
+| Nombre				|               	|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
+| Fecha					| 13/12/2022		|
+| Descripción			| 	            	|
+| Actores				|              		|
+| Precondiciones		|                	|
+| Flujo normal			| 	                |
+| Flujo alternativo		|                	|
+| Poscondiciones		|              		|
+| Comentarios			|                   |
+
+<br>
+
+| Identificar			| CU-	            |
+| :---					| :--            	|
+| Nombre				|               	|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
+| Fecha					| 13/12/2022		|
+| Descripción			| 	            	|
+| Actores				|              		|
+| Precondiciones		|                	|
+| Flujo normal			| 	                |
+| Flujo alternativo		|                	|
+| Poscondiciones		|              		|
+| Comentarios			|                   |
+
+<br>
+
+| Identificar			| CU-	            |
+| :---					| :--            	|
+| Nombre				|               	|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
+| Fecha					| 13/12/2022		|
+| Descripción			| 	            	|
+| Actores				|              		|
+| Precondiciones		|                	|
+| Flujo normal			| 	                |
+| Flujo alternativo		|                	|
+| Poscondiciones		|              		|
+| Comentarios			|                   |
+
+<br>
+
+| Identificar			| CU-	            |
+| :---					| :--            	|
+| Nombre				|               	|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
+| Fecha					| 13/12/2022		|
+| Descripción			| 	            	|
+| Actores				|              		|
+| Precondiciones		|                	|
+| Flujo normal			| 	                |
+| Flujo alternativo		|                	|
+| Poscondiciones		|              		|
+| Comentarios			|                   |
+
+<br>
+
+| Identificar			| CU-	            |
+| :---					| :--            	|
+| Nombre				|               	|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
+| Fecha					| 13/12/2022		|
+| Descripción			| 	            	|
+| Actores				|              		|
+| Precondiciones		|                	|
+| Flujo normal			| 	                |
+| Flujo alternativo		|                	|
+| Poscondiciones		|              		|
+| Comentarios			|                   |
+
+<br>
+
+| Identificar			| CU-	            |
+| :---					| :--            	|
+| Nombre				|               	|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
+| Fecha					| 13/12/2022		|
+| Descripción			| 	            	|
+| Actores				|              		|
+| Precondiciones		|                	|
+| Flujo normal			| 	                |
+| Flujo alternativo		|                	|
+| Poscondiciones		|              		|
+| Comentarios			|                   |
+
 ### 4.2.4. Detalle de los casos de uso.
 
 
