@@ -37,6 +37,10 @@ Apendices
 
 ## 2.1. Organigrama.
 
+<div align="center">
+    <img src="./../Proyecto/organigrama.svg" style="border: 3px solid #bbb">
+    <i><p>Imagen 1. Organigrama de la empresa AUTGC.</p></i>
+</div>
 
 <br>
 
@@ -55,7 +59,8 @@ Apendices
 | PDA                      | Personal Digital Assistant, Ayudante personal digital. Es un dispositivo de pequeño tamaño que combina un ordenador, teléfono/fax, Internet y conexiones de red.  |
 | LOPD                     |  Ley Orgánica 15/1999 de 13 de diciembre de Protección de Datos de Carácter Personal. Es una ley española que tiene por objeto la garantía y la protección de los datos personales, las libertades públicas y los derechos fundamentales de las personas físicas, en especial de su honor, intimidad y privacidad personal y familiar.   |
 | AUT                      | Autoridad Única del Transporte |
-
+| Solución                      | Por definir |
+| Entorno de colaboración               | Por definir |
 
 <br>
 
@@ -121,7 +126,7 @@ ENUNCIADO BPMN
 
 ## 4.1. Requisitos.
 
-### 4.1.1 Gestor de contenidos.
+### 4.1.1 Gestor de contenidos y portal.
 
 Requisitos Funcionales
 
@@ -437,6 +442,16 @@ Requisitos No Funcionales
 | Requisitos asociados	|		|
 | Descripción			| Actualización continúa durante todo el contrato de dichos contenidos, de acuerdo con el tipo de cada uno de ellos, y sobre todo vigilando que no se presenten contenidos obsoletos en ningún caso.		|
 | Comentarios			|		|
+
+
+Requisitos de información
+
+| RI-01                    | Usuarios             |
+| :---                     | :---                           |
+| Requisitos asiciados     | UC-03, UC-05                   |
+| Descripción              | El sistema deberá almacenar información correspondiente a los productos comprados por cada usuario.          |
+| Datos específicos        | Producto: idProducto <br> Compra: idCompra. |
+| Comentarios               | Ninguno. |
 
 ### 4.1.2 Sistemas de la información.
 
@@ -1414,7 +1429,7 @@ Requisitos No Funcionales
 
 <br>
 
-# ESTO TMB PUEDE SER UN RF?????
+# ESTO TMB PUEDE SER UN RF????? de hesho son RF y no RNF 
 
 | RNF-					| Comercio electrónico	|
 | :---					| :--  	|
@@ -1533,7 +1548,7 @@ Requisitos No Funcionales
 
 <br>
 
-| RNF-					| Consultas estadísticas 	|
+| RNF-					| Consultar estadísticas 	|
 | :---					| :--  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -1724,8 +1739,8 @@ Requisitos No Funcionales
 | Descripción			| El podrá consultar las estadísticas de acceso a las distintas secciones y servicios.		|
 | Actores				| Administrador		|
 | Precondiciones		| El usuario debe de estar identificado como administrador.		|
-| Flujo normal			| 1. El usuario seleccionará el apartado del portal para acceder a las estadísticas. <br> 2. El sistema realizará varias consultas y mostrará por pantalla el cómputo de las estadísticas mediante distintos gráficos.		|
-| Flujo alternativo		| 2. Opcionalmente, el usuario podrá aplicar filtros para otro tipo de estadísticas a parte de las estadísticas generales. 		|
+| Flujo normal			| 1. El usuario seleccionará el apartado del portal para acceder a las estadísticas. <br> 2. El sistema consultará el número de visitas registrado y su procedencia geográfica. <br> 3. El sistema mostrará por pantalla las estadísticas mediante dos gráficos de barras.		|
+| Flujo alternativo		| 3. Si no hay visitas, el sistema mostrará un mensaje. |
 | Poscondiciones		| Ninguna.		|
 | Comentarios			| 	    |
 
