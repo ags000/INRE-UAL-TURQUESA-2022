@@ -2267,13 +2267,13 @@ Apendices
 | Nombre				| Registrar periodos continuos de tiempo              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			| 	            	|
-| Actores				|              		|
+| Descripción			| El usuario podrá registrar un intervalo de tiempo. 	            	|
+| Actores				| Operador adjudicatario             		|
 | Precondiciones		|                	|
-| Flujo normal			| 	                |
+| Flujo normal			| 1. El usuario solicita registrar un periodo de tiempo. <br> 2. El sistema lista el contenido que se puede registrar <br> 3. El usuario selecciona el intervalo de tiempo deseado.	                |
 | Flujo alternativo		|                	|
-| Poscondiciones		|              		|
-| Comentarios			|                   |
+| Poscondiciones		| Se ha añadido en la base de datos el registro de tiempo realizado.             		|
+| Comentarios			| El periodo registrado se guarda como películas de evolución temporal del estado.                  |
 
 <br>
 
