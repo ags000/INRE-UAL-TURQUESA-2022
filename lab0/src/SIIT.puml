@@ -1,0 +1,59 @@
+@startuml SMET
+title SMET
+
+actor Usuario_no_logueado  #LightBlue
+actor Usuario_logueado #LightBlue
+actor Usuario #LightBlue
+actor Administrador #LightBlue
+actor Subcontratado #LightBlue
+
+/'Casos de uso'/
+"Obtener ayuda en línea" as (OAL)
+
+Usuario -- (OAL)
+Subcontratado -- (OAL)
+
+"Realizar consulta" as (RC)
+
+Usuario -- (RC)
+
+"Ver resultado" as (VR)
+
+(VR) .-> (RC) : <<include>>
+
+
+"Ver listado" as (VL)
+"Modificar datos" as (MD)
+
+Administrador -- (MD)
+
+"Introducir manual de datos" as (IMD)
+
+Administrador -- (IMD)
+
+
+"Ver alarma " as (VA)
+"ver advertencias" as (VADV)
+"Crear conjunto de operadores" as (CCO)
+"Registrar situaciones puntuales" as (RSP)
+"Registrar periodos continuos de tiempo" as (RPCT)
+"Proveer datos" as (PD)
+"Definir evento" as (DE)
+"Crear advertencia" as (CA)
+"Examinar el estado de la explotación en tiempo real" as (EEE)
+usecase AEETR as "Examinar el estado de la explotación en tiempo real (Vista Operador adjudicataro)
+--
+extension points
+Crear conjunto de operadores"
+
+/'Herencias actores'/
+Usuario_logueado -|> Usuario_no_logueado
+
+/'Relaciones casos de uso'/
+
+(CCO) .-> (AEETR) : <<extend>>
+
+
+
+
+
