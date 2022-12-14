@@ -2065,18 +2065,18 @@ Apendices
 
 <br>
 
-| Identificar			| CU-	            |
+| Identificar			| CU-01	            |
 | :---					| :--            	|
-| Nombre				|               	|
+| Nombre				| Generar alarmas              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			| 	            	|
-| Actores				|              		|
+| Descripción			| El sistema genera una alarma que será recibida por otro usuario para notificarlo de algo.	            	|
+| Actores				| Sistema             		|
 | Precondiciones		|                	|
 | Flujo normal			| 	                |
 | Flujo alternativo		|                	|
 | Poscondiciones		|              		|
-| Comentarios			|                   |
+| Comentarios			| Una alarma es un mensaje (no necesariamente de texto, puede ser un simple sonido) que notifica al receptor de algo en concreto.                  |
 
 <br>
 
