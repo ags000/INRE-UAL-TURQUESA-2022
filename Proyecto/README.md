@@ -2147,13 +2147,13 @@ Apendices
 | Nombre				| Ver alarma              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			| 	            	|
-| Actores				|              		|
-| Precondiciones		|                	|
-| Flujo normal			| 	                |
-| Flujo alternativo		|                	|
-| Poscondiciones		|              		|
-| Comentarios			|                   |
+| Descripción			| El usuario recibe una alarma informándole de un suceso o evento concreto relevante.	            	|
+| Actores				| Usuario No Logueado             		|
+| Precondiciones		| La alarma ha sido enviada por el sistema con el usuario como receptor previamente.               	|
+| Flujo normal			| 1. El usuario recibe una notificación de la alarma. 2. El usuario abre el mensaje que contiene la alarma y examina su contenido. 3. El usuario confirma que ha leído el mensaje.	                |
+| Flujo alternativo		| 3A. Si el usuario no confirma, volverá a recibir la alarma en un periodo corto de tiempo.               	|
+| Poscondiciones		| El sistema recibe la confirmación de alarma recibida por parte del usuario.             		|
+| Comentarios			| -                  |
 
 <br>
 
@@ -2162,13 +2162,13 @@ Apendices
 | Nombre				| Ver alarmas (vista Usuario Logueado)              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			| 	            	|
-| Actores				|              		|
-| Precondiciones		|                	|
-| Flujo normal			| 	                |
-| Flujo alternativo		|                	|
-| Poscondiciones		|              		|
-| Comentarios			|                   |
+| Descripción			| El usuario recibe una alarma informándole de un suceso o evento concreto relevante.	            	|
+| Actores				| Usuario Logueado             		|
+| Precondiciones		| La alarma ha sido enviada por el sistema con el usuario como receptor previamente.               	|
+| Flujo normal			| 1. El usuario recibe una notificación de la alarma. 2. El usuario abre el mensaje que contiene la alarma y examina su contenido. 3. El usuario confirma que ha leído el mensaje.	                |
+| Flujo alternativo		| 3A. Si el usuario no confirma, volverá a recibir la alarma en un periodo corto de tiempo.               	|
+| Poscondiciones		| El sistema recibe la confirmación de alarma recibida por parte del usuario.             		|
+| Comentarios			| -                  |
 
 <br>
 
@@ -2177,13 +2177,13 @@ Apendices
 | Nombre				| Ver alarmas (vista Operador de transporte)              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			| 	            	|
-| Actores				|              		|
-| Precondiciones		|                	|
-| Flujo normal			| 	                |
-| Flujo alternativo		|                	|
-| Poscondiciones		|              		|
-| Comentarios			|                   |
+| Descripción			| El usuario recibe una alarma informándole de un suceso o evento concreto relevante.	            	|
+| Actores				| Operador de transporte             		|
+| Precondiciones		| La alarma ha sido enviada por el sistema con el usuario como receptor previamente.               	|
+| Flujo normal			| 1. El usuario recibe una notificación de la alarma. 2. El usuario abre el mensaje que contiene la alarma y examina su contenido. 3. El usuario confirma que ha leído el mensaje.	                |
+| Flujo alternativo		| 3A. Si el usuario no confirma, volverá a recibir la alarma en un periodo corto de tiempo.               	|
+| Poscondiciones		| El sistema recibe la confirmación de alarma recibida por parte del usuario.             		|
+| Comentarios			| -                  |
 
 <br>
 
@@ -2192,13 +2192,13 @@ Apendices
 | Nombre				| Ver alarmas (vista Operador adjudicatario)              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			| 	            	|
-| Actores				|              		|
-| Precondiciones		|                	|
-| Flujo normal			| 	                |
-| Flujo alternativo		|                	|
-| Poscondiciones		|              		|
-| Comentarios			|                   |
+| Descripción			| El usuario recibe una alarma informándole de un suceso o evento concreto relevante.	            	|
+| Actores				| Operador adjudicatario             		|
+| Precondiciones		| La alarma ha sido enviada por el sistema con el usuario como receptor previamente.               	|
+| Flujo normal			| 1. El usuario recibe una notificación de la alarma. 2. El usuario abre el mensaje que contiene la alarma y examina su contenido. 3. El usuario confirma que ha leído el mensaje.	                |
+| Flujo alternativo		| 3A. Si el usuario no confirma, volverá a recibir la alarma en un periodo corto de tiempo.               	|
+| Poscondiciones		| El sistema recibe la confirmación de alarma recibida por parte del usuario.             		|
+| Comentarios			| -                  |
 
 <br>
 
