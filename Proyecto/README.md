@@ -59,8 +59,7 @@ Apendices
 | PDA                      | Personal Digital Assistant, Ayudante personal digital. Es un dispositivo de pequeño tamaño que combina un ordenador, teléfono/fax, Internet y conexiones de red.  |
 | LOPD                     |  Ley Orgánica 15/1999 de 13 de diciembre de Protección de Datos de Carácter Personal. Es una ley española que tiene por objeto la garantía y la protección de los datos personales, las libertades públicas y los derechos fundamentales de las personas físicas, en especial de su honor, intimidad y privacidad personal y familiar.   |
 | AUT                      | Autoridad Única del Transporte |
-| Solución                      | Por definir |
-| Entorno de colaboración               | Por definir |
+| Entorno de colaboración       | Entorno enfocado a la facilitación de la comunicación e intercambio de información tanto entre los administradores como entre los usuarios del sistema. |
 
 <br>
 
@@ -114,10 +113,16 @@ Apendices
 
 <br>
 
+<br>
+
+<div align="center">
+    <img src="./../Proyecto/BPMN-03.svg" style="border: 3px solid #bbb">
+    <i><p>Imagen 3. BPMN-03.</p></i>
+</div>
+
+<br>
 
 ### 3.2.2. Tareas.
-
-ENUNCIADO BPMN
 
 <br>
 
@@ -129,17 +134,25 @@ ENUNCIADO BPMN
 
 | Nombre                   | Descripción                   |
 | :---                     | :---                          |
-| BPMN-02                  | Para que un usuario pueda comprar un bono para cualquier transporte debe haber un operador de transporte que le atienda. El usuario especifica la fecha y lugar deseado para realizar el viaje y el operador busca todas las opciones disponibles. Si hay, las muestra, en caso contrario, le mostrará las alternativas disponibles. Si el usuario desea una de esas opciones, selecciona la deseada y la compra, de manera que el sistema guarda la compra en la base de datos y envía un resguardo al usuario. Por el contrario, si no quiere ninguna, podrá elegir otra fecha distinta o finalizar la compra.                         |
+| BPMN-02                  | Para que un usuario pueda comprar un bono a través de la Web, debe especificar la fecha y lugar deseado para realizar el viaje y el sistema buscará todas las opciones disponibles. Si hay, las muestra, en caso contrario, le mostrará las alternativas disponibles. Si el usuario desea una de esas opciones, selecciona la deseada, introduce sus datos personales y la compra, de manera que el sistema guarda la información en la base de datos y envía un resguardo al usuario. Por el contrario, si no quiere ninguna, podrá elegir otra fecha distinta o finalizar la compra.                       |
+
+<br>
+
+| Nombre                   | Descripción                   |
+| :---                     | :---                          |
+| BPMN-03                  | Para que un usuario realice una consulta origen-destino debe introducir en el sistema el origen y el destino del viaje que quiere realizar. Además, podrá filtrar la consulta por un criterio de búsqueda (tiempo de viaje, precio, número de transbordos, parada, intervalo horario de salida). El sistema proporcionará la solución más optima, pudiendo el usuario imprimir la información obtenida, y simular el recorrido.                    |
 
 <br>
 
 # 4. Requisitos del sistema a desarrollar.
 
+<br>
+
 ## 4.1. Requisitos.
 
-### 4.1.1 Gestor de contenidos y portal.
+<br>
 
-Requisitos Funcionales
+### 4.1.1 Gestor de contenidos y portal.
 
 <br>
 
@@ -157,7 +170,7 @@ Requisitos Funcionales
 | Estabilidad			|		|
 | Comentarios			| 		|
 
-<br>ok
+<br>
 
 | RF-02					| Acceso web con editor WYSIWYG		|
 | :---					| :----  	|
@@ -325,9 +338,6 @@ Requisitos Funcionales
 | Descripción			| El portal contará con un aplicativo de estadísticas que permita conocer como se utiliza el sistema por parte de los usuarios, con el fin de obtener información de interés desde el punto de vista del transporte (origen más solicitado, destino más solicitado, información más requerida, puntos de información más solicitados, etc.) y procurar su mejora continuada. 		|
 | Comentarios			|		|
 
-
-Requisitos No Funcionales
-
 <br>
 
 | RNF-01		    	| Análisis del portal		|
@@ -463,8 +473,7 @@ Requisitos No Funcionales
 | Descripción			| Actualización continúa durante todo el contrato de dichos contenidos, de acuerdo con el tipo de cada uno de ellos, y sobre todo vigilando que no se presenten contenidos obsoletos en ningún caso.		|
 | Comentarios			|		|
 
-
-Requisitos de información
+<br>
 
 | RI-01                    | Usuarios             |
 | :---                     | :---                           |
@@ -473,9 +482,9 @@ Requisitos de información
 | Datos específicos        | Producto: idProducto <br> Compra: idCompra. |
 | Comentarios               | Ninguno. |
 
-### 4.1.2 Sistemas de la información.
+<br>
 
-Requisitos Funcionales
+### 4.1.2 Sistemas de la información.
 
 <br>
 
@@ -1052,10 +1061,6 @@ Requisitos Funcionales
 | Estado				|		|
 | Estabilidad			|		|
 | Comentarios			| Una vez presentada solución.		|
-
-<br>
-
-Requisitos No Funcionales
 
 <br>
 
