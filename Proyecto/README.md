@@ -146,11 +146,13 @@ Apendices
 
 # 4. Requisitos del sistema a desarrollar.
 
+<br>
+
 ## 4.1. Requisitos.
 
-### 4.1.1 Gestor de contenidos y portal.
+<br>
 
-Requisitos Funcionales
+### 4.1.1 Gestor de contenidos y portal.
 
 <br>
 
@@ -168,7 +170,7 @@ Requisitos Funcionales
 | Estabilidad			|		|
 | Comentarios			| 		|
 
-<br>ok
+<br>
 
 | RF-02					| Acceso web con editor WYSIWYG		|
 | :---					| :----  	|
@@ -336,9 +338,6 @@ Requisitos Funcionales
 | Descripción			| El portal contará con un aplicativo de estadísticas que permita conocer como se utiliza el sistema por parte de los usuarios, con el fin de obtener información de interés desde el punto de vista del transporte (origen más solicitado, destino más solicitado, información más requerida, puntos de información más solicitados, etc.) y procurar su mejora continuada. 		|
 | Comentarios			|		|
 
-
-Requisitos No Funcionales
-
 <br>
 
 | RNF-01		    	| Análisis del portal		|
@@ -474,8 +473,7 @@ Requisitos No Funcionales
 | Descripción			| Actualización continúa durante todo el contrato de dichos contenidos, de acuerdo con el tipo de cada uno de ellos, y sobre todo vigilando que no se presenten contenidos obsoletos en ningún caso.		|
 | Comentarios			|		|
 
-
-Requisitos de información
+<br>
 
 | RI-01                    | Usuarios             |
 | :---                     | :---                           |
@@ -484,9 +482,9 @@ Requisitos de información
 | Datos específicos        | Producto: idProducto <br> Compra: idCompra. |
 | Comentarios               | Ninguno. |
 
-### 4.1.2 Sistemas de la información.
+<br>
 
-Requisitos Funcionales
+### 4.1.2 Sistemas de la información.
 
 <br>
 
@@ -1063,10 +1061,6 @@ Requisitos Funcionales
 | Estado				|		|
 | Estabilidad			|		|
 | Comentarios			| Una vez presentada solución.		|
-
-<br>
-
-Requisitos No Funcionales
 
 <br>
 
