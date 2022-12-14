@@ -114,10 +114,16 @@ Apendices
 
 <br>
 
+<br>
+
+<div align="center">
+    <img src="./../Proyecto/BPMN-03.svg" style="border: 3px solid #bbb">
+    <i><p>Imagen 3. BPMN-03.</p></i>
+</div>
+
+<br>
 
 ### 3.2.2. Tareas.
-
-ENUNCIADO BPMN
 
 <br>
 
@@ -130,6 +136,12 @@ ENUNCIADO BPMN
 | Nombre                   | Descripción                   |
 | :---                     | :---                          |
 | BPMN-02                  | Para que un usuario pueda comprar un bono a través de la Web, debe especificar la fecha y lugar deseado para realizar el viaje y el sistema buscará todas las opciones disponibles. Si hay, las muestra, en caso contrario, le mostrará las alternativas disponibles. Si el usuario desea una de esas opciones, selecciona la deseada, introduce sus datos personales y la compra, de manera que el sistema guarda la información en la base de datos y envía un resguardo al usuario. Por el contrario, si no quiere ninguna, podrá elegir otra fecha distinta o finalizar la compra.                       |
+
+<br>
+
+| Nombre                   | Descripción                   |
+| :---                     | :---                          |
+| BPMN-03                  | Para que un usuario realice una consulta origen-destino debe introducir en el sistema el origen y el destino del viaje que quiere realizar. Además, podrá filtrar la consulta por un criterio de búsqueda (tiempo de viaje, precio, número de transbordos, parada, intervalo horario de salida). El sistema proporcionará la solución más optima, pudiendo el usuario imprimir la información obtenida, y simular el recorrido.                    |
 
 <br>
 
