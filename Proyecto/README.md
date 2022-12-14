@@ -116,9 +116,13 @@ ENUNCIADO BPMN
 
 | Nombre                   | Descripción                   |
 | :---                     | :---                          |
-| BPMN-01                  | Un trabajador de la AUTGC establece contacto con un operador de transporte para obtener el acta de incidencias (medio magnético o soporte papel) para proporcionarselo al operador adjudicatario. El operador revisa la información y si  considera que los datos no son correctos, contactará con los operadores de trabajo para que la corrijan y le envien la nueva información.                                |
+| BPMN-01                  | Un trabajador de la AUTGC establece contacto con un operador de transporte para obtener el acta de incidencias (medio magnético o soporte papel) para proporcionárselo al operador adjudicatario. El operador revisa la información y si considera que los datos no son correctos, contactará con los operadores de trabajo para que la corrijan y le envíen la nueva información.                                |
 
+<br> 
 
+| Nombre                   | Descripción                   |
+| :---                     | :---                          |
+| BPMN-02                  | Para que un usuario pueda comprar un bono para cualquier transporte debe haber un operador de transporte que le atienda. El usuario especifica la fecha deseada para realizar el viaje y el operador le muestra todas las opciones disponibles. Si el usuario desea una de esas opciones, selecciona la deseada y la compra. Por el contrario, si no quiere ninguna, podrá elegir otra fecha distinta, o, por el contrario, finalizar la compra.                         |
 
 <br>
 
