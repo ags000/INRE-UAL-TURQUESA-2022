@@ -1666,7 +1666,7 @@ Apendices
 
 ### 4.2.1. Lista de diagramas de casos de uso del modelo.
 
-| Identificar			| CU-11	|
+| Código    			| Nombre	|
 | :---					| :--  	|
 | DCU-01				| Diagrama del Portal del SIIT	|
 | DCU-02				| Diagrama de Sistema de información del SIIt	|
@@ -1687,14 +1687,14 @@ Apendices
 
 <div align="center">
     <img src="./../out/lab0/src/SIIT/SIIT.svg" style="border: 3px solid #bbb">
-    <i><p>Imagen 5. DCU-02</p></i>
+    <i><p>Imagen 5. DCU-02.</p></i>
 </div>
 
 <br>
 
 <div align="center">
     <img src="./../out/lab0/src/SMET/SMET.svg" style="border: 3px solid #bbb">
-    <i><p>Imagen 6. DCU-03</p></i>
+    <i><p>Imagen 6. DCU-03.</p></i>
 </div>
 
 <br>
@@ -1891,13 +1891,11 @@ Lista de actores
 | Poscondiciones		| Ninguna	|
 | Comentarios			| Ninguno		|
 
-
 <br>
-
 
 ### Casos de uso del diagrama de Sistema de la información del SIIT
 
-| Identificar			| CU-01	|
+| Identificar			| CU-12	|
 | :---					| :--  	|
 | Nombre				| Ver horario y lineas	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
@@ -1912,7 +1910,7 @@ Lista de actores
 
 <br>
 
-| Identificar			| CU-02	|
+| Identificar			| CU-13	|
 | :---					| :--  	|
 | Nombre				| Ver horario y lineas (vista Administrador)		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
@@ -1927,7 +1925,7 @@ Lista de actores
 
 <br>
 
-| Identificar			| CU-03	|
+| Identificar			| CU-14	|
 | :---					| :--  	|
 | Nombre				| Modificar datos		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
@@ -1942,7 +1940,7 @@ Lista de actores
 
 <br>
 
-| Identificar			| CU-04	|
+| Identificar			| CU-15	|
 | :---					| :--  	|
 | Nombre				| Introducir datos		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
@@ -1957,7 +1955,7 @@ Lista de actores
 
 <br>
 
-| Identificar			| CU-05	|
+| Identificar			| CU-16	|
 | :---					| :--  	|
 | Nombre				| Introducir fecha y hora		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
@@ -1972,7 +1970,7 @@ Lista de actores
 
 <br>
 
-| Identificar			| CU-06	|
+| Identificar			| CU-17	|
 | :---					| :--  	|
 | Nombre				| Introducir potenciador		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
@@ -1987,7 +1985,7 @@ Lista de actores
 
 <br>
 
-| Identificar			| CU-07	|
+| Identificar			| CU-18	|
 | :---					| :--  	|
 | Nombre				| Seleccionar origen y destino		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
@@ -2002,7 +2000,7 @@ Lista de actores
 
 <br>
 
-| Identificar			| CU-08	|
+| Identificar			| CU-19	|
 | :---					| :--  	|
 | Nombre				| Usar mapa		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
@@ -2017,7 +2015,7 @@ Lista de actores
 
 <br>
 
-| Identificar			| CU-09	|
+| Identificar			| CU-20	|
 | :---					| :--  	|
 | Nombre				| Ver resultado		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
@@ -2032,7 +2030,7 @@ Lista de actores
 
 <br>
 
-| Identificar			| CU-10	|
+| Identificar			| CU-21	|
 | :---					| :--  	|
 | Nombre				| Realizar consulta		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
@@ -2047,7 +2045,7 @@ Lista de actores
 
 <br>
 
-| Identificar			| CU-11	|
+| Identificar			| CU-22	|
 | :---					| :--  	|
 | Nombre				| Ver información cartográfica		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
@@ -2062,7 +2060,7 @@ Lista de actores
 
 <br>
 
-| Identificar			| CU-12	|
+| Identificar			| CU-23	|
 | :---					| :--  	|
 | Nombre				| Obtener ayuda en linea	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
@@ -2081,7 +2079,7 @@ Lista de actores
 
 <br>
 
-| Identificar			| CU-01	            |
+| Identificar			| CU-24	            |
 | :---					| :--            	|
 | Nombre				| Generar alarmas  	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
@@ -2096,7 +2094,7 @@ Lista de actores
 
 <br>
 
-| Identificar			| CU-02	            |
+| Identificar			| CU-25	            |
 | :---					| :--            	|
 | Nombre				| Ver advertencias              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
@@ -2111,7 +2109,7 @@ Lista de actores
 
 <br>
 
-| Identificar			| CU-03	            |
+| Identificar			| CU-26	            |
 | :---					| :--            	|
 | Nombre				| Ver eventos              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
@@ -2126,7 +2124,7 @@ Lista de actores
 
 <br>
 
-| Identificar			| CU-04	            |
+| Identificar			| CU-27	            |
 | :---					| :--            	|
 | Nombre				| Ver alarma              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
@@ -2141,7 +2139,7 @@ Lista de actores
 
 <br>
 
-| Identificar			| CU-05	            |
+| Identificar			| CU-28	            |
 | :---					| :--            	|
 | Nombre				| Ver alarmas (vista Usuario Logueado)              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
@@ -2156,7 +2154,7 @@ Lista de actores
 
 <br>
 
-| Identificar			| CU-06	            |
+| Identificar			| CU-29	            |
 | :---					| :--            	|
 | Nombre				| Ver alarmas (vista Operador de transporte)              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
@@ -2171,7 +2169,7 @@ Lista de actores
 
 <br>
 
-| Identificar			| CU-07	            |
+| Identificar			| CU-30	            |
 | :---					| :--            	|
 | Nombre				| Ver alarmas (vista Operador adjudicatario)              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
@@ -2186,7 +2184,7 @@ Lista de actores
 
 <br>
 
-| Identificar			| CU-08	            |
+| Identificar			| CU-31	            |
 | :---					| :--            	|
 | Nombre				| Registrar situaciones puntuales              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
@@ -2201,7 +2199,7 @@ Lista de actores
 
 <br>
 
-| Identificar			| CU-09	            |
+| Identificar			| CU-32	            |
 | :---					| :--            	|
 | Nombre				| Definir evento              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
@@ -2216,7 +2214,7 @@ Lista de actores
 
 <br>
 
-| Identificar			| CU-10	            |
+| Identificar			| CU-33	            |
 | :---					| :--            	|
 | Nombre				| Proveer datos              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
@@ -2231,7 +2229,7 @@ Lista de actores
 
 <br>
 
-| Identificar			| CU-11	            |
+| Identificar			| CU-34	            |
 | :---					| :--            	|
 | Nombre				| Crear advertencia              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
@@ -2246,7 +2244,7 @@ Lista de actores
 
 <br>
 
-| Identificar			| CU-12	            |
+| Identificar			| CU-35	            |
 | :---					| :--            	|
 | Nombre				| Registrar periodos continuos de tiempo              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
@@ -2261,7 +2259,7 @@ Lista de actores
 
 <br>
 
-| Identificar			| CU-13	            |
+| Identificar			| CU-36	            |
 | :---					| :--            	|
 | Nombre				| Examinar el estado de la explotación en tiempo real              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
@@ -2276,7 +2274,7 @@ Lista de actores
 
 <br>
 
-| Identificar			| CU-14	            |
+| Identificar			| CU-37	            |
 | :---					| :--            	|
 | Nombre				| Examinar el estado de la explotación en tiempo real (vista Operador adjudicatorio)              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
@@ -2291,7 +2289,7 @@ Lista de actores
 
 <br>
 
-| Identificar			| CU-15	            |
+| Identificar			| CU-38	            |
 | :---					| :--            	|
 | Nombre				| Crear conjunto de operadores              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
