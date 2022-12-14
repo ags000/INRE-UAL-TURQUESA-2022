@@ -1145,7 +1145,7 @@ Apendices
 | :---					| :--  	|
 | Objetivos asociados	| OBJ-02		|
 | Requisitos asociados	|		|
-| Descripción			|		|
+| Descripción			| Se deberán de hacer revisiones periódicas para que los datos almacenados de los transportes y los mapas no se queden anticuados respecto a los cambios que se produzcan en los mismos.		|
 | Comentarios			|		|
 
 <br>
