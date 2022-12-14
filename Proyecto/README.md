@@ -1696,8 +1696,8 @@ Requisitos No Funcionales
 | Fecha					| 13/12/2022		|
 | Descripción			| El usuario accede a la sección de la administración del contenido.		|
 | Actores				| Administrador		|
-| Precondiciones		| El usuario ha entrado en el sistema.		|
-| Flujo normal			| 1. El usuario selecciona la función de administrar el contenido de una página. <br> 2. El sistema muestra la interfaz y lista las opciones a realizar. <br> 3. El usuario selecciona la opción deseada.4. El usuario guarda los cambios realizados.                          	|
+| Precondiciones		| El usuario está identificado como Administrador.		|
+| Flujo normal			| 1. El usuario selecciona la función de administrar el contenido de una página. <br> 2. El sistema muestra la interfaz y lista las opciones a realizar. <br> 3. El usuario selecciona la opción deseada. <br> 4. El usuario guarda los cambios realizados.                          	|
 | Flujo alternativo		| 3A. El usuario selecciona la opción para publicar contenido. <br>  3B. El usuario selecciona la opción de eliminar contenido. <br> 3C. El usuario selecciona la opción para modificar el contenido. <br> 3D. El usuario cancela la administración de contenidos. <br> 4A. El usuario descarta los cambios realizados.	|
 | Poscondiciones		| La base de datos es actualizada con los cambios realizados.  |
 | Comentarios			| -		|
@@ -1709,12 +1709,12 @@ Requisitos No Funcionales
 | Nombre				| Modificar diseño de una página		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			| 		|
+| Descripción			| El usuario puede alterar de forma sencilla el diseño común a varias páginas que se muestran o incluso de la Web entera.		|
 | Actores				| Administrador		|
-| Precondiciones		| 		|
-| Flujo normal			| 	    |
-| Flujo alternativo		| 		|
-| Poscondiciones		| 		|
+| Precondiciones		| El usuario está identificado como Administrador.		|
+| Flujo normal			| 1. El usuario accede a la sección para modificar el diseño. <br> 2. El sistema muestra la interfaz de diseño con las respectivas herramientas para modificarlo. <br> 3. El usuario realiza los cambios en el diseño de las páginas. <br> 4. El usuario guarda los cambios.  	    |
+| Flujo alternativo		| 4A. El usuario descarta los cambios realizados.  		|
+| Poscondiciones		| El diseño común entre una o varias páginas ha sido alterado.		|
 | Comentarios			|		|
 
 <br>
