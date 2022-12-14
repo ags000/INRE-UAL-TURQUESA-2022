@@ -1705,8 +1705,31 @@ Lista de casos de uso
 
 | Código			| Caso de uso 	| Descripción       |
 | :---				| :--       	| :--               |
-| UC-01				| Utilizar editor WYSIWYG	| El usuario podrá editar la Web haciendo uso del editor WYSIWYG            |
-|                   |               |                    |
+| CU-01				| Utilizar editor WYSIWYG	| El usuario podrá editar la Web haciendo uso del editor WYSIWYG            |
+| CU-02             | Modificar Web   | El usuario puedrá modificar la Web   |
+| CU-03             | Administrar contenido |El usuario accede a la sección de la administración del contenido|
+| CU-04 | Modificar diseño de una página| El usuario puede alterar de forma sencilla el diseño común a varias páginas que se muestran o incluso de la Web entera|
+| CU-05 | Utilizar espacio compartido | El usuario podrá hacer uso del entorno de colaboración de espacio compartido |
+| CU-06| Visualizar estadísticas de acceso| El usuario podrá consultar las estadísticas de acceso a las distintas secciones y servicios|
+| CU-07| Crear nueva página | El usuario podrá crear nuevas páginas de forma sencilla y coherente con el resto de la Web|
+| CU-08 | Previsualizar página | El usuario podrá visualizar la versión final de los cambios realizados antes de ser publicados|
+| CU-09| Buscar | El usuario podrá buscar distintos contenidos en la Web | 
+| CU-10 | Elegir idioma | El usuario podrá cambiar el idioma del sistema entre los que estén permitidos|
+| CU-11| Usar herramientas Web 2.0 | El usuario podrá hacer uso de las herramientas Web 2.0 desarrolladas |
+| CU-12  | Ver horario y lineas| El usuario podrá consultar las líneas disponibles y el horario de cada línea |
+| CU-13| Ver horario y lineas (vista Administrador) | El usuario podrá consultar las líneas disponibles y el horario de cada línea|
+| CU-14|Modificar datos| El usuario podrá modificar los datos registrados en el sistema|
+| CU-15| Introducir datos | El usuario podrá agregar nuevos registros al sistema	  |
+| CU-16 | Introducir fecha y hora| El usuario podrá introducir la fecha y hora de viaje deseado |
+| CU-17| Introducir potenciador| El usuario podrá filtrar una consulta en función de un potenciador|
+| CU-18 | Seleccionar origen y destino | El usuario podrá seleccionar el origen y destino de la consulta |
+| CU-19 | Usar mapa | El usuario podrá usar el mapa para registrar el punto de origen/destino |
+| CU-20 | Ver resultado | El usuario podrá visualizar los datos de una solución de un itinerario |
+| CU-21  | Realizar consulta   | El usuario podrá realizar una consulta del trayecto   |
+| CU-22  | Ver información cartográfica   | El usuario podrá visualizar un mapa con todos los datos registrados    |
+| CU-23  | Obtener ayuda en linea   | El usuario podrá recibir ayuda en líena adaptada  |
+|   |   |   |
+
 
 <br>
 
@@ -1748,7 +1771,7 @@ Lista de actores
 | Nombre				| Modificar Web		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			| El usuario puede acceder a la Web  			|
+| Descripción			| El usuario puedrá modificar la Web  			|
 | Actores				| Administrador		|
 | Precondiciones		| El usuario debe estar identificado como Administrador en el sistema.		|
 | Flujo normal			| 1. El usuario solicita la opción de editar la Web. <br> 2. El sistema permite al usuario la edición a través del editor WYSIWYG <br> 3. El usuario hace uso del editor WYSIWYG para modificar la Web. <br> 4. El usuario guarda los cambios realizados. |
@@ -1793,7 +1816,7 @@ Lista de actores
 | Nombre				| Utilizar espacio compartido		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			| El sistema posee un entorno de colaboración enfocado a facilitar la comunicación e intercambio en colaboración de la AUT.		|
+| Descripción			| El usuario podrá hacer uso del entorno de colaboración de espacio compartido.	|
 | Actores				| Administrador		|
 | Precondiciones		| El usuario está identificado como Administrador. 		|
 | Flujo normal			| 1. El usuario accede a la opción para utilizar el espacio compartido. <br> 2. El sistema despliega la interfaz y muestra los demás usuarios que están conectados al espacio compartido. <br> 3. El usuario puede comunicarse con los usuarios mediante mensajes de texto.		|
@@ -1838,7 +1861,7 @@ Lista de actores
 | Nombre				| Previsualizar página		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			| El sistema tiene una opción para visualizar la versión final de los cambios realizados antes de ser publicados.		|
+| Descripción			| El usuario podrá visualizar la versión final de los cambios realizados antes de ser publicados.		|
 | Actores				| Usuario Logueado, Administrador		|
 | Precondiciones		| El usuario está usando la función de crear una nueva página.		|
 | Flujo normal			| 1. El sistema muestra una previsualización de la página con los añadidos por parte del usuario. <br> 2. El usuario puede seleccionar la opción para publicar la nueva página de manera definitiva o descartar la publicación.
@@ -1853,7 +1876,7 @@ Lista de actores
 | Nombre				| Buscar		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			| El sistema posee un sistema para buscar los distintos contenidos del mismo.		|
+| Descripción			| El usuario podrá buscar distintos contenidos en la Web.		|
 | Actores				| Usuario No Logueado, Usuario Logueado, Administrador		|
 | Precondiciones		| Ninguna.		|
 | Flujo normal			| 1. El usuario accede al buscador. <br> 2. El usuario busca escribe en el buscador el elemento que desea encontrar. <br>  3. El sistema consulta en sus datos para encontrar el elemento. <br> 4. El usuario recibe el elemento buscado.		|
@@ -1883,7 +1906,7 @@ Lista de actores
 | Nombre				| Usar herramientas Web 2.0		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			| Permite usar las herramientas web 2.0 desarrolladas.		|
+| Descripción			| El usuario podrá hacer uso de las herramientas Web 2.0 desarrolladas.		|
 | Actores				| Usuario No Logueado, Usuario Logueado, Administrador		|
 | Precondiciones		| Acceder al portal.		|
 | Flujo normal			| 1. El usuario solicita entrar al foro. <br> 2. El sistema le redirige al foro.	|
@@ -1930,7 +1953,7 @@ Lista de actores
 | Nombre				| Modificar datos		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			| Se podrán modificar los datos registrados en el sistema.		|
+| Descripción			| El usuario podrá modificar los datos registrados en el sistema.		|
 | Actores				| Administrador		|
 | Precondiciones		| El administrador está autenticado.	|
 | Flujo normal			| 1. El usuario solicita modificar datos. <br> 2. El sistema solicita el dato a modificar. <br> 3. El usuario selecciona el dato a modificar. <br> 4. El sistema demanda el nuevo contenido. <br> 5. El usuario proporciona el contenido. <br> 6. El sistema actualiza el contenido. El proceso finaliza. 	|
@@ -1945,10 +1968,10 @@ Lista de actores
 | Nombre				| Introducir datos		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			| Se podrán agregar nuevos registros al sistema.		|
+| Descripción			| El usuario podrá agregar nuevos registros al sistema.		|
 | Actores				| Administrador		|
 | Precondiciones		| El administrador está autenticado.	|
-| Flujo normal			| 1. El usuario solicita agregar datos. <br> 2. El sistema solicita el tipo de dato a agregar. <br> 3. El usuario selecciona el tipo de dato a agregar. <br> 4. El sistema proporciona campos de texto para agregar la información. <br> 5. El usuario rellena los campos. <br> 6. El sistema agrega el contenido. El proceso finaliza. 	|
+| Flujo normal			| 1. El usuario solicita agregar datos. <br> 2. El sistema solicita el tipo de dato a agregar. <br> 3. El usuario selecciona el tipo de dato a agregar. <br> 4. El sistema proporciona campos de texto para agregar la información. <br> 5. El usuario rellena los campos. <br> 6. El sistema agrega el contenido. 	|
 | Flujo alternativo		|6. Si el contenido proporcionado no cumple con el formato que debe tener, el proceso finaliza.		|
 | Poscondiciones		| Se ha actualizado el registro del dato modificado en la base de datos.		|
 | Comentarios			| Ninguno.		|
@@ -1960,10 +1983,10 @@ Lista de actores
 | Nombre				| Introducir fecha y hora		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			| Se obtiene la fecha y hora de viaje deseada por un cliente.		|
+| Descripción			| El usuario podrá introducir la fecha y hora de viaje deseado.		|
 | Actores				| Usuario		|
 | Precondiciones		| El usuario está en el sistema.	|
-| Flujo normal			| 1. El sistema solicita la fecha y hora. <br> 2. El usuario proporciona la fecha y hora. <br> 3. El sistema almacena la fecha y hora de forma temporal. El proceso termina.	|
+| Flujo normal			| 1. El sistema solicita la fecha y hora. <br> 2. El usuario proporciona la fecha y hora. <br> 3. El sistema almacena la fecha y hora de forma temporal.	|
 | Flujo alternativo		|	|
 | Poscondiciones		| Ninguna.		|
 | Comentarios			| Ninguno.		|
@@ -1975,10 +1998,10 @@ Lista de actores
 | Nombre				| Introducir potenciador		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			| Se podrá filtrar una consulta en función de un potenciador.		|
+| Descripción			| El usuario podrá filtrar una consulta en función de un potenciador.		|
 | Actores				| Usuario		|
 | Precondiciones		| El usuario está en el sistema.	|
-| Flujo normal			| 1. El sistema solicita un potenciador. <br> 2. El usuario solicita potenciar por coste. <br> 3. El sistema almacena de forma temporal el potenciador. El proceso finaliza.	|
+| Flujo normal			| 1. El sistema solicita un potenciador. <br> 2. El usuario solicita potenciar por coste. <br> 3. El sistema almacena de forma temporal el potenciador.	|
 | Flujo alternativo		| 2.A El usuario solicita potenciar por número de transboros.|
 | Poscondiciones		| Ninguna.		|
 | Comentarios			| Ninguno.		|
@@ -1990,7 +2013,7 @@ Lista de actores
 | Nombre				| Seleccionar origen y destino		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			| Se podrá filtrar una consulta en función de un potenciador.		|
+| Descripción			| El usuario podrá seleccionar el origen y destino de la consulta.		|
 | Actores				| Usuario		|
 | Precondiciones		| El usuario está en el sistema.	|
 | Flujo normal			| 1. El sistema solicita un punto de origen y destino. <br> 2. El sistema proporciona dos cuadros de texto. <br> 3. El usuario escribe en el cuadro de texto [calle y número / barrio o municipio] <br> 3. El sistema hace una traducción de la dirección proporcionada a una dirección cartografiada. <br> 4. La traducción es exitosa, el sistema registra el punto de origen y destino de forma temporal.	|
@@ -2005,7 +2028,7 @@ Lista de actores
 | Nombre				| Usar mapa		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			| Se podrá usar el mapa para registrar el punto de origen / destino.		|
+| Descripción			| El usuario podrá usar el mapa para registrar el punto de origen/destino.		|
 | Actores				| Usuario		|
 | Precondiciones		| El usuario está en el sistema.	|
 | Flujo normal			| 1. El usuario se desplaza por el mapa <br> 2. El sistema actualiza el mapa en función del desplazamiento. <br> 3. El usuario selecciona una parada y la marca como punto de origen / destino. <br> 4. El sistema registra la parada como punto de origen / destino.	|
@@ -2020,7 +2043,7 @@ Lista de actores
 | Nombre				| Ver resultado		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			| Muestra datos de una solución de un itinerario		|
+| Descripción			| El usuario podrá visualizar los datos de una solución de un itinerario.		|
 | Actores				| Usuario		|
 | Precondiciones		| El sistema ha realizado todos los cálculos necesarios, el usuario está en el sistema.	|
 | Flujo normal			| 1. El sistema muestra la distancia entre paradas, los transbordos necesarios, el tiempo del recorrido total, los tramos a recorrer por el usuario y las zonas por las que no transitar. <br> 2. El sistema muestra la solución en forma esquemática. <br> 3. El usuario solicita ver más detalles <br> 4. El sistema muestra información adicional de las líneas: descripción, empresa gestora, incidencias, tarifas y horarios.	|
@@ -2035,7 +2058,7 @@ Lista de actores
 | Nombre				| Realizar consulta		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			| Se podrán consultar soluciones de itinerarios.	|
+| Descripción			| El usuario podrá realizar una consulta del trayecto	|
 | Actores				| Usuario		|
 | Precondiciones		| El usuario está en el sistema.	|
 | Flujo normal			| 1. El usuario solicita realizar una consulta. <br> 2. El sistema muestra un mapa de Gran Canaria con todos los datos cartografiados (eventos, paradas...). <br> 3. El sistema solicita los datos para realizar la consulta (fecha, hora, potenciador, punto de origen, punto de destino). <br> 4. El usuario proporciona los datos pedidos. <br> 6. El sistema hace una traducción de la dirección proporcionada a una dirección cartografiada. <br> 7. El sistema calcula la distancia entre paradas, los tiempos de recorrido, los tramos a recorrer por el usuario y define transbordos necesarios. <br> 8. El sistema identifica zonas por las que no transitar. <br> 9. El sistema muestra la distancia entre paradas, los transbordos necesarios, el tiempo del recorrido total, los tramos a recorrer por el usuario (itinerario recomendado) y las zonas por las que no transitar. <br> 10. El sistema muestra la solución en forma esquemática. <br> 11. El usuario solicita ver más detalles. <br> 12. El sistema muestra información adicional de las líneas: descripción, empresa gestora, incidencias, tarifas y horarios.
@@ -2050,7 +2073,7 @@ Lista de actores
 | Nombre				| Ver información cartográfica		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			| Muestra un mapa con todos los datos registrados. 		|
+| Descripción			| El usuario podrá visualizar un mapa con todos los datos registrados. 		|
 | Actores				| Usuario		|
 | Precondiciones		| Ninguna	|
 | Flujo normal			| 1. El sistema muestra un mapa de GC con todos los datos cartografiados (eventos, paradas...) y un cuadro de texto para introducir destino/origen. <br> 2. El proceso finaliza.	|
@@ -2065,7 +2088,7 @@ Lista de actores
 | Nombre				| Obtener ayuda en linea	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			| Proporciona ayuda adaptada.		|
+| Descripción			| El usuario podrá recibir ayuda en líena adaptada.		|
 | Actores				| Usuario		|
 | Precondiciones		| Ninguna	|
 | Flujo normal			| 1. El usuario solicita ayuda en línea. <br> 2. El sistema muestra pregutnas frecuentes relacionadas con la sección en la que se encuentra el usuario.	|
