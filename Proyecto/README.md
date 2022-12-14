@@ -1162,7 +1162,7 @@ Apendices
 | RNF-09				| Base de datos corporativa de la AUTGC		|
 | :---					| :--  	|
 | Objetivos asociados	| OBJ-02		|
-| Requisitos asociados	|		|
+| Requisitos asociados	| Se deberá elaborar una baste de datos que contengan todos los elementos necesarios que requieran las distintas funcionalidades que requieran almacenar información de manera permanente en la aplicación.		|
 | Descripción			|		|
 | Comentarios			|		|
 
