@@ -129,7 +129,7 @@ ENUNCIADO BPMN
 
 | Nombre                   | Descripción                   |
 | :---                     | :---                          |
-| BPMN-02                  | Para que un usuario pueda comprar un bono para cualquier transporte debe haber un operador de transporte que le atienda. El usuario especifica la fecha y lugar deseado para realizar el viaje y el operador busca todas las opciones disponibles. Si hay, las muestra, en caso contrario, le mostrará las alternativas disponibles. Si el usuario desea una de esas opciones, selecciona la deseada y la compra, de manera que el sistema guarda la compra en la base de datos y envía un resguardo al usuario. Por el contrario, si no quiere ninguna, podrá elegir otra fecha distinta o finalizar la compra.                         |
+| BPMN-02                  | Para que un usuario pueda comprar un bono a través de la Web, debe especificar la fecha y lugar deseado para realizar el viaje y el sistema buscará todas las opciones disponibles. Si hay, las muestra, en caso contrario, le mostrará las alternativas disponibles. Si el usuario desea una de esas opciones, selecciona la deseada, introduce sus datos personales y la compra, de manera que el sistema guarda la información en la base de datos y envía un resguardo al usuario. Por el contrario, si no quiere ninguna, podrá elegir otra fecha distinta o finalizar la compra.                       |
 
 <br>
 
