@@ -1739,7 +1739,7 @@ Requisitos No Funcionales
 | Nombre				| Visualizar estadísticas de acceso		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			| El podrá consultar las estadísticas de acceso a las distintas secciones y servicios.		|
+| Descripción			| El usuario podrá consultar las estadísticas de acceso a las distintas secciones y servicios.		|
 | Actores				| Administrador		|
 | Precondiciones		| El usuario debe de estar identificado como administrador.		|
 | Flujo normal			| 1. El usuario seleccionará el apartado del portal para acceder a las estadísticas. <br> 2. El sistema consultará el número de visitas registrado y su procedencia geográfica. <br> 3. El sistema mostrará por pantalla las estadísticas mediante dos gráficos de barras.		|
@@ -1754,13 +1754,13 @@ Requisitos No Funcionales
 | Nombre				| Crear nueva página		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			| 		|
+| Descripción			| El usuario podrá crear nuevas páginas de forma sencilla y coherente con el resto de la Web.		|
 | Actores				| Usuario Logueado, Administrador	    |
-| Precondiciones		| 		|
-| Flujo normal			|       |
-| Flujo alternativo		|		|
-| Poscondiciones		|		|
-| Comentarios			|		|
+| Precondiciones		| El usuario está identificado.		|
+| Flujo normal			| 1. El usuario seleccionará la sección para crear una nueva página. <br> 2. El sistema mostrará la interfaz con sus respectivas herramientas para la creación de la página web. <br> 3. El usuario utilizará las herramientas para crear la nueva página. <br> 4. El sistema mostrará una previsualización de la página antes de la publicación de la misma. <br> 5. El usuario publica la nueva página definitivamente.      |
+| Flujo alternativo		| 5A. El usuario descarta la publicación de la nueva página.		|
+| Poscondiciones		| La nueva página ha sido incorporada a la Web y almacenada en la base de datos.		|
+| Comentarios			| Las herramientas para la creación de la nueva página deben de ser sencillas para usuarios que no tengan conocimiento de programación ni de HTML.		|
 
 <br>
 
