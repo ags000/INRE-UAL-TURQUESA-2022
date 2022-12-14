@@ -1705,8 +1705,27 @@ Lista de casos de uso
 
 | Código			| Caso de uso 	| Descripción       |
 | :---				| :--       	| :--               |
-| UC-01				| Utilizar editor WYSIWYG	| El usuario podrá editar la Web haciendo uso del editor WYSIWYG            |
-|                   |               |                    |
+| CU-01				| Utilizar editor WYSIWYG	| El usuario podrá editar la Web haciendo uso del editor WYSIWYG            |
+| CU-02             | Modificar Web   | El usuario puedrá modificar la Web   |
+| CU-03             | Administrar contenido |El usuario accede a la sección de la administración del contenido|
+| CU-04 | Modificar diseño de una página| El usuario puede alterar de forma sencilla el diseño común a varias páginas que se muestran o incluso de la Web entera|
+| CU-05 | Utilizar espacio compartido | El usuario podrá hacer uso del entorno de colaboración de espacio compartido |
+| CU-06| Visualizar estadísticas de acceso| El usuario podrá consultar las estadísticas de acceso a las distintas secciones y servicios|
+| CU-07| Crear nueva página | El usuario podrá crear nuevas páginas de forma sencilla y coherente con el resto de la Web|
+| CU-08 | Previsualizar página | El usuario podrá visualizar la versión final de los cambios realizados antes de ser publicados|
+| CU-09| Buscar | El usuario podrá buscar distintos contenidos en la Web. | 
+| CU-10 | Elegir idioma | El usuario podrá cambiar el idioma del sistema entre los que estén permitidos|
+| CU-11| Usar herramientas Web 2.0 | El usuario podrá hacer uso de las herramientas Web 2.0 desarrolladas |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+
 
 <br>
 
@@ -1748,7 +1767,7 @@ Lista de actores
 | Nombre				| Modificar Web		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			| El usuario puede acceder a la Web  			|
+| Descripción			| El usuario puedrá modificar la Web  			|
 | Actores				| Administrador		|
 | Precondiciones		| El usuario debe estar identificado como Administrador en el sistema.		|
 | Flujo normal			| 1. El usuario solicita la opción de editar la Web. <br> 2. El sistema permite al usuario la edición a través del editor WYSIWYG <br> 3. El usuario hace uso del editor WYSIWYG para modificar la Web. <br> 4. El usuario guarda los cambios realizados. |
@@ -1793,7 +1812,7 @@ Lista de actores
 | Nombre				| Utilizar espacio compartido		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			| El sistema posee un entorno de colaboración enfocado a facilitar la comunicación e intercambio en colaboración de la AUT.		|
+| Descripción			| El usuario podrá hacer uso del entorno de colaboración de espacio compartido.	|
 | Actores				| Administrador		|
 | Precondiciones		| El usuario está identificado como Administrador. 		|
 | Flujo normal			| 1. El usuario accede a la opción para utilizar el espacio compartido. <br> 2. El sistema despliega la interfaz y muestra los demás usuarios que están conectados al espacio compartido. <br> 3. El usuario puede comunicarse con los usuarios mediante mensajes de texto.		|
@@ -1838,7 +1857,7 @@ Lista de actores
 | Nombre				| Previsualizar página		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			| El sistema tiene una opción para visualizar la versión final de los cambios realizados antes de ser publicados.		|
+| Descripción			| El usuario podrá visualizar la versión final de los cambios realizados antes de ser publicados.		|
 | Actores				| Usuario Logueado, Administrador		|
 | Precondiciones		| El usuario está usando la función de crear una nueva página.		|
 | Flujo normal			| 1. El sistema muestra una previsualización de la página con los añadidos por parte del usuario. <br> 2. El usuario puede seleccionar la opción para publicar la nueva página de manera definitiva o descartar la publicación.
@@ -1853,7 +1872,7 @@ Lista de actores
 | Nombre				| Buscar		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			| El sistema posee un sistema para buscar los distintos contenidos del mismo.		|
+| Descripción			| El usuario podrá buscar distintos contenidos en la Web.		|
 | Actores				| Usuario No Logueado, Usuario Logueado, Administrador		|
 | Precondiciones		| Ninguna.		|
 | Flujo normal			| 1. El usuario accede al buscador. <br> 2. El usuario busca escribe en el buscador el elemento que desea encontrar. <br>  3. El sistema consulta en sus datos para encontrar el elemento. <br> 4. El usuario recibe el elemento buscado.		|
@@ -1883,7 +1902,7 @@ Lista de actores
 | Nombre				| Usar herramientas Web 2.0		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			| Permite usar las herramientas web 2.0 desarrolladas.		|
+| Descripción			| El usuario podrá hacer uso de las herramientas Web 2.0 desarrolladas.		|
 | Actores				| Usuario No Logueado, Usuario Logueado, Administrador		|
 | Precondiciones		| Acceder al portal.		|
 | Flujo normal			| 1. El usuario solicita entrar al foro. <br> 2. El sistema le redirige al foro.	|
