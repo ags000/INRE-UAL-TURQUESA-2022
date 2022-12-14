@@ -15,7 +15,14 @@ actor Administrador #LightBlue
 "Ver horario y líneas (vista Usuario)" as (VHLU)
 "Ver horario y líneas (vista Administrador)" as (VHLA)
 "Modificar datos" as (MD)
+"Ver información adicional (información cartográfica" as (VIAIC)
 "Introducir datos" as (IMD)
+
+usecase VIC as "Ver información cartográfica
+--
+extension points
+Ver información adicional (información cartográfica"
+
 usecase SOD as "Seleccionar origen y destino
 --
 extension points
@@ -29,6 +36,9 @@ Ver información adicional"
 /'Relaciones casos de uso'/
 Usuario -- (OAL)
 Usuario -- (RC)
+Usuario -- (VIC)
+(VIAIC) .-> (VIC) : <<extend>>
+(VIAIC) -|> (VIAU)
 (RC) .-> (IP) : <<include>>
 (RC) .-> (IFH) : <<include>>
 (RC) .-> (SOD) : <<include>>
