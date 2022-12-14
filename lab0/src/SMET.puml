@@ -8,7 +8,7 @@ actor Opeador_de_transporte #LightBlue
 actor Opeador_adjudicatario #LightBlue
 
 /'Casos de uso'/
-"Genear alarmas" as (DA)
+"Generar alarmas" as (DA)
 "Ver eventos" as (VE)
 "Ver eventos (vista Usuario logueado)" as (VEVUL)
 "Ver alarmas (vista Usuario logueado)" as (VAUL)
