@@ -1995,7 +1995,7 @@ Apendices
 | Descripción			| Muestra datos de una solución de un itinerario		|
 | Actores				| Usuario		|
 | Precondiciones		| El sistema ha realizado todos los cálculos necesarios, el usuario está en el sistema.	|
-| Flujo normal			| 1. El sistema muestra la distancia entre paradas, los transbordos necesarios, el tiempo del recorrido total, los tramos a recorrer por el usuario y las zonas por las que no transitar. <br> 2. El sistema muestra la solución en forma esquemática. <br> 3. El usuario solicita ver más detalles <br> 4. El sistema muestra información adicional de las líneas: descripción, empresa gestora, incidencias, tarifas y horarios. <br> 5. El proceso finaliza.	|
+| Flujo normal			| 1. El sistema muestra la distancia entre paradas, los transbordos necesarios, el tiempo del recorrido total, los tramos a recorrer por el usuario y las zonas por las que no transitar. <br> 2. El sistema muestra la solución en forma esquemática. <br> 3. El usuario solicita ver más detalles <br> 4. El sistema muestra información adicional de las líneas: descripción, empresa gestora, incidencias, tarifas y horarios.	|
 | Flujo alternativo		|  3.A. El usuario no solicita más detalles, el proceso finaliza.	|
 | Poscondiciones		| Ninguna.		|
 | Comentarios			| Ninguno. |
@@ -2036,7 +2036,7 @@ Apendices
 | Descripción			| Proporciona ayuda adaptada.		|
 | Actores				| Usuario		|
 | Precondiciones		| Ninguna	|
-| Flujo normal			| 1. El usuario solicita ayuda en línea. <br> 2. El sistema muestra pregutnas frecuentes relacionadas con la sección en la que se encuentra el usuario. <br> 3. El proceso termina.	|
+| Flujo normal			| 1. El usuario solicita ayuda en línea. <br> 2. El sistema muestra pregutnas frecuentes relacionadas con la sección en la que se encuentra el usuario.	|
 | Flujo alternativo		|  	|
 | Poscondiciones		| Ninguna.		|
 | Comentarios			| Ninguno. |
