@@ -2119,8 +2119,8 @@ Apendices
 | Fecha					| 13/12/2022		|
 | Descripción			| El usuario puede ver la lista de eventos disponibles.	            	|
 | Actores				| Logueado             		|
-| Precondiciones		| El usuario se encuentra logueado en el sistema.               	|
-| Flujo normal			| 1. El usuario selecciona la sección para ver los eventos. <br> 2. El sistema muestra un listado con todos los eventos disponibles en el momento.	                |
+| Precondiciones		|                	|
+| Flujo normal			| 1. El usuario selecciona la sección para ver los eventos. <br> 2. El sistema muestra un listado con todos los eventos disponibles en el momento. <br> 3. El usuario selecciona un evento concreto <br> 4. El sistema muestra toda la información del evento seleccionado.               |
 | Flujo alternativo		|                	|
 | Poscondiciones		| Ninguna.             		|
 | Comentarios			| -                   |
