@@ -1641,6 +1641,11 @@ Requisitos No Funcionales
 
 <br>
 
+<div align="center">
+    <img src="./../out/lab0/src/SIIT/SIIT.svg" style="border: 3px solid #bbb">
+    <i><p>Imagen 2. Diagrama de Sistema de información.</p></i>
+</div>
+
 <br>
 
 <div align="center">
