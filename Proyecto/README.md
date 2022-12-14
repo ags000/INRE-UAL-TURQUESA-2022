@@ -1728,13 +1728,13 @@ Requisitos No Funcionales
 | Nombre				| Utilizar espacio compartido		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			| 		|
+| Descripción			| El sistema posee un entorno de colaboración enfocado a facilitar la comunicación e intercambio en colaboración de la AUT.		|
 | Actores				| Administrador		|
-| Precondiciones		| 		|
-| Flujo normal			| 		|
-| Flujo alternativo		|  		|
-| Poscondiciones		| 		|
-| Comentarios			|		|
+| Precondiciones		| El usuario está identificado como Administrador. 		|
+| Flujo normal			| 1. El usuario accede a la opción para utilizar el espacio compartido. <br> 2. El sistema despliega la interfaz y muestra los demás usuarios que están conectados al espacio compartido. <br> 3. El usuario puede comunicarse con los usuarios mediante mensajes de texto.		|
+| Flujo alternativo		| - 		|
+| Poscondiciones		| Ninguna.		|
+| Comentarios			| AUT significa Autoridad Única de Transporte.		|
 
 <br>
 
