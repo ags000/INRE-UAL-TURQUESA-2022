@@ -10,7 +10,6 @@ actor Opeador_adjudicatario #LightBlue
 /'Casos de uso'/
 "Generar alarmas" as (DA)
 "Ver eventos" as (VE)
-"Ver eventos (vista Usuario logueado)" as (VEVUL)
 "Ver alarmas (vista Usuario logueado)" as (VAUL)
 "Ver alarmas (vista Operador de transporte)" as (VAOP)
 "Ver alarmas (vista Operador adjudicatario)" as (VAOA)
@@ -33,7 +32,7 @@ Usuario_logueado -|> Usuario_no_logueado
 
 /'Relaciones casos de uso'/
 Sistema -- (DA)
-Usuario_logueado - (VE)
+Usuario_no_logueado - (VE)
 Usuario_logueado -- (VAUL)
 Opeador_de_transporte --down-- (VAOP)
 Opeador_de_transporte -left- (VADV)
@@ -42,8 +41,6 @@ Usuario_no_logueado -down- (VA)
 (VAOP) -|> (VA)
 (VAUL) -|> (VA)
 Usuario_no_logueado -down- (EEE)
-Usuario_no_logueado -up- (VEVUL)
-(VEVUL) -right-|> (VE)
 Opeador_adjudicatario -- (AEETR)
 (CCO) .-right-> (AEETR) : <<extend>>
 (AEETR) -down-|> (EEE)
