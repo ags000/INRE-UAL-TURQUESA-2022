@@ -2226,7 +2226,7 @@ Apendices
 | Actores				| Operador adjudicatario             		|
 | Precondiciones		|                	|
 | Flujo normal			| 1. El usuario solicita definir un evento nuevo. <br> 2. El sistema solicita el título, información y destinatarios del nuevo evento <br> 3. El usuario introduce la informacion pedida. <br> 4. El sistema comprueba que la información introducida sea correcta <br> 5. El sistema publica y envía el evento los usuarios.                 |
-| Flujo alternativo		| 2.A. El usuario puede poner como destinatarios solo a los operadores de transporte, de manera que se generen advertencias exclusivamente para ellos.   <br> 4.A. Si la información no es correcta, el sistema advertirá al usuario permitiéndole voler a introducir los datos (paso 3) o finalizar el proceso.     |
+| Flujo alternativo		| 2.A. El usuario puede poner como destinatarios solo a los operadores de transporte, de manera que se generen advertencias exclusivamente para ellos. C<br> 4.A. Si la información no es correcta, el sistema advertirá al usuario permitiéndole voler a introducir los datos (paso 3) o finalizar el proceso.     |
 | Poscondiciones		| El nuevo evento creado se registrará en la base de datos.              		|
 | Comentarios			| Tanto los usuarios logueados como los no logueados podrán ver los eventos creados.                   |
 
@@ -2270,7 +2270,7 @@ Apendices
 | Descripción			| El usuario podrá registrar un intervalo de tiempo. 	            	|
 | Actores				| Operador adjudicatario             		|
 | Precondiciones		|                	|
-| Flujo normal			| 1. El usuario solicita registrar un periodo de tiempo. <br> 2. El sistema lista el contenido que se puede registrar <br> 3. El usuario selecciona el intervalo de tiempo deseado.	                |
+| Flujo normal			| 1. El usuario solicita registrar un periodo de tiempo. <br> 2. El sistema lista el contenido que se puede registrar <br> 3. El usuario selecciona el intervalo de tiempo deseado.	<br> 4. El sistema guarda el intervalo de tiempo.                |
 | Flujo alternativo		|                	|
 | Poscondiciones		| Se ha añadido en la base de datos el registro de tiempo realizado.             		|
 | Comentarios			| El periodo registrado se guarda como películas de evolución temporal del estado.                  |
