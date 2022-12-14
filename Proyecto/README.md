@@ -1814,13 +1814,13 @@ Requisitos No Funcionales
 | Nombre				| Usar herramientas Web 2.0		|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			|		|
+| Descripción			| Permite usar las herramientas web 2.0 desarrolladas.		|
 | Actores				| Usuario No Logueado, Usuario Logueado, Administrador		|
-| Precondiciones		|		|
-| Flujo normal			|		|
-| Flujo alternativo		|		|
-| Poscondiciones		|		|
-| Comentarios			|		|
+| Precondiciones		| Acceder al portal.		|
+| Flujo normal			| 1. El usuario solicita entrar al foro. <br> 2. El sistema le redirige al foro.	|
+| Flujo alternativo		| 1.A. El usuario solicita entrar al blog. <br> 2.A. El sistema le redirige al blog. <br> 1.B. El usuario solicita visualizar el cloud tag. <br> 2.B. El sistema recopila las palabras clave. <br> 3.B El sistema muestra el cloud tag.		|
+| Poscondiciones		| Ninguna	|
+| Comentarios			| Ninguno		|
 
 <br>
 
@@ -1874,7 +1874,14 @@ Requisitos No Funcionales
 <br>
 
 ## 4.3. Diagramas de clases asociados a los requisitos de información.
-E-R
+
+
+### 4.3.1 Portal & Foro & Blog
+
+<div align="center">
+    <img src="./../Proyecto/bd-portal-foro-blog.svg" style="border: 3px solid #000">
+    <i><p>Imagen X. BD-Portal, foro y blog.</p></i>
+</div>
 
 <br>
 
