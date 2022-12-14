@@ -2237,12 +2237,12 @@ Apendices
 | Nombre				| Proveer datos              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			| 	            	|
-| Actores				|              		|
+| Descripción			| El usuario podrá introducir nuevos datos en el sistema	            	|
+| Actores				| Operador adjudicatario             		|
 | Precondiciones		|                	|
-| Flujo normal			| 	                |
-| Flujo alternativo		|                	|
-| Poscondiciones		|              		|
+| Flujo normal			| 1. El usuario solicita la introducción de nuevos datos. <br> 2. El sistema solicita los datos a introducir. <br> 3. El usuario introduce los datos pedidos. <br> 4. El sistema comprueba que los datos sean correctos. <br> 5. El sistema guarda los datos en el sistema.	                |
+| Flujo alternativo		| 4.A. Si los datos introducidos son incorrectos, el sistema permitirá al usuario volver a introducirlos (paso 3) o finalizar el proceso.                	|
+| Poscondiciones		| Los nuevos datos agregados han de guardarse en la base de datos del sistema.            		|
 | Comentarios			|                   |
 
 <br>
