@@ -2234,7 +2234,7 @@ Apendices
 
 | Identificar			| CU-11	            |
 | :---					| :--            	|
-| Nombre				| Crear evento              	|
+| Nombre				| Proveer datos              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
 | Descripción			| 	            	|
@@ -2249,7 +2249,7 @@ Apendices
 
 | Identificar			| CU-12	            |
 | :---					| :--            	|
-| Nombre				| Proveer datos              	|
+| Nombre				| Crear advertencia              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
 | Descripción			| 	            	|
@@ -2264,7 +2264,7 @@ Apendices
 
 | Identificar			| CU-13	            |
 | :---					| :--            	|
-| Nombre				| Crear advertencia              	|
+| Nombre				| Registrar periodos continuos de tiempo              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
 | Descripción			| 	            	|
@@ -2279,14 +2279,14 @@ Apendices
 
 | Identificar			| CU-14	            |
 | :---					| :--            	|
-| Nombre				| Registrar periodos continuos de tiempo              	|
+| Nombre				| Examinar el estado de la explotación en tiempo real              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			| 	            	|
-| Actores				|              		|
+| Descripción			| El usuario podrá examinar el estado de la explotación en tiempo real para cada operador.	            	|
+| Actores				| Usuario no logueado, Usuario logueado             		|
 | Precondiciones		|                	|
-| Flujo normal			| 	                |
-| Flujo alternativo		|                	|
+| Flujo normal			| 1. El usuario solicita visualizar la explotación del transporte en tiempo real. <br>	2. El sistema solicita el operador que se quiere visualizar. <br> 3. El usuario selecciona el operador deseado. <br> 4. El sistema muestra el estado de la explotación del transporte en tiempo real seleccionado.                |
+| Flujo alternativo		| 4.A. Si el sistema no encuentra niguna información disponible, informa al usuario y finaliza en proceso.                |
 | Poscondiciones		|              		|
 | Comentarios			|                   |
 
@@ -2294,14 +2294,14 @@ Apendices
 
 | Identificar			| CU-15	            |
 | :---					| :--            	|
-| Nombre				| Examinar el estado de la explotación en tiempo real              	|
+| Nombre				| Examinar el estado de la explotación en tiempo real (vista Operador adjudicatorio)              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			| 	            	|
-| Actores				|              		|
-| Precondiciones		|                	|
-| Flujo normal			| 	                |
-| Flujo alternativo		|                	|
+| Descripción			| El usuario podrá examinar el estado la explotación en tiempo real.	            	|
+| Actores				| Operador adjudicatario             		|
+| Precondiciones		|               	|
+| Flujo normal			| 1. El usuario solicita visualizar la explotación del transporte en tiempo real. <br>	2. El sistema solicita el operador que se quiere visualizar. <br> 3. El usuario selecciona el operador deseado. <br> 4. El sistema muestra el estado de la explotación del transporte en tiempo real seleccionado.   	                |
+| Flujo alternativo		| 2.A. El usuario podrá crear un conjunto de operadores en vez de visualizar a un solo operador. <br> 4.A. Si el sistema no encuentra niguna información disponible, informa al usuario y finaliza en proceso.                	|
 | Poscondiciones		|              		|
 | Comentarios			|                   |
 
@@ -2309,28 +2309,13 @@ Apendices
 
 | Identificar			| CU-16	            |
 | :---					| :--            	|
-| Nombre				| Examinar el estado de la explotación en tiempo real (vista Operador adjudicatorio)              	|
-| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fecha					| 13/12/2022		|
-| Descripción			| 	            	|
-| Actores				|              		|
-| Precondiciones		|                	|
-| Flujo normal			| 	                |
-| Flujo alternativo		|                	|
-| Poscondiciones		|              		|
-| Comentarios			|                   |
-
-<br>
-
-| Identificar			| CU-17	            |
-| :---					| :--            	|
 | Nombre				| Crear conjunto de operadores              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			| 	            	|
-| Actores				|              		|
-| Precondiciones		|                	|
-| Flujo normal			| 	                |
+| Descripción			| El usuario podrá crear un conjunto de operadores para examinar el estado de explotación en tiempo real. 	            	|
+| Actores				| Operador adjudicatario             		|
+| Precondiciones		| El usuario debe haber accedido a la sección de examinar el estado de la explotación en tiempo real               	|
+| Flujo normal			| 1. El usuario selecciona varios operadores de trabajo a examinar.	                |
 | Flujo alternativo		|                	|
 | Poscondiciones		|              		|
 | Comentarios			|                   |
