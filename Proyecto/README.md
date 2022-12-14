@@ -1690,6 +1690,62 @@ Apendices
 
 ### 4.2.3. Lista general de casos de uso  y actores del proyecto.
 
+
+| Identificar			| CU-11	|
+| :---					| :--  	|
+| Nombre				| Usar herramientas Web 2.0		|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
+| Fecha					| 13/12/2022		|
+| Descripción			| Permite usar las herramientas web 2.0 desarrolladas.		|
+| Actores				| Usuario No Logueado, Usuario Logueado, Administrador		|
+| Precondiciones		| Acceder al portal.		|
+| Flujo normal			| 1. El usuario solicita entrar al foro. <br> 2. El sistema le redirige al foro.	|
+| Flujo alternativo		| 1.A. El usuario solicita entrar al blog. <br> 2.A. El sistema le redirige al blog. <br> 1.B. El usuario solicita visualizar el cloud tag. <br> 2.B. El sistema recopila las palabras clave. <br> 3.B El sistema muestra el cloud tag.		|
+| Poscondiciones		| Ninguna	|
+| Comentarios			| Ninguno		|
+
+<br>
+
+| INF-01                        | Administrador                  |
+| :---                          | :---                           |
+| Versión                       | 1.0                            |
+| Autores                       | Cristina García, Adrián Galdeano, Alejandro Manzano   |
+| Fuentes                       | Pliego de condiciones          |
+| Referencias                   |                                |
+| Descripción                   | Usuario con todos los permisos disponibles para gestionar la aplicación. Debe identificarse en el sistema utilizando unas credenciales especiales proporcionadas por la autoridad correspondiente para poseer dichas funcionalidades.                                |
+| Importancia                   | Alta                           |
+| Comentarios                   |                                |
+
+<br>
+
+| INF-02                        | Usuario Logueado               |
+| :---                          | :---                           |
+| Versión                       | 1.0                            |
+| Autores                       | Cristina García, Adrián Galdeano, Alejandro Manzano   |
+| Fuentes                       | Pliego de condiciones          |
+| Referencias                   |                                |
+| Descripción                   | Usuario con permisos de lectura y edición que puede alterar el contenido de la aplicación de manera controlada. Debe de identificarse utilizando las credenciales que previamente creó al registrarse en el sistema por primera vez.                              |
+| Importancia                   | Alta                           |
+| Comentarios                   |                                |
+
+<br>
+
+| INF-03                        | Usuario No Logueado            |
+| :---                          | :---                           |
+| Versión                       | 1.0                            |
+| Autores                       | Cristina García, Adrián Galdeano, Alejandro Manzano   |
+| Fuentes                       | Pliego de condiciones          |
+| Referencias                   |                                |
+| Descripción                   | Usuario con permisos solo de lectura, vista como invitado de la aplicación pero sin poder añadir contenido a la misma. Puede identificarse en el sistema para acceder a los permisos de Administrador o de Usuario Logueado dependiendo de las credenciales que utilice.                               |
+| Importancia                   | Alta                           |
+| Comentarios                   |                                |
+
+<br>
+
+### 4.2.4. Detalle de los casos de uso.
+
+<br>
+
 ### Casos de uso del portal.
 
 <br>
@@ -1841,57 +1897,6 @@ Apendices
 | Flujo alternativo		| 		|
 | Poscondiciones		| El idioma de la aplicación ha sido cambiado.		|
 | Comentarios			|		|
-
-<br>
-
-| Identificar			| CU-11	|
-| :---					| :--  	|
-| Nombre				| Usar herramientas Web 2.0		|
-| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
-| Fecha					| 13/12/2022		|
-| Descripción			| Permite usar las herramientas web 2.0 desarrolladas.		|
-| Actores				| Usuario No Logueado, Usuario Logueado, Administrador		|
-| Precondiciones		| Acceder al portal.		|
-| Flujo normal			| 1. El usuario solicita entrar al foro. <br> 2. El sistema le redirige al foro.	|
-| Flujo alternativo		| 1.A. El usuario solicita entrar al blog. <br> 2.A. El sistema le redirige al blog. <br> 1.B. El usuario solicita visualizar el cloud tag. <br> 2.B. El sistema recopila las palabras clave. <br> 3.B El sistema muestra el cloud tag.		|
-| Poscondiciones		| Ninguna	|
-| Comentarios			| Ninguno		|
-
-<br>
-
-| INF-01                        | Administrador                  |
-| :---                          | :---                           |
-| Versión                       | 1.0                            |
-| Autores                       | Cristina García, Adrián Galdeano, Alejandro Manzano   |
-| Fuentes                       | Pliego de condiciones          |
-| Referencias                   |                                |
-| Descripción                   | Usuario con todos los permisos disponibles para gestionar la aplicación. Debe identificarse en el sistema utilizando unas credenciales especiales proporcionadas por la autoridad correspondiente para poseer dichas funcionalidades.                                |
-| Importancia                   | Alta                           |
-| Comentarios                   |                                |
-
-<br>
-
-| INF-02                        | Usuario Logueado               |
-| :---                          | :---                           |
-| Versión                       | 1.0                            |
-| Autores                       | Cristina García, Adrián Galdeano, Alejandro Manzano   |
-| Fuentes                       | Pliego de condiciones          |
-| Referencias                   |                                |
-| Descripción                   | Usuario con permisos de lectura y edición que puede alterar el contenido de la aplicación de manera controlada. Debe de identificarse utilizando las credenciales que previamente creó al registrarse en el sistema por primera vez.                              |
-| Importancia                   | Alta                           |
-| Comentarios                   |                                |
-
-<br>
-
-| INF-03                        | Usuario No Logueado            |
-| :---                          | :---                           |
-| Versión                       | 1.0                            |
-| Autores                       | Cristina García, Adrián Galdeano, Alejandro Manzano   |
-| Fuentes                       | Pliego de condiciones          |
-| Referencias                   |                                |
-| Descripción                   | Usuario con permisos solo de lectura, vista como invitado de la aplicación pero sin poder añadir contenido a la misma. Puede identificarse en el sistema para acceder a los permisos de Administrador o de Usuario Logueado dependiendo de las credenciales que utilice.                               |
-| Importancia                   | Alta                           |
-| Comentarios                   |                                |
 
 <br>
 
@@ -2304,11 +2309,6 @@ Apendices
 | Flujo alternativo		|                	|
 | Poscondiciones		|              		|
 | Comentarios			|                   |
-
-### 4.2.4. Detalle de los casos de uso.
-
-
-
 
 <br>
 
