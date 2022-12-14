@@ -140,7 +140,7 @@ Apendices
 
 | Nombre                   | Descripción                   |
 | :---                     | :---                          |
-| BPMN-03                  | Para que un usuario realice una consulta origen-destino debe introducir en el sistema el origen y el destino del viaje que quiere realizar. Además, podrá filtrar la consulta por un criterio de búsqueda (tiempo de viaje, precio, número de transbordos, parada, intervalo horario de salida). El sistema proporcionará la solución más optima, pudiendo el usuario imprimir la información obtenida, y simular el recorrido.                    |
+| BPMN-03                  | Para que un usuario realice una consulta origen-destino debe introducir en el sistema el origen y el destino del viaje que quiere realizar. Además, podrá filtrar la consulta por un criterio de búsqueda (tiempo de viaje, precio, número de transbordos, parada, intervalo horario de salida). El sistema comprobará que la solución más optima se encuentre disponible y la proporcionará, pudiendo el usuario imprimir la información obtenida, y simular el recorrido. Si el sistema no encuentra una solución, informará al usuario, y le permitirá imprimir la solución (en este caso al no haber, saldrá un texto informativo).                    |
 
 <br>
 
