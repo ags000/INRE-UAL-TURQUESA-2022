@@ -2102,13 +2102,13 @@ Apendices
 | Nombre				| Ver advertencias              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			| 	            	|
-| Actores				|              		|
-| Precondiciones		|                	|
-| Flujo normal			| 	                |
-| Flujo alternativo		|                	|
-| Poscondiciones		|              		|
-| Comentarios			|                   |
+| Descripción			| El operador de transporte puede ver la lista de advertencias de las rutas.	            	|
+| Actores				| Operador de Transporte             		|
+| Precondiciones		| El operador de transporte se encuentra identificado en el sistema.               	|
+| Flujo normal			| 1. El operador de transporte selecciona la función para ver las advertencias. <br> 2. El sistema muestra una lista con las advertencias de los posibles peligros que hay hay o las rutas cortadas.	                |
+| Flujo alternativo		| 2A. En caso de que no haya advertencias, la lista se mostrará vacía y aparecerá un mensanje "No hay ninguna advertencia en este momento".               	|
+| Poscondiciones		| Ninguna.             		|
+| Comentarios			| -                   |
 
 <br>
 
@@ -2117,13 +2117,13 @@ Apendices
 | Nombre				| Ver eventos              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			| 	            	|
-| Actores				|              		|
-| Precondiciones		|                	|
+| Descripción			| El usuario puede ver la lista de eventos disponibles.	            	|
+| Actores				| Logueado             		|
+| Precondiciones		| El usuario se encuentra logueado en el sistema.               	|
 | Flujo normal			| 	                |
 | Flujo alternativo		|                	|
-| Poscondiciones		|              		|
-| Comentarios			|                   |
+| Poscondiciones		| Ninguna.             		|
+| Comentarios			| -                   |
 
 <br>
 
@@ -2132,13 +2132,13 @@ Apendices
 | Nombre				| Ver eventos (vista Usuario Logueado)              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			| 	            	|
-| Actores				|              		|
-| Precondiciones		|                	|
+| Descripción			| El usuario puede ver la vista de eventos disponibles.	            	|
+| Actores				| Usuario Logueado             		|
+| Precondiciones		| Ninguna.               	|
 | Flujo normal			| 	                |
 | Flujo alternativo		|                	|
-| Poscondiciones		|              		|
-| Comentarios			|                   |
+| Poscondiciones		| Ninguna.             		|
+| Comentarios			| -                   |
 
 <br>
 
