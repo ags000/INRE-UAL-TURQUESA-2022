@@ -2264,7 +2264,7 @@ Apendices
 
 | Identificar			| CU-13	            |
 | :---					| :--            	|
-| Nombre				| Registrar periodos continuos de tiempo              	|
+| Nombre				| Crear advertencia              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
 | Descripción			| 	            	|
@@ -2279,7 +2279,7 @@ Apendices
 
 | Identificar			| CU-14	            |
 | :---					| :--            	|
-| Nombre				| Examinar el estado de la explotación en tiempo real              	|
+| Nombre				| Registrar periodos continuos de tiempo              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
 | Descripción			| 	            	|
@@ -2294,7 +2294,7 @@ Apendices
 
 | Identificar			| CU-15	            |
 | :---					| :--            	|
-| Nombre				| Examinar el estado de la explotación en tiempo real (vista Operador adjudicatorio)              	|
+| Nombre				| Examinar el estado de la explotación en tiempo real              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
 | Descripción			| 	            	|
@@ -2308,6 +2308,21 @@ Apendices
 <br>
 
 | Identificar			| CU-16	            |
+| :---					| :--            	|
+| Nombre				| Examinar el estado de la explotación en tiempo real (vista Operador adjudicatorio)              	|
+| Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
+| Fecha					| 13/12/2022		|
+| Descripción			| 	            	|
+| Actores				|              		|
+| Precondiciones		|                	|
+| Flujo normal			| 	                |
+| Flujo alternativo		|                	|
+| Poscondiciones		|              		|
+| Comentarios			|                   |
+
+<br>
+
+| Identificar			| CU-17	            |
 | :---					| :--            	|
 | Nombre				| Crear conjunto de operadores              	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
