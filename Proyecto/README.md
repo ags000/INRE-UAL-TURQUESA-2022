@@ -2120,7 +2120,7 @@ Apendices
 | Descripción			| El usuario puede ver la lista de eventos disponibles.	            	|
 | Actores				| Logueado             		|
 | Precondiciones		| El usuario se encuentra logueado en el sistema.               	|
-| Flujo normal			| 	                |
+| Flujo normal			| 1. El usuario selecciona la sección para ver los eventos. <br> 2. El sistema muestra un listado con todos los eventos disponibles en el momento.	                |
 | Flujo alternativo		|                	|
 | Poscondiciones		| Ninguna.             		|
 | Comentarios			| -                   |
