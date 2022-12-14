@@ -1,0 +1,48 @@
+@startuml SIIT
+title Sistema de información
+
+actor Usuario #LightBlue
+actor Administrador #LightBlue
+
+/'Casos de uso'/
+"Obtener ayuda en línea" as (OAL)
+"Realizar consulta" as (RC)
+"Introducir potenciador" as (IP)
+"Introducir fecha y hora" as (IFH)
+"Usar mapa" as (UM)
+"Ver información adicional" as (VIAU)
+"Ver listado de horario y líneas" as (VHL)
+"Ver horario y líneas (vista Usuario)" as (VHLU)
+"Ver horario y líneas (vista Administrador)" as (VHLA)
+"Modificar datos" as (MD)
+"Introducir datos" as (IMD)
+usecase SOD as "Seleccionar origen y destino
+--
+extension points
+Usar mapa"
+
+usecase VR as "Ver resultado
+--
+extension points
+Ver información adicional"
+
+/'Relaciones casos de uso'/
+Usuario -- (OAL)
+Usuario -- (RC)
+(RC) .-> (IP) : <<include>>
+(RC) .-> (IFH) : <<include>>
+(RC) .-> (SOD) : <<include>>
+(UM) .-> (SOD) : <<extend>>
+(SOD) .-> (VR) : <<include>>
+(VIAU) .-> (VR) : <<extend>>
+Usuario -up- (VHLU)
+(VHLU) -|> (VHL)
+Administrador -- (VHLA)
+(VHLA) -|> (VHL)
+Administrador -- (MD)
+Administrador -- (IMD)
+
+
+
+
+

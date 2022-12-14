@@ -45,16 +45,11 @@ Usuario_no_logueado -down- (EEE)
 Usuario_no_logueado -up- (VEVUL)
 (VEVUL) -right-|> (VE)
 Opeador_adjudicatario -- (AEETR)
-(CCO) .-> (AEETR) : <<extend>>
+(CCO) .-right-> (AEETR) : <<extend>>
 (AEETR) -down-|> (EEE)
 Opeador_adjudicatario -up- (RSP)
 Opeador_adjudicatario -down- (RPCT)
 Opeador_adjudicatario -left- (VAOA)
 Opeador_adjudicatario -- (PD)
 Opeador_adjudicatario -right- (DE)
-(CA) .-> (DE) : <<include>>
-
-
-
-
-
+(DE) .-> (CA) : <<include>>
