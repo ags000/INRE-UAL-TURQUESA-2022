@@ -306,6 +306,15 @@ Requisitos Funcionales
 | Estabilidad			|		|
 | Comentarios			|		|
 
+
+| RF-12					| Consultar estadísticas 	|
+| :---					| :--  	|
+| Objetivos asociados	|		|
+| Requisitos asociados	|		|
+| Descripción			| El portal contará con un aplicativo de estadísticas que permita conocer como se utiliza el sistema por parte de los usuarios, con el fin de obtener información de interés desde el punto de vista del transporte (origen más solicitado, destino más solicitado, información más requerida, puntos de información más solicitados, etc.) y procurar su mejora continuada. 		|
+| Comentarios			|		|
+
+
 Requisitos No Funcionales
 
 <br>
@@ -1544,15 +1553,6 @@ Requisitos No Funcionales
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
 | Descripción			| El sistema deberá proporcionar la funcionalidad de descargar archivos que contengan aplicaciones y datos asociados a servicios que la AUT pudiera proporcionar.		|
-| Comentarios			|		|
-
-<br>
-
-| RNF-					| Consultar estadísticas 	|
-| :---					| :--  	|
-| Objetivos asociados	|		|
-| Requisitos asociados	|		|
-| Descripción			| El portal contará con un aplicativo de estadísticas que permita conocer como se utiliza el sistema por parte de los usuarios, con el fin de obtener información de interés desde el punto de vista del transporte (origen más solicitado, destino más solicitado, información más requerida, puntos de información más solicitados, etc.) y procurar su mejora continuada. 		|
 | Comentarios			|		|
 
 <br>
