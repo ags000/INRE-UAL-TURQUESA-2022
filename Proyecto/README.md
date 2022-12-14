@@ -1126,7 +1126,7 @@ Apendices
 
 <br>
 
-| RNF-06				| Desarrollo del  proceso de carga inicial de datos		|
+| RNF-06				| Desarrollo del proceso de carga inicial de datos		|
 | :---					| :--  	|
 | Objetivos asociados	| OBJ-02		|
 | Requisitos asociados	|		|
@@ -1166,7 +1166,7 @@ Apendices
 | :---					| :--  	|
 | Objetivos asociados	| OBJ-02		|
 | Requisitos asociados	|		|
-| Descripción			|		|
+| Descripción			| Se deberán elaborar pruebas funcionales para validar las funcionalidades del sistema (pruebas unitarias, componentes, integración, aceptación...)		|
 | Comentarios			|		|
 
 <br>
