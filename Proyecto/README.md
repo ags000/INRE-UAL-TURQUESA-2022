@@ -1226,7 +1226,7 @@ Apendices
 | :---					| :--  	|
 | Objetivos asociados	| OBJ-02		|
 | Requisitos asociados	|		|
-| Descripción			|		|
+| Descripción			| Los cálculos internos de la aplicación deberán de usar los métodos y algoritmos adecuados para obtener las rutas más óptimas y eficientes posibles.		|
 | Comentarios			|		|
 
 <br>
