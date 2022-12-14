@@ -1190,7 +1190,7 @@ Apendices
 | :---					| :--  	|
 | Objetivos asociados	| OBJ-02		|
 | Requisitos asociados	|		|
-| Descripción			| Las tareas de programación se realizarán en lenguaje PL/SQL 		|
+| Descripción			| Las tareas de programación se realizarán en lenguaje PL/SQL. 		|
 | Comentarios			|		|
 
 <br>
@@ -1217,7 +1217,7 @@ Apendices
 | :---					| :--  	|
 | Objetivos asociados	| OBJ-02		|
 | Requisitos asociados	|		|
-| Descripción			|		|
+| Descripción			| La aplicación deberá de contener toda la información de los diferentes transportes públicos, así como toda la información de los mapas urbanos para calcular las rutas de los mismos.		|
 | Comentarios			|		|
 
 <br>
