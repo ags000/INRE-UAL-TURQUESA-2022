@@ -44,13 +44,13 @@ Apendices
 
 # 1. Introducción.
 
+Se ha elaborado una propuesta de implementación del desarrollo de un software para un sistema de información interactivo para el usuario del transporte público regular de la isla de Gran Canaria. Para ello se ha elaborado una plantilla de requisitos que se corresponden con las especificaciones técnicas proporcionadas por el pliego de condiciones entregado con anterioridad.
 
+La propuesta recoge el trabajo realizado para el análisis, definición, diseño, desarrollo, puesta a punto e implementación del software necesario para poner en funcionamiento un Sistema Interactivo de Información (SIIT) y un Sistema de Información y Monitorización de la Explotación del Transporte (SMET), así como los servicios continuos para el mantenimiento de los mismos.
 
 <br>
 
 # 2. Información del Domino del problema.
-
-<br>
 
 ## 2.1. Organigrama.
 
