@@ -1355,7 +1355,6 @@ Apendices
 
 ### C. Servicios continuos
 
-### No se si este rnf se puede desplegar en 3 (por lo de la intalación sobre la plataforma, HelpDesk,...)
 | RNF-01				| Alojamiento y puesta en marcha de las aplicaciones		|
 | :---					| :--  	|
 | Objetivos asociados	|		|
@@ -1789,7 +1788,7 @@ Apendices
 | Código    			| Nombre	|
 | :---					| :--  	|
 | DCU-01				| Diagrama del Portal del SIIT	|
-| DCU-02				| Diagrama de Sistema de información del SIIt	|
+| DCU-02				| Diagrama de Sistema de información del SIIT	|
 | DCU-03				| Diagrama del SMET	|
 
 <br>
