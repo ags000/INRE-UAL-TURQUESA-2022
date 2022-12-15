@@ -1260,7 +1260,7 @@ Apendices
 | :---					| :--  	|
 | Objetivos asociados	| OBJ-02		|
 | Requisitos asociados	|		|
-| Descripción			|		|
+| Descripción			| Se deberán de recoger la respectiva información de los diferentes transportes públicos para que estos sean integrados en el sistema. 		|
 | Comentarios			|		|
 
 <br>
@@ -1268,7 +1268,7 @@ Apendices
 | RNF-15				| Integrar información del transporte público y su información cartográfica asociada		|
 | :---					| :--  	|
 | Objetivos asociados	| OBJ-02		|
-| Requisitos asociados	|		|
+| Requisitos asociados	| RNF-14		|
 | Descripción			| La aplicación deberá de contener toda la información de los diferentes transportes públicos, así como toda la información de los mapas urbanos para calcular las rutas de los mismos.		|
 | Comentarios			|		|
 
@@ -1414,7 +1414,7 @@ Apendices
 
 | RNF-08				| Funcionamiento de los sistemas de información		|
 | :---					| :--  	|
-| Objetivos asociados	|		|
+| Objetivos asociados	| OBJ-02		|
 | Requisitos asociados	|		|
 | Descripción			| Los datos necesarios para el funcionamiento de los sistemas de información serán recogidos de las bases de datos de las empresas prestatarias de los servicios de transportes, y de la AUT, que son bases de datos relacionales. |
 | Comentarios			|		|
