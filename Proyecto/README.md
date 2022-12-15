@@ -1349,7 +1349,7 @@ Apendices
 ### C. Servicios continuos
 
 ### No se si este rnf se puede desplegar en 3 (por lo de la intalación sobre la plataforma, HelpDesk,...)
-| RNF-					| Alojamiento y puesta en marcha de las aplicaciones		|
+| RNF-01				| Alojamiento y puesta en marcha de las aplicaciones		|
 | :---					| :--  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	| RNF-06 - foro		|
@@ -1358,7 +1358,7 @@ Apendices
 
 <br>
 
-| RNF-					| Disposición y mantenimiento de un dominio para su publicación		|
+| RNF-02				| Disposición y mantenimiento de un dominio para su publicación		|
 | :---					| :--  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	| RNF-06		|
@@ -1367,7 +1367,7 @@ Apendices
 
 <br>
 
-| RNF-					| Mantenimiento integral de las aplicaciones desarrolladas para la AUTGC		|
+| RNF-03				| Mantenimiento integral de las aplicaciones desarrolladas para la AUTGC		|
 | :---					| :--  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -1376,7 +1376,7 @@ Apendices
 
 <br>
 
-| RNF-					| Las aplicaciones a desarrollar se alimentarán de otras herramientas software de la AUTGC		|
+| RNF-04				| Las aplicaciones a desarrollar se alimentarán de otras herramientas software de la AUTGC		|
 | :---					| :--  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -1385,7 +1385,7 @@ Apendices
 
 <br>
 
-| RNF-					| Integrción de otros subsistemas de la AUTGC	|
+| RNF-05				| Integrción de otros subsistemas de la AUTGC	|
 | :---					| :--  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -1394,7 +1394,7 @@ Apendices
 
 <br>
 
-| RNF-					| Plataforma desarrollada proveerá de un cliente estándar de conexión a web services		|
+| RNF-06				| Plataforma desarrollada proveerá de un cliente estándar de conexión a web services		|
 | :---					| :--  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -1403,7 +1403,7 @@ Apendices
 
 <br>
 
-| RNF-					| Software permeable	|
+| RNF-07				| Software permeable	|
 | :---					| :--  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -1412,7 +1412,7 @@ Apendices
 
 <br>
 
-| RNF-					| Funcionamiento de los sistemas de información		|
+| RNF-08				| Funcionamiento de los sistemas de información		|
 | :---					| :--  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -1421,16 +1421,16 @@ Apendices
 
 <br>
 
-| RNF-					| Propiedades del software		|
+| RNF-09				| Propiedades del software		|
 | :---					| :--  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
 | Descripción			| El software deberá tener una arquitectura modular y escalable, de manera que se puedan poner en marcha las distintas funcionalidades a medidas que vayan siendo comprobadas y validas, permitiendo además las futuras ampliaciones que fuesen necesarias. 	|
 | Comentarios			|		|
 
-# RNF o RF ???
+<br>
 
-| RNF-					| Representación de la red de transporte	|
+| RNF-10				| Representación de la red de transporte	|
 | :---					| :--  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -1439,7 +1439,7 @@ Apendices
 
 <br>
 
-| RNF-					| Integración en el SIIT	|
+| RNF-11				| Integración en el SIIT	|
 | :---					| :--  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -1448,7 +1448,7 @@ Apendices
 
 <br>
 
-| RNF-					| Contenidos y servicios orientados al usuario final	|
+| RNF-12				| Contenidos y servicios orientados al usuario final	|
 | :---					| :--  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -1457,7 +1457,7 @@ Apendices
 
 <br>
 
-| RNF-					| Contenidos y servicios orientados al usuario final	|
+| RNF-13				| Contenidos y servicios orientados al usuario final	|
 | :---					| :--  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -1466,7 +1466,7 @@ Apendices
 
 <br>
 
-| RNF-					| Las aplicaciones deberán ajustarse a las recomendaciones del W3C		|
+| RNF-14				| Las aplicaciones deberán ajustarse a las recomendaciones del W3C		|
 | :---					| :--  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -1475,7 +1475,7 @@ Apendices
 
 <br>
 
-| RNF-					| Cumplimiento del nivel de conformidad AA	|
+| RNF-15				| Cumplimiento del nivel de conformidad AA	|
 | :---					| :--  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -1484,7 +1484,7 @@ Apendices
 
 <br>
 
-| RNF-					| Sistema de monitorización visible		|
+| RNF-16				| Sistema de monitorización visible		|
 | :---					| :--  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -1493,7 +1493,7 @@ Apendices
 
 <br>
 
-| RNF-					| Navegación entre todos los componentes	|
+| RNF-17				| Navegación entre todos los componentes	|
 | :---					| :--  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -1502,7 +1502,7 @@ Apendices
 
 <br>
 
-| RNF-					| Herramientas o elementos de navegación	|
+| RNF-18				| Herramientas o elementos de navegación	|
 | :---					| :--  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -1511,7 +1511,7 @@ Apendices
 
 <br>
 
-| RNF-					| Elementos de navegación	|
+| RNF-19				| Elementos de navegación	|
 | :---					| :--  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -1520,7 +1520,7 @@ Apendices
 
 <br>
 
-| RNF-					| Páginas del sistema de monitorización	|
+| RNF-20				| Páginas del sistema de monitorización	|
 | :---					| :--  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -1529,7 +1529,7 @@ Apendices
 
 <br>
 
-| RNF-					| Portal del sistema de monitorización	|
+| RNF-21				| Portal del sistema de monitorización	|
 | :---					| :--  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -1538,7 +1538,7 @@ Apendices
 
 <br>
 
-| RNF-					| Software de desarrollo y administración multiplataforma	|
+| RNF-22				| Software de desarrollo y administración multiplataforma	|
 | :---					| :--  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -1547,7 +1547,7 @@ Apendices
 
 <br>
 
-| RNF-					| Software preparado para dispositivos Web 	|
+| RNF-23				| Software preparado para dispositivos Web 	|
 | :---					| :--  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -1556,7 +1556,7 @@ Apendices
 
 <br>
 
-| RNF-					| Normativa LOPD	|
+| RNF-24				| Normativa LOPD	|
 | :---					| :--  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -1565,7 +1565,7 @@ Apendices
 
 <br>
 
-| RNF-					| Mecanismos y medidas de seguridad		|
+| RNF-25				| Mecanismos y medidas de seguridad		|
 | :---					| :--  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -1574,7 +1574,7 @@ Apendices
 
 <br>
 
-| RNF-					| Posicionamiento en buscadores	|
+| RNF-26				| Posicionamiento en buscadores	|
 | :---					| :--  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -1583,7 +1583,7 @@ Apendices
 
 <br>
 
-| RNF-					| Idiomas	|
+| RNF-27				| Idiomas	|
 | :---					| :--  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -1592,9 +1592,7 @@ Apendices
 
 <br>
 
-# ESTO TMB PUEDE SER UN RF????? de hesho son RF y no RNF 
-
-| RNF-					| Comercio electrónico	|
+| RNF-28				| Comercio electrónico	|
 | :---					| :--  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -1603,7 +1601,7 @@ Apendices
 
 <br>
 
-| RNF-					| Contenidos publicitarios 	|
+| RNF-29				| Contenidos publicitarios 	|
 | :---					| :--  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -1612,7 +1610,7 @@ Apendices
 
 <br>
 
-| RNF-					| Información general sobre el servicio público de transporte de viajeros	|
+| RNF-30				| Información general sobre el servicio público de transporte de viajeros	|
 | :---					| :--  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -1621,7 +1619,7 @@ Apendices
 
 <br>
 
-| RNF-					| Consultas origen-destino 	|
+| RNF-31				| Consultas origen-destino 	|
 | :---					| :--  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -1630,7 +1628,7 @@ Apendices
 
 <br>
 
-| RNF-					| Información proporcionada por las consultas		|
+| RNF-32				| Información proporcionada por las consultas		|
 | :---					| :--  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -1639,7 +1637,7 @@ Apendices
 
 <br>
 
-| RNF-					| Opcionalidades de la consulta	|
+| RNF-33				| Opcionalidades de la consulta	|
 | :---					| :--  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -1648,7 +1646,7 @@ Apendices
 
 <br>
 
-| RNF-					| Información de horarios de paso de vehículos por puntos de la red de transporte 	|
+| RNF-34				| Información de horarios de paso de vehículos por puntos de la red de transporte 	|
 | :---					| :--  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -1657,7 +1655,7 @@ Apendices
 
 <br>
 
-| RNF-					| Información de interés turístico	|
+| RNF-35				| Información de interés turístico	|
 | :---					| :--  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -1666,7 +1664,7 @@ Apendices
 
 <br>
 
-| RNF-					| Información de lugares de interés general		|
+| RNF-36				| Información de lugares de interés general		|
 | :---					| :--  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -1675,7 +1673,7 @@ Apendices
 
 <br>
 
-| RNF-					| Agenda cultural y de ocio	|
+| RNF-37				| Agenda cultural y de ocio	|
 | :---					| :--  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -1684,7 +1682,7 @@ Apendices
 
 <br>
 
-| RNF-					| Información corporativa 		|
+| RNF-38				| Información corporativa 		|
 | :---					| :--  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -1693,7 +1691,7 @@ Apendices
 
 <br>
 
-| RNF-					| El sistema posibilitará de manera segura la recarga de la tarjeta única de pago de la AUTGC, mediante pasarela multibanco.		|
+| RNF-39				| El sistema posibilitará de manera segura la recarga de la tarjeta única de pago de la AUTGC, mediante pasarela multibanco.		|
 | :---					| :--  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -1702,7 +1700,7 @@ Apendices
 
 <br>
 
-| RNF-					| Descarga de archivo		|
+| RNF-40				| Descarga de archivo		|
 | :---					| :--  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -1711,7 +1709,7 @@ Apendices
 
 <br>
 
-| RNF-					| Actualización de contenidos	|
+| RNF-41				| Actualización de contenidos	|
 | :---					| :--  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -1720,7 +1718,7 @@ Apendices
 
 <br>
 
-| RNF-					| Información geográfica	|
+| RNF-42				| Información geográfica	|
 | :---					| :--  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -1729,7 +1727,7 @@ Apendices
 
 <br>
 
-| RNF-					| Otras utilidades asociadas a la cartografía	|
+| RNF-43				| Otras utilidades asociadas a la cartografía	|
 | :---					| :--  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -1738,7 +1736,7 @@ Apendices
 
 <br>
 
-| RNF-					| Garantías Software		|
+| RNF-44				| Garantías Software		|
 | :---					| :--  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -1747,7 +1745,7 @@ Apendices
 
 <br>
 
-| RNF-					|Software y licencias 		|
+| RNF-45				|Software y licencias 		|
 | :---					| :--  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -1756,7 +1754,7 @@ Apendices
 
 <br>
 
-| RNF-					|Implantación del sistema 		|
+| RNF-46				|Implantación del sistema 		|
 | :---					| :--  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	|		|
@@ -1765,7 +1763,7 @@ Apendices
 
 <br>
 
-| RNF-					|Mantenimiento del software		|
+| RNF-47				|Mantenimiento del software		|
 | :---					| :--  	|
 | Objetivos asociados	|		|
 | Requisitos asociados	| 		|
