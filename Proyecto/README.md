@@ -32,7 +32,14 @@ Apendices
 
 | Fecha | Versión | Descripción | Autor |
 | :--   | :--     | :--         | :--   |
-| 29/11/202  | 1.0    | Se ha recibido el pliego de condiciones técnicas el desarrollo del software de un sistema de información interactivo al viajero del transporte público regular de viajeros para la isla de Gran Canaria (portal web de servicios) mediante procedimiento abierto | Alejandro, Cristina y Adrián |
+| 29/10/2022  | 1.0        | Se ha recibido el pliego de condiciones técnicas el desarrollo del software de un sistema de información interactivo al viajero del transporte público regular de viajeros para la isla de Gran Canaria (portal web de servicios) mediante procedimiento abierto | Alejandro, Cristina y Adrián |
+| 15/11/2022  | 1.0        | Se realiza la entrevista a un mecánico naval para aclarar y detallar más los diferentes apartados            | Alejandro, Cristina y Adrián       |
+| 19/11/2022  | 1.0        | Se comienza el análisis de requisitos sobre el pliego de condidiciones, extrayendo los requisitos funcionales y no funcionales de cada apartado del documento.            | Alejandro, Cristina y Adrián      |
+| 22/11/2022  | 1.1        | Se elabora la estructura del documento de plantilla de requisitos con sus correspondientes apartados y secciones.            | Alejandro, Cristina y Adrián      |
+| 13/12/2022  | 1.2        | Se construyen los diagramas de casos de uso, BPMN y el organigrama.            | Alejandro, Cristina y Adrián      |
+| 14/12/2022  | 1.3        | Se rellenan los campos de las tablas de cada requisito funcional, no funcional y de la información.            | Alejandro, Cristina y Adrián      |
+| 15/12/2022  | 1.4        | Se construyen los diagramas entidad-relación y se continua rellenando los campos de las tablas que faltaban.            | Alejandro, Cristina y Adrián      |
+| 16/12/2022  | 1.5        | Versión final del proyecto, plantilla de requisitos completa.            | Alejandro, Cristina y Adrián      |
 
 
 # 1. Introducción.
