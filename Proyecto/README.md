@@ -491,12 +491,56 @@ Apendices
 
 | RI-01                    | Usuarios             |
 | :---                     | :---                           |
-| Requisitos asiciados     | UC-03, UC-05                   |
-| Descripción              | El sistema deberá almacenar información correspondiente a los productos comprados por cada usuario.          |
-| Datos específicos        | Producto: idProducto <br> Compra: idCompra. |
-| Comentarios               | Ninguno. |
+| Requisitos asiciados     | [CU-01 / CU-11]                  |
+| Descripción              | El sistema deberá almacenar información correspondiente a las personas autenticadas que usan el sistema (usuario logueado y administrador).          |
+| Datos específicos        | idUsuario : String <br> contraseña : String <br> rol : Int <br> nombre_completo : String <br> email : String <br> idioma_deseado : String.  |
+| Comentarios              | Un usuario normal tendrá como rol el valor '0' y un administrador el valor '1'.|
 
 <br>
+
+| RI-02                    | Estadísticas             |
+| :---                     | :---                           |
+| Requisitos asiciados     |  CU-06                |
+| Descripción              | El sistema deberá almacenar información correspondiente a las estadísticas          |
+| Datos específicos        | idEstadistica : Int <br> procedencia_geografica : String <br> consulta_realizada : String.  |
+| Comentarios              | Ninguno. |
+
+<br>
+
+| RI-03                    | Administrador_visualiza_Estadisticas             |
+| :---                     | :---                           |
+| Requisitos asiciados     |  CU-06            |
+| Descripción              | El sistema deberá almacenar información correspondiente a las estadísticas que ha visualizado cada administrador.         |
+| Datos específicos        | idEstadistica : Int <br> idAdministrador : String |
+| Comentarios              | Ninguno. |
+
+<br>
+
+| RI-04                    | Mensaje_Espacio_Compartido             |
+| :---                     | :---                           |
+| Requisitos asiciados     |  CU-05              |
+| Descripción              | El sistema deberá almacenar todos los mensajes del chat del espacio compartido.       |
+| Datos específicos        | id_Mensaje_Espacio_Compartido : Int <br> id_Administrador : String <br> fecha : Date <br> Mensaje : String |
+| Comentarios              | Se considera el espacio compartido como un IRC. |
+
+<br>
+
+| RI-05                    | Administrador_Modifica_Paginas             |
+| :---                     | :---                           |
+| Requisitos asiciados     |  CU-02, CU-04                 |
+| Descripción              | El sistema deberá almacenar información correspondiente a las páginas modificadas por un administrador        |
+| Datos específicos        | idAdministrador : Int <br> idPagina : Int <br> idUsuario_creador : Int <br> fecha_modificacion : Date |
+| Comentarios              | Tabla para trigger de consistencia de datos. |
+
+<br>
+
+| RI-06                    | Página             |
+| :---                     | :---                           |
+| Requisitos asiciados     |  CU-07, CU-08                 |
+| Descripción              | El sistema deberá almacenar información correspondiente a las nuevas páginas creadas       |
+| Datos específicos        | idPagina : Int <br> idUsuario : String <br> ruta_html : String <br> fecha_creacion : Strubg |
+| Comentarios              | Ninguno. |
+
 
 ### 4.1.2 Sistemas de la información.
 
@@ -1835,10 +1879,10 @@ Lista de actores
 | Descripción			| El usuario puede alterar de forma sencilla el diseño común a varias páginas que se muestran o incluso de la Web entera.		|
 | Actores				| Administrador		|
 | Precondiciones		| El usuario está identificado como Administrador.		|
-| Flujo normal			| 1. El usuario accede a la sección para modificar el diseño. <br> 2. El sistema muestra la interfaz de diseño con las respectivas herramientas para modificarlo. <br> 3. El usuario realiza los cambios en el diseño de las páginas. <br> 4. El usuario guarda los cambios.  	    |
+| Flujo normal			| 1. El usuario accede a la sección para modificar el diseño. <br> 2. El sistema muestra la interfaz de diseño con las respectivas herramientas para modificarlo. <br> 3. El usuario realiza los cambios en el diseño de las páginas. <br> 4. El usuario guarda los cambios. <br> 5. El sistema registra las páginas que han sido modificadas. El proceso termina. 	    |
 | Flujo alternativo		| 4A. El usuario descarta los cambios realizados.  		|
-| Poscondiciones		| El diseño común entre una o varias páginas ha sido alterado.		|
-| Comentarios			| -		|
+| Poscondiciones		| El diseño común entre una o varias páginas ha sido alterado. Se registra qué administrador modificó las páginas, así como la hora.	|
+| Comentarios			| El paso 5. garantiza el control de consistencia de los datos.		|
 
 <br>
 
@@ -1865,7 +1909,7 @@ Lista de actores
 | Descripción			| El usuario podrá consultar las estadísticas de acceso a las distintas secciones y servicios.		|
 | Actores				| Administrador		|
 | Precondiciones		| El usuario debe de estar identificado como administrador.		|
-| Flujo normal			| 1. El usuario seleccionará el apartado del portal para acceder a las estadísticas. <br> 2. El sistema consultará el número de visitas registrado y su procedencia geográfica. <br> 3. El sistema mostrará por pantalla las estadísticas mediante dos gráficos de barras.		|
+| Flujo normal			| 1. El usuario seleccionará el apartado del portal para acceder a las estadísticas. <br> 2. El sistema consultará el número de visitas registrado, su procedencia geográfica y las consultas realizadas en la Web  <br> 3. El sistema mostrará por pantalla las estadísticas mediante dos gráficos de barras.		|
 | Flujo alternativo		| 3. Si no hay visitas, el sistema mostrará un mensaje. |
 | Poscondiciones		| Ninguna.		|
 | Comentarios			| 	    |
@@ -1882,7 +1926,7 @@ Lista de actores
 | Precondiciones		| El usuario está identificado.		|
 | Flujo normal			| 1. El usuario seleccionará la sección para crear una nueva página. <br> 2. El sistema mostrará la interfaz con sus respectivas herramientas para la creación de la página web. <br> 3. El usuario utilizará las herramientas para crear la nueva página. <br> 4. El sistema mostrará una previsualización de la página antes de la publicación de la misma. <br> 5. El usuario publica la nueva página definitivamente.      |
 | Flujo alternativo		| 5A. El usuario descarta la publicación de la nueva página.		|
-| Poscondiciones		| La nueva página ha sido incorporada a la Web y almacenada en la base de datos.		|
+| Poscondiciones		| La nueva página ha sido incorporada a la Web y se han almacenado sus datos asociados en la base de datos.	|
 | Comentarios			| Las herramientas para la creación de la nueva página deben de ser sencillas para usuarios que no tengan conocimiento de programación ni de HTML.		|
 
 <br>
@@ -2361,11 +2405,11 @@ Lista de actores
 ## 4.3. Diagramas de clases asociados a los requisitos de información.
 
 
-### 4.3.1 Portal & Foro & Blog
+### 4.3.1 Portal
 
 <div align="center">
-    <img src="./../Proyecto/bd-portal-foro-blog.svg" style="border: 3px solid #000">
-    <i><p>Imagen X. BD-Portal, foro y blog.</p></i>
+    <img src="./../Proyecto/BD-portal.svg" style="border: 3px solid #000">
+    <i><p>Imagen X. BD-Portal.</p></i>
 </div>
 
 <br>
