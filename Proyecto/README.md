@@ -1188,7 +1188,7 @@ Apendices
 | :---					| :--  	|
 | Objetivos asociados	| OBJ-02		|
 | Requisitos asociados	|		|
-| Descripción			|		|
+| Descripción			| Se deberán introducir una carga datos reales inicial para poner a prueba los sistemas.		|
 | Comentarios			|		|
 
 <br>
