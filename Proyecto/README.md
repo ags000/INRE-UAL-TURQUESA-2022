@@ -1283,6 +1283,69 @@ Apendices
 
 <br>
 
+| RI-07                    | Paradas             |
+| :---                     | :---                |
+| Requisitos asiciados     |                     |
+| Descripción              | El sistema deberá almacenar información sobre las paradas.         |
+| Datos específicos        | idParada : Int <br> direccion_postal : String <br> codigo_municipio : String <br> coordenadas : String <br> imagen : String |
+| Comentarios              | Ninguno.            |
+
+<br>
+
+| RI-08                    | Lineas             |
+| :---                     | :---               |
+| Requisitos asiciados     |                    |
+| Descripción              | El sistema deberá almacenar información sobre las líneas.        |
+| Datos específicos        | descripcion : String <br> idLinea : String <br> idParada_comienzo : Int <br> idParada_fin : Int <br> idEmpresa_encargada : Int |
+| Comentarios              | Ninguno.           |
+
+<br>
+
+| RI-09                    | Itinerario_linea             |
+| :---                     | :---                           |
+| Requisitos asiciados     |                  |
+| Descripción              |  El sistema deberá almacenar información sobre los itinerarios.  |
+| Datos específicos        |  idLinea : String <br> idParada : Int <br> numero_orden : Int <br> tipo_parada : String <br> horas_de_paso : String |
+| Comentarios              | Ninguno.    |
+
+<br>
+
+| RI-10                    | Tarifas             |
+| :---                     | :---                           |
+| Requisitos asiciados     |                  |
+| Descripción              | El sistema deberá almacenar información sobre las tarifas. |
+| Datos específicos        | idTarifas: Int <br> precio : Float <br> idLinea : String |
+| Comentarios              | Ninguno.           |
+
+<br>
+
+| RI-11                    | Empresas             |
+| :---                     | :---                           |
+| Requisitos asiciados     |                  |
+| Descripción              | El sistema deberá almacenar información sobre las empresas.        |
+| Datos específicos        | idEmpresa : Int <br> nombre : String |
+| Comentarios              | Ninguno.           |
+
+<br>
+
+| RI-12                    | Incidencias             |
+| :---                     | :---                           |
+| Requisitos asiciados     |                  |
+| Descripción              | El sistema deberá almacenar información sobre las incidencias. |
+| Datos específicos        | idIncidencia : Int <br> idLinea : String <br> incidencia : String |
+| Comentarios              | Ninguno.   |
+
+<br>
+
+| RI-13                    | Interes             |
+| :---                     | :---                           |
+| Requisitos asiciados     |                  |
+| Descripción              | El sistema deberá almacenar información sobre los puntos de interés. |
+| Datos específicos        | idInteres : Int <br> descripcion : String <br> coordenadas : String <br> imagen : String |
+| Comentarios              | Registra los puntos de interés culturales y eventos |
+
+
+
 ### C. Servicios continuos
 
 ### No se si este rnf se puede desplegar en 3 (por lo de la intalación sobre la plataforma, HelpDesk,...)
@@ -2163,7 +2226,7 @@ Lista de actores
 | Nombre				| Obtener ayuda en linea	|
 | Autor					| Cristina García, Adrián Galdeano, Alejandro Manzano		|
 | Fecha					| 13/12/2022		|
-| Descripción			| El usuario podrá recibir ayuda en líena adaptada.		|
+| Descripción			| El usuario podrá recibir ayuda en línea adaptada.		|
 | Actores				| Usuario		|
 | Precondiciones		| Ninguna	|
 | Flujo normal			| 1. El usuario solicita ayuda en línea. <br> 2. El sistema muestra pregutnas frecuentes relacionadas con la sección en la que se encuentra el usuario.	|
@@ -2410,6 +2473,13 @@ Lista de actores
 <div align="center">
     <img src="./../Proyecto/BD-portal.svg" style="border: 3px solid #000">
     <i><p>Imagen X. BD-Portal.</p></i>
+</div>
+
+<br>
+
+<div align="center">
+    <img src="./../Proyecto/BD-siit.svg" style="border: 3px solid #000">
+    <i><p>Imagen X. BD-SIIT.</p></i>
 </div>
 
 <br>
