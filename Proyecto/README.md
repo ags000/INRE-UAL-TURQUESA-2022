@@ -1179,7 +1179,7 @@ Apendices
 | :---					| :--  	|
 | Objetivos asociados	| OBJ-02		|
 | Requisitos asociados	|		|
-| Descripción			| 		|
+| Descripción			| La estructura de la base de datos debe de construirse acorde a los estándares correspondientes y manteniendo la eficiencia entre tablas y relaciones esenciales sin sobrecargarlas innecesariamente. 		|
 | Comentarios			|		|
 
 <br>
