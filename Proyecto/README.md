@@ -1778,6 +1778,94 @@ La propuesta recoge el trabajo realizado para el análisis, definición, diseño
  
 <br>
 
+| RI-14                    | Usuarios             |
+| :---                     | :---                           |
+| Requisitos asiciados     |               |
+| Descripción              | El sistema deberá almacenar información correspondiente a las personas autenticadas que usan el sistema.         |
+| Datos específicos        | idUsuario : String <br> contraseña : String <br> rol : Int <br> nombre_completo : String <br> email : String <br> idioma_deseado : String.  |
+| Comentarios              | |
+
+<br>
+
+| RI-15                    | Paradas             |
+| :---                     | :---                |
+| Requisitos asiciados     |                     |
+| Descripción              | El sistema deberá almacenar información sobre las paradas.         |
+| Datos específicos        | idParada : Int <br> direccion_postal : String <br> codigo_municipio : String <br> coordenadas : String <br> imagen : String <br> incidencia_parada : String |
+| Comentarios              | Ninguno.            |
+
+<br>
+
+| RI-16                    | Lineas             |
+| :---                     | :---               |
+| Requisitos asiciados     |                    |
+| Descripción              | El sistema deberá almacenar información sobre las líneas.        |
+| Datos específicos        | descripcion : String <br> idLinea : String <br> idParada_comienzo : Int <br> idParada_fin : Int <br> idEmpresa_encargada : Int <br> suspendida_cortada : Int |
+| Comentarios              | Ninguno.           |
+
+<br>
+
+| RI-17                    | Itinerario_linea             |
+| :---                     | :---                           |
+| Requisitos asiciados     |                  |
+| Descripción              |  El sistema deberá almacenar información sobre los itinerarios.  |
+| Datos específicos        |  idLinea : String <br> idParada : Int <br> numero_orden : Int <br> tipo_parada : String <br> horas_de_paso : String |
+| Comentarios              | Ninguno.    |
+
+<br>
+
+| RI-18                    | Tarifas             |
+| :---                     | :---                           |
+| Requisitos asiciados     |                  |
+| Descripción              | El sistema deberá almacenar información sobre las tarifas. |
+| Datos específicos        | idTarifas: Int <br> precio : Float <br> idLinea : String |
+| Comentarios              | Ninguno.           |
+
+<br>
+
+| RI-19                    | Empresas             |
+| :---                     | :---                           |
+| Requisitos asiciados     |                  |
+| Descripción              | El sistema deberá almacenar información sobre las empresas.        |
+| Datos específicos        | idEmpresa : Int <br> nombre : String |
+| Comentarios              | Ninguno.           |
+
+<br>
+
+| RI-20                    | Incidencias             |
+| :---                     | :---                           |
+| Requisitos asiciados     |                  |
+| Descripción              | El sistema deberá almacenar información sobre las incidencias. |
+| Datos específicos        | idIncidencia : Int <br> idLinea : String <br> incidencia : String <br> idUsuario : String <br> fecha_incidencia : String |
+| Comentarios              | Ninguno.   |
+
+<br>
+
+| RI-21                    | Interes             |
+| :---                     | :---                           |
+| Requisitos asiciados     |                  |
+| Descripción              | El sistema deberá almacenar información sobre los puntos de interés. |
+| Datos específicos        | idInteres : Int <br> descripcion : String <br> coordenadas : String <br> imagen : String <br> titulo : String |
+| Comentarios              | Registra los puntos de interés culturales y eventos |
+
+<br>
+
+| RI-22                    | Evento_visualizado_usuario             |
+| :---                     | :---                           |
+| Requisitos asiciados     |                  |
+| Descripción              | El sistema deberá almacenar información sobre los eventos visualizados. |
+| Datos específicos        | idInteres : Int <br> idUsuario : String |
+| Comentarios              |  |
+
+<br>
+
+| RI-23                    | Bono             |
+| :---                     | :---                           |
+| Requisitos asiciados     |                  |
+| Descripción              | El sistema deberá almacenar información sobre los bonos comprados por cada usuario. |
+| Datos específicos        | idBono : Int <br> descripcion : String <br> precio : Float <br> linea : Int <br> fecha : String <br> idUsuario : String |
+| Comentarios              |  |
+
 
 ## 4.2. Casos de uso.
 
@@ -2476,14 +2564,26 @@ Lista de actores
 
 <div align="center">
     <img src="./../Proyecto/BD-portal.svg" style="border: 3px solid #000">
-    <i><p>Imagen X. BD-Portal.</p></i>
+    <i><p>Imagen de la base de datos del Portal.</p></i>
 </div>
 
 <br>
 
+### 4.3.2 SIIT
+
+
 <div align="center">
     <img src="./../Proyecto/BD-siit.svg" style="border: 3px solid #000">
-    <i><p>Imagen X. BD-SIIT.</p></i>
+    <i><p>Imagen de la base de datos de SIIT.</p></i>
+</div>
+
+<br>
+
+### 4.3.3 SMET
+
+<div align="center">
+    <img src="./../Proyecto/BD-smet.svg" style="border: 3px solid #000">
+    <i><p>Imagen de la base de datos de SMET.</p></i>
 </div>
 
 <br>
