@@ -1292,7 +1292,7 @@ La propuesta recoge el trabajo realizado para el análisis, definición, diseño
 
 | RI-07                    | Paradas             |
 | :---                     | :---                |
-| Requisitos asiciados     |                     |
+| Requisitos asiciados     |   CU-12, CU-13, CU-22                  |
 | Descripción              | El sistema deberá almacenar información sobre las paradas.         |
 | Datos específicos        | idParada : Int <br> direccion_postal : String <br> codigo_municipio : String <br> coordenadas : String <br> imagen : String |
 | Comentarios              | Ninguno.            |
@@ -1301,7 +1301,7 @@ La propuesta recoge el trabajo realizado para el análisis, definición, diseño
 
 | RI-08                    | Lineas             |
 | :---                     | :---               |
-| Requisitos asiciados     |                    |
+| Requisitos asiciados     |  CU-22                  |
 | Descripción              | El sistema deberá almacenar información sobre las líneas.        |
 | Datos específicos        | descripcion : String <br> idLinea : String <br> idParada_comienzo : Int <br> idParada_fin : Int <br> idEmpresa_encargada : Int |
 | Comentarios              | Ninguno.           |
@@ -1310,7 +1310,7 @@ La propuesta recoge el trabajo realizado para el análisis, definición, diseño
 
 | RI-09                    | Itinerario_linea             |
 | :---                     | :---                           |
-| Requisitos asiciados     |                  |
+| Requisitos asiciados     |  CU-20, CU-21, CU-22               |
 | Descripción              |  El sistema deberá almacenar información sobre los itinerarios.  |
 | Datos específicos        |  idLinea : String <br> idParada : Int <br> numero_orden : Int <br> tipo_parada : String <br> horas_de_paso : String |
 | Comentarios              | Ninguno.    |
@@ -1319,7 +1319,7 @@ La propuesta recoge el trabajo realizado para el análisis, definición, diseño
 
 | RI-10                    | Tarifas             |
 | :---                     | :---                           |
-| Requisitos asiciados     |                  |
+| Requisitos asiciados     | CU-21                |
 | Descripción              | El sistema deberá almacenar información sobre las tarifas. |
 | Datos específicos        | idTarifas: Int <br> precio : Float <br> idLinea : String |
 | Comentarios              | Ninguno.           |
@@ -1328,7 +1328,7 @@ La propuesta recoge el trabajo realizado para el análisis, definición, diseño
 
 | RI-11                    | Empresas             |
 | :---                     | :---                           |
-| Requisitos asiciados     |                  |
+| Requisitos asiciados     |  CU-20, CU-21                 |
 | Descripción              | El sistema deberá almacenar información sobre las empresas.        |
 | Datos específicos        | idEmpresa : Int <br> nombre : String |
 | Comentarios              | Ninguno.           |
@@ -1337,7 +1337,7 @@ La propuesta recoge el trabajo realizado para el análisis, definición, diseño
 
 | RI-12                    | Incidencias             |
 | :---                     | :---                           |
-| Requisitos asiciados     |                  |
+| Requisitos asiciados     |  CU-20, CU-21                 |
 | Descripción              | El sistema deberá almacenar información sobre las incidencias. |
 | Datos específicos        | idIncidencia : Int <br> idLinea : String <br> incidencia : String |
 | Comentarios              | Ninguno.   |
@@ -1346,7 +1346,7 @@ La propuesta recoge el trabajo realizado para el análisis, definición, diseño
 
 | RI-13                    | Interes             |
 | :---                     | :---                           |
-| Requisitos asiciados     |                  |
+| Requisitos asiciados     | CU-21                |
 | Descripción              | El sistema deberá almacenar información sobre los puntos de interés. |
 | Datos específicos        | idInteres : Int <br> descripcion : String <br> coordenadas : String <br> imagen : String |
 | Comentarios              | Registra los puntos de interés culturales y eventos |
@@ -1861,7 +1861,7 @@ La propuesta recoge el trabajo realizado para el análisis, definición, diseño
 
 | RI-23                    | Bono             |
 | :---                     | :---                           |
-| Requisitos asiciados     |                  |
+| Requisitos asiciados     | RNF-30                 |
 | Descripción              | El sistema deberá almacenar información sobre los bonos comprados por cada usuario. |
 | Datos específicos        | idBono : Int <br> descripcion : String <br> precio : Float <br> linea : Int <br> fecha : String <br> idUsuario : String |
 | Comentarios              |  |
